@@ -1,0 +1,10 @@
+BOOKMARKS
+Bookmarks
+
+    Besides all the other options with links and shortcut keys that Cherrytree supports to allow you to go from one thing to another, it also supports bookmarks. You can bookmark any node and it will show up in the list under this menu item. Bookmarks are extremely handy when you have nodes in a document that you refer to often. Instead of having to constantly go to the tree and possibly scroll through a long list of nodes and sub-nodes, you can simply bookmark those nodes and jump to them instantly. To create a bookmark, go to the node you wish to mark and choose "Bookmark This Node" from the Bookmarks menu. If you have some nodes bookmarked that you use more often than the rest, you can move them in the hierarchy with "Handle Bookmarks". A dialog will open where you can drag and drop the bookmarks in the order you want them. To delete a bookmark, open the Handle Bookmarks dialog, select the bookmark you don't need anymore, and press <DELETE>. Easy!
+    
+    Bookmarks can have added power when you use them in conjunction with the "Go Back" function. If you're working on a node, and need to go check something on a bookmarked node, select it from the Bookmarks menu. When you're finished, simply hit the "Previous Node" icon in the tool bar, select "Go Back" from the "Tree" menu, or press <ALT>+<LEFT-ARROW> and you're right back where you left from, with your cursor right where you left it!
+    
+    
+    <-Previous /Home/ Next ->
+

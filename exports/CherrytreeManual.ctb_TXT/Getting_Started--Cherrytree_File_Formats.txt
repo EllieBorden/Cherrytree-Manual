@@ -1,0 +1,17 @@
+CHERRYTREE FILE FORMATS
+
+Cherrytree File Formats
+
+    Cherrytree gives you the choice of two different file formats to save your documents in, SQLite and XML. The default SQLite document will have a ".ctb" extension, password protected ones use the ".ctx" extension. Default XML files will have a ."ctd" one, password protected a ".ctz". Which one you choose will depend on if you need password protection and if you plan on using other programs with your Cherrytree documents.
+    
+     SQLite: This file format saves the Cherrytree document in a database file. When the file is opened, Cherrytree only loads the first node unless the file was opened previously during the current Cherrytree session, in which case it will load the last viewed node. Subsequent nodes get loaded as they're viewed or searched. SQLite also has a more reliable mechanism for saving images, tables and other objects. 
+     The advantages are faster file loading for Cherrytree, lower memory use, more reliable links, and better storage of graphics and tables than the XML format. The disadvantages are a slightly larger file than with XML, and slightly slower searches on nodes that haven't been viewed or edited during that session. Also, if you plan to read the database outside of Cherrytree, you will need to have a database program that can read an SQLite file.  
+     For most users this should be the default file format, as most users will only use the file within Cherrytree, and it's slightly faster loading speed and reliability make it the better choice.
+     
+     XML: This file format saves the Cherrytree document as a standard XML file. While it does not have the normal ".xml" extension, it's perfectly readable by most text editors and other programs that understand XML. You can even edit the file in one of these programs (if you really understand XML and know what you're doing) and have it readable by Cherrytree, as long as XML syntax is used. This gives the document more flexibility to be read by other programs, but comes with the price of slower loading, more memory usage, and the chance that links and objects placed into the document may not work or appear as expected the next time the document is opened. If you have a need to work with the document outside of Cherrytree, then this would be the preferable file format. If you don't need to, stick with the SQLite format. 
+     
+     NOTE: If you use password protection on either file type, when you try to open them with another program other than Cherrytree - like an SQLite program for .ctx, files or a text editor for .ctz ones - that program may not understand or be able to provide a mechanism for entering the password, in which case you will be unable to read the file. If you need to open the file without Cherrytree, there is a work-around.
+     Both file types are compressed and password-protected with 7zip. You can learn more about 7zip and obtain a copy if needed from http://www.7-zip.org. Many archiving and file compression programs may have 7zip already installed as a plug-in. If not, you will need to get a copy from the 7zip website or, on Linux, through your package manager. Once installed, open the file with the archiving program. It will ask you for your password, just enter it as normal. It will then create an uncompressed copy of the file. This copy you can then open with your application. 
+     
+     <-Previous /Home/ Next ->
+

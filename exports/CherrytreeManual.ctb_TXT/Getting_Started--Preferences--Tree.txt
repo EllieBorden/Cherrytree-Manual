@@ -1,0 +1,25 @@
+TREE
+Tree Preferences
+
+    These options affect how Cherrytree displays the node tree.
+    
+    
+    
+    Theme: This works the same as the Rich Text options, but affects the colors used to display the tree in it's panel.
+    
+    Node Icons: These options set how (and if) Cherrytree shows the node icons. The default is to use cherries as the icons, with different color cherries for the various sub-node levels. However, some users may not like cherries, or they are just use to the bullet-style of other outlining programs and choose that option. Others may not want any kind of icon at all, so there's an option to just use the node names alone. In future versions of Cherrytree there may be an option allowing the user to pick other icons from their system for the nodes instead of the default cherries, however that's not currently available.
+    NOTE: Advanced users will no doubt know how they can change the graphic files for the node icons to something else, but unless you know what you're doing, don't try.
+    
+    Node Status at Startup: The Cherrytree node window displays a tree view of the nodes in a Cherrytree document, much like the folder structure in a file manager. The options are:
+        Restore Expand/Collapse Status: Cherrytree will remember which parent nodes had child nodes showing and which did not in the current document from your last editing session, and show or hide those same nodes.
+        Expand all Nodes: With this option Cherrytree will show all existing nodes and child nodes when you open a document.
+        Collapse all Nodes: With this option Cherrytree will open the document with all child nodes collapsed into the parent node.
+        Nodes in Bookmarks Always Visible: When enabled, a node that is bookmarked will have a "pin" icon to the right of the name in the tree.
+        
+    Miscellaneous: The first option here "Tree Node Names Wrapping Width" is for how many characters are in node names before the text wraps to another line in the tree window. The tree window width is adjustable, however most users like to keep it fairly narrow so it does not take too much screen space. This can lead some of the node names to be "cut off", characters to the right of the window margin will not be visible. If you want to always see all of the node names text in a narrow window, you can set a lower value here to wrap the line. It may take some experimenting to achieve the wrap vs. window width desired.   
+    The next option "Display Tree on the Right Side", moves the tree's window pane from the default left side of the Cherrytree main window to the right side. Some users find this easier or more visually appealing, so there's an option to do so. 
+NOTE: There's also ways to temporarily hide the node window pane, see Cherrytree Window.
+    
+    
+    <-Previous /Home/ Next ->
+

@@ -1,0 +1,106 @@
+KEYBOARD SHORTCUTS
+Keyboard Shortcuts
+
+    Most of the commands and options in Cherrytree have keyboard shortcuts for those of us who are more comfortable using the keyboard than the mouse. All the menus also have shortcuts, those underlined letters you see in the menu names. (NOTE: You must have this option turned on in your desktop environment). Press <ALT> and any of the underlined letters to open that menu, use the up, down, left and right arrow keys to navigate the menus and sub-menus, and enter to select the option. All of Cherrytree's native dialogs also have these shortcuts and accelerators. So if you can't remember one of these shortcuts, but loath having to resort to the mouse, press <ALT> and the menu name shortcut and go from there!
+    
+    For those who don't want to take their hands off the keyboard when they're working, there's also an easy way to navigate between nodes. Pressing <CTRL>+<TAB> switches back and forth between the text window and the node pane. When in the node pane you can use the arrow keys to navigate, there are other shortcuts to enhance that listed below. You can also just start typing the name of the node you want to go to. Cherrytree will jump to the first matching node, moving to the next matching node as you type characters. Simply press <ESC> then <CTRL>+<TAB> again when the node you want is highlighted.  
+    
+    Shortcut Keys
+    
+<CTLR>+.: Move table row down.
+<CTLR>+,: Insert new row in table.
+<CTRL>++: Increase font size.
+<CTRL>+-: Decrease font size.
+<CTRL>+B: Toggle Bold text attribute.
+<CTRL>+C: Copy the selected text or word containing the cursor to the clipboard.
+<CTRL>+D: Duplicate current line or paragraph.
+<CTRL>+E: Toggle Striketrough text attribute.
+<CTRL>+F: Find text in current node.
+<CTRL>+G: Toggle case of current word / selection.
+<CTRL>+H: Replace text in current node.
+<CTRL>+I: Toggle Italic text attribute
+<CTRL>+K: Delete current line or paragraph.
+<CTRL>+L: Insert / Edit link.
+<CTRL>+M: Set characters to Monospaced
+<CTRL>+N: Add new node.
+<CTRL>+O: Open an existing Cherrytree document.
+<CTRL>+P: Print / create PDF from the current node, parent node and it's children, or whole document.
+<CTRL>+Q: Quit Cherrytree. (NOTE: If minimize to the system tray is set in options, this will only send it to the system tray and not exit the program.)
+<CTRL>+R: Insert Horizontal Rule.
+<CTRL>+S: Save the current Cherrytree document.
+<CTRL>+T: Find text in a node name.
+<CTRL>+U: Toggle Underline text attribute.
+<CTRL>+V: Paste the clipboard contents at the current cursor position.
+<CTRL>+W: Change current word / selection to lowercase.
+<CTRL>+X: Cut the selected text or word containing the cursor to the clipboard.
+<CTRL>+Y: Redo.
+<CTRL>+Z: Undo.
+<CTRL>+0: Toggle small HTML text property.
+<CTRL>+1: Toggle h1 HTML text property.
+<CTRL>+2: Toggle h2 HTML text property.
+<CTRL>+3: Toggle h3 HTML text property.
+<CTRL>+<TAB>: Jump between node list and node text windows
+<CTRL>+<ALT>+.: Move table row up.
+<CTRL>+<ALT>+,: Delete table row.
+<CTRL>+<ALT>+1: Make/Convert to bulleted list.
+<CTRL>+<ALT>+2: Make/Convert to numbered list.
+<CTRL>+<ALT>+3: Make/Convert to to-do list.
+<CTRL>+<ALT>+B: Remove bookmark from current node.
+<CTRL>+<ALT>+C: Insert code box at the cursor position.
+<CTRL>+<ALT>+I: Insert image at the cursor position.
+<CTRL>+<ALT>+M: Insert Timestamp at cursor position. 
+<CTRL>+<ALT>+P: Open the Preferences dialog.
+<CTRL>+<ALT>+E: Insert file at the current cursor position.
+<CTRL>+<ALT>+F: Search in current node and it's child nodes.
+<CTRL>+<ALT>+R: Toggle read-only status of selected node.
+<CTRL>+<ALT>+T: Insert table at the cursor position.
+<SHIFT>+<ALT>+B: Choose/Set text background color.
+<SHIFT>+<ALT>+C: Copy current line or paragraph.
+<SHIFT>+<ALT>+F: Choose/Set text forground color.
+<SHIFT>+<ALT>+X: Cut current line or paragraph.
+<SHIFT>+<CTRL>+A: Restore last 'Search All Matching'.
+<SHIFT>+<CTRL>+B: Bookmark current node.
+<SHIFT>+<CTRL>+C: Copy current line or paragraph as plain text.
+<SHIFT>+<CTRL>+D: Duplicate current node.
+<SHIFT>+<CTRL>+E: Expand all nodes in current tree.
+<SHIFT>+<CTRL>+F: Find text in all nodes.
+<SHIFT>+<CTRL>+H: Replace text in all nodes.
+<SHIFT>+<CTRL>+J: Expand/Collapse child nodes of current node.
+<SHIFT>+<CTRL>+L: Collapse all nodes in the current tree.
+<SHIFT>+<CTRL>+N: Add new sub-node.
+<SHIFT>+<CTRL>+P: Set up the page for printing.
+<SHIFT>+<CTRL>+Q: Exit the Cherrytree program.
+<SHIFT>+<CTRL>+R: Remove formatting from selected Rich Text.
+<SHIFT>+<CTRL>+S: Save the current Cherrytree document with a different name, in a different folder, or as a different type.
+<SHIFT>+<CTRL>+T: Find and replace text in a node name.
+<SHIFT>+<CTRL>+V: Paste clipboard contents as plain text.
+<SHIFT>+<CTRL>+W: Change current word / selection to uppercase.
+<SHIFT>+<CTRL>+X: Cut current line or paragraph as plain text.
+<SHIFT>+<UP-ARROW>: Move node up.
+<SHIFT>+<DOWN-ARROW>: Move node down.
+<SHIFT>+<LEFT-ARROW>: Move node left.
+<SHIFT>+<RIGHT-ARROW>: Change node's parent.
+<ALT>+<UP-ARROW>: Move current line or paragraph up.
+<ALT>+<DOWN-ARROW>: Move current line or paragraph down.
+<ALT>+<LEFT-ARROW>: Go backwards in viewed node history.
+<ALT>+<RIGHT-ARROW>: Go forwards in viewed node history.
+<CTRL>+<UP ARROW>: When a node is selected, moves to the top node in the node hierarchy.
+<CTRL>+<DOWN ARROW>: When a node is selected, moves to the bottom node in the node hierarchy.
+<CTRL>+<LEFT ARROW>: When a node is selected, moves to the top parent node in the node hierarchy.
+<CTRL>+<RIGHT ARROW>: When a node is selected, moves to the top child node in the node hierarchy.
+<F1>: Launch User Manual in default web browser.
+<F2>: Change / Set node properties.
+<F3>: Repeat last find from cursor position forwards to end.
+<F4>: Repeat last find from cursor position backwards to start.
+<F6>: Repeat last replace text.
+<F7>: Apply last used format to current word / selection.
+<F8>: Create a new node with today's date as it's name. See 'Create Today's Node' for an explanation.
+<F9>: Toggle show/hide node window pane.
+<F11>: Toggle window/full screen.
+<HOME>: Press once to move to beginning of current line. If there are spaces or tabs at the beginning, press twice to move to first character.
+<END>: Press once to move to end of line. If there are spaces or tabs at the end, press twice to move to the last character.
+<DELETE>: If in node pane, delete highlighted node. Elsewhere, deletes character or selection.
+
+<-Previous /Home/ Next ->
+
+

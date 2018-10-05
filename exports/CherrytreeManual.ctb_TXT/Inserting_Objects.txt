@@ -1,0 +1,7 @@
+INSERTING OBJECTS
+Inserting Objects
+
+    There are several ways to insert objects into a Cherrytree document, via the Toolbar, Menu, Right-Click menus or Keyboard Shortcuts. How you do it is up to your personal preference. In the next few pages we'll explain what objects Cherrytree currently supports, and how to use them.
+    
+    <-Previous /Home/ Next ->
+

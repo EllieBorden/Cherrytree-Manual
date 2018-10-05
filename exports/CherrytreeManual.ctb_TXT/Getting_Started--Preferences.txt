@@ -1,0 +1,38 @@
+PREFERENCES
+
+Preferences
+
+    Cherrytree has many user configurable options in it's look and behavior. By going to the menu and choosing "Edit > Preferences" you will be greeted by the following dialog:
+    
+    
+    
+    The dialog is broken into tabbed subsections as follows:
+    
+    All Nodes
+    The first tab of the dialog is where you can set some of the text defaults for what you type into Cherrytree.
+    
+    Text Nodes
+    This tab is where you would set the 'theme' or colors for your text nodes as well as how many undo-able steps each has.
+     
+    Plain Text and Code
+    This tab is where you can set the default syntax highlighting style for code nodes.
+    
+     Tree
+    This is where you can set a color theme and change how Cherrytree displays your node tree.
+     
+    Fonts
+    This is where you can choose your preferred font typeface and size for node text in Cherrytree.
+         
+    Links
+    This is where you can choose what will happen when you click on a link you created in Cherrytree.
+    
+   Toolbar
+    This is where you set what tool icons are visible and available in the toolbar.
+   
+    Miscellaneous
+    This is where you can set system tray docking, whether or not to use autosave and when, whether Cherrytree should check changes to the current document outside or Cherrytree, and whether to check for the newer versions.
+    
+    
+    <-Previous /Home/ Next ->
+    
+

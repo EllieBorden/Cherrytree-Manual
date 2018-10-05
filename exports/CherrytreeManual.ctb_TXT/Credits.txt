@@ -1,0 +1,36 @@
+CREDITS
+Credits
+
+
+The application Cherrytree is written and maintained by Giuseppe Penone.
+
+Contributors:
+• Julian Stirling
+• Emilie V.
+• Jean-Philippe Fleury
+
+This manual is written and maintained by Robert Boudreau.
+
+The following people take care of the translations to the indicated languages:
+• Pavel Fric (Czech)
+• Vincenzo Reale (Italian)
+• Klaus Becker (French)
+• Frank Brungräber (German)
+• Giuseppe Penone (Italian)
+• Marcin Swierczynski (Polish)
+• Andriy Kovtun (Russian, Ukrainian)
+• Daniel MC (Spanish)
+• Channing Wong (Chinese Simplified)
+• Vinicius Schmidt (Brazilian Portuguese)
+• Patrick Vijgeboom (Dutch)
+• Seda Stamboltsyan (Armenian)
+• Ferhat Aydin (Turkish)
+• Piyo (Japanese)
+• Zygis (Lithuanian)
+   
+The artwork is taken care mainly from the Cherrytree author, help came from Zeltak.
+
+Most of the original icons are from GNOME and OCAL
+
+All the mail addresses can be retrieved from the Cherrytree about dialog (help--about) clicking on the credits button.
+

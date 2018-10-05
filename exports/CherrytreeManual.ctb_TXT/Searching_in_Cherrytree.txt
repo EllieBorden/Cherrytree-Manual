@@ -1,0 +1,46 @@
+SEARCHING IN CHERRYTREE
+
+Searching in Cherrytree
+
+    While Cherrytree is a great program to keep all kinds of information in, it would be almost useless if you could not find what you are looking for. Fortunately, this is where Cherrytree excels. It has one of the most flexible and fastest search abilities available. Whether you choose the SQLite or XML file format for your tree, Cherrytree is blazingly fast in it's searches. So let us explore some of the ways you can find and replace things in Cherrytree.
+   
+ Finding Text
+ 
+ There are three ways to search in Cherrytree, and all use the same basic dialog so it's easy to learn. The three methods are broken down into:
+        Find in Node: This option searches in the current node. Enter a text string and choose what options you need, then click "OK" or hit ENTER on the keyboard.
+        Find in Nodes: This option will search the entire Cherrytree document for the text string you enter. This is the most used and powerful of Cherrytree's search options. When used in combination with the "All, List Matches" dialog option, you will quickly and easily be able to find anything you're looking for.
+        Find a Node: This option searches for the text string in the names and tags you have given your nodes.  For example, if you used Cherrytree to keep recipes in, and one of your recipes was in a node named Cordon Bleu, with the tag "French, Chicken", you could use either "Cordon" "Bleu", "French" or "Chicken" as your search string and Cherrytree will show you that node.
+        The search dialog for each of these methods has these options:        
+    
+
+    
+    In the top box you would enter your search word or words, your string. Then you would select various options to help narrow down what Cherrytree finds and how it goes about looking for your string.
+    Match Case: This limits Cherrytree to returning matches based on capitalization. The capital does not need to be the first character, but when this option is selected the capital or capitals must be in the same position in the word. In example, if you search for "Cherrytree" and enable Match Case, it will return "Cherrytree", but not cherrytree or cherryTree. If you search for "CherryTree", it would return "CherryTree" but not cherrytree or Cherrytree. If you searched for "Ed", it would return any "Edward", "Edmund", "PhysEd" and "HomeEd" it finds, but not edward, edmund, Phys-ed or Home-ed.
+    Whole Word: This limits Cherrytree to returning matches to whole words only. If you search for "Ed", it will return any "Ed" it finds, but not Edward, Edmund, PhysEd or HomeEd.
+    Regular Expression: This is a very powerful option, allowing you a large degree of flexibility in your searches. It allows you to use wildcards and other "expression" syntax to narrow or expand a search. Most users will enable this to use the "*" wildcard, which tells Cherrytree to search for a string where the "*" can replace any number of characters. In example, lets say you want to search for "calliope", but can't remember how it's spelled. You could enter "cal*pe" in the search box, enable Regular Expressions, and the search will find calliope, caliope, calope, etc. When you do a search for something you're sure is in your Cherrytree document, but it's not finding it, use a wildcard somewhere in the string and enable the Regular Expressions to help you find it. It may just be spelled wrong or not the way you thought it was.
+    However, regular expressions can be much more useful and powerful that just using a wildcard. You can use them to find and/or replace parts of words, and/or formatting characters, spaces, tabs, etc. Learning and using regular expressions is beyond the scope of this manual, but those interested can find a good reference and teaching materials on the Regular Expressions website. 
+    Forward / Backward: This option works in conjunction with the next options. When searching, Cherrytree starts it's search from the current cursor position, in the current node, if the "First From Selection" option is set. These two options tell Cherrytree the direction to search in, either forward from the current cursor position, or backwards from it. It will find and highlight the first match in that direction.
+    All, List Matches, First From Selection, and First in All Range: These options control how Cherrytree presents it's search results for the string you entered. All, List Matches ignores the Forward and Backward option, and will open a second dialog with a list of all the matches to your search string in the sentences they're in, wherever they may be in the document. In the screenshot below we have a search for the word "Cherrytree" in the Cherrytree version of this manual:
+    
+    .
+    
+    It shows there are 362 matches, 362 places in the document that have the word "Cherrytree" in them. On the left it lists the containing node's name, in the middle the line number that contains it, and on the right it gives a snippet of the containing sentence. When you click on one of the listed items, Cherrytree will immediately jump to that node in the main window, so it makes browsing to find just what you're looking for a snap.
+    First From Selection: Works in conjunction with the Forward and Backwards option, as it will return only the first match it finds, and only from the present cursor position in the direction selected. This option is used mostly when you're working in a node where a text string is and you want to edit it without searching through all the other nodes. 
+    First in All Range: Will only show the first match to your search string wherever it may be. This option is useful when you just want to edit a text string, but are not sure where it is, or your text string is unique enough that it most likely appears only once and you want to find it quickly, or just want to see what context it was used in.
+    Show Iterated Find/Replace Dialog: This option jumps to the first match it finds for your string, then opens a dialog to allow you to search for another occurrence either forwards or backwards. Note it does not open this dialog if All, List Matches is also selected. 
+    
+    
+    
+    While it may be useful in doing a search because it allows you to cycle through them in a similar way to the All, List Matches option, it's easier and more flexible to use All, List Matches. This option becomes more useful when you do a Find/Replace search, which we'll cover next.
+
+Replacing Text
+
+    Doing a find and replace in Cherrytree differs only slightly from doing a Find. When you do a replace via the menus or keyboard shortcut, the dialog box that appears looks and functions almost exactly the same as the Find one, with one important difference:
+    
+    
+    
+    On the top of the dialog is the "Text to Find" box, added now under it is the "Replace With" box. Here you type in what you want to replace the text with, then choose your options as you would with a normal find. Unless you're sure you want to replace all possible matches to the word you search for, here's a good place to click on the "Show Iterated Find/Replace Dialog". That way you have more control over what's being replaced, and where. Note that if you do make a mistake, all is not lost. You can simply undo what was done using the "Undo" button on the tool bar, pressing <CTRL>+Z on the keyboard, or selecting the "Undo" button on the Iterated Dialog (providing you were using it).
+    
+    <-Previous /Home/ Next ->
+    
+

@@ -1,0 +1,20 @@
+CREATE TABLE OF CONTENTS
+
+Create Table of Contents
+
+    Cherrytree can create a "Table of Contents" from node names and text assigned one or all of the HTML "heading" formats, h1, h2 and h3. This is done automatically with any text assigned these attributes when exporting to HTML. You can also create a node in your Cherrytree document to do the same. Simply create a blank node, name it "Table of Contents" (or whatever you like) and when it opens, go to "Edit>Insert TOC". This will open the following dialog:
+    
+    
+    
+    Here you set what you want to include in your table of contents. 
+
+    Selected Node Only: As it's name suggest, this option will only list the contents of the selected node that have the h1, h2 or h3 property set. You'd only use this option if you're creating the table in the same node as the text. If you have a long node with a lot of entries and have assigned the proper attributes to the sections for use in the table, you could place the cursor at the top of the page and use this option to create a table with links to all the entries in the node.
+    
+    Selected Node and Subnodes: This would create a table for the current node (the one containing the cursor) and any children or sub-nodes it may have. This is useful if you have a lot of nodes that you'd like to be able to quickly navigate in. Create a new "parent" node for all the nodes you want (see here for ways of changing the node hierarchy). In this new blank parent node, go to "Edit>Insert TOC" and choose "Selected Node and Subnodes". Press <ENTER> or click on "OK" and your table of contents will be created in the parent node, making click-able links to the various parts of the subnodes.
+    
+    All the Tree: This will create a table of contents for everything in the current document that's assigned the h1, h2 or h3 property. Very useful if you have large complex Cherrytree document(s) and want an easy way to navigate through them. The Table of Contents in this manual was created this way and is a good example of what it does. All the text that's assigned either the h1, h2 or h3 property in the entire document will be included in the table of contents. This is also useful to see how the table will look and whether everything you want in it is there when getting ready to export to HTML. Cherrytree automatically creates a table of contents when you export to HTML, so creating even a temporary one this way will give you an idea of how it's going to look and what will be created in it, allowing you to make changes if necessary beforehand.
+    
+    Because Cherrytree nodes are not static and you will likely change the contents after creating a table, you will need to periodically update that table. It's very easy to do: simply select all the table's text and delete it, then run the "Edit>Insert TOC" command again and your table will be up-to-date! 
+    
+    <-Previous /Home/ Next ->
+

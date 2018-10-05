@@ -1,0 +1,29 @@
+ALL NODES
+
+All Nodes Preferences
+
+
+
+    Tab Width: This is the number of spaces the cursor should move when you hit the TAB key on your keyboard. Most often used to indent the first line of a paragraph, it's also handy for those who write programming code, as every press of the TAB key will move the cursor to the right at whatever number of spaces you enter here.
+    
+    Insert Spaces Instead of Tabs: This allows you to choose what Cherrytree puts in the tab area, an actual TAB character or an equal number of SPACE characters. For many users this won't make a difference, it will look the same in Cherrytree and anything they may print or cut and paste into another application from it. But for some users who may also copy and paste or  their text for use in other programs, this could make a difference in how that program handles it. If you plan on using what you type into Cherrytree with another application, check it's documentation on whether it can accept tabs or not. When in doubt, choose spaces instead of tabs, as most applications handle them okay.
+    
+    Use Line Wrapping: This option turns on automatic text wrapping in Cherrytree. Turning this option on is best, as it saves from having to hit ENTER at the edge of the Cherrytree window to keep the text on screen where you can see it, and will re-wrap the text if you change the size of Cherrytree's window. There are cases where this can cause problems however, like in writing programming code for use in certain compilers. For most users though, you'd turn this option on to keep your text easily readable.
+    
+    Line Wrapping Indentation: If you enabled Line Wrapping, here you can set how far from the window edge to start the wrapping. Some window managers/themes cause the text to be against the right edge, so here you can adjust that for a cleaner look.
+    
+    Enable Automatic Indentation: If enabled, when you end a paragraph of text and hit the ENTER key, the cursor will jump to the next line and move to the same position as the indented line above it. This is handy as it saves you from having to hit the TAB key every time you start a new paragraph or line of code. When enabled, if you don't want the next paragraph indented, or want to reduce the number of indents, just hit the BACKSPACE key. If you prefer to enter your own indenting, leave this option off.
+    NOTE: If you have "Insert Spaces Instead of Tabs" enabled, hitting BACKSPACE will only reduce the indent one space at a time. If you want to remove all the spaces at once, press <CTRL>+<SHIFT> and then <HOME> keys to highlight all the spaces, then press <DEL>. If you have this option disabled, then BACKSPACE will reduce it by the full TAB spacing.
+    
+    Show Line Numbers: This option will open a small margin to the left of your text and put a number in front of every paragraph or line of text that ends with a RETURN character. In other words, if you hit ENTER at the end of your paragraph or line of text, the next line will have a number, incremented by one, in the margin to the left of the line. This option would mostly benefit programmers. For occasional line numbering, see "Formatting".
+    
+    Timestamp Format: This option is where you set how timestamps are done. A timestamp is used often when the user wants to know when they entered a particular piece of information or text. Perhaps you use Cherrytree as a journal. You could put a timestamp at the top of each node page when you start writing. Or if you use a single node for all your journal entries, you could put a timestamp at the top of each entry Later when you review or search for an entry, you would know when you wrote it. You can also search for a particular entry by it's timestamp. The default format is Year, Month, Day - Hour (in 24-hour format) an Minutes, and looks like this: 2012/03/17 - 15:51. You'll notice to the right of the timestamp format there's an icon. Click it and it will take you to a web page showing all the different formatting options for timestamps. If you don't like the default, this web page will likely have one you will like.
+    
+    Horizontal Rule: Here you can set a new character and amount of characters that Cherrytree uses to create paragraph horizontal rules. A horizontal rule - for those not familiar with it - is a string of characters used to visually separate two paragraphs. The default Cherrytree uses is 33 "tilde" characters. Other commonly used characters are asterisk, equal sign, underscores, etc. If you'd like to use a different character, select this box and enter the same character the number of times you'd like for the rule length. 
+    
+    Special Characters: This is a set of default, commonly used extra characters that don't appear on the keyboard. Characters such as "®", "€" and "¼" are in here. The list shown in this box is editable, you can add and delete special characters as you need. Later, you will be able to add any of the characters in this list by either right clicking in the text where you want the character and choosing 'Insert > Insert Special Character' or by selecting 'Insert Special Character' from the Edit menu.
+    
+    Chars to Select at Double Click: Normally when you double-click on a word it becomes selected for copying. This is fine when you want to only select a single word, but what if you want to select something like and email or web address. Normally special characters like the '@' in an email address, or the '.' in a web address break a line of text. In other words, they are seen as the beginning or end of a word. To make these characters selectable so you can grab the entire address these special characters are entered here by default. You can add or remove any special characters you may need for your selections here and they will be included as part of the selection string.
+    
+<-Previous /Home/ Next ->
+

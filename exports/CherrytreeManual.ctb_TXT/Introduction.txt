@@ -1,0 +1,12 @@
+INTRODUCTION
+
+Cherrytree 0.36.4
+
+ 
+    Cherrytree is what's referred to as an "hierarchal" note taking application, meaning it's designed to store your entries in containers, which some programs call "notes" or "pages" and Cherrytree calls "nodes". If you envision the Cherrytree document as the root of a tree, and each "node" as a branch in that tree, sub-nodes as branches off that branch, you will start to get the idea. If you have ever used outlining programs like OmniNote, Kjots, Keepnote and others, then Cherrytree will feel very familiar. However, Cherrytree is not just about having a place to write notes and to-do items and keeping them organized, it's also a place you can store links, pictures, tables, even entire documents. It can be your one program for all the miscellaneous information you have and want to keep. All those little bits of information you have scattered around your hard drive can be conveniently placed into a Cherrytree document where you can easily find it.
+   Just having a place to put notes and bits of information would not be much help if you had to go through a lot of trouble finding a particular piece of it. This is where Cherrytree really excels. It's powerful search functions help you easily and quickly find anything you have put in it. If you can do no more than remember one word of what you're looking for, Cherrytree can find it, fast. As you become more familiar with some of Cherrytree's advanced functions, you will also be able to link related information and make better use of it.
+    So go ahead, give Cherrytree a try. In the next few pages we'll go over how to get started with some of the basic uses. People already familiar with outlining software may want to jump ahead to the more advanced features. However you start, we believe you're going to love Cherrytree! 
+    Explore! Have fun!
+    
+    next- About this Manual
+

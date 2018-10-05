@@ -1,0 +1,26 @@
+COMMAND LINE OPTIONS
+Command Line Options
+
+    You can start Cherrytree with a particular document opened from a terminal or console command line. You will have to include the full path do the document unless you happen to store it's documents in a path known to your system's environment. An example of this in Linux would be:
+    
+    cherrytree /home/rob/Documents/notebook.ctb
+    
+In Microsoft Windows it would be something like:
+
+    cherrytree 'C:\Documents & Settings\Rob\My Documents\notebook.ctb'
+    
+     You can also have it open to a particular node if you know the node name by adding the '-n' switch. In Linux it would be something like this:
+     
+     cherrytree /home/rob/Documents/notebook.ctb -n Recipes
+     
+Or in Windows:
+
+    cherrytree 'C:\Documents & Settings\Rob\My Documents\notebook.ctb' -n Recipes
+         
+     This would open the "notebook" document and immediately go to the "Recipes" node.
+         
+     You can get the currently supported command-line options by typing "cherrytree -h" in a terminal or console.
+     
+     
+     <-Previous /Home/ Next ->
+

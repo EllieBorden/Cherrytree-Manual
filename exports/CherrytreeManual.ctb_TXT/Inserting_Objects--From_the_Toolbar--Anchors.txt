@@ -1,0 +1,25 @@
+ANCHORS
+Anchors
+
+    Anchors are used when you want to link back to a particular sentence, paragraph or object in a Cherrytree node. You may have noticed them or run across them already, they have been used in this help manual. An example of their use would be for you to click here, it will jump you to the "Toolbar" section on anchors. Simply click on the left or back-arrow icon on the browser to come back to this page. Go ahead, try it out, we'll wait...
+    As you could see, the node on the Toolbar is quite long, and we wanted a way to refer from other nodes to certain items in the Toolbar one, and that's where anchors are useful. They allow you to link to a particular place in long nodes.
+    To create an anchor, position the cursor next to the text or object you want to link to, and click the tool-bar icon shaped like a ships anchor (or use the top or right-click menus). That will open the insert anchor dialog.
+    
+     
+    
+    Here you simply give a name to your anchor, something that will easily identify the anchor when you use it later to link to. In our example used in this manual we called it "Insert Anchor". Give it a name that you won't forget what it goes to. When you have created your name and pressed Enter, an Anchor character will appear where you placed it. 
+NOTE: You can only move anchors by adding or eliminating spaces and characters around them, you cannot drag an anchor to reposition it. If you don't like where the anchor is, or put it in the wrong place, you can cut and paste it like any other object. Simply select it like by clicking on it, press <CTRL>+X, then position the cursor where you'd like the anchor and press <CTRL>+V. Your anchor will appear at the new location.
+    When you go to create your link to your anchor, select the text that will act as the link, then click on the "Link" icon in the toolbox (or press <CTRL>+L or select from the menus). That will open the link dialog.
+    
+    
+    
+    Here you select the node that contains the anchor you want to link to, then you can optionally type in the anchor name (it must be spelled correctly) or click on the anchor icon to see a list of all the anchors in that node.
+    
+    
+    
+    Simply select your anchor by name and hit "OK". You will be taken back to the link dialog with the anchor name now in the box. If you are satisfied with it, press "OK" again. You will now be linked to that anchor. If you are not satisfied, or had chosen the wrong anchor, simply click the anchor icon again and select another, or press cancel. 
+    If you do not see the anchor name in the dialog, you may have picked the wrong node, or the anchor was not properly created. You can change an anchor's properties by going back to the anchor, selecting it with the mouse, and right-clicking on it. A small menu item will pop-up saying "Edit Anchor". Select it and make your changes.
+    NOTE: If you should happen to delete the anchor, the link will still work, but just by taking you to the node the anchor used to be on. It will no longer take you to the specific place in the node.
+    
+    <-Previous /Home/ Next ->
+

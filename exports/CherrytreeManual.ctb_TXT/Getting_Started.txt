@@ -1,0 +1,24 @@
+GETTING STARTED
+
+Getting Started
+
+    When you first start Cherrytree you will be greeted with the dialog below. This dialog is asking for the name of your first node, not the name of the document it will be in. In the first box you would type in a descriptive name, something perhaps with what the node will contain. Let's say you're starting with a place to put some random thoughts and ideas, you could name the node "Ideas" or "Thoughts". What you call it is entirely up to you. You do however have to give the node a name.
+    
+    
+    
+    Next you would choose whether the node should use the default Rich Text, Plain Text or use Automatic Syntax Highlighting. Automatic Syntax Highlighting would be mostly used by programmers, as it makes it easier to follow program code with highlighting. If you choose it, the drop-down list below it becomes active. That's where you can choose what programming language will be used in the node. For most users this would be left at the default, "Rich Text". If you are a programmer and would like to make use of it, see Automatic Syntax Highlighting.
+    The third option, Tags for Searching gives you a place to put optional text "tags" for you nodes. When you do a search in Cherrytree using the "Find a Node" method, Cherrytree looks in both the node names and these tags. For example, let's say you're making a group of nodes containing recipes. You might name this node "Cordon Bleu", then in the tag box enter something like "French" and/or "Chicken". Later, when you want to find all your French or Chicken recipes, you could type either word in the "Find a Node" search box and Cherrytree will show you all the recipes than match that word. 
+    You'll notice there is a search icon next to the input field. You can use it to look for existing tags in your document (if there are any) and choose one of them for the new node if desired. Helpful in it eliminates spelling errors and ensures tag consistency.
+    Once you have named your first node, selected your text type option and entered your tags (if any), the last option is if you want to set the node to "Read Only". This option is best left un-checked until you actually have some text in it! Later, if you want to avoid any possible changes to the node, you can select the node in the tree panel and press <F2> to bring this dialog back up. Then you can set the Read Only attribute if you wish. If later you decide you'd like to edit the contents, just repeat the process and un-check the option. 
+    
+    The next dialog will ask you what file format you want to save your document in, SQLite or XML, and whether or not you want to password protect it.
+    
+     
+               
+    One of the great things about Cherrytree is it saves all your nodes in a single file, either SQLite or XML. This is particularly helpful when you do backups, or if you use a cloud service like Dropbox, because there's only one file to contend with, as opposed to many other similar applications which create folders with multiple files. The SQLite file will have a .ctb or .ctx extension, the XML file will have a .ctd or .ctz one, as shown in the screenshot. With an SQLite document Cherrytree's loading will be slightly faster. See Cherrytree File Formats for a explanation of the differences. 
+    In Cherrytree's configuration you can set an option to have it automatically save your file at an interval you specify, which is especially useful when you use a cloud service like Dropbox to store copies, as you can set the interval to perhaps 10 minutes and it won't tie up the server or your Internet connection.  See Preferences for more on this and other options.
+    Password protection is optional, if you choose to use it, Cherrytree will require you to enter the password twice, to ensure there's no mistake and the password is easily typed by you. If you create a document with sensitive personal information, you may want to password protect it. 
+    After these two steps, Cherrytree will ask you for a file name and where to save it. Cherrytree will use your desktop's file save dialog which should be familiar to you. Simply choose a name for the file and what folder you want to save it in, then save it.
+    
+    <-Previous /Home/ Next ->
+

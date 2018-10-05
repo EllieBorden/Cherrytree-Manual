@@ -1,0 +1,32 @@
+RICH TEXT
+Rich Text Preferences
+
+
+
+Spell Check: Cherrytree has the option to do automatic spell-checking as you type. Here you can enable the option, and choose what language Cherrytree will use. Any languages you have enabled system-wide in your Operating System will be available to Cherrytree.
+NOTE: On Linux, for spell-check to work, Cherrytree requires python-enchant and it's dependencies to be installed. Without python-enchant, you will not be able to use spell check. This should be handled automatically by your package manager, however we have no control over that, that is handled by the packager for your distribution.
+
+Theme: The default colors for Cherrytree nodes is having a light (white) background and dark (black) text, much like any text editor. However, some prefer the reverse, a dark background with light text. You can choose either way here.
+
+    If you don't like the default options of the first two choices in your nodes, you can also choose to set a new color combination. When you click on one of the color bars in the dialog (Custom Background or Text) it will open another dialog where you can choose a new default color for that element:
+    
+     
+
+
+    NOTE: Your color dialog may not look the same or offer the same options as shown here. Cherrytree uses the default operating system / desktop color chooser dialog, so you may have more or less options.
+     Whatever color you select will become the new default color for all Rich Text nodes, in all Cherrytree documents. The setting here will not affect the colors used in the node pane, those have their own settings. If changing the default colors, it's a good idea to choose colors that work well with each other, provide good legibility, and won't conflict with things like link colors.
+     
+     Miscellaneous: Show White Spaces - This option will put indicators (little light dots) anywhere there's a white space in your text. Some people prefer this way of working, so they have a visual indicator of space characters.
+     
+     Highlight Current Line - Applies a background color to the line containing the cursor, easier to find where you're at in a long note.
+     
+     Expand Codeboxes Automatically - When enabled codeboxes will automatically increase there size to fit the contained code, eliminating the need to scroll the box seperately from the window.
+     
+     Embedded File Icon Size - Here you can set the size of the icon used for embedded files in Cherrytree.
+
+     Limit of Undoable Steps Per Node - The default is 20, but you can increase or decrease this number as needed. Nodes have an independent amount from each other, so if you are in one and undo 10 things, then switch to another node to undo something, that node still has it's 20 or whatever you had set as default. This setting is per node.
+     NOTE: On low memory systems, having a high setting here can cause Cherrytree to use quite a bit of memory with large documents. This will be compounded if the document has a lot of graphics. Usually the default of 20 is sufficient for most needs, but you may want to set this lower on memory-constrained systems. 
+      
+     
+     <-Previous /Home/ Next ->
+

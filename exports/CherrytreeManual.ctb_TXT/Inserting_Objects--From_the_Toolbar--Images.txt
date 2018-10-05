@@ -1,0 +1,21 @@
+IMAGES
+
+Images
+
+    Cherrytree can handle most of the popular image formats, jpeg, png, tif and others. When you click on the "Insert an Image" icon on the tool bar you will open your operating system / desktop's default file chooser, where you can navigate to an image you want to add to your node.
+    Once you select an image, Cherrytree will open a dialog where you can adjust the size and orientation of the image:
+    
+    
+    
+    If your image is large, you can resize it by changing the pixel count in one of the boxes, either "Width" or "Height". Note that Cherrytree will automatically change the other size in order to keep the image's proportions, so you only need to change one. 
+    You also have the ability to rotate the image in 90O increments, either clockwise or counter-clockwise. Once you have set the size and rotation, click on "OK" and the image will appear on in your node. If you decide you're not happy with how the image looks, you can always resize it or change the rotation by clicking on the image with the right mouse button and choosing "Edit Image" from the menu.
+    NOTE: Cherrytree does not support "wrapping" text around an image. When you place an image in a node, the text will either move above and/or below it. 
+    
+    Cherrytree also supports saving an image from a node to PNG format. To save an image in it's new size and orientation, select "Save Image as PNG" by right-clicking on the image and choosing it from the menu. That will open your operating system / desktop's default file save dialog, where you can give it a name and select a location to save it in.
+    
+    
+    
+    You can use the right-click menu to also change settings (Edit Image), cut, copy or delete it, and use it as a clickable link to something else. For example, say it's an image of a web page. You could set it as a link to the actual web page or site, and when the image is clicked on, it would open your browser and take you to that page/site. When an image is used as a link, it has an arrow at the top, showing it's a link.
+    
+    <-Previous /Home/ Next ->
+

@@ -1,0 +1,15 @@
+ABOUT THIS MANUAL
+
+About this Manual
+
+    This manual was written for Cherrytree version 0.36.4. If you have a newer version of Cherrytree, check with the Cherrytree creator's website at http://www.giuspen.com/cherrytree/ to see if there's an updated version coming soon. We try to keep the manual synced with the latest development versions, but that's not always possible. If you find this manual version does not match your Cherrytree version, please check back in a few days. Meanwhile, this manual should cover most of the Cherrytree version that you have and will still be of use. For those interested in what is new in this version, you can read the changelog. 
+    
+    This manual was entirely written with Cherrytree, and you can download it from the website as a native Cherrytree document. The advantages to having your own copy means you can annotate, change, and expand on anything in it. It's yours.  Note however that any changes you make to your copy of the manual will be replaced by the next version if you download a newer update. So if you edit it, you may want to re-name it and put your edits on new sub-nodes, that way you can easily /import them into the newer manual. 
+    Also note that the Cherrytree native version is not accessible from the "Help" menu. However, after you have opened it once you should be able to open your version easily by going to the "File > Recent Documents" menu and choosing it.
+    
+    As with almost everything in Open Source, this manual is a work in progress. Suggestions, ideas, amendments and criticism is welcome! If you find any broken links or other problems, please let us know.
+
+                                                    
+                                                    
+next- Getting Started
+

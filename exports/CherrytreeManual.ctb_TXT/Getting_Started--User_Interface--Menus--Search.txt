@@ -1,0 +1,29 @@
+SEARCH
+Search
+
+    Searching for text in Cherrytree is where it truly shines. For a complete overview of it's searching options and methods, see "Searching in Cherrytree".
+    
+    Find in Node Contents <CTRL>+F: This searches for the given term in the current node.
+    
+    Find in All Nodes Contents <SHIFT>+<CTRL>+F: This searches for the given term in all nodes of the current document.
+    
+    Find in Selected Node and Subnodes Contents <CTRL>+<ALT>+F: Searches for the given term in the currently selected node and any child nodes it might have.
+    
+    Find in Node Names and Tags <CTRL>+T: This looks for the given term in a node name or tag of the current document.
+    
+    Find Again <F3>: This repeats the last issued search, starting from the current cursor position forward.
+    
+    Find Back <F4>: This repeats the last issued search, starting from the current cursor position backwards.
+    
+    Replace in Node Contents <CTRL>+H: Opens a dialog where you specify what to look for in the current node and what to replace it with. 
+    
+    Replace in All Nodes Contents <SHIFT>+<CTRL>+H: Opens a dialog where you specify what to look for in all the current document nodes and what to replace it with.
+    
+    Replace in Selected Node and Subnodes Contents <CTRL>+<ALT>+H: Replaces the given term in the currently selected node and any child nodes it might have.
+    
+    Replace in Nodes Names <SHIFT>+<CTRL>+T: Opens a dialog where you specify what to look for in any of the node names and what to replace it with. This does not search for or replace tags.
+    
+    Replace Again <F6>: Repeats the last issued Replace command from the cursor forwards.
+    
+    <-Previous /Home/ Next ->
+

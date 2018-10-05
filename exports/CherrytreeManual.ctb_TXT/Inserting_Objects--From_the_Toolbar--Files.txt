@@ -1,0 +1,7 @@
+FILES
+Files
+
+Cherrytree allows you to insert any type of file into a node. This creates an icon which you can set the size of in Rich Text Preferences.  The file itself is embedded into the Cherrytree document. This is useful for people who share their Cherrytree documents with others, it allows them to include a file without having to remember to send it along with the Cherrytree document. Once the file is inserted, and icon will appear where it was placed in the node, and the recipient only has to double-click or right-click on it to open the file in it's native application. The file will be stored in a temporary location while it is being read or edited, and will be saved back to Cherrytree when it is closed in the native application. If you hover the mouse over an embedded file link, the time of the file's last edit and it's size will pop up in a tooltip.   
+Be sure to close the file in it's native application before closing the Cherrytree document! Cherrytree will delete the temporary file when you close the Cherrytree document or when you quit Cherrytree. It will provide a warning if it detects the file is open, but a good practice would be the just close the file first.
+    NOTE: Embedded file size is limited to 10Mb. Currently trying to embed larger files is not safe and may cause corruption of the Cherrytree document or the embedded file.  
+

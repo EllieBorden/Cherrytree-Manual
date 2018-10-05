@@ -1,0 +1,21 @@
+COPY AND PASTE
+Copy and Paste
+
+    About anything that can be copied to your clipboard can be pasted into a Cherrytree node. If your clipboard can hold it, so can Cherrytree.
+    The most common use for copy and paste is with text, but images and tables can be copied and pasted too. With tables you have some restrictions, see Tables for more information on what will import. With graphics, most of the commonly used formats will copy, like .jpg, .png, .tif and others.
+    With text, the universal method used my most operating systems is to highlight the desired text in the other application, press <CTRL>+C on the keyboard, switch to Cherrytree, and in the node you want to paste it, press <CTRL>+V.  This method will also work with graphics, if the program being copied from supports it.
+    With graphics, many can be much larger than you would want in your Cherrytree node. When pasted you may only be able to see the top-left part of them, the rest existing off the viewable page. But you can resize a picture, simply right-click on it to get the picture dialog:
+    
+
+
+    In this example the original photo was 917x476 pixels, much to large to be completely viewable in the node. We right-clicked on it, opened the dialog, and selected a better size by setting the width to 300 pixels and hitting enter. Cherrytree automatically calculated the height to keep the picture's proportions, and this was the result: 
+    
+  
+    
+    A less known but very useful tool in using copy and paste is with screenshots. Often we may run across something, usually on a website, that will not directly copy to Cherrytree. While you can always create a link to the web page, some websites, notably news organizations, only keep content for a period of time. This is where a screenshot comes in, using copy and paste.
+    Most operating systems can take screenshots by simply pressing the "Print Screen" key on the keyboard. If you want a snapshot of just a particular window, say your web browser, <ALT>+<PRINT SCREEN> usually works. If they don't, check with your operating system / desktop manual to see if screenshots are supported, and how to do them. You may need to get an add-on program to do the screenshots.
+    Once your screenshot is taken, simply paste it into your Cherrytree node using <CTRL>+V or from the right-click menu. Like with any graphic pasted into Cherrytree, it may be larger than your viewing area. You have three options here. You can of course modify it in a graphics editor like Photoshop or Gimp first. Or, if it's best to leave it the actual size so you can see it clearer, just paste it. If it's larger than the node's viewing area, scroll bars will appear at the side and bottom so you can scroll to see it all. The third option is to right-click on it, and using the image dialog, reduce it's size to something better. Any route you take, it's a great way to capture something you may have no other way of recording. 
+    
+    
+    <-Previous /Home/ Next ->
+

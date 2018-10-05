@@ -1,0 +1,25 @@
+LINKS
+Links
+
+    Links are another of Cherrytree's great features, and one that is used often. As opposed to keeping your bits and pieces of information in text files or other software that often means you have to paste links as they are, Cherrytree allows you to use whatever text you choose to represent the link. Whether it's a website or other type of URL, a file, folder, another node in the document or an anchor, it is easy to create a link to it. 
+    NOTE: To create links in Cherrytree, unless you are copying and pasting the link address from a web browser or file manager and pasting it as-is directly into the node page, you have several options. You can either have the cursor sitting within a word to use it as the link text. Or you can select one or more words for the link. The word with the cursor or the selected text will change color and become click-able when the link is created. If you choose to, you can also place the cursor on a blank line, and when you click the 'Link' icon, the "Link Name" dialog will open, allowing you to give your new link some text to create the link with.
+    
+        
+
+     To simply copy and paste a link directly into the node page, see "Copy and Paste" or "Drag and Drop".
+    
+    To create a link, select the text you want for the link, and click on the "Link" tool bar icon, or choose "Edit>Insert/Edit Link" from the top menu, or right-click on the text and select "Edit>Insert/Edit Link" from that menu, or press <CTRL>+L on the keyboard. Cherrytree uses one dialog box to add or edit a link. You can navigate through the dialog box with Tab key to select the link type, and the arrow keys to select a node link from your tree. When selecting a node link, you can also just start typing the node name, and Cherrytree will search for it, highlighting the matches as you type characters.
+    
+    
+    To Website: Clicking this option will enable only the first text box, called "Website URL", where you write (or copy and paste) the website address you want your link to point to. The most common reason people have for links not working is mis-spelling, so whenever possible it's better to copy links from their source and paste them in the Website URL text box.
+       
+    To File & To Folder: Clicking either of these options will disable the URL text box and Node list. You either type the path of the file or folder, or click the file icon on the right of the box, which will open you operating system / desktop file chooser dialog. There you can navigate to the file/folder and select it. The proper path is inserted into the text box. Press <ENTER> or click on "OK" to create the link. If it is a file link, left-clicking on it will open it in the default application for that type of file. Middle-clicking (or mouse wheel-click) will open the file's parent folder in the system's file manager.
+    
+    To Node: Clicking this option will disable the first two text boxes, you then pick the node name from the "Node" list on the left. If you're only linking to a node, just hit <ENTER> or click "OK". If you want to also link to an anchor you created in that node, you add the step of clicking on the anchor button on the right, and choosing your anchor from the list. See "Anchors" for more on this option.
+    
+    With any existing links in Cherrytree, you can right-click on them and choose from the menu to edit, cut, copy, dismiss or delete the underlying link. 
+    
+    Linking is a great way to make any Cherrytree document more usable and flexible. It one of the features that makes Cherrytree a perfect place to keep all those bits and pieces of information you collect. 
+    
+    <-Previous /Home/ Next ->
+
