@@ -1,33 +1,90 @@
-Cherrytree User Manual
+<!--
+TODO Finish outline and move content from original to new version
+TODO Remove fluff from content
+TODO Compare images with application and replace or annotate where as needed
+TODO Test all current instructions  
+-->
+
+![Cherrytree](src/images/cherrylogo.png) Cherrytree User Manual
 ===
 
-- [Introduction](#Introduction)
-- [Installation](#Installation)
-- [Quickstart](#Quickstart)
-- [Navigation](#Navigation)
-- [Changelog](#Changelog)
-- [Credits](#Credits)
-- [Contributing](#Contribution)
--  etc...
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Quickstart](#quickstart)
+- [Navigation](#navigation)
+- [Files](#files)
+- [Nodes](#nodes)
+- [Text](#text)
+- [Objects](#objects)
+- [Searching](#searching)
+- [Settings](#settings)
 
 ---
 
 # Introduction
 
-Content
+Cherrytree is a free and open source, hierarchal, note-taking application. It is capable of storing text, images, files, links, tables, and executable snippets of code. This application is under active development. Details regarding updates can be found in the [Changelog](https://github.com/giuspen/cherrytree/blob/master/changelog.txt). 
 
 ### About This Manual
 
-Content
+This manual was written for Cherrytree version 0.38.6. Please check the [Cherrytree website](http://www.giuspen.com/cherrytree/) for the latest version. 
 
-### Supporters
 
-Content
+### Contributors
 
-### How to Contribute
+Cherrytree is written and maintained by Giuseppe Penone.  
 
-Content
+**Development:**
 
+* Julian Stirling
+* Emilie V.
+* Jean-Philippe Fleury
+
+**Writing:**
+
+* Robert Boudreau
+* Ellie Borden
+
+**Translation:**
+
+* Pavel Fric (Czech)
+* Vincenzo Reale (Italian)
+* Klaus Becker (French)
+* Frank Brungräber (German)
+* Giuseppe Penone (Italian)
+* Marcin Swierczynski (Polish)
+* Andriy Kovtun (Russian, Ukrainian)
+* Daniel MC (Spanish)
+* Channing Wong (Chinese Simplified)
+* Vinicius Schmidt (Brazilian Portuguese)
+* Patrick Vijgeboom (Dutch)
+* Luuk Geurts (Dutch)
+* Seda Stamboltsyan (Armenian)
+* Ferhat Aydin (Turkish)
+* Piyo (Japanese)
+* Zygis (Lithuanian)
+* Henri Kaustinen (Finnish)
+* Delphina (Greek)
+* Erik Lovrič (Slovenian)
+
+**Artwork:**
+
+* OCAL
+* Zeltak
+* Angelo Penone
+
+All email addresses can be found in Cherrytree by selecting 'Help->About->Credits' from the menu.
+
+### Get Involved
+
+**Developers**  
+  
+**Writers**  
+  
+**Translators**  
+  
+**Donations**  
+  
 ---
 
 # Installation
@@ -96,7 +153,7 @@ Content
 Content
 
 ---
-# File Management
+# Files
 
 Content
 
@@ -130,7 +187,7 @@ Content
 
 ---
 
-# Nodes and Organization
+# Nodes
 
 Content
 
@@ -156,13 +213,13 @@ Content
 
 ---
 
-# Editing and Formatting Text
+# Text
 
 Content
 
 ---
 
-# Inserting Objects
+# Objects
 
 ### Images
 
@@ -204,15 +261,14 @@ Content
 
 Content
 
-
 ---
 
 # Searching
-Searching content
 
-
+Content
 
 ---
 
 # Settings
+
 Content 
