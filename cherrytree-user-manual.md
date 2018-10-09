@@ -13,7 +13,8 @@ TODO Add new content as needed
   * [About This Manual](#about-this-manual)
   * [Get Involved](#get-involved)
 * [Installation](#installation)
-  * [Installing on Linux](#installing-on-linux)
+  * [Installing on Fedora and other Red Hat derivatives](#installing-on-fedora-and-other-red-hat-derivatives)
+  * [Installing on Ubuntu and other Debian derivatives](#installing-on-ubuntu-and-other-debian-derivatives)
   * [Installing on Windows](#installing-on-windows)
 * [Quickstart](#quickstart)
   * [Create Nodes](#create-nodes)
@@ -64,6 +65,22 @@ This manual was written for Cherrytree version 0.38.6. Please check the [Cherryt
 ### Get Involved
 
 **Developers**  
+
+The git repository can be found [here](https://github.com/giuspen/cherrytree).
+
+The current version requires:
+
+* python2
+* python-gtk2
+* python-gtksourceview2
+* p7zip-full
+* python-dbus
+* python-enchant
+* python-chardet
+
+After cloning, run in the top folder ./cherrytree or python2 cherrytree.
+
+Development is currently focused on porting from Python to C++/GTKmm, on the master branch within the 'future' directory. The latest, stable python release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to python-gtksourceview2 being deprecated. Please port to PyGI.
   
 **Writers**  
   
@@ -71,19 +88,60 @@ This manual was written for Cherrytree version 0.38.6. Please check the [Cherryt
   
 **Donations**  
   
+Donations are appreciated and can be made from the [Cherrytree homepage](https://www.giuspen.com/cherrytree/#text-3).
+
+[Cherrytree Supporters](#supporters)
+
 ---
 
 # Installation
 
-Navigate to the [downloads webpage](https://www.giuspen.com/cherrytree/#downl) and choose an installer. If you don't know which one to choose, download the .rpm version for Red Hat Linux (Fedora, CentOS), .deb for Debian Linux (Ubuntu, Linux Mint, Debian, etc.), or .exe for Windows.
+Cherrytree is available for Linux and Windows.
 
-### Installing on Linux
+### Installing on Fedora and other Red Hat derivatives
 
-Content
+1. Download the latest installer with a '.rpm' extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
+2. Open a terminal and navigate to the directory where your installer is located.
+3. Type the following command, replacing "cherrytree.rpm" with the name of your installation file:
+  `sudo rpm -Uvh --force cherrytree.rpm`. Provide your password when prompted to begin the installation.
+  ![](src/images/rhinstall.png)
+
+### Installing on Ubuntu and other Debian derivatives
+
+***Option One: Ubuntu Software***
+
+Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and search for Cherrytree, then select the application and click 'install'. Provide your password when prompted to begin the installation.
+
+![](src/images/ubuntuinstall.png)
+
+**Option Two: Command Line**
+
+1. Download the latest installer with a '.deb' extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
+2. Open a terminal and navigate to the directory where your installer is located.
+3. Type the following command, replacing "cherrytree.deb" with the name of your installation file:
+  `sudo dpkg -i cherrytree.deb`. Provide your password when prompted to begin the installation.
+  ![](src/images/debinstall.png)
 
 ### Installing on Windows
 
-Content
+1. Download and run the latest installer with an '.exe' extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
+  
+2. Select a language and click 'Next'.  
+![](src/images/wininstall1.png)
+  
+3. Accept the license and click 'Next'.  
+![](src/images/wininstall2.png)
+  
+4. Select a directory for the application to be installed and click 'Next'.  
+![](src/images/wininstall3.png)
+  
+5. Select 'Create a desktop shortcut' if you wish to have a shortcut. Click 'Next'.  
+![](src/images/wininstall4.png)
+  
+6. Click 'Finish' to complete the installation.  
+![](src/images/wininstall5.png)
+  
+**Note:** If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and reboot, then try again.
 
 ---
 
@@ -216,7 +274,99 @@ Content
 
 ### Codebox
 
-  Can be executed
+content
+
+**The following Codebox formats are available:**
+
+* ada
+* asp
+* awk
+* bibtex
+* boo
+* c
+* c-sharp
+* cg
+* changelog
+* chdr
+* clisp
+* cmake
+* cpp
+* css
+* d
+* desktop
+* diff
+* docbook
+* dosbatch
+* dot
+* dpatch
+* dtd
+* eiffel
+* erlang
+* fcl
+* forth
+* fortran
+* fsharp
+* gap
+* gettext-translation
+* glsl
+* go
+* groovy
+* gtk-doc
+* haddock
+* haskell
+* haskell-literate
+* html
+* idl
+* ini
+* java
+* js
+* latex
+* libtool
+* lua
+* m4
+* makefile
+* mallard
+* markdown
+* markdown-extra
+* msil
+* nemerle
+* nisi
+* objc
+* objective-caml
+* ocl
+* octave
+* ooc
+* pascal
+* perl
+* php
+* pkgconfig
+* powershell
+* prolog
+* python
+* python3
+* r
+* rpmspec
+* ruby
+* rust
+* scala
+* scheme
+* sh
+* sparql
+* sql
+* t2t
+* tcl
+* texinfo
+* vala
+* vbnet
+* verilog
+* vhdl
+* xml
+* xslt
+* yacc
+* yaml
+
+**Executing**
+
 
 ### Files
 
