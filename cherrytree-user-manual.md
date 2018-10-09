@@ -56,7 +56,9 @@ TODO Add new content as needed
 
 # Introduction
 
-Cherrytree is a free and open source, hierarchical, note-taking application. It is capable of storing text, images, files, links, tables, and executable snippets of code. This application is under active development. Details regarding updates can be found in the [changelog](https://github.com/giuspen/cherrytree/blob/master/changelog.txt). 
+Cherrytree is a free and open source, hierarchical, note-taking application. It can store text, images, files, links, tables, and executable snippets of code. This application is under active development. Details regarding updates can be found in the [changelog](https://github.com/giuspen/cherrytree/blob/master/changelog.txt). 
+
+If you have questions please ask in the [forum](https://www.giuspen.com/forum/cherrytree-2/), or visit [this webpage](https://www.giuspen.com/feedback/) to provide feedback.
 
 ### About This Manual
 
@@ -64,11 +66,13 @@ This manual was written for Cherrytree version 0.38.6. Please check the [Cherryt
 
 ### Get Involved
 
-**Developers**  
+New contributors are welcome!
+
+**Development**  
 
 The git repository can be found [here](https://github.com/giuspen/cherrytree).
 
-The current version requires:
+The current version of Cherrytree requires:
 
 * python2
 * python-gtk2
@@ -80,17 +84,25 @@ The current version requires:
 
 After cloning, run in the top folder ./cherrytree or python2 cherrytree.
 
-Development is currently focused on porting from Python to C++/GTKmm, on the master branch within the 'future' directory. The latest, stable python release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to python-gtksourceview2 being deprecated. Please port to PyGI.
+Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the ['future' directory](https://github.com/giuspen/cherrytree/tree/master/future). The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to python-gtksourceview2 being deprecated.
   
-**Writers**  
+**Testing**
+
+If you find a bug, please check to see if it has already been reported within the project's index of [issues](https://github.com/giuspen/cherrytree/issues). If the error is unreported, please create a new issue providing as much detail as possible.
+
+If needed, here is a short guide on [writing a proper GitHub issue](https://medium.com/nycplanninglabs/writing-a-proper-github-issue-97427d62a20f).
   
-**Translators**  
+**Writing**  
+
+The Cherrytree user manual is currently under revision and is maintained [here](https://github.com/EllieBorden/Cherrytree-Manual).
+  
+**Translation**  
   
 **Donations**  
   
+Join the [Cherrytree Supporters](#supporters)!
+  
 Donations are appreciated and can be made from the [Cherrytree homepage](https://www.giuspen.com/cherrytree/#text-3).
-
-[Cherrytree Supporters](#supporters)
 
 ---
 
@@ -138,10 +150,13 @@ Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and
 5. Select 'Create a desktop shortcut' if you wish to have a shortcut. Click 'Next'.  
 ![](src/images/wininstall4.png)
   
-6. Click 'Finish' to complete the installation.  
+6. Review then provided summary, then click 'Install' if you are ready to proceed.  
 ![](src/images/wininstall5.png)
+
+7. Click 'Finish' to complete the installation.  
+![](src/images/wininstall6.png)
   
-**Note:** If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and reboot, then try again.
+**Note:** If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and restart your computer, then try again.
 
 ---
 
@@ -633,7 +648,7 @@ All email addresses can be found in Cherrytree by selecting 'Help > About > Cred
 * Mark Kasper donated €7,25
 * Angus Rose (United Kingdom) donated €7
 * Gerard Dubrulle (France) donated €7
-* siliconninja donated €7 {individual pages/nodes instead of one document file for cloud syncing}
+* Siliconninja donated €7 {individual pages/nodes instead of one document file for cloud syncing}
 * Tara Stewart (United States) donated €6
 * Thomas Bondois (France) donated €6
 * Nick Cross (United Kingdom) donated €5,80
@@ -682,7 +697,7 @@ All email addresses can be found in Cherrytree by selecting 'Help > About > Cred
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 3 of the License, or
+the Free Software Foundation; either version 3 of the License or
 (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
