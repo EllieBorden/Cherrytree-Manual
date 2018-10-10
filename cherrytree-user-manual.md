@@ -6,7 +6,7 @@ TODO Test all current instructions
 TODO Add new content as needed
 -->
 
-![Cherrytree](src/images/cherrylogo.png) Cherrytree User Manual
+![Cherrytree](images/cherrylogo.png) Cherrytree User Manual
 ===
 
 * [Introduction](#introduction)
@@ -16,7 +16,7 @@ TODO Add new content as needed
   * [Installing on Fedora and other Red Hat derivatives](#installing-on-fedora-and-other-red-hat-derivatives)
   * [Installing on Ubuntu and other Debian derivatives](#installing-on-ubuntu-and-other-debian-derivatives)
   * [Installing on Windows](#installing-on-windows)
-* [Quickstart](#quickstart)
+* [Quick start](#quick-start)
   * [Create Nodes](#create-nodes)
   * [Editor and Toolbar](#editor-and-toolbar)
   * [Insert an Image](#insert-an-image)
@@ -116,15 +116,15 @@ Cherrytree is available for Linux and Windows.
 2. Open a terminal and navigate to the directory where your installer is located.
 3. Type the following command, replacing "cherrytree.rpm" with the name of your installation file:
   `sudo rpm -Uvh --force cherrytree.rpm`. Provide your password when prompted to begin the installation.
-  ![](src/images/rhinstall.png)
+  ![](images/rhinstall.png)
 
 ### Installing on Ubuntu and other Debian derivatives
 
 ***Option One: Ubuntu Software***
 
-Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and search for Cherrytree, then select the application and click 'install'. Provide your password when prompted to begin the installation.
+Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and search for Cherrytree, then select the application and click the 'install' button. Provide your password when prompted to begin the installation.
 
-![](src/images/ubuntuinstall.png)
+![](images/ubuntuinstall.png)
 
 **Option Two: Command Line**
 
@@ -132,35 +132,35 @@ Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and
 2. Open a terminal and navigate to the directory where your installer is located.
 3. Type the following command, replacing "cherrytree.deb" with the name of your installation file:
   `sudo dpkg -i cherrytree.deb`. Provide your password when prompted to begin the installation.
-  ![](src/images/debinstall.png)
+  ![](images/debinstall.png)
 
 ### Installing on Windows
 
 1. Download and run the latest installer with an '.exe' extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
   
-2. Select a language and click 'Next'.  
-![](src/images/wininstall1.png)
+2. Select a language and click the 'Next' button.  
+![](images/wininstall1.png)
   
-3. Accept the license and click 'Next'.  
-![](src/images/wininstall2.png)
+3. Accept the license, then click the 'Next' button.  
+![](images/wininstall2.png)
   
-4. Select a directory for the application to be installed and click 'Next'.  
-![](src/images/wininstall3.png)
+4. Select a directory for the application to be installed and click the 'Next' button.  
+![](images/wininstall3.png)
   
-5. Select 'Create a desktop shortcut' if you wish to have a shortcut. Click 'Next'.  
-![](src/images/wininstall4.png)
+5. Select 'Create a desktop shortcut' if you wish to have a shortcut. Click the 'Next' button.  
+![](images/wininstall4.png)
   
 6. Review then provided summary, then click 'Install' if you are ready to proceed.  
-![](src/images/wininstall5.png)
+![](images/wininstall5.png)
 
 7. Click 'Finish' to complete the installation.  
-![](src/images/wininstall6.png)
+![](images/wininstall6.png)
   
 **Note:** If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and restart your computer, then try again.
 
 ---
 
-# Quickstart
+# Quick start
 
 Content
 
