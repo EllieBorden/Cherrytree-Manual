@@ -6,7 +6,7 @@ TODO Test all current instructions
 TODO Add new content as needed
 -->
 
-![Cherrytree](images/cherrylogo.png) Cherrytree User Manual
+![Cherrytree](images/icons/cherrytree.png) Cherrytree User Manual
 ===
 
 * [Introduction](#introduction)
@@ -17,12 +17,12 @@ TODO Add new content as needed
   * [Installing on Ubuntu and other Debian derivatives](#installing-on-ubuntu-and-other-debian-derivatives)
   * [Installing on Windows](#installing-on-windows)
 * [Quick start](#quick-start)
+  * [Interface](#interface)
   * [Create Nodes](#create-nodes)
-  * [Editor and Toolbar](#editor-and-toolbar)
   * [Insert an Image](#insert-an-image)
   * [Save Your Notes](#save-your-notes)
   * [Export the Document](#export-the-document)
-* [Navigation](#navigation)
+* [User Interface](#user-interface)
   * [Editor](#editor)
   * [Tree View](#tree-view)
   * [Toolbar](#toolbar)
@@ -115,7 +115,7 @@ Cherrytree is available for Linux and Windows.
 1. Download the latest installer with a '.rpm' extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
 2. Open a terminal and navigate to the directory where your installer is located.
 3. Type the following command, replacing "cherrytree.rpm" with the name of your installation file:
-  `sudo rpm -Uvh --force cherrytree.rpm`. Provide your password when prompted to begin the installation.
+  `sudo rpm -Uvh --force cherrytree.rpm`. Provide your password when prompted to begin the installation.  
   ![](images/rhinstall.png)
 
 ### Installing on Ubuntu and other Debian derivatives
@@ -131,7 +131,7 @@ Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and
 1. Download the latest installer with a '.deb' extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
 2. Open a terminal and navigate to the directory where your installer is located.
 3. Type the following command, replacing "cherrytree.deb" with the name of your installation file:
-  `sudo dpkg -i cherrytree.deb`. Provide your password when prompted to begin the installation.
+  `sudo dpkg -i cherrytree.deb`. Provide your password when prompted to begin the installation.  
   ![](images/debinstall.png)
 
 ### Installing on Windows
@@ -162,17 +162,70 @@ Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and
 
 # Quick start
 
-Content
+This brief quick start guide will teach you about the following:
 
-### Create Nodes
+* User Interface
+* Nodes
+* Core Text Editing
+* Inserting images
+* Saving
+* Exporting
 
-Content
+### Interface
 
-### Editor and Toolbar
+Cherrytree's interface is made of four sections. These sections are highlighted in the image below:
 
-Content
+![](images/interface.png)
 
-### Insert an Image
+**Menu Bar (Red)**  
+
+The menu bar contains the following menus:
+
+* File - Document-management features such as opening, saving, printing, and exporting.
+* Edit - Application preferences, basic copy and paste features, and object insertion features.
+* Formatting - Text formatting options.
+* Tree - Node management features.
+* Search - Features for search and replace.
+* View - Interface options.
+* Bookmarks - Bookmarks will be listed in this menu. You can add bookmarks by right-clicking a node within the tree view and selecting the "Add to Bookmarks" option.
+* Import - Cherrytree can import from a variety of sources including KeepNote, NoteCase, Tomboy, HTML files, others.
+* Export - Cherrytree documents can be exported to HTML, PDF, and Plain Text.
+* Help - Contains "Check for updates", an "About" section, and a link to the online manual."
+
+**Toolbar (Purple)**  
+
+The toolbar has many commonly used options for managing nodes, formatting text, and inserting objects. 
+
+The toolbar can be edited by clicking "Edit" within the menu bar and navigating to "Preferences > Toolbar"
+
+The size of the toolbar icons has been increased within the image above. Icon size can be changed by clicking "View" in the menu bar, then selecting the "Increase Toolbar Icon Size" option for bigger icons or "Decrease Toolbar Icon Size" for smaller icons..
+
+**Tree View (Green)**  
+
+Cherrytree's tree view shows the document's hierarchical structure of nodes. Right-click a node to display a menu of the options available to it.  
+![](images/treemenu.png)
+
+**Editor (Yellow)**  
+
+The editor is used to read, write, edit, and delete notes. Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows. 
+
+To change the color scheme for plain text documents and code, click the "Edit" button within the menu bar and navigate to "Preferences > Plain Text and Code," then adjust the Style Scheme option. To change the color scheme of Rich Text documents, click "Edit", navigate to "Preferences > Rich Text" and adjust the Theme settings.
+
+### Node Management
+
+**Creating New Nodes**
+
+1. Click the "Add Node" button within the menu bar to display the "New Node Properties" menu.   
+<img src="images/icons/tree-node-add.png" width="75px"/>
+
+2. Give your node a name and select a node type, then click the "OK" button. If you're unsure which node type to use, please view the [node type section](#choosing-a-node-type) of this manual.  
+![](images/newnode.png)
+
+**Node Structure** 
+
+**Deleting Nodes**
+
+### Insert Objects
 
 Content
 
@@ -186,9 +239,10 @@ Content
 
 ---
 
-# Navigation
+# User Interface
 
-Content
+**Resizing the interface**  
+Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.
 
 ### Editor
 
@@ -200,7 +254,8 @@ Content
 
 ### Toolbar
 
-Content
+**Toolbar Icons**  
+Icon size can be changed by clicking "View" in the menu bar, then selecting the "Increase Toolbar Icon Size" option for bigger icons or "Decrease Toolbar Icon Size" for smaller icons..
 
 ### Menu
 
@@ -245,11 +300,11 @@ Content
 
 Content
 
-### Creating Nodes
+### Managing Nodes
 
 Content
 
-### Choosing a Document Type
+### Choosing a Node Type
 
 Content
 
@@ -426,10 +481,6 @@ Content
 Cherrytree is written and maintained by Giuseppe Penone.  
 
 **Development:**
-
-* Julian Stirling
-* Emilie V.
-* Jean-Philippe Fleury
 
 **Writing:**
 
@@ -695,17 +746,8 @@ All email addresses can be found in Cherrytree by selecting 'Help > About > Cred
 
 # License
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 3 of the License or
-(at your option) any later version.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-MA 02110-1301, USA.
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.

@@ -23,7 +23,7 @@ TODO Compare images with application and replace or annotate where as needed
 TODO Test all current instructions
 TODO Add new content as needed
 -->
-<h1 id="cherrytree-cherrytree-user-manual"><img src="images/cherrylogo.png" alt="Cherrytree" /> Cherrytree User Manual</h1>
+<h1 id="cherrytree-cherrytree-user-manual"><img src="images/icons/cherrytree.png" alt="Cherrytree" /> Cherrytree User Manual</h1>
 <ul>
 <li><a href="#introduction">Introduction</a>
 <ul>
@@ -38,13 +38,13 @@ TODO Add new content as needed
 </ul></li>
 <li><a href="#quick-start">Quick start</a>
 <ul>
+<li><a href="#interface">Interface</a></li>
 <li><a href="#create-nodes">Create Nodes</a></li>
-<li><a href="#editor-and-toolbar">Editor and Toolbar</a></li>
 <li><a href="#insert-an-image">Insert an Image</a></li>
 <li><a href="#save-your-notes">Save Your Notes</a></li>
 <li><a href="#export-the-document">Export the Document</a></li>
 </ul></li>
-<li><a href="#navigation">Navigation</a>
+<li><a href="#user-interface">User Interface</a>
 <ul>
 <li><a href="#editor">Editor</a></li>
 <li><a href="#tree-view">Tree View</a></li>
@@ -132,28 +132,30 @@ TODO Add new content as needed
 <ol type="1">
 <li>Download the latest installer with a ‘.rpm’ extension from the <a href="https://www.giuspen.com/cherrytree/#downl">downloads webpage</a>.</li>
 <li>Open a terminal and navigate to the directory where your installer is located.</li>
-<li>Type the following command, replacing “cherrytree.rpm” with the name of your installation file: <code>sudo rpm -Uvh --force cherrytree.rpm</code>. Provide your password when prompted to begin the installation. <img src="images/rhinstall.png" /></li>
+<li>Type the following command, replacing “cherrytree.rpm” with the name of your installation file: <code>sudo rpm -Uvh --force cherrytree.rpm</code>. Provide your password when prompted to begin the installation.<br />
+<img src="images/rhinstall.png" /></li>
 </ol>
 <h3 id="installing-on-ubuntu-and-other-debian-derivatives">Installing on Ubuntu and other Debian derivatives</h3>
 <p><strong><em>Option One: Ubuntu Software</em></strong></p>
-<p>Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and search for Cherrytree, then select the application and click ‘install’. Provide your password when prompted to begin the installation.</p>
+<p>Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and search for Cherrytree, then select the application and click the ‘install’ button. Provide your password when prompted to begin the installation.</p>
 <p><img src="images/ubuntuinstall.png" /></p>
 <p><strong>Option Two: Command Line</strong></p>
 <ol type="1">
 <li>Download the latest installer with a ‘.deb’ extension from the <a href="https://www.giuspen.com/cherrytree/#downl">downloads webpage</a>.</li>
 <li>Open a terminal and navigate to the directory where your installer is located.</li>
-<li>Type the following command, replacing “cherrytree.deb” with the name of your installation file: <code>sudo dpkg -i cherrytree.deb</code>. Provide your password when prompted to begin the installation. <img src="images/debinstall.png" /></li>
+<li>Type the following command, replacing “cherrytree.deb” with the name of your installation file: <code>sudo dpkg -i cherrytree.deb</code>. Provide your password when prompted to begin the installation.<br />
+<img src="images/debinstall.png" /></li>
 </ol>
 <h3 id="installing-on-windows">Installing on Windows</h3>
 <ol type="1">
 <li><p>Download and run the latest installer with an ‘.exe’ extension from the <a href="https://www.giuspen.com/cherrytree/#downl">downloads webpage</a>.</p></li>
-<li><p>Select a language and click ‘Next’.<br />
+<li><p>Select a language and click the ‘Next’ button.<br />
 <img src="images/wininstall1.png" /></p></li>
-<li><p>Accept the license and click ‘Next’.<br />
+<li><p>Accept the license, then click the ‘Next’ button.<br />
 <img src="images/wininstall2.png" /></p></li>
-<li><p>Select a directory for the application to be installed and click ‘Next’.<br />
+<li><p>Select a directory for the application to be installed and click the ‘Next’ button.<br />
 <img src="images/wininstall3.png" /></p></li>
-<li><p>Select ‘Create a desktop shortcut’ if you wish to have a shortcut. Click ‘Next’.<br />
+<li><p>Select ‘Create a desktop shortcut’ if you wish to have a shortcut. Click the ‘Next’ button.<br />
 <img src="images/wininstall4.png" /></p></li>
 <li><p>Review then provided summary, then click ‘Install’ if you are ready to proceed.<br />
 <img src="images/wininstall5.png" /></p></li>
@@ -163,31 +165,74 @@ TODO Add new content as needed
 <p><strong>Note:</strong> If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and restart your computer, then try again.</p>
 <hr />
 <h1 id="quick-start">Quick start</h1>
-<p>Content</p>
-<h3 id="create-nodes">Create Nodes</h3>
-<p>Content</p>
-<h3 id="editor-and-toolbar">Editor and Toolbar</h3>
-<p>Content</p>
-<h3 id="insert-an-image">Insert an Image</h3>
+<p>This brief quick start guide will teach you about the following:</p>
+<ul>
+<li>User Interface</li>
+<li>Nodes</li>
+<li>Core Text Editing</li>
+<li>Inserting images</li>
+<li>Saving</li>
+<li>Exporting</li>
+</ul>
+<h3 id="interface">Interface</h3>
+<p>Cherrytree’s interface is made of four sections. These sections are highlighted in the image below:</p>
+<p><img src="images/interface.png" /></p>
+<p><strong>Menu Bar (Red)</strong></p>
+<p>The menu bar contains the following menus:</p>
+<ul>
+<li>File - Document-management features such as opening, saving, printing, and exporting.</li>
+<li>Edit - Application preferences, basic copy and paste features, and object insertion features.</li>
+<li>Formatting - Text formatting options.</li>
+<li>Tree - Node management features.</li>
+<li>Search - Features for search and replace.</li>
+<li>View - Interface options.</li>
+<li>Bookmarks - Bookmarks will be listed in this menu. You can add bookmarks by right-clicking a node within the tree view and selecting the “Add to Bookmarks” option.</li>
+<li>Import - Cherrytree can import from a variety of sources including KeepNote, NoteCase, Tomboy, HTML files, others.</li>
+<li>Export - Cherrytree documents can be exported to HTML, PDF, and Plain Text.</li>
+<li>Help - Contains “Check for updates”, an “About” section, and a link to the online manual.&quot;</li>
+</ul>
+<p><strong>Toolbar (Purple)</strong></p>
+<p>The toolbar has many commonly used options for managing nodes, formatting text, and inserting objects.</p>
+<p>The toolbar can be edited by clicking “Edit” within the menu bar and navigating to “Preferences &gt; Toolbar”</p>
+<p>The size of the toolbar icons has been increased within the image above. Icon size can be changed by clicking “View” in the menu bar, then selecting the “Increase Toolbar Icon Size” option for bigger icons or “Decrease Toolbar Icon Size” for smaller icons..</p>
+<p><strong>Tree View (Green)</strong></p>
+<p>Cherrytree’s tree view shows the document’s hierarchical structure of nodes. Right-click a node to display a menu of the options available to it.<br />
+<img src="images/treemenu.png" /></p>
+<p><strong>Editor (Yellow)</strong></p>
+<p>The editor is used to read, write, edit, and delete notes. Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.</p>
+<p>To change the color scheme for plain text documents and code, click the “Edit” button within the menu bar and navigate to “Preferences &gt; Plain Text and Code,” then adjust the Style Scheme option. To change the color scheme of Rich Text documents, click “Edit”, navigate to “Preferences &gt; Rich Text” and adjust the Theme settings.</p>
+<h3 id="node-management">Node Management</h3>
+<p><strong>Creating New Nodes</strong></p>
+<ol type="1">
+<li><p>Click the “Add Node” button within the menu bar to display the “New Node Properties” menu.<br />
+<img src="images/icons/tree-node-add.png" width="75px"/></p></li>
+<li><p>In the “New Node Properties” menu<br />
+<img src="images/newnode.png" /></p></li>
+</ol>
+<p><strong>Deleting Nodes</strong></p>
+<p><strong>Hierarchy</strong></p>
+<h3 id="insert-objects">Insert Objects</h3>
 <p>Content</p>
 <h3 id="save-your-notes">Save Your Notes</h3>
 <p>Content</p>
 <h3 id="export-the-document">Export the Document</h3>
 <p>Content</p>
 <hr />
-<h1 id="navigation">Navigation</h1>
-<p>Content</p>
+<h1 id="user-interface">User Interface</h1>
+<p><strong>Resizing the interface</strong><br />
+Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.</p>
 <h3 id="editor">Editor</h3>
 <p>Content</p>
 <h3 id="tree-view">Tree View</h3>
 <p>Content</p>
 <h3 id="toolbar">Toolbar</h3>
-<p>Content</p>
+<p><strong>Toolbar Icons</strong><br />
+Icon size can be changed by clicking “View” in the menu bar, then selecting the “Increase Toolbar Icon Size” option for bigger icons or “Decrease Toolbar Icon Size” for smaller icons..</p>
 <h3 id="menu">Menu</h3>
 <p>Content</p>
 <h1 id="nodes">Nodes</h1>
 <p>Content</p>
-<h3 id="creating-nodes">Creating Nodes</h3>
+<h3 id="managing-nodes">Managing Nodes</h3>
 <p>Content</p>
 <h3 id="choosing-a-document-type">Choosing a Document Type</h3>
 <p>Content</p>
@@ -323,11 +368,6 @@ TODO Add new content as needed
 <h1 id="contributors">Contributors</h1>
 <p>Cherrytree is written and maintained by Giuseppe Penone.</p>
 <p><strong>Development:</strong></p>
-<ul>
-<li>Julian Stirling</li>
-<li>Emilie V.</li>
-<li>Jean-Philippe Fleury</li>
-</ul>
 <p><strong>Writing:</strong></p>
 <ul>
 <li>Robert Boudreau</li>
