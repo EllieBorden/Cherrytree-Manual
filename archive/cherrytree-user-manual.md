@@ -6,6 +6,10 @@ TODO Test all current instructions
 TODO Add new content as needed
 -->
 
+<!-- Variables  -->
+[issues]: https://github.com/giuspen/cherrytree/issues
+<!-- /variables -->
+
 ![Cherrytree](images/icons/cherrytree.png) Cherrytree User Manual
 ===
 
@@ -56,17 +60,19 @@ TODO Add new content as needed
 
 # Introduction
 
+[This is a link][test]
+
 Cherrytree is a free and open source, hierarchical, note-taking application. It can store text, images, files, links, tables, and executable snippets of code. This application is under active development. Details regarding updates can be found in the [changelog](https://github.com/giuspen/cherrytree/blob/master/changelog.txt). 
 
 If you have questions please ask in the [forum](https://www.giuspen.com/forum/cherrytree-2/), or visit [this webpage](https://www.giuspen.com/feedback/) to provide feedback.
 
-### About This Manual
+## About This Manual
 
 This manual was written for Cherrytree version 0.38.6. Please check the [Cherrytree website](http://www.giuspen.com/cherrytree/) for the latest version. 
 
-### Get Involved
+## Get Involved
 
-New contributors are welcome!
+New contributors are welcome! We recommend that you [contact the project's maintainer](mailto:giuspen@gmail.com) before starting.
 
 **Development**  
 
@@ -85,6 +91,8 @@ The current version of Cherrytree requires:
 After cloning, run in the top folder ./cherrytree or python2 cherrytree.
 
 Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the ['future' directory](https://github.com/giuspen/cherrytree/tree/master/future). The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to python-gtksourceview2 being deprecated.
+
+Developers can help by making addressing bugs submitted to the repository's [issues page](https://github.com/giuspen/cherrytree/issues).
   
 **Testing**
 
@@ -98,6 +106,8 @@ The Cherrytree user manual is currently under revision and is maintained [here](
   
 **Translation**  
   
+  Please [contact the project maintainer](mailto:giuspen@gmail.com) to add or edit translations.
+  
 **Donations**  
   
 Join the [Cherrytree Supporters](#supporters)!
@@ -110,15 +120,15 @@ Donations are appreciated and can be made from the [Cherrytree homepage](https:/
 
 Cherrytree is available for Linux and Windows.
 
-### Installing on Fedora and other Red Hat derivatives
+## Installing on Fedora and other Red Hat derivatives
 
 1. Download the latest installer with a '.rpm' extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
 2. Open a terminal and navigate to the directory where your installer is located.
 3. Type the following command, replacing "cherrytree.rpm" with the name of your installation file:
   `sudo rpm -Uvh --force cherrytree.rpm`. Provide your password when prompted to begin the installation.  
-  ![](images/rhinstall.png)
+  ![this is my alt text](images/rhinstall.png)
 
-### Installing on Ubuntu and other Debian derivatives
+## Installing on Ubuntu and other Debian derivatives
 
 ***Option One: Ubuntu Software***
 
@@ -134,7 +144,7 @@ Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and
   `sudo dpkg -i cherrytree.deb`. Provide your password when prompted to begin the installation.  
   ![](images/debinstall.png)
 
-### Installing on Windows
+## Installing on Windows
 
 1. Download and run the latest installer with an '.exe' extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
   
@@ -171,7 +181,7 @@ This brief quick start guide will teach you about the following:
 * Saving
 * Exporting
 
-### Interface
+## Interface
 
 Cherrytree's interface is made of four sections. These sections are highlighted in the image below:
 
@@ -202,8 +212,7 @@ The size of the toolbar icons has been increased within the image above. Icon si
 
 **Tree View (Green)**  
 
-Cherrytree's tree view shows the document's hierarchical structure of nodes. Right-click a node to display a menu of the options available to it.  
-![](images/treemenu.png)
+Cherrytree's tree view shows the document's hierarchical structure of nodes. 
 
 **Editor (Yellow)**  
 
@@ -211,29 +220,32 @@ The editor is used to read, write, edit, and delete notes. Click and hold the di
 
 To change the color scheme for plain text documents and code, click the "Edit" button within the menu bar and navigate to "Preferences > Plain Text and Code," then adjust the Style Scheme option. To change the color scheme of Rich Text documents, click "Edit", navigate to "Preferences > Rich Text" and adjust the Theme settings.
 
-### Node Management
+## Node Management
 
-**Creating New Nodes**
+ TODO: Introduction Text
+
+**Creating Your First Node**
 
 1. Click the "Add Node" button within the menu bar to display the "New Node Properties" menu.   
-<img src="images/icons/tree-node-add.png" width="75px"/>
+![](images/icons/tree-node-add.png)
 
 2. Give your node a name and select a node type, then click the "OK" button. If you're unsure which node type to use, please view the [node type section](#choosing-a-node-type) of this manual.  
 ![](images/newnode.png)
 
-**Node Structure** 
+**Node Menu**   
 
-**Deleting Nodes**
+Right-click a node to display a menu of the options available to it.  
+![](images/treemenu.png)
 
-### Insert Objects
-
-Content
-
-### Save Your Notes
+## Insert Objects
 
 Content
 
-### Export the Document
+## Save Your Notes
+
+Content
+
+## Export the Document
 
 Content
 
@@ -244,20 +256,20 @@ Content
 **Resizing the interface**  
 Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.
 
-### Editor
+## Editor
 
 Content
 
-### Tree View
+## Tree View
 
 Content
 
-### Toolbar
+## Toolbar
 
 **Toolbar Icons**  
 Icon size can be changed by clicking "View" in the menu bar, then selecting the "Increase Toolbar Icon Size" option for bigger icons or "Decrease Toolbar Icon Size" for smaller icons..
 
-### Menu
+## Menu
 
 Content
 
@@ -266,31 +278,31 @@ Content
 
 Content
 
-### Create a New Document
+## Create a New Document
 
 Content
 
-### Open a File
+## Open a File
 
 Content
 
-### Save Your Work
+## Save Your Work
 
 Content
 
-### Print a Document
+## Print a Document
 
 Content
 
-### Execute a Code Snippet
+## Execute a Code Snippet
 
 Content
 
-### Import Files
+## Import Files
 
 Content
 
-### Export Files
+## Export Files
 
 Content
 
@@ -300,11 +312,11 @@ Content
 
 Content
 
-### Managing Nodes
+## Managing Nodes
 
 Content
 
-### Choosing a Node Type
+## Choosing a Node Type
 
 Content
 
@@ -312,11 +324,11 @@ Content
 **Rich Text** Content  
 **Syntax Highlighting** Content  
 
-### Editing Nodes
+## Editing Nodes
 
 Content
 
-### Deleting Nodes
+## Deleting Nodes
 
 Content
 
@@ -330,7 +342,7 @@ Content
 
 # Objects
 
-### Images
+## Images
 
 Content
 
@@ -340,9 +352,9 @@ Content
 
 **Toolbar** content  
 
-### Tables
+## Tables
 
-### Codebox
+## Codebox
 
 content
 
@@ -438,27 +450,27 @@ content
 **Executing**
 
 
-### Files
+## Files
 
 Content
 
-### Links
+## Links
 
 Content
 
-### Anchors
+## Anchors
 
 Content
 
-### Table of Contents
+## Table of Contents
 
 Content
 
-### Time Stamps
+## Time Stamps
 
 Content
 
-### Special characters
+## Special characters
 
 Content
 
