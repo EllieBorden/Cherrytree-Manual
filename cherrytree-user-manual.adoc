@@ -3,41 +3,7 @@ v0.38.6, 2018
 :toc:
 :doctype: book
 
-// _______________________ Variables ________________________
-
-// Links
-:changelog: https://github.com/giuspen/cherrytree/blob/master/changelog.txt
-:forum: https://www.giuspen.com/forum/cherrytree-2/
-:feedback: https://www.giuspen.com/feedback
-:website: http://www.giuspen.com/cherrytree/
-:maintainer: mailto:giuspen@gmail.com
-:repository: https://github.com/giuspen/cherrytree
-:future: https://github.com/giuspen/cherrytree/tree/master/future
-:issues: https://github.com/giuspen/cherrytree/issues
-:manual: https://github.com/EllieBorden/Cherrytree-Manual
-:donate: https://www.giuspen.com/cherrytree/#text-3
-:issues-guide: https://medium.com/nycplanninglabs/writing-a-proper-github-issue-97427d62a20f
-:download: https://www.giuspen.com/cherrytree/#downl
-
-
-// Icons
-:tree-node-add: image:images/icons/tree-node-add.png[Tree Node Add]
-
-
-// Screenshot
-:rhinstall: image:images/rhinstall.png[Red Hat installation steps.]
-:ubuntuinstall: image:images/ubuntuinstall.png[Ubuntu installation steps.]
-:debinstall: image:images/debinstall.png[Debian installation steps.]
-:wininstall1: image:images/wininstall1.png[Select a language.]
-:wininstall2: image:images/wininstall2.png[Accept the license.]
-:wininstall3: image:images/wininstall3.png[Select a directory for the application to be installed.]
-:wininstall4: image:images/wininstall4.png[Select 'Create a desktop shortcut' if you wish to have a shortcut.]
-:wininstall5: image:images/wininstall5.png[Review the provided summary.]
-:wininstall6: image:images/wininstall6.png[Click 'Finish' to complete the installation.]
-:new-node: image:images/newnode.png[New node properties.]
-:interface: image:images/interface.png[Cherrytree interface.]
-:tree-menu: image:images/treemenu.png[Tree menu.]
-
+include::includes/_variables.adoc[]
 
 // _______________________ Chapter 1 ________________________
 
@@ -252,7 +218,7 @@ TODO: Introduction Text
 *Creating Your First Node*
 
 [start=1]
-. Click the “Add Node” button, shown in <<figure-3.2>>. within the menu bar. <<figure-3.3>>. +
+. Click the “Add Node” button, shown in <<figure-3.2>>. within the menu bar. +
 +
 [[figure-3.2]]
 .*Figure 3.2*
