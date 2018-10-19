@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
-<meta name="author" content="Ellie Borden, Robert Boudreau">
+<meta name="author" content="v0.38.6, 2018">
 <title>Cherrytree User Manual</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -435,9 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1><span class="image"><img src="images/icons/cherrytree.png" alt="Cherrytree"></span> Cherrytree User Manual</h1>
 <div class="details">
-<span id="author" class="author">Ellie Borden, Robert Boudreau</span><br>
-<span id="revnumber">version 0.38.6,</span>
-<span id="revdate">2018</span>
+<span id="author" class="author">v0.38.6, 2018</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -507,10 +505,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_introduction">Introduction</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Cherrytree is a free and open source, hierarchical, note-taking
-application. It can store text, images, files, links, tables, and
-executable snippets of code. This application is under active
-development. Details regarding updates can be found in the <a href="https://github.com/giuspen/cherrytree/blob/master/changelog.txt">changelog</a>.</p>
+<p>Cherrytree is a free and open source, hierarchical, note-taking application. It can store text, images, files, links, tables, and executable snippets of code. This application is under active development. Details regarding updates can be found in the <a href="https://github.com/giuspen/cherrytree/blob/master/changelog.txt">changelog</a>.</p>
 </div>
 <div class="paragraph">
 <p>If you have questions please ask in the <a href="https://www.giuspen.com/forum/cherrytree-2/">forum</a>, or visit <a href="https://www.giuspen.com/feedback">feedback webpage</a> to provide feedback.</p>
@@ -524,8 +519,7 @@ development. Details regarding updates can be found in the <a href="https://gith
 <div class="sect2">
 <h3 id="_get_involved">Get Involved</h3>
 <div class="paragraph">
-<p>New contributors are welcome! We recommend that you <a href="mailto:giuspen@gmail.com">contact the project&#8217;s maintainer</a> before
-starting.</p>
+<p>New contributors are welcome! We recommend that you <a href="mailto:giuspen@gmail.com">contact the project&#8217;s maintainer</a> before starting.</p>
 </div>
 <div class="paragraph">
 <p><strong>Development</strong></p>
@@ -565,23 +559,16 @@ starting.</p>
 <p>After cloning, run in the top folder ./cherrytree or python2 cherrytree.</p>
 </div>
 <div class="paragraph">
-<p>Development is currently focused on porting from Python to C++/GTKmm.
-These changes are located on the master branch within the <a href="https://github.com/giuspen/cherrytree/tree/master/future">future directory</a>. The latest, stable release can also be found on the master
-branch. The pygi branch is a discontinued attempt to port to the python
-bindings for GTK3. It failed due to python-gtksourceview2 being
-deprecated.</p>
+<p>Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the <a href="https://github.com/giuspen/cherrytree/tree/master/future">future directory</a>. The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to python-gtksourceview2 being deprecated.</p>
 </div>
 <div class="paragraph">
-<p>Developers can help by making addressing bugs submitted to the
-repository’s <a href="https://github.com/giuspen/cherrytree/issues">issues page</a>.</p>
+<p>Developers can help by making addressing bugs submitted to the repository’s <a href="https://github.com/giuspen/cherrytree/issues">issues page</a>.</p>
 </div>
 <div class="paragraph">
 <p><strong>Testing</strong></p>
 </div>
 <div class="paragraph">
-<p>If you find a bug, please check to see if it has already been reported
-within the project’s <a href="https://github.com/giuspen/cherrytree/issues">issues</a>. If the error is
-unreported, please create a new issue providing as much detail as
+<p>If you find a bug, please check to see if it has already been reported within the project’s <a href="https://github.com/giuspen/cherrytree/issues">issues</a>. If the error is unreported, please create a new issue providing as much detail as
 possible.</p>
 </div>
 <div class="paragraph">
@@ -608,7 +595,6 @@ possible.</p>
 <div class="paragraph">
 <p>Donations are appreciated and can be made from the <a href="https://www.giuspen.com/cherrytree/#text-3">Cherrytree website</a>.</p>
 </div>
-<hr>
 </div>
 </div>
 </div>
@@ -621,7 +607,7 @@ possible.</p>
 <div class="sect2">
 <h3 id="_installing_on_fedora_and_other_red_hat_derivatives">Installing on Fedora and other Red Hat derivatives</h3>
 <div class="olist arabic">
-<ol class="arabic">
+<ol class="arabic" start="1">
 <li>
 <p>Download the latest installer with a ‘.rpm’ extension from the <a href="https://www.giuspen.com/cherrytree/#downl">downloads webpage</a>.</p>
 </li>
@@ -630,15 +616,13 @@ possible.</p>
 is located.</p>
 </li>
 <li>
-<p>Type the following command, replacing “cherrytree.rpm” with the name
-of your installation file: <code>sudo rpm -Uvh --force cherrytree.rpm</code>.
-Provide your password when prompted to begin the installation, as shown in <a href="#figure-1">Figure 1</a> .<br></p>
+<p>Type the following command, replacing “cherrytree.rpm” with the name of your installation file: <code>sudo rpm -Uvh --force cherrytree.rpm</code>. Provide your password when prompted to begin the installation, as shown in <a href="#figure-2.1">Figure 2.1</a> .<br></p>
+<div id="figure-2.1" class="paragraph">
+<div class="title"><strong>Figure 2.1:</strong> Red Hat installation steps.</div>
+<p><span class="image"><img src="images/rhinstall.png" alt="Red Hat installation steps."></span></p>
+</div>
 </li>
 </ol>
-</div>
-<div id="figure-1" class="paragraph">
-<div class="title">Figure 1: Red Hat Installation Steps</div>
-<p><span class="image"><img src="images/rhinstall.png" alt="Red hat installation steps."></span></p>
 </div>
 </div>
 <div class="sect2">
@@ -647,29 +631,29 @@ Provide your password when prompted to begin the installation, as shown in <a hr
 <p><strong>Option One: Ubuntu Software</strong></p>
 </div>
 <div class="paragraph">
-<p>Cherrytree can be found in the Ubuntu Software library. Open Ubuntu
-Software and search for Cherrytree, then select the application and
-click the ‘install’ button. Provide your password when prompted to begin
-the installation.<br>
-<span class="image"><img src="images/ubuntuinstall.png" alt="Ubuntu installation steps."></span></p>
+<p>Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and search for Cherrytree, then select the application and click the ‘install’ button. Provide your password when prompted to begin the installation. <a href="#figure-2.2">Figure 2.2</a><br></p>
+</div>
+<div id="figure-2.2" class="paragraph">
+<div class="title"><strong>Figure 2.2:</strong> Ubuntu installation steps.</div>
+<p><span class="image"><img src="images/ubuntuinstall.png" alt="Ubuntu installation steps."></span></p>
 </div>
 <div class="paragraph">
 <p><strong>Option Two: Command Line</strong></p>
 </div>
 <div class="olist arabic">
-<ol class="arabic">
+<ol class="arabic" start="1">
 <li>
 <p>Download the latest installer with a ‘.deb’ extension from the <a href="https://www.giuspen.com/cherrytree/#downl">downloads webpage</a>.</p>
 </li>
 <li>
-<p>Open a terminal and navigate to the directory where your installer
-is located.</p>
+<p>Open a terminal and navigate to the directory where your installer is located.</p>
 </li>
 <li>
-<p>Type the following command, replacing “cherrytree.deb” with the name
-of your installation file: <code>sudo dpkg -i cherrytree.deb</code>. Provide your
-password when prompted to begin the installation.<br>
-<span class="image"><img src="images/debinstall.png" alt="Debian installation steps."></span></p>
+<p>Type the following command, replacing “cherrytree.deb” with the name of your installation file: <code>sudo dpkg -i cherrytree.deb</code>. Provide your password when prompted to begin the installation. <a href="#figure-2.3">Figure 2.3</a><br></p>
+<div id="figure-2.3" class="paragraph">
+<div class="title"><strong>Figure 2.3:</strong> Debian installation steps.</div>
+<p><span class="image"><img src="images/debinstall.png" alt="Debian installation steps."></span></p>
+</div>
 </li>
 </ol>
 </div>
@@ -677,40 +661,56 @@ password when prompted to begin the installation.<br>
 <div class="sect2">
 <h3 id="_installing_on_windows">Installing on Windows</h3>
 <div class="olist arabic">
-<ol class="arabic">
+<ol class="arabic" start="1">
 <li>
 <p>Download and run the latest installer with an ‘.exe’ extension from <a href="https://www.giuspen.com/cherrytree/#downl">downloads webpage</a>.</p>
 </li>
 <li>
-<p>Select a language and click the ‘Next’ button.<br>
-<span class="image"><img src="images/wininstall1.png" alt="Select a language."></span></p>
+<p>Select a language and click the ‘Next’ button. <a href="#figure-2.4">Figure 2.4</a><br></p>
+<div id="figure-2.4" class="paragraph">
+<div class="title"><strong>Figure 2.4</strong></div>
+<p><span class="image"><img src="images/wininstall1.png" alt="Select a language."></span></p>
+</div>
 </li>
 <li>
-<p>Accept the license, then click the ‘Next’ button.<br>
-<span class="image"><img src="images/wininstall2.png" alt="Accept the license."></span></p>
+<p>Accept the license, then click the ‘Next’ button. <a href="#figure-2.5">Figure 2.5</a><br></p>
+<div id="figure-2.5" class="paragraph">
+<div class="title"><strong>Figure 2.5</strong></div>
+<p><span class="image"><img src="images/wininstall2.png" alt="Accept the license."></span></p>
+</div>
 </li>
 <li>
-<p>Select a directory for the application to be installed and click the ‘Next’ button.<br>
-<span class="image"><img src="images/wininstall3.png" alt="Select a directory for the application to be installed."></span></p>
+<p>Select a directory for the application to be installed and click the ‘Next’ button. <a href="#figure-2.6">Figure 2.6</a><br></p>
+<div id="figure-2.6" class="paragraph">
+<div class="title"><strong>Figure 2.6</strong></div>
+<p><span class="image"><img src="images/wininstall3.png" alt="Select a directory for the application to be installed."></span></p>
+</div>
 </li>
 <li>
-<p>Select ‘Create a desktop shortcut’ if you wish to have a shortcut. Click the ‘Next’ button.<br>
-<span class="image"><img src="images/wininstall4.png" alt="Select 'Create a desktop shortcut' if you wish to have a shortcut."></span></p>
+<p>Select ‘Create a desktop shortcut’ if you wish to have a shortcut. Click the ‘Next’ button. <a href="#figure-2.7">Figure 2.7</a><br></p>
+<div id="figure-2.7" class="paragraph">
+<div class="title"><strong>Figure 2.7</strong></div>
+<p><span class="image"><img src="images/wininstall4.png" alt="Select 'Create a desktop shortcut' if you wish to have a shortcut."></span></p>
+</div>
 </li>
 <li>
-<p>Review the provided summary, then click ‘Install’ if you are ready to proceed.<br>
-<span class="image"><img src="images/wininstall5.png" alt="Review the provided summary."></span></p>
+<p>Review the provided summary, then click ‘Install’ if you are ready to proceed. <a href="#figure-2.8">Figure 2.8</a><br></p>
+<div id="figure-2.8" class="paragraph">
+<div class="title"><strong>Figure 2.8</strong></div>
+<p><span class="image"><img src="images/wininstall5.png" alt="Review the provided summary."></span></p>
+</div>
 </li>
 <li>
-<p>Click ‘Finish’ to complete the installation.<br>
-<span class="image"><img src="images/wininstall6.png" alt="Click 'Finish' to complete the installation."></span></p>
+<p>Click ‘Finish’ to complete the installation. <a href="#figure-2.9">Figure 2.9</a><br></p>
+<div id="figure-2.9" class="paragraph">
+<div class="title"><strong>Figure 2.9</strong></div>
+<p><span class="image"><img src="images/wininstall6.png" alt="Click 'Finish' to complete the installation."></span></p>
+</div>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p><strong>Note:</strong> If you have a previous version of Cherrytree installed, an error
-may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip
-the overwrite and restart your computer, then try again.</p>
+<p><strong>Note:</strong> If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and restart your computer, then try again.</p>
 </div>
 </div>
 </div>
@@ -746,10 +746,10 @@ the overwrite and restart your computer, then try again.</p>
 <div class="sect2">
 <h3 id="_interface">Interface</h3>
 <div class="paragraph">
-<p>Cherrytree’s interface is made of four sections. These sections are
-highlighted in the image below:</p>
+<p>Cherrytree’s interface is made of four sections. These sections are highlighted in <a href="#figure-3.1">Figure 3.1</a>:</p>
 </div>
-<div class="paragraph">
+<div id="figure-3.1" class="paragraph">
+<div class="title"><strong>Figure 3.1:</strong> Cherrytree interface.</div>
 <p><span class="image"><img src="images/interface.png" alt="Cherrytree interface."></span></p>
 </div>
 <div class="paragraph">
@@ -761,12 +761,10 @@ highlighted in the image below:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>File - Document-management features such as opening, saving, printing,
-and exporting.</p>
+<p>File - Document-management features such as opening, saving, printing, and exporting.</p>
 </li>
 <li>
-<p>Edit - Application preferences, basic copy and paste features, and
-object insertion features.</p>
+<p>Edit - Application preferences, basic copy and paste features, and object insertion features.</p>
 </li>
 <li>
 <p>Formatting - Text formatting options.</p>
@@ -781,21 +779,16 @@ object insertion features.</p>
 <p>View - Interface options.</p>
 </li>
 <li>
-<p>Bookmarks - Bookmarks will be listed in this menu. You can add
-bookmarks by right-clicking a node within the tree view and selecting
-the “Add to Bookmarks” option.</p>
+<p>Bookmarks - Bookmarks will be listed in this menu. You can add bookmarks by right-clicking a node within the tree view and selecting the “Add to Bookmarks” option.</p>
 </li>
 <li>
-<p>Import - Cherrytree can import from a variety of sources including
-KeepNote, NoteCase, Tomboy, HTML files, others.</p>
+<p>Import - Cherrytree can import from a variety of sources including KeepNote, NoteCase, Tomboy, HTML files, others.</p>
 </li>
 <li>
-<p>Export - Cherrytree documents can be exported to HTML, PDF, and Plain
-Text.</p>
+<p>Export - Cherrytree documents can be exported to HTML, PDF, and Plain Text.</p>
 </li>
 <li>
-<p>Help - Contains “Check for updates”, an “About” section, and a link to
-the online manual."</p>
+<p>Help - Contains “Check for updates”, an “About” section, and a link to the online manual."</p>
 </li>
 </ul>
 </div>
@@ -803,40 +796,28 @@ the online manual."</p>
 <p><strong>Toolbar (Purple)</strong></p>
 </div>
 <div class="paragraph">
-<p>The toolbar has many commonly used options for managing nodes,
-formatting text, and inserting objects.</p>
+<p>The toolbar has many commonly used options for managing nodes, formatting text, and inserting objects.</p>
 </div>
 <div class="paragraph">
-<p>The toolbar can be edited by clicking “Edit” within the menu bar and
-navigating to “Preferences &gt; Toolbar”</p>
+<p>The toolbar can be edited by clicking “Edit” within the menu bar and navigating to “Preferences &gt; Toolbar”</p>
 </div>
 <div class="paragraph">
-<p>The size of the toolbar icons has been increased within the image above.
-Icon size can be changed by clicking “View” in the menu bar, then
-selecting the “Increase Toolbar Icon Size” option for bigger icons or
-“Decrease Toolbar Icon Size” for smaller icons..</p>
+<p>The size of the toolbar icons has been increased within the image above. Icon size can be changed by clicking “View” in the menu bar, then selecting the “Increase Toolbar Icon Size” option for bigger icons or “Decrease Toolbar Icon Size” for smaller icons.</p>
 </div>
 <div class="paragraph">
 <p><strong>Tree View (Green)</strong></p>
 </div>
 <div class="paragraph">
-<p>Cherrytree’s tree view shows the document’s hierarchical structure of
-nodes.</p>
+<p>Cherrytree’s tree view shows the document’s hierarchical structure of nodes.</p>
 </div>
 <div class="paragraph">
 <p><strong>Editor (Yellow)</strong></p>
 </div>
 <div class="paragraph">
-<p>The editor is used to read, write, edit, and delete notes. Click and
-hold the divider between the tree view and editor, then drag the mouse
-left or right to resize the two windows.</p>
+<p>The editor is used to read, write, edit, and delete notes. Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.</p>
 </div>
 <div class="paragraph">
-<p>To change the color scheme for plain text documents and code, click the
-“Edit” button within the menu bar and navigate to “Preferences &gt; Plain
-Text and Code,” then adjust the Style Scheme option. To change the color
-scheme of Rich Text documents, click “Edit”, navigate to “Preferences &gt;
-Rich Text” and adjust the Theme settings.</p>
+<p>To change the color scheme for plain text documents and code, click the “Edit” button within the menu bar and navigate to “Preferences &gt; Plain Text and Code,” then adjust the Style Scheme option. To change the color scheme of Rich Text documents, click “Edit”, navigate to “Preferences &gt; Rich Text” and adjust the Theme settings.</p>
 </div>
 </div>
 <div class="sect2">
@@ -848,14 +829,20 @@ Rich Text” and adjust the Theme settings.</p>
 <p><strong>Creating Your First Node</strong></p>
 </div>
 <div class="olist arabic">
-<ol class="arabic">
+<ol class="arabic" start="1">
 <li>
-<p>Click the “Add Node” button within the menu bar to display the “New Node Properties” menu.<br>
-<span class="image"><img src="images/icons/tree-node-add.png" alt="Tree Node Add"></span></p>
+<p>Click the “Add Node” button, shown in <a href="#figure-3.2">Figure 3.2</a>. within the menu bar. <a href="#figure-3.3">Figure 3.3</a>.<br></p>
+<div id="figure-3.2" class="paragraph">
+<div class="title"><strong>Figure 3.2</strong></div>
+<p><span class="image"><img src="images/icons/tree-node-add.png" alt="Tree Node Add"></span></p>
+</div>
 </li>
 <li>
-<p>Give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the <a href="#choosing-a-node-type">node type section</a> of this manual.<br>
-<span class="image"><img src="images/newnode.png" alt="New node properties."></span></p>
+<p>Within the <em>New Node Properties</em> menu, shown in <a href="#figure-3.3">Figure 3.3</a> give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the <a href="#choosing-a-node-type">node type section</a> of this manual.<br></p>
+<div id="figure-3.3" class="paragraph">
+<div class="title"><strong>Figure 3.3</strong></div>
+<p><span class="image"><img src="images/newnode.png" alt="New node properties."></span></p>
+</div>
 </li>
 </ol>
 </div>
@@ -863,9 +850,10 @@ Rich Text” and adjust the Theme settings.</p>
 <p><strong>Node Menu</strong></p>
 </div>
 <div class="paragraph">
-<p>Right-click a node to display a menu of the options available to it.<br></p>
+<p>Right-click a node to display a menu of the options available to it. <a href="#figure-3.4">Figure 3.4</a><br></p>
 </div>
-<div class="paragraph">
+<div id="figure-3.4" class="paragraph">
+<div class="title"><strong>Figure 3.4:</strong> Node options.</div>
 <p><span class="image"><img src="images/treemenu.png" alt="Tree menu."></span></p>
 </div>
 </div>
@@ -940,8 +928,8 @@ Click and hold the divider between the tree view and editor, then drag the mouse
 <p>Content</p>
 </div>
 <div class="paragraph">
-<p><strong>Plain Text</strong> Content
-<strong>Rich Text</strong> Content
+<p><strong>Plain Text</strong> Content<br>
+<strong>Rich Text</strong> Content<br>
 <strong>Syntax Highlighting</strong> Content</p>
 </div>
 </div>
@@ -2108,29 +2096,21 @@ document file for cloud syncing}</p>
 <h2 id="_license">License</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This program is free software; you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by the
-Free Software Foundation; either version 3 of the License or (at your
-option) any later version.</p>
+<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License or (at your option) any later version.</p>
 </div>
 <div class="paragraph">
-<p>This program is distributed in the hope that it will be useful, but
-WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
 Public License for more details.</p>
 </div>
 <div class="paragraph">
-<p>You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</p>
+<p>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.38.6<br>
-Last updated 2018-10-18 16:54:31 Eastern Daylight Time
+Last updated 2018-10-18 20:46:07 Eastern Daylight Time
 </div>
 </div>
 </body>

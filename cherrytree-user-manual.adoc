@@ -1,10 +1,11 @@
 = image:images/icons/cherrytree.png[Cherrytree] Cherrytree User Manual
-Ellie Borden, Robert Boudreau
 v0.38.6, 2018
 :toc:
 :doctype: book
 
-// Link Variables -Begin-
+// _______________________ Variables ________________________
+
+// Links
 :changelog: https://github.com/giuspen/cherrytree/blob/master/changelog.txt
 :forum: https://www.giuspen.com/forum/cherrytree-2/
 :feedback: https://www.giuspen.com/feedback
@@ -17,14 +18,14 @@ v0.38.6, 2018
 :donate: https://www.giuspen.com/cherrytree/#text-3
 :issues-guide: https://medium.com/nycplanninglabs/writing-a-proper-github-issue-97427d62a20f
 :download: https://www.giuspen.com/cherrytree/#downl
-// Link Variables -End-
 
-// Icon Variables -Begin-
+
+// Icons
 :tree-node-add: image:images/icons/tree-node-add.png[Tree Node Add]
-// Icon Variables -End-
 
-// Screenshot Variables -Begin-
-:rhinstall: image:images/rhinstall.png[Red hat installation steps.]
+
+// Screenshot
+:rhinstall: image:images/rhinstall.png[Red Hat installation steps.]
 :ubuntuinstall: image:images/ubuntuinstall.png[Ubuntu installation steps.]
 :debinstall: image:images/debinstall.png[Debian installation steps.]
 :wininstall1: image:images/wininstall1.png[Select a language.]
@@ -36,16 +37,13 @@ v0.38.6, 2018
 :new-node: image:images/newnode.png[New node properties.]
 :interface: image:images/interface.png[Cherrytree interface.]
 :tree-menu: image:images/treemenu.png[Tree menu.]
-// Screenshot Variables -End-
 
-// _______________________ Document ________________________
+
+// _______________________ Chapter 1 ________________________
 
 == Introduction
 
-Cherrytree is a free and open source, hierarchical, note-taking
-application. It can store text, images, files, links, tables, and
-executable snippets of code. This application is under active
-development. Details regarding updates can be found in the {changelog}[changelog].
+Cherrytree is a free and open source, hierarchical, note-taking application. It can store text, images, files, links, tables, and executable snippets of code. This application is under active development. Details regarding updates can be found in the {changelog}[changelog].
 
 If you have questions please ask in the {forum}[forum], or visit {feedback}[feedback webpage] to provide feedback.
 
@@ -55,8 +53,7 @@ This manual was written for Cherrytree version 0.38.6. Please check the {website
 
 === Get Involved
 
-New contributors are welcome! We recommend that you {maintainer}[contact the project's maintainer] before
-starting.
+New contributors are welcome! We recommend that you {maintainer}[contact the project's maintainer] before starting.
 
 *Development*
 
@@ -74,20 +71,13 @@ The current version of Cherrytree requires:
 
 After cloning, run in the top folder ./cherrytree or python2 cherrytree.
 
-Development is currently focused on porting from Python to C++/GTKmm.
-These changes are located on the master branch within the {future}[future directory]. The latest, stable release can also be found on the master
-branch. The pygi branch is a discontinued attempt to port to the python
-bindings for GTK3. It failed due to python-gtksourceview2 being
-deprecated.
+Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the {future}[future directory]. The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to python-gtksourceview2 being deprecated.
 
-Developers can help by making addressing bugs submitted to the
-repository’s {issues}[issues page].
+Developers can help by making addressing bugs submitted to the repository’s {issues}[issues page].
 
 *Testing*
 
-If you find a bug, please check to see if it has already been reported
-within the project’s {issues}[issues]. If the error is
-unreported, please create a new issue providing as much detail as
+If you find a bug, please check to see if it has already been reported within the project’s {issues}[issues]. If the error is unreported, please create a new issue providing as much detail as
 possible.
 
 If needed, here is a short guide on {issues-guide}[writing a proper GitHub issue].
@@ -106,7 +96,7 @@ Join the link:#supporters[Cherrytree Supporters]!
 
 Donations are appreciated and can be made from the {donate}[Cherrytree website].
 
-'''
+// _______________________ Chapter 2 ________________________
 
 == Installation
 
@@ -114,66 +104,93 @@ Cherrytree is available for Linux and Windows.
 
 === Installing on Fedora and other Red Hat derivatives
 
-1.  Download the latest installer with a ‘.rpm’ extension from the {download}[downloads webpage].
-2.  Open a terminal and navigate to the directory where your installer
+[start=1]
+. Download the latest installer with a ‘.rpm’ extension from the {download}[downloads webpage].
+. Open a terminal and navigate to the directory where your installer
 is located.
-3.  Type the following command, replacing “cherrytree.rpm” with the name
-of your installation file: `sudo rpm -Uvh --force cherrytree.rpm`.
-Provide your password when prompted to begin the installation, as shown in <<figure-1>> . +
-
-[[figure-1]]
-.Figure 1: Red Hat Installation Steps
-[reftext="Figure 1"]
+. Type the following command, replacing “cherrytree.rpm” with the name of your installation file: `sudo rpm -Uvh --force cherrytree.rpm`. Provide your password when prompted to begin the installation, as shown in <<figure-2.1>> . +
++
+[[figure-2.1]]
+.*Figure 2.1:* Red Hat installation steps.
+[reftext="Figure 2.1"]
 {rhinstall}
 
 === Installing on Ubuntu and other Debian derivatives
 
 *Option One: Ubuntu Software*
 
-Cherrytree can be found in the Ubuntu Software library. Open Ubuntu
-Software and search for Cherrytree, then select the application and
-click the ‘install’ button. Provide your password when prompted to begin
-the installation. +
+Cherrytree can be found in the Ubuntu Software library. Open Ubuntu Software and search for Cherrytree, then select the application and click the ‘install’ button. Provide your password when prompted to begin the installation. <<figure-2.2>> +
+
+[[figure-2.2]]
+.*Figure 2.2:* Ubuntu installation steps.
+[reftext="Figure 2.2"]
 {ubuntuinstall}
 
 
 *Option Two: Command Line*
 
-1.  Download the latest installer with a ‘.deb’ extension from the {download}[downloads webpage].
+[start=1]
+. Download the latest installer with a ‘.deb’ extension from the {download}[downloads webpage].
 
-2.  Open a terminal and navigate to the directory where your installer
-is located.
+. Open a terminal and navigate to the directory where your installer is located.
 
-3.  Type the following command, replacing “cherrytree.deb” with the name
-of your installation file: `sudo dpkg -i cherrytree.deb`. Provide your
-password when prompted to begin the installation. +
+. Type the following command, replacing “cherrytree.deb” with the name of your installation file: `sudo dpkg -i cherrytree.deb`. Provide your password when prompted to begin the installation. <<figure-2.3>> +
++
+[[figure-2.3]]
+.*Figure 2.3:* Debian installation steps.
+[reftext="Figure 2.3"]
 {debinstall}
 
 === Installing on Windows
 
-1. Download and run the latest installer with an ‘.exe’ extension from {download}[downloads webpage].
+[start=1]
+. Download and run the latest installer with an ‘.exe’ extension from {download}[downloads webpage].
 
-2. Select a language and click the ‘Next’ button. +
+. Select a language and click the ‘Next’ button. <<figure-2.4>> +
++
+[[figure-2.4]]
+.*Figure 2.4*
+[reftext="Figure 2.4"]
 {wininstall1}
 
-3. Accept the license, then click the ‘Next’ button. +
+. Accept the license, then click the ‘Next’ button. <<figure-2.5>> +
++
+[[figure-2.5]]
+.*Figure 2.5*
+[reftext="Figure 2.5"]
 {wininstall2}
 
-4. Select a directory for the application to be installed and click the ‘Next’ button. +
+. Select a directory for the application to be installed and click the ‘Next’ button. <<figure-2.6>> +
++
+[[figure-2.6]]
+.*Figure 2.6*
+[reftext="Figure 2.6"]
 {wininstall3}
 
-5. Select ‘Create a desktop shortcut’ if you wish to have a shortcut. Click the ‘Next’ button. +
+. Select ‘Create a desktop shortcut’ if you wish to have a shortcut. Click the ‘Next’ button. <<figure-2.7>> +
++
+[[figure-2.7]]
+.*Figure 2.7*
+[reftext="Figure 2.7"]
 {wininstall4}
 
-6. Review the provided summary, then click ‘Install’ if you are ready to proceed. +
+. Review the provided summary, then click ‘Install’ if you are ready to proceed. <<figure-2.8>> +
++
+[[figure-2.8]]
+.*Figure 2.8*
+[reftext="Figure 2.8"]
 {wininstall5}
 
-7. Click ‘Finish’ to complete the installation. +
+. Click ‘Finish’ to complete the installation. <<figure-2.9>> +
++
+[[figure-2.9]]
+.*Figure 2.9*
+[reftext="Figure 2.9"]
 {wininstall6}
 
-*Note:* If you have a previous version of Cherrytree installed, an error
-may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip
-the overwrite and restart your computer, then try again.
+*Note:* If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and restart your computer, then try again.
+
+// _______________________ Chapter 3 ________________________
 
 == Quick start
 
@@ -188,62 +205,45 @@ This brief quick start guide will teach you about the following:
 
 === Interface
 
-Cherrytree’s interface is made of four sections. These sections are
-highlighted in the image below:
+Cherrytree’s interface is made of four sections. These sections are highlighted in <<figure-3.1>>:
 
+[[figure-3.1]]
+.*Figure 3.1:* Cherrytree interface.
+[reftext="Figure 3.1"]
 {interface}
 
 *Menu Bar (Red)*
 
 The menu bar contains the following menus:
 
-* File - Document-management features such as opening, saving, printing,
-and exporting.
-* Edit - Application preferences, basic copy and paste features, and
-object insertion features.
+* File - Document-management features such as opening, saving, printing, and exporting.
+* Edit - Application preferences, basic copy and paste features, and object insertion features.
 * Formatting - Text formatting options.
 * Tree - Node management features.
 * Search - Features for search and replace.
 * View - Interface options.
-* Bookmarks - Bookmarks will be listed in this menu. You can add
-bookmarks by right-clicking a node within the tree view and selecting
-the “Add to Bookmarks” option.
-* Import - Cherrytree can import from a variety of sources including
-KeepNote, NoteCase, Tomboy, HTML files, others.
-* Export - Cherrytree documents can be exported to HTML, PDF, and Plain
-Text.
-* Help - Contains “Check for updates”, an “About” section, and a link to
-the online manual."
+* Bookmarks - Bookmarks will be listed in this menu. You can add bookmarks by right-clicking a node within the tree view and selecting the “Add to Bookmarks” option.
+* Import - Cherrytree can import from a variety of sources including KeepNote, NoteCase, Tomboy, HTML files, others.
+* Export - Cherrytree documents can be exported to HTML, PDF, and Plain Text.
+* Help - Contains “Check for updates”, an “About” section, and a link to the online manual."
 
 *Toolbar (Purple)*
 
-The toolbar has many commonly used options for managing nodes,
-formatting text, and inserting objects.
+The toolbar has many commonly used options for managing nodes, formatting text, and inserting objects.
 
-The toolbar can be edited by clicking “Edit” within the menu bar and
-navigating to “Preferences > Toolbar”
+The toolbar can be edited by clicking “Edit” within the menu bar and navigating to “Preferences > Toolbar”
 
-The size of the toolbar icons has been increased within the image above.
-Icon size can be changed by clicking “View” in the menu bar, then
-selecting the “Increase Toolbar Icon Size” option for bigger icons or
-“Decrease Toolbar Icon Size” for smaller icons..
+The size of the toolbar icons has been increased within the image above. Icon size can be changed by clicking “View” in the menu bar, then selecting the “Increase Toolbar Icon Size” option for bigger icons or “Decrease Toolbar Icon Size” for smaller icons.
 
 *Tree View (Green)*
 
-Cherrytree’s tree view shows the document’s hierarchical structure of
-nodes.
+Cherrytree’s tree view shows the document’s hierarchical structure of nodes.
 
 *Editor (Yellow)*
 
-The editor is used to read, write, edit, and delete notes. Click and
-hold the divider between the tree view and editor, then drag the mouse
-left or right to resize the two windows.
+The editor is used to read, write, edit, and delete notes. Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.
 
-To change the color scheme for plain text documents and code, click the
-“Edit” button within the menu bar and navigate to “Preferences > Plain
-Text and Code,” then adjust the Style Scheme option. To change the color
-scheme of Rich Text documents, click “Edit”, navigate to “Preferences >
-Rich Text” and adjust the Theme settings.
+To change the color scheme for plain text documents and code, click the “Edit” button within the menu bar and navigate to “Preferences > Plain Text and Code,” then adjust the Style Scheme option. To change the color scheme of Rich Text documents, click “Edit”, navigate to “Preferences > Rich Text” and adjust the Theme settings.
 
 === Node Management
 
@@ -251,17 +251,29 @@ TODO: Introduction Text
 
 *Creating Your First Node*
 
-1. Click the “Add Node” button within the menu bar to display the “New Node Properties” menu. +
+[start=1]
+. Click the “Add Node” button, shown in <<figure-3.2>>. within the menu bar. <<figure-3.3>>. +
++
+[[figure-3.2]]
+.*Figure 3.2*
+[reftext="Figure 3.2"]
 {tree-node-add}
 
-2. Give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the link:#choosing-a-node-type[node type section] of this manual. +
+. Within the _New Node Properties_ menu, shown in <<figure-3.3>> give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the link:#choosing-a-node-type[node type section] of this manual. +
++
+[[figure-3.3]]
+.*Figure 3.3*
+[reftext="Figure 3.3"]
 {new-node}
 
 
 *Node Menu*
 
-Right-click a node to display a menu of the options available to it. +
+Right-click a node to display a menu of the options available to it. <<figure-3.4>> +
 
+[[figure-3.4]]
+.*Figure 3.4:* Node options.
+[reftext="Figure 3.4"]
 {tree-menu}
 
 === Insert Objects
@@ -275,6 +287,8 @@ Content
 === Export the Document
 
 Content
+
+// _______________________ Chapter 4 ________________________
 
 == User Interface
 
@@ -296,6 +310,8 @@ Icon size can be changed by clicking “View” in the menu bar, then selecting 
 
 Content
 
+// _______________________ Chapter 5 ________________________
+
 == Nodes
 
 Content
@@ -308,8 +324,8 @@ Content
 
 Content
 
-*Plain Text* Content
-*Rich Text* Content
+*Plain Text* Content +
+*Rich Text* Content +
 *Syntax Highlighting* Content
 
 === Editing Nodes
@@ -320,9 +336,13 @@ Content
 
 Content
 
+// _______________________ Chapter 6 ________________________
+
 == Text
 
 Content
+
+// _______________________ Chapter 7 ________________________
 
 == Objects
 
@@ -459,13 +479,19 @@ Content
 
 Content
 
+// _______________________ Chapter 8 ________________________
+
 == Searching
 
 Content
 
+// _______________________ Chapter 9 ________________________
+
 == Settings
 
 Content
+
+// _______________________ Chapter 10 ________________________
 
 == Contributors
 
@@ -508,6 +534,8 @@ Cherrytree is written and maintained by Giuseppe Penone.
 
 All email addresses can be found in Cherrytree by selecting ‘Help >
 About > Credits’ from the menu.
+
+// _______________________ Chapter 11 ________________________
 
 == Supporters
 
@@ -740,18 +768,13 @@ document file for cloud syncing}
 * Frank Lazar (Germany) donated €2
 * Виталий Волков (Russia) donated €2
 
+// _______________________ Chapter 12 ________________________
+
 == License
 
-This program is free software; you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by the
-Free Software Foundation; either version 3 of the License or (at your
-option) any later version.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful, but
-WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
 Public License for more details.
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA. 
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA. 
