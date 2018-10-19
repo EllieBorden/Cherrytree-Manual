@@ -1,6 +1,6 @@
 = image:images/icons/cherrytree.png[Cherrytree] Cherrytree User Manual
 v0.38.6, 2018
-:toc:
+:toc: left
 :doctype: book
 
 include::includes/_variables.adoc[]
