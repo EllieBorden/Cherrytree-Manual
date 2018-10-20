@@ -1,0 +1,91 @@
+== Quick start
+
+This brief quick start guide will teach you about the following:
+
+* User Interface
+* Nodes
+* Core Text Editing
+* Inserting images
+* Saving
+* Exporting
+
+=== Interface
+
+Cherrytree’s interface is made of four sections. These sections are highlighted in <<figure-3.01>>:
+
+[[figure-3.01]]
+.Figure 3.01
+{interface}
+
+*Menu Bar (Red)*
+
+The menu bar contains the following menus:
+
+* *File* - Document-management features such as opening, saving, printing, and exporting.
+* *Edit* - Application preferences, basic copy and paste features, and object insertion features.
+* *Formatting* - Text formatting options.
+* *Tree* - Node management features.
+* *Search* - Features for search and replace.
+* *View* - Interface options.
+* *Bookmarks* - Bookmarks will be listed in this menu. You can add bookmarks by right-clicking a node within the tree view and selecting the “Add to Bookmarks” option.
+* *Import* - Cherrytree can import from a variety of sources including KeepNote, NoteCase, Tomboy, HTML files, others.
+* *Export* - Cherrytree documents can be exported to HTML, PDF, and Plain Text.
+* *Help* - Contains “Check for updates”, an “About” section, and a link to the online manual."
+
+*Toolbar (Purple)*
+
+The toolbar has many commonly used options for managing nodes, formatting text, and inserting objects.
+
+The toolbar can be edited by clicking “Edit” within the menu bar and navigating to “Preferences > Toolbar”
+
+The size of the toolbar icons has been increased within <<figure-3.01>>. Icon size can be changed by clicking “View” in the menu bar, then selecting the “Increase Toolbar Icon Size” option for bigger icons or “Decrease Toolbar Icon Size” for smaller icons.
+
+*Tree View (Green)*
+
+Cherrytree’s tree view shows the document’s hierarchical structure of nodes.
+
+*Editor (Yellow)*
+
+The editor is used to read, write, edit, and delete notes. Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.
+
+To change the color scheme for plain text documents and code, click the “Edit” button within the menu bar and navigate to “Preferences > Plain Text and Code,” then adjust the Style Scheme option. To change the color scheme of Rich Text documents, click “Edit”, navigate to “Preferences > Rich Text” and adjust the Theme settings.
+
+=== Node Management
+
+TODO: Introduction Text
+
+*Creating Your First Node*
+
+[start=1]
+. Click the “Add Node” button, shown in <<figure-3.02>>. within the menu bar. +
++
+[[figure-3.02]]
+.Figure 3.02
+{tree-node-add}
+
+. Within the _New Node Properties_ menu, shown in <<figure-3.03>> give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the link:#choosing-a-node-type[node type section] of this manual. +
++
+[[figure-3.03]]
+.Figure 3.03
+{new-node}
+
+
+*Node Menu*
+
+Right-click a node to display a menu of the options available to it. <<figure-3.04>> +
+
+[[figure-3.04]]
+.Figure 3.04
+{tree-menu}
+
+=== Insert Objects
+
+Content
+
+=== Save Your Notes
+
+Content
+
+=== Export the Document
+
+Content

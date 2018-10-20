@@ -1,0 +1,54 @@
+== Introduction
+
+Cherrytree is a free and open source, hierarchical, note-taking application. It can store text, images, files, links, tables, and executable snippets of code. This application is under active development. Details regarding updates can be found in the {changelog}[changelog].
+
+If you have questions please ask in the {forum}[forum], or visit {feedback}[feedback webpage] to provide feedback.
+
+=== About This Manual
+
+This manual was written for Cherrytree version 0.38.6. Please check the {manual-web}[website] for the latest version.
+
+=== Get Involved
+
+New contributors are welcome! We recommend that you {maintainer}[contact the project's maintainer] before starting.
+
+*Development*
+
+Please visit the git {repository}[repository] to get started.
+
+The current version of Cherrytree requires:
+
+* python2
+* python-gtk2
+* python-gtksourceview2
+* p7zip-full
+* python-dbus
+* python-enchant
+* python-chardet
+
+After cloning, run in the top folder ./cherrytree or python2 cherrytree.
+
+Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the {future}[future directory]. The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to missing pygi bindings for a core clipboard functionality
+
+Developers can help by making addressing bugs submitted to the repository’s {issues}[issues page].
+
+*Testing*
+
+If you find a bug, please check to see if it has already been reported within the project’s {issues}[issues]. If the error is unreported, please create a new issue providing as much detail as
+possible.
+
+If needed, here is a short guide on {issues-guide}[writing a proper GitHub issue].
+
+*Writing*
+
+The Cherrytree user manual is currently under revision and can be found in the {manual-repo}[manual].
+
+*Translation*
+
+Please contact the project's {maintainer}[maintainer] to add or edit translations.
+
+*Donations*
+
+Join the link:#supporters[Cherrytree Supporters]!
+
+Donations are appreciated and can be made from the {donate}[Cherrytree website].

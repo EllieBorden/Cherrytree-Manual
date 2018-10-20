@@ -1,0 +1,42 @@
+== Contributors
+
+Cherrytree is written and maintained by Giuseppe Penone.
+
+*Development:*
+
+*Writing:*
+
+* Robert Boudreau
+* Ellie Borden
+
+*Translation:*
+
+* Armenian (Seda Stamboltsyan, up to date)
+* Chinese Simplified (Channing Wong, TO BE UPDATED)
+* Czech (Pavel Fric, up to date)
+* Dutch (Luuk Geurts, up to date)
+* English (default)
+* French (Klaus Becker, up to date)
+* Finnish (Henri Kaustinen, up to date)
+* German (Frank Brungräber, up to date)
+* Greek (Delphina, up to date)
+* Italian (Vincenzo Reale, up to date)
+* Japanese (Piyo, up to date)
+* Lithuanian (Zygis, TO BE UPDATED)
+* Polish (Marcin Swierczynski, up to date)
+* Portuguese Brazil (TO BE UPDATED)
+* Russian (Andriy Kovtun, up to date)
+* Slovenian (Erik Lovrič, up to date)
+* Spanish (Daniel MC, up to date)
+* Turkish (Ferhat Aydin, TO BE UPDATED)
+* Ukrainian (Andriy Kovtun, up to date)
+
+
+*Artwork:*
+
+* OCAL
+* Zeltak
+* Angelo Penone
+
+All email addresses can be found in Cherrytree by selecting ‘Help >
+About > Credits’ from the menu.

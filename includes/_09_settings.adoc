@@ -1,0 +1,67 @@
+== Settings
+
+=== Text and Code
+
+[[figure-9.01]]
+.Figure 9.01
+{pref01}
+
+=== Text
+
+[[figure-9.02]]
+.Figure 9.02
+{pref02}
+
+=== Rich Text
+
+[[figure-9.03]]
+.Figure 9.03
+{pref03}
+
+=== Plain Text and Code
+
+[[figure-9.04]]
+.Figure 9.04
+{pref04}
+
+=== Tree 1
+
+[[figure-9.05]]
+.Figure 9.05
+{pref05}
+
+=== Tree 2
+
+[[figure-9.06]]
+.Figure 9.06
+{pref06}
+
+=== Fonts
+
+[[figure-9.07]]
+.Figure 9.07
+{pref07}
+
+=== Links
+
+[[figure-9.08]]
+.Figure 9.08
+{pref08}
+
+=== Toolbar
+
+[[figure-9.09]]
+.Figure 9.09
+{pref09}
+
+=== Keyboard Shortcuts
+
+[[figure-9.10]]
+.Figure 9.10
+{pref10}
+
+=== Miscellaneous
+
+[[figure-9.11]]
+.Figure 9.11
+{pref11}
