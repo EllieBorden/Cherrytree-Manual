@@ -4,7 +4,8 @@ v0.38.6, 2018
 :doctype: book
 :stylesheet: styles/asciidoctor.css
 
-include::includes/_variables.adoc[]
+// Variables
+include::includes/__variables.adoc[]
 
 // Introduction
 include::includes/_01_introduction.adoc[]
