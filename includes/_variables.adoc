@@ -9,24 +9,33 @@
 :repository: https://github.com/giuspen/cherrytree
 :future: https://github.com/giuspen/cherrytree/tree/master/future
 :issues: https://github.com/giuspen/cherrytree/issues
-:manual: https://github.com/EllieBorden/Cherrytree-Manual
+:manual-repo: https://github.com/EllieBorden/Cherrytree-Manual
 :donate: https://www.giuspen.com/cherrytree/#text-3
 :issues-guide: https://medium.com/nycplanninglabs/writing-a-proper-github-issue-97427d62a20f
 :download: https://www.giuspen.com/cherrytree/#downl
+:manual-web: http://giuspen.com/cherrytreemanual
+:cherrytree-ppa-web: https://launchpad.net/~giuspen/+archive/ubuntu/ppa
+:cherrytree-ppa: ppa:guipsen/ppa
 
 // Icons
 :tree-node-add: image:images/icons/tree-node-add.png[Tree Node Add]
 
 // Installation Images
-:rhinstall: image:images/rhinstall.png[Red Hat installation steps.]
-:ubuntuinstall: image:images/ubuntuinstall.png[Ubuntu installation steps.]
-:debinstall: image:images/debinstall.png[Debian installation steps.]
-:wininstall1: image:images/wininstall1.png[Select a language.]
-:wininstall2: image:images/wininstall2.png[Accept the license.]
-:wininstall3: image:images/wininstall3.png[Select a directory for the application to be installed.]
-:wininstall4: image:images/wininstall4.png[Select 'Create a desktop shortcut' if you wish to have a shortcut.]
-:wininstall5: image:images/wininstall5.png[Review the provided summary.]
-:wininstall6: image:images/wininstall6.png[Click 'Finish' to complete the installation.]
+:rhinstall01: image:images/rhinstall01.png[Red Hat installation steps.]
+:ubuntuinstall01: image:images/ubuntuinstall01.png[Software and Updates.]
+:ubuntuinstall02: image:images/ubuntuinstall02.png[Software and Updates, Other Software.]
+:ubuntuinstall03: image:images/ubuntuinstall03.png[Add a PPA.]
+:ubuntuinstall04: image:images/ubuntuinstall04.png[Software and Updates, Other Software.]
+:ubuntuinstall05: image:images/ubuntuinstall05.png[Reload Sources.]
+:ubuntuinstall06: image:images/ubuntuinstall06.png[Ubuntu Software, Cherrytree installation.]
+:ubuntuinstall07: image:images/ubuntuinstall07.png[Cherrytree Version.]
+:debinstall01: image:images/debinstall01.png[Debian installation steps.]
+:wininstall01: image:images/wininstall01.png[Select a language.]
+:wininstall02: image:images/wininstall02.png[Accept the license.]
+:wininstall03: image:images/wininstall03.png[Select a directory for the application to be installed.]
+:wininstall04: image:images/wininstall04.png[Select 'Create a desktop shortcut' if you wish to have a shortcut.]
+:wininstall05: image:images/wininstall05.png[Review the provided summary.]
+:wininstall06: image:images/wininstall06.png[Click 'Finish' to complete the installation.]
 
 // Quick Start Images
 :new-node: image:images/newnode.png[New node properties.]
