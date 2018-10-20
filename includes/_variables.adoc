@@ -41,3 +41,16 @@
 :new-node: image:images/newnode.png[New node properties.]
 :interface: image:images/interface.png[Cherrytree interface.]
 :tree-menu: image:images/treemenu.png[Tree menu.]
+
+// Settings Images
+:pref01: image:images/pref01.png[Text and Code.]
+:pref02: image:images/pref02.png[Text.]
+:pref03: image:images/pref03.png[Rich Text.]
+:pref04: image:images/pref04.png[Plain Text and Code.]
+:pref05: image:images/pref05.png[Tree 1.]
+:pref06: image:images/pref06.png[Tree 2.]
+:pref07: image:images/pref07.png[Fonts.]
+:pref08: image:images/pref08.png[Links.]
+:pref09: image:images/pref09.png[Toolbar.]
+:pref10: image:images/pref10.png[Keyboard Shortcuts.]
+:pref11: image:images/pref11.png[Miscellaneous.]
