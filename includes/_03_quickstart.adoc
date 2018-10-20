@@ -17,7 +17,7 @@ Cherrytree’s interface is made of four sections. These sections are highlighte
 .Figure 3.01
 {interface}
 
-*Menu Bar (Red)*
+==== Menu Bar (Red)
 
 The menu bar contains the following menus:
 
@@ -32,7 +32,7 @@ The menu bar contains the following menus:
 * *Export* - Cherrytree documents can be exported to HTML, PDF, and Plain Text.
 * *Help* - Contains “Check for updates”, an “About” section, and a link to the online manual."
 
-*Toolbar (Purple)*
+==== Toolbar (Purple)
 
 The toolbar has many commonly used options for managing nodes, formatting text, and inserting objects.
 
@@ -40,11 +40,11 @@ The toolbar can be edited by clicking “Edit” within the menu bar and navigat
 
 The size of the toolbar icons has been increased within <<figure-3.01>>. Icon size can be changed by clicking “View” in the menu bar, then selecting the “Increase Toolbar Icon Size” option for bigger icons or “Decrease Toolbar Icon Size” for smaller icons.
 
-*Tree View (Green)*
+==== Tree View (Green)
 
 Cherrytree’s tree view shows the document’s hierarchical structure of nodes.
 
-*Editor (Yellow)*
+==== Editor (Yellow)
 
 The editor is used to read, write, edit, and delete notes. Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.
 
@@ -54,7 +54,7 @@ To change the color scheme for plain text documents and code, click the “Edit�
 
 TODO: Introduction Text
 
-*Creating Your First Node*
+==== Creating Your First Node
 
 [start=1]
 . Click the “Add Node” button, shown in <<figure-3.02>>. within the menu bar. +
@@ -63,14 +63,14 @@ TODO: Introduction Text
 .Figure 3.02
 {tree-node-add}
 
-. Within the _New Node Properties_ menu, shown in <<figure-3.03>> give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the link:#choosing-a-node-type[node type section] of this manual. +
+. Within the "New Node Properties" menu, shown in <<figure-3.03>> give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the link:#_choosing_a_node_type[node type section] of this manual. +
 +
 [[figure-3.03]]
 .Figure 3.03
 {new-node}
 
 
-*Node Menu*
+==== Node Menu
 
 Right-click a node to display a menu of the options available to it. <<figure-3.04>> +
 

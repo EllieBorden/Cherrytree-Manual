@@ -12,7 +12,7 @@ This manual was written for Cherrytree version 0.38.6. Please check the {manual-
 
 New contributors are welcome! We recommend that you {maintainer}[contact the project's maintainer] before starting.
 
-*Development*
+==== Development
 
 Please visit the git {repository}[repository] to get started.
 
@@ -32,22 +32,22 @@ Development is currently focused on porting from Python to C++/GTKmm. These chan
 
 Developers can help by making addressing bugs submitted to the repository’s {issues}[issues page].
 
-*Testing*
+==== Testing
 
 If you find a bug, please check to see if it has already been reported within the project’s {issues}[issues]. If the error is unreported, please create a new issue providing as much detail as
 possible.
 
 If needed, here is a short guide on {issues-guide}[writing a proper GitHub issue].
 
-*Writing*
+==== Writing
 
 The Cherrytree user manual is currently under revision and can be found in the {manual-repo}[manual].
 
-*Translation*
+==== Translation
 
 Please contact the project's {maintainer}[maintainer] to add or edit translations.
 
-*Donations*
+==== Donations
 
 Join the link:#supporters[Cherrytree Supporters]!
 

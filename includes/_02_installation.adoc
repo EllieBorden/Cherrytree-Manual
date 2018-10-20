@@ -18,7 +18,7 @@ is located.
 
 Cherrytree can be installed to Ubuntu via the "Ubuntu Software" application or the command line.
 
-*Option One: Ubuntu Software*
+==== Option One: Ubuntu Software
 
 A PPA (Personal Package Archive) must be added to ensure that the latest version of Cherrytree is installed through Ubuntu Software. 
 
@@ -66,7 +66,7 @@ Reference the {changelog}[changelog] to determine the latest version. +
 .Figure 2.08
 {ubuntuinstall07}
 
-*Option Two: Command Line*
+==== Option Two: Command Line
 
 [start=1]
 . Download the latest installer with a ‘.deb’ extension from the {download}[downloads webpage].
