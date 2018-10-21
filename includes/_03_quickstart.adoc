@@ -78,14 +78,78 @@ Right-click a node to display a menu of the options available to it. <<figure-3.
 .Figure 3.04
 {tree-menu}
 
+Commonly used options include:
+
+* *Add Node* - Create a node on the same level of hierarchy as your current node.
+* *Add SubNode* - Create a child node under the currently selected node.
+* *Change Node Properties* - Edit the settings of the current node.
+* *Delete Node* - Delete the currently selected node.
+
 === Insert Objects
 
-Content
+Objects can be inserted from the menu bar under "Edit", <<figure-3.05>>, or the toolbar, <<figure-3.06>>. 
+
+[[figure-3.05]]
+.Figure 3.05
+{insert-menu}
+
+[[figure-3.06]]
+.Figure 3.06
+{insert-toolbar}
+
+The following objects can be inserted into Cherrytree documents:
+
+* Image
+* Table
+* CodeBox
+* File
+* Link
+* Anchor
+* TOC (Table of Contents)
+* Timestamp
+* Special Character
+* Horizontal Rule
 
 === Save Your Notes
 
-Content
+[start=1]
+. You can save your document by holding "Ctrl" and pressing "s" or clicking "File" within the menu bar and selecting the "Save" option, as shown in <<figure-3.07>>. +
++
+If you have previously saved the current document, you do not need to perform anymore steps. +
++
+[[figure-3.07]]
+.Figure 3.07
+{save-menu}
+
+. If this is your first time saving the current document, you will be prompted to select a save type, as shown in <<figure-3.08>>. If you are unsure which type to select, please visit the link:#_saving[save section] for more details. +
++
+[[figure-3.08]]
+.Figure 3.08
+{save-type}
+
+. After you have selected a type you will be prompted to give your document a name and select a folder to save it to. <<figure-3.10>> +
++
+[[figure-3.09]]
+.Figure 3.09
+{save-as}
 
 === Export the Document
 
-Content
+[start=1]
+. To export your document, click "Export" within the menu bar and select a type of document type. <<figure-3.10>> +
++
+[[figure-3.10]]
+.Figure 3.10
+{export-menu}
+
+. When prompted, select the scope of content to be exported then click the "OK" button. <<figure-3.11>> +
++
+[[figure-3.11]]
+.Figure 3.11
+{export-scope}
+
+. After you have selected a type you will be prompted to give your document a name and select a folder to save it to. <<figure-3.12>> +
++
+[[figure-3.12]]
+.Figure 3.12
+{save-as}

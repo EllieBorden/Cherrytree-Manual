@@ -19,17 +19,17 @@ include::includes/_03_quickstart.adoc[]
 // User Interface
 include::includes/_04_userinterface.adoc[]
 
+// Files
+include::includes/_05_files.adoc[]
+
 // Nodes
-include::includes/_05_nodes.adoc[]
+include::includes/_06_nodes.adoc[]
 
 // Text
-include::includes/_06_text.adoc[]
+include::includes/_07_text.adoc[]
 
 // Objects
-include::includes/_07_objects.adoc[]
-
-// Searching
-include::includes/_08_searching.adoc[]
+include::includes/_08_objects.adoc[]
 
 // Settings
 include::includes/_09_settings.adoc[]
