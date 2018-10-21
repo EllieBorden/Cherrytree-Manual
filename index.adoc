@@ -16,29 +16,26 @@ include::includes/_02_installation.adoc[]
 // Quick Start
 include::includes/_03_quickstart.adoc[]
 
-// User Interface
-include::includes/_04_userinterface.adoc[]
-
 // Files
-include::includes/_05_files.adoc[]
+include::includes/_04_files.adoc[]
 
 // Nodes
-include::includes/_06_nodes.adoc[]
+include::includes/_05_nodes.adoc[]
 
 // Text
-include::includes/_07_text.adoc[]
+include::includes/_06_text.adoc[]
 
 // Objects
-include::includes/_08_objects.adoc[]
+include::includes/_07_objects.adoc[]
 
 // Settings
-include::includes/_09_settings.adoc[]
+include::includes/_08_settings.adoc[]
 
 // Contributors
-include::includes/_10_contributors.adoc[]
+include::includes/_09_contributors.adoc[]
 
 // Supporters
-include::includes/_11_supporters.adoc[]
+include::includes/_10_supporters.adoc[]
 
 // License
-include::includes/_12_license.adoc[]
+include::includes/_11_license.adoc[]
