@@ -1,6 +1,24 @@
 == Files
 
+Documents can be managed from the "File" menu, shown in <<figure-4.01>>, or the toolbar, <<figure-4.02>>.
+
+[[figure-4.01]]
+.Figure 4.01
+{file-menu}
+
+[[figure-4.02]]
+.Figure 4.02
+{file-toolbar}
+
+=== Creating and Opening
+
+Cherrytree opens to the same state as when it last closed. If this is your first time using the application, it will open a new document by default. To create a new document, click "File" within the menu bar and select the "New Instance" option.
+
+
+
 === Saving
+
+=== Printing
 
 === Searching
 

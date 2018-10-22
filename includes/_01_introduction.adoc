@@ -30,7 +30,7 @@ After cloning, run in the top folder ./cherrytree or python2 cherrytree.
 
 Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the {future}[future directory]. The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to missing pygi bindings for a core clipboard functionality
 
-Developers can help by making addressing bugs submitted to the repository’s {issues}[issues page].
+Developers can help by addressing bugs submitted to the repository’s {issues}[issues page].
 
 ==== Testing
 
@@ -41,7 +41,7 @@ If needed, here is a short guide on {issues-guide}[writing a proper GitHub issue
 
 ==== Writing
 
-The Cherrytree user manual is currently under revision and can be found in the {manual-repo}[manual].
+The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is maintained {manual-repo}[here]. Contributors can help with writing and proofing, or by porting the manual to a ".ctb" file intended to demonstrate the potential of Cherrytree.
 
 ==== Translation
 

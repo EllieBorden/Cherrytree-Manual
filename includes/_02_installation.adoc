@@ -8,7 +8,7 @@ Cherrytree is available for Linux and Windows.
 . Download the latest installer with a ‘.rpm’ extension from the {download}[downloads webpage].
 . Open a terminal and navigate to the directory where your installer
 is located.
-. Type the following command, replacing “cherrytree.rpm” with the name of your installation file: `sudo rpm -Uvh --force cherrytree.rpm`. Provide your password when prompted to begin the installation, as shown in <<figure-2.01>> . +
+. Type the following command, replacing “cherrytree.rpm” with the name of your installation file: `sudo rpm -Uvh --force cherrytree.rpm`. Provide your password when prompted to begin the installation, as shown in <<figure-2.01>>. +
 +
 [[figure-2.01]]
 .Figure 2.01
