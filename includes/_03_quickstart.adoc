@@ -50,6 +50,8 @@ The editor is used to read, write, edit, and delete notes. Click and hold the di
 
 To change the color scheme for plain text documents and code, click the “Edit” button within the menu bar and navigate to “Preferences > Plain Text and Code,” then adjust the Style Scheme option. To change the color scheme of Rich Text documents, click “Edit”, navigate to “Preferences > Rich Text” and adjust the Theme settings.
 
+Additional settings are available in the "View" menu.
+
 === Node Management
 
 Cherrytree allows you to organize notes using a link:#_nodes[tree structure]. 

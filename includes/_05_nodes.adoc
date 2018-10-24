@@ -1,18 +1,16 @@
 == Nodes
 
-In computer science, a tree is a data structure consisting of nodes which are connected by edges. In the tree shown in <<figure-5.01>>, "my_book.ctb" is the root node. "Part 1" is one of the three child nodes that belong to "my_book.ctb" and is also the parent node of "Chapter 1", "Chapter 2", and "Chapter 3". 
+In computer science, a tree is a data structure consisting of nodes which are connected by edges. In the tree shown in <<figure-5.01>>, "my_book" is the root node. "Part 3" is one of three child nodes that belong to "my_book" and is also the parent node of "Chapter 6". 
 
 [[figure-5.01]]
 .Figure 5.01
-{binary-tree}
+{tree-diagram}
 
 <<figure-5.01>> might look like <<figure-5.02>> in Cherrytree, where the document name is the root node.
 
 [[figure-5.02]]
 .Figure 5.02
-{binary-tree-demo}
-
-Content
+{tree-demo}
 
 === Creating Nodes
 

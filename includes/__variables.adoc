@@ -49,12 +49,14 @@
 :save-as: image:images/save03.png[Windows save as menu.]
 :export-menu: image:images/export01.png[Export menu.]
 :export-scope: image:images/export02.png[Export type selection.]
-:binary-tree: image:images/binary_tree.png[Binary tree.]
-:binary-tree-demo: image:images/binary_tree_demo.png[Binary tree demo.]
 
 // Files Images
 :file-menu: image:images/file-menu.png[File Menu.]
 :file-toolbar: image:images/file-toolbar.png[File Menu.]
+
+// Node Images
+:tree-diagram: image:images/tree_diagram.png[Tree diagram.]
+:tree-demo: image:images/tree_demo.png[Tree demo.]
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]
