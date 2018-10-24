@@ -41,7 +41,7 @@ If needed, here is a short guide on {issues-guide}[writing a proper GitHub issue
 
 ==== Writing
 
-The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is maintained {manual-repo}[here]. Contributors can help with writing and proofing, or by porting the manual to a ".ctb" file intended to demonstrate the potential of Cherrytree.
+The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is maintained {manual-repo}[here]. Contributors can help with writing and proofing, or by porting the manual to a ".ctb" file, intended to demonstrate the potential of Cherrytree. Writing critiques are also encouraged.
 
 ==== Translation
 

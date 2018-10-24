@@ -17,6 +17,7 @@
 :manual-web: http://giuspen.com/cherrytreemanual
 :cherrytree-ppa-web: https://launchpad.net/~giuspen/+archive/ubuntu/ppa
 :cherrytree-ppa: ppa:guipsen/ppa
+:7zip: https://www.7-zip.org/
 
 // Icons
 :tree-node-add: image:images/icons/tree-node-add.png[Tree Node Add]

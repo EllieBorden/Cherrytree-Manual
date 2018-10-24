@@ -22,6 +22,41 @@ To open an existing file, click "File" and select the "Open File" option, then s
 
 === Saving
 
+==== Saving to the Current File
+
+[start=1]
+. You can save your document by holding "Ctrl" and pressing "s" or clicking "File" within the menu bar and selecting the "Save" option, as shown in <<figure-4.04>>. +
++
+If you have previously saved the current document, you do not need to perform steps 2 and 3. +
++
+[[figure-4.04]]
+.Figure 4.04
+{save-menu}
+
+. If this is your first time saving the current document, you will be prompted to select a save type, as shown in <<figure-4.05>>. If you are unsure which type to select, please visit the link:#_save_types[save section] for more details. +
++
+[[figure-4.05]]
+.Figure 4.05
+{save-type}
+
+. After you have selected a type, give your document a name and select a folder to save it to. <<figure-4.06>> +
++
+[[figure-4.06]]
+.Figure 4.06
+{save-as}
+
+==== Saving to a New File
+
+==== Save Types
+
+* *SQLite:*  
+     
+* *XML:* 
+
+==== Password Protection
+
+*NOTE:* Password-protected files are compressed and locked with {7zip}[7zip], an open source file archiver. Other applications might not provide functionality to unlock files that have been locked by Cherrytree. 
+
 === Printing
 
 === Searching
