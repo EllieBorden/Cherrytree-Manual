@@ -12,7 +12,13 @@ Documents can be managed from the "File" menu, shown in <<figure-4.01>>, or the 
 
 === Creating and Opening
 
-Cherrytree opens to the same state as when it last closed. If this is your first time using the application, it will open a new document by default. To create a new document, click "File" within the menu bar and select the "New Instance" option.
+Cherrytree opens to the same state as when it last closed or to a new document if no previous state exists. To create a new document, click "File" within the menu bar and select the "New Instance" option.
+
+To open an existing file, click "File" and select the "Open File" option, then select a document and click "Open." Recently used documents can be opened more quickly by selecting the document name within the "Recent Files" submenu. <<figure-4.03>>
+
+[[figure-4.03]]
+.Figure 4.03
+{recent-doc}
 
 === Saving
 

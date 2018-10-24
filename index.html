@@ -5,7 +5,8 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
-<meta name="author" content="v0.38.6, 2018">
+<meta name="description" content="User manual for Cherrytree, a free and open source, hierarchical, note-taking application.">
+<meta name="keywords" content="Cherrytree, note-taking, open source, user manual">
 <title>Cherrytree User Manual</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -437,7 +438,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1><span class="image"><img src="images/icons/cherrytree.png" alt="Cherrytree"></span> Cherrytree User Manual</h1>
 <div class="details">
-<span id="author" class="author">v0.38.6, 2018</span><br>
+<span id="revnumber">version 0.38.6,</span>
+<span id="revdate">October, 2018</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -797,7 +799,7 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <h2 id="_quick_start">Quick start</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This brief quick start guide will teach you about the following:</p>
+<p>This brief quick start guide covers the following material:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -805,26 +807,26 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <p>User Interface</p>
 </li>
 <li>
-<p>Nodes</p>
+<p>Node Management</p>
 </li>
 <li>
 <p>Core Text Editing</p>
 </li>
 <li>
-<p>Inserting images</p>
+<p>Inserting Objects</p>
 </li>
 <li>
-<p>Saving</p>
+<p>Saving Files</p>
 </li>
 <li>
-<p>Exporting</p>
+<p>Exporting Documents</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
 <h3 id="_interface">Interface</h3>
 <div class="paragraph">
-<p>Cherrytree’s interface is made of four sections. These sections are highlighted in <a href="#figure-3.01">Figure 3.01</a>:</p>
+<p>Cherrytree’s interface consists of four sections, highlighted in <a href="#figure-3.01">Figure 3.01</a>:</p>
 </div>
 <div id="figure-3.01" class="paragraph">
 <div class="title">Figure 3.01</div>
@@ -856,7 +858,7 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <p><strong>View</strong> - Interface options.</p>
 </li>
 <li>
-<p><strong>Bookmarks</strong> - Bookmarks will be listed in this menu. You can add bookmarks by right-clicking a node within the tree view and selecting the “Add to Bookmarks” option.</p>
+<p><strong>Bookmarks</strong> - Bookmarks are listed in this menu. They can be added by right-clicking a node within the tree view and selecting the “Add to Bookmarks” option.</p>
 </li>
 <li>
 <p><strong>Import</strong> - Cherrytree can import from a variety of sources including KeepNote, NoteCase, Tomboy, HTML files, others.</p>
@@ -875,12 +877,6 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div class="paragraph">
 <p>The toolbar has many commonly used options for managing nodes, formatting text, and inserting objects.</p>
 </div>
-<div class="paragraph">
-<p>The toolbar can be edited by clicking “Edit” within the menu bar and navigating to “Preferences &gt; Toolbar”</p>
-</div>
-<div class="paragraph">
-<p>The size of the toolbar icons has been increased within <a href="#figure-3.01">Figure 3.01</a>. Icon size can be changed by clicking “View” in the menu bar, then selecting the “Increase Toolbar Icon Size” option for bigger icons or “Decrease Toolbar Icon Size” for smaller icons.</p>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_tree_view_green">Tree View (Green)</h4>
@@ -893,11 +889,18 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div class="paragraph">
 <p>The editor is used to read, write, edit, and delete notes. Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.</p>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_interface_options">Interface Options</h4>
 <div class="paragraph">
-<p>To change the color scheme for plain text documents and code, click the “Edit” button within the menu bar and navigate to “Preferences &gt; Plain Text and Code,” then adjust the Style Scheme option. To change the color scheme of Rich Text documents, click “Edit”, navigate to “Preferences &gt; Rich Text” and adjust the Theme settings.</p>
+<p>Most interface options exist within the "View" menu. <a href="#figure-3.02">Figure 3.02</a></p>
+</div>
+<div id="figure-3.02" class="paragraph">
+<div class="title">Figure 3.02</div>
+<p><span class="image"><img src="images/view-menu.png" alt="View menu options."></span></p>
 </div>
 <div class="paragraph">
-<p>Additional settings are available in the "View" menu.</p>
+<p>The size of the toolbar icons is increased within <a href="#figure-3.01">Figure 3.01</a>. Icon size can be increased by selecting “Increase Toolbar Icon Size” or decreased with the “Decrease Toolbar Icon Size” option.</p>
 </div>
 </div>
 </div>
@@ -911,16 +914,16 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div class="olist arabic">
 <ol class="arabic" start="1">
 <li>
-<p>Click the “Add Node” button, shown in <a href="#figure-3.03">Figure 3.03</a>. within the menu bar.<br></p>
-<div id="figure-3.03" class="paragraph">
-<div class="title">Figure 3.03</div>
+<p>Click the “Add Node” button, shown in <a href="#figure-3.04">Figure 3.04</a>. within the menu bar.<br></p>
+<div id="figure-3.04" class="paragraph">
+<div class="title">Figure 3.04</div>
 <p><span class="image"><img src="images/icons/tree-node-add.png" alt="Tree Node Add"></span></p>
 </div>
 </li>
 <li>
-<p>Within the "New Node Properties" menu, shown in <a href="#figure-3.04">Figure 3.04</a> give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the <a href="#_choosing_a_node_type">node type section</a> of this manual.<br></p>
-<div id="figure-3.04" class="paragraph">
-<div class="title">Figure 3.04</div>
+<p>Within the "New Node Properties" menu, shown in <a href="#figure-3.05">Figure 3.05</a> give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the <a href="#_choosing_a_node_type">node type section</a> of this manual.<br></p>
+<div id="figure-3.05" class="paragraph">
+<div class="title">Figure 3.05</div>
 <p><span class="image"><img src="images/newnode.png" alt="New node properties."></span></p>
 </div>
 </li>
@@ -930,10 +933,10 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div class="sect3">
 <h4 id="_node_menu">Node Menu</h4>
 <div class="paragraph">
-<p>Right-click a node to display a menu of the options available to it. <a href="#figure-3.05">Figure 3.05</a><br></p>
+<p>Right-click a node to display a menu of the options available to it. <a href="#figure-3.06">Figure 3.06</a><br></p>
 </div>
-<div id="figure-3.05" class="paragraph">
-<div class="title">Figure 3.05</div>
+<div id="figure-3.06" class="paragraph">
+<div class="title">Figure 3.06</div>
 <p><span class="image"><img src="images/treemenu.png" alt="Tree menu."></span></p>
 </div>
 <div class="paragraph">
@@ -960,14 +963,14 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div class="sect2">
 <h3 id="_insert_objects">Insert Objects</h3>
 <div class="paragraph">
-<p>Objects can be inserted from the menu bar under "Edit", <a href="#figure-3.06">Figure 3.06</a>, or the toolbar, <a href="#figure-3.07">Figure 3.07</a>.</p>
-</div>
-<div id="figure-3.06" class="paragraph">
-<div class="title">Figure 3.06</div>
-<p><span class="image"><img src="images/insert01.png" alt="Insert menu options."></span></p>
+<p>Objects can be inserted from the menu bar under "Edit", <a href="#figure-3.07">Figure 3.07</a>, or the toolbar, <a href="#figure-3.08">Figure 3.08</a>.</p>
 </div>
 <div id="figure-3.07" class="paragraph">
 <div class="title">Figure 3.07</div>
+<p><span class="image"><img src="images/insert01.png" alt="Insert menu options."></span></p>
+</div>
+<div id="figure-3.08" class="paragraph">
+<div class="title">Figure 3.08</div>
 <p><span class="image"><img src="images/insert02.png" alt="Insert toolbar options."></span></p>
 </div>
 <div class="paragraph">
@@ -1013,26 +1016,26 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div class="olist arabic">
 <ol class="arabic" start="1">
 <li>
-<p>You can save your document by holding "Ctrl" and pressing "s" or clicking "File" within the menu bar and selecting the "Save" option, as shown in <a href="#figure-3.08">Figure 3.08</a>.<br></p>
+<p>You can save your document by holding "Ctrl" and pressing "s" or clicking "File" within the menu bar and selecting the "Save" option, as shown in <a href="#figure-3.09">Figure 3.09</a>.<br></p>
 <div class="paragraph">
 <p>If you have previously saved the current document, you do not need to perform steps 2 and 3.<br></p>
 </div>
-<div id="figure-3.08" class="paragraph">
-<div class="title">Figure 3.08</div>
+<div id="figure-3.09" class="paragraph">
+<div class="title">Figure 3.09</div>
 <p><span class="image"><img src="images/save01.png" alt="File menu" width="save."></span></p>
 </div>
 </li>
 <li>
-<p>If this is your first time saving the current document, you will be prompted to select a save type, as shown in <a href="#figure-3.09">Figure 3.09</a>. If you are unsure which type to select, please visit the <a href="#_saving">save section</a> for more details.<br></p>
-<div id="figure-3.09" class="paragraph">
-<div class="title">Figure 3.09</div>
+<p>If this is your first time saving the current document, you will be prompted to select a save type, as shown in <a href="#figure-3.10">Figure 3.10</a>. If you are unsure which type to select, please visit the <a href="#_saving">save section</a> for more details.<br></p>
+<div id="figure-3.10" class="paragraph">
+<div class="title">Figure 3.10</div>
 <p><span class="image"><img src="images/save02.png" alt="Save type selection menu."></span></p>
 </div>
 </li>
 <li>
-<p>After you have selected a type you will be prompted to give your document a name and select a folder to save it to. <a href="#figure-3.10">Figure 3.10</a><br></p>
-<div id="figure-3.10" class="paragraph">
-<div class="title">Figure 3.10</div>
+<p>After you have selected a type, give your document a name and select a folder to save it to. <a href="#figure-3.11">Figure 3.11</a><br></p>
+<div id="figure-3.11" class="paragraph">
+<div class="title">Figure 3.11</div>
 <p><span class="image"><img src="images/save03.png" alt="Windows save as menu."></span></p>
 </div>
 </li>
@@ -1044,23 +1047,23 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div class="olist arabic">
 <ol class="arabic" start="1">
 <li>
-<p>To export your document, click "Export" within the menu bar and select a type of document type. <a href="#figure-3.11">Figure 3.11</a><br></p>
-<div id="figure-3.11" class="paragraph">
-<div class="title">Figure 3.11</div>
+<p>To export your document, click "Export" within the menu bar and select a type of document type. <a href="#figure-3.12">Figure 3.12</a><br></p>
+<div id="figure-3.12" class="paragraph">
+<div class="title">Figure 3.12</div>
 <p><span class="image"><img src="images/export01.png" alt="Export menu."></span></p>
 </div>
 </li>
 <li>
-<p>When prompted, select the scope of content to be exported then click the "OK" button. <a href="#figure-3.12">Figure 3.12</a><br></p>
-<div id="figure-3.12" class="paragraph">
-<div class="title">Figure 3.12</div>
+<p>When prompted, select the scope of content to be exported then click the "OK" button. <a href="#figure-3.13">Figure 3.13</a><br></p>
+<div id="figure-3.13" class="paragraph">
+<div class="title">Figure 3.13</div>
 <p><span class="image"><img src="images/export02.png" alt="Export type selection."></span></p>
 </div>
 </li>
 <li>
-<p>After you have selected a type you will be prompted to give your document a name and select a folder to save it to. <a href="#figure-3.13">Figure 3.13</a><br></p>
-<div id="figure-3.13" class="paragraph">
-<div class="title">Figure 3.13</div>
+<p>After you have selected a type you will be prompted to give your document a name and select a folder to save it to. <a href="#figure-3.14">Figure 3.14</a><br></p>
+<div id="figure-3.14" class="paragraph">
+<div class="title">Figure 3.14</div>
 <p><span class="image"><img src="images/save03.png" alt="Windows save as menu."></span></p>
 </div>
 </li>
@@ -1086,7 +1089,14 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div class="sect2">
 <h3 id="_creating_and_opening">Creating and Opening</h3>
 <div class="paragraph">
-<p>Cherrytree opens to the same state as when it last closed. If this is your first time using the application, it will open a new document by default. To create a new document, click "File" within the menu bar and select the "New Instance" option.</p>
+<p>Cherrytree opens to the same state as when it last closed or to a new document if no previous state exists. To create a new document, click "File" within the menu bar and select the "New Instance" option.</p>
+</div>
+<div class="paragraph">
+<p>To open an existing file, click "File" and select the "Open File" option, then select a document and click "Open." Recently used documents can be opened more quickly by selecting the document name within the "Recent Files" submenu. <a href="#figure-4.03">Figure 4.03</a></p>
+</div>
+<div id="figure-4.03" class="paragraph">
+<div class="title">Figure 4.03</div>
+<p><span class="image"><img src="images/recent-doc.png" alt="Recent documents submenu."></span></p>
 </div>
 </div>
 <div class="sect2">
@@ -1127,9 +1137,6 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div id="figure-5.02" class="paragraph">
 <div class="title">Figure 5.02</div>
 <p><span class="image"><img src="images/tree_demo.png" alt="Tree demo."></span></p>
-</div>
-<div class="paragraph">
-<p>Content</p>
 </div>
 <div class="sect2">
 <h3 id="_creating_nodes">Creating Nodes</h3>
@@ -2399,7 +2406,8 @@ Public License for more details.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-10-20 21:17:35 Eastern Daylight Time
+Version 0.38.6<br>
+Last updated 2018-10-24 13:20:15 Eastern Daylight Time
 </div>
 </div>
 </body>

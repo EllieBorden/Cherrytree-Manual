@@ -43,6 +43,7 @@
 :interface: image:images/interface.png[Cherrytree interface.]
 :tree-menu: image:images/treemenu.png[Tree menu.]
 :insert-menu: image:images/insert01.png[Insert menu options.]
+:view-menu: image:images/view-menu.png[View menu options.]
 :insert-toolbar: image:images/insert02.png[Insert toolbar options.]
 :save-menu: image:images/save01.png[File menu, save.]
 :save-type: image:images/save02.png[Save type selection menu.]
@@ -53,6 +54,7 @@
 // Files Images
 :file-menu: image:images/file-menu.png[File Menu.]
 :file-toolbar: image:images/file-toolbar.png[File Menu.]
+:recent-doc: image:images/recent-doc.png[Recent documents submenu.]
 
 // Node Images
 :tree-diagram: image:images/tree_diagram.png[Tree diagram.]

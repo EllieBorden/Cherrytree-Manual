@@ -1,8 +1,11 @@
 = image:images/icons/cherrytree.png[Cherrytree] Cherrytree User Manual
-v0.38.6, 2018
+:revnumber: 0.38.6
+:revdate: October, 2018
 :toc: left
 :doctype: book
 :stylesheet: styles/asciidoctor.css
+:description: User manual for Cherrytree, a free and open source, hierarchical, note-taking application.
+:keywords: Cherrytree, note-taking, open source, user manual
 
 // Variables
 include::includes/__variables.adoc[]
