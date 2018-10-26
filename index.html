@@ -455,6 +455,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_installing_on_fedora_and_other_red_hat_derivatives">Installing on Fedora and other Red Hat derivatives</a></li>
 <li><a href="#_installing_on_ubuntu_and_other_debian_derivatives">Installing on Ubuntu and other Debian derivatives</a></li>
 <li><a href="#_installing_on_windows">Installing on Windows</a></li>
+<li><a href="#_building_from_source">Building from Source</a></li>
 </ul>
 </li>
 <li><a href="#_quick_start">Quick start</a>
@@ -789,8 +790,77 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 </li>
 </ol>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and restart your computer, then try again.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_building_from_source">Building from Source</h3>
 <div class="paragraph">
-<p><strong>Note:</strong> If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and restart your computer, then try again.</p>
+<p>the source code is version controlled with git and hosted by github.
+you can get a clone of the cherrytree git repository issuing the command:</p>
+</div>
+<div class="paragraph">
+<p>terminal git clone <a href="https://github.com/giuspen/cherrytree.git" class="bare">https://github.com/giuspen/cherrytree.git</a> git_cherrytree
+terminal cd git_cherrytree
+terminal ./cherrytree</p>
+</div>
+<div class="paragraph">
+<p>that will create a folder named git_cherrytree in the terminal working directory, enter into it and run cherrytree development version.</p>
+</div>
+<div class="paragraph">
+<p>in order to update the local repository with the server repository updates you don’t need to “git clone” all the time but simply run the following command from a terminal whose working directory is git_cherrytree:</p>
+</div>
+<div class="paragraph">
+<p>terminal git pull</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+for running from Python source on Mac, using Homebrew:
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>terminal brew install pygtk
+terminal brew install pygtksourceview</p>
+</div>
+<div class="paragraph">
+<p>… and look at <a href="https://github.com/giuspen/cherrytree/issues/176" class="bare">https://github.com/giuspen/cherrytree/issues/176</a> for users feedback</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+for running from Python source on Windows you need the following:
+• download <a href="http://www.giuspen.com/software/gtk-2.24.10-win-bundle.7z" class="bare">http://www.giuspen.com/software/gtk-2.24.10-win-bundle.7z</a> and extract to C:\
+• install Python 2.7.x 32bit from <a href="https://www.python.org/" class="bare">https://www.python.org/</a>
+• add “C:\gtk2\bin” and “C:\Python27” to the environment variable “Path”
+• install PyGTK all in one installer from <a href="http://www.pygtk.org/downloads.html" class="bare">http://www.pygtk.org/downloads.html</a> being sure to include at installation time PyGtkSourceView2
+• download <a href="http://www.giuspen.com/software/C_Python27_Lib.7z" class="bare">http://www.giuspen.com/software/C_Python27_Lib.7z</a> and extract the content of the folder C_Python27_Lib to C:\Python27\Lib
+• in order to have spell check working you need to install also <a href="http://pythonhosted.org/pyenchant/" class="bare">http://pythonhosted.org/pyenchant/</a>
+• in order to use password protection you need to put 7za.exe in the folder git_cherrytree or in a folder which is in the environment variable “Path” (download from <a href="http://downloads.sourceforge.net/sevenzip/7za920.zip" class="bare">http://downloads.sourceforge.net/sevenzip/7za920.zip</a>)
+• in folder git_cherrytree, instead of command “./cherrytree” use “python cherrytree”
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -1026,7 +1096,7 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 </div>
 </li>
 <li>
-<p>If this is your first time saving the current document, you will be prompted to select a save type, as shown in <a href="#figure-3.10">Figure 3.10</a>. If you are unsure which type to select, please visit the <a href="#_save_type">save type section</a> for more details.<br></p>
+<p>If this is your first time saving the current document, you will be prompted to select a storage type, as shown in <a href="#figure-3.10">Figure 3.10</a>. If you are unsure which type to select, please visit the <a href="#_storage_type">storage type section</a> for more details.<br></p>
 <div id="figure-3.10" class="paragraph">
 <div class="title">Figure 3.10</div>
 <p><span class="image"><img src="images/save02.png" alt="Save type selection menu."></span></p>
@@ -1102,30 +1172,41 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 <div class="sect2">
 <h3 id="_saving">Saving</h3>
 <div class="sect3">
-<h4 id="_saving_to_the_same_file">Saving to the same file</h4>
+<h4 id="_saving_to_the_current_file">Saving to the Current File</h4>
+<div class="paragraph">
+<p>To save your document, hold "Ctrl" and press the "s" key, or click "File" within the menu bar and select the "Save" option.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+If this is your first time saving the current document, please see the <a href="#_saving_to_a_new_file">save to a new file section</a> below.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_saving_to_a_new_file">Saving to a New File</h4>
 <div class="olist arabic">
 <ol class="arabic" start="1">
 <li>
-<p>You can save your document by holding "Ctrl" and pressing "s" or clicking "File" within the menu bar and selecting the "Save" option, as shown in <a href="#figure-4.04">Figure 4.04</a>.<br></p>
-<div class="paragraph">
-<p>If you have previously saved the current document, you do not need to perform steps 2 and 3.<br></p>
-</div>
-<div id="figure-4.04" class="paragraph">
-<div class="title">Figure 4.04</div>
-<p><span class="image"><img src="images/save01.png" alt="File menu" width="save."></span></p>
-</div>
+<p>To save your document to a new file, press the "s" key while holding "Ctrl" and "Shift", or click "File" within the menu bar and select the "Save As" option.</p>
 </li>
 <li>
-<p>If this is your first time saving the current document, you will be prompted to select a save type, as shown in <a href="#figure-4.05">Figure 4.05</a>. If you are unsure which type to select, please visit the <a href="#_save_types">save section</a> for more details.<br></p>
-<div id="figure-4.05" class="paragraph">
-<div class="title">Figure 4.05</div>
+<p>You will be prompted to select a storage type, as shown in <a href="#figure-4.06">Figure 4.06</a>. If you are unsure which type to select, please visit the <a href="#_storage_types">storage type section</a> for more details.<br></p>
+<div id="figure-4.06" class="paragraph">
+<div class="title">Figure 4.06</div>
 <p><span class="image"><img src="images/save02.png" alt="Save type selection menu."></span></p>
 </div>
 </li>
 <li>
-<p>After you have selected a type, give your document a name and select a folder to save it to. <a href="#figure-4.06">Figure 4.06</a><br></p>
-<div id="figure-4.06" class="paragraph">
-<div class="title">Figure 4.06</div>
+<p>After you have selected a type, give your document a name and select a folder to save it to. <a href="#figure-4.07">Figure 4.07</a><br></p>
+<div id="figure-4.07" class="paragraph">
+<div class="title">Figure 4.07</div>
 <p><span class="image"><img src="images/save03.png" alt="Windows save as menu."></span></p>
 </div>
 </li>
@@ -1133,26 +1214,69 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 </div>
 </div>
 <div class="sect3">
-<h4 id="_saving_to_a_new_file">Saving to a new file</h4>
-
+<h4 id="_save_and_vacuum">Save and Vacuum</h4>
+<div class="paragraph">
+<p>Vacuuming rebuilds the database file, packing it into a minimal amount of disk space. Empty space is left behind when a large amount of data is deleted from a database. Frequent inserts, updates, and deletes can also cause the database file to become fragmented &mdash; where data for a single table or index is scattered around the database file.</p>
+</div>
+<div class="paragraph">
+<p>This feature should be used periodically when working with SQLite files to keep the database from assuming more space than necessary.</p>
+</div>
+<div class="paragraph">
+<p>Visit the <a href="https://www.sqlite.org/lang_vacuum.html">SQLite documentation page for the vacuum command</a> to learn more.</p>
+</div>
 </div>
 <div class="sect3">
-<h4 id="_save_types">Save Types</h4>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>SQLite:</strong></p>
-</li>
-<li>
-<p><strong>XML:</strong></p>
-</li>
-</ul>
+<h4 id="_storage_types">Storage Types</h4>
+<div class="paragraph">
+<p>When saving your document for the first time, Cherrytree prompts you to choose between two file formats, SQLite and XML.</p>
+</div>
+<div class="paragraph">
+<p><strong>SQLite</strong> is a self-contained database and will have a ".ctb" or ".ctx" extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree will only access the tree structure and currently selected node. This makes opening your document faster, but may slow functions such as searching and selecting nodes when they&#8217;re used for the first time.</p>
+</div>
+<div class="paragraph">
+<p>Performance loss with SQLite is lower than XML, making it better suited for larger documents.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+SQLite files should be <a href="#_save_and_vacuum">vacuumed</a> periodically.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>XML</strong> is a markup language and will have a ".ctd" or  ".ctz" extension when used with Cherrytree. The files will be fully loaded at runtime, making searching and navigating through nodes faster, but slowing the initial load time.</p>
+</div>
+<div class="paragraph">
+<p>XML is more accessible and easier to convert to other file types, but should not be used with large documents.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_password_protection">Password Protection</h4>
 <div class="paragraph">
-<p><strong>NOTE:</strong> Password-protected files are compressed and locked with <a href="https://www.7-zip.org/">7zip</a>, an open source file archiver. Other applications might not provide functionality to unlock files that have been locked by Cherrytree.</p>
+<p>Password-protected files are compressed and locked with <a href="https://www.7-zip.org/">7zip</a>, an open source file archiver.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Other applications might not provide functionality to unlock files that have been locked by Cherrytree.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_changing_passwords">Changing Passwords</h4>
+<div class="paragraph">
+<p>To change the password of a protected file, open the file in Cherrytree then click "File &gt; Save-as." Follow the <a href="#_saving_to_a_new_file">steps to save as a new document</a> and select a protected storage type. Use your new password to protect this copy of the document.</p>
 </div>
 </div>
 </div>

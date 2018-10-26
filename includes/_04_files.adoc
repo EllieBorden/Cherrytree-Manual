@@ -23,39 +23,58 @@ To open an existing file, click "File" and select the "Open File" option, then s
 === Saving
 
 ==== Saving to the Current File
+To save your document, hold "Ctrl" and press the "s" key, or click "File" within the menu bar and select the "Save" option.
 
-[start=1]
-. You can save your document by holding "Ctrl" and pressing "s" or clicking "File" within the menu bar and selecting the "Save" option, as shown in <<figure-4.04>>. +
-+
-If you have previously saved the current document, you do not need to perform steps 2 and 3. +
-+
-[[figure-4.04]]
-.Figure 4.04
-{save-menu}
-
-. If this is your first time saving the current document, you will be prompted to select a save type, as shown in <<figure-4.05>>. If you are unsure which type to select, please visit the link:#_save_types[save section] for more details. +
-+
-[[figure-4.05]]
-.Figure 4.05
-{save-type}
-
-. After you have selected a type, give your document a name and select a folder to save it to. <<figure-4.06>> +
-+
-[[figure-4.06]]
-.Figure 4.06
-{save-as}
+NOTE: If this is your first time saving the current document, please see the link:#_saving_to_a_new_file[save to a new file section] below.
 
 ==== Saving to a New File
 
-==== Save Types
+[start=1]
+. To save your document to a new file, press the "s" key while holding "Ctrl" and "Shift", or click "File" within the menu bar and select the "Save As" option.
 
-* *SQLite:*  
-     
-* *XML:* 
+. You will be prompted to select a storage type, as shown in <<figure-4.06>>. If you are unsure which type to select, please visit the link:#_storage_types[storage type section] for more details. +
++
+[[figure-4.06]]
+.Figure 4.06
+{save-type}
+
+. After you have selected a type, give your document a name and select a folder to save it to. <<figure-4.07>> +
++
+[[figure-4.07]]
+.Figure 4.07
+{save-as}
+
+==== Save and Vacuum
+
+Vacuuming rebuilds the database file, packing it into a minimal amount of disk space. Empty space is left behind when a large amount of data is deleted from a database. Frequent inserts, updates, and deletes can also cause the database file to become fragmented &mdash; where data for a single table or index is scattered around the database file. 
+
+This feature should be used periodically when working with SQLite files to keep the database from assuming more space than necessary.
+  
+Visit the {vacuum}[SQLite documentation page for the vacuum command] to learn more.
+
+==== Storage Types
+
+When saving your document for the first time, Cherrytree prompts you to choose between two file formats, SQLite and XML.
+
+*SQLite* is a self-contained database and will have a ".ctb" or ".ctx" extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree will only access the tree structure and currently selected node. This makes opening your document faster, but may slow functions such as searching and selecting nodes when they're used for the first time. 
+
+Performance loss with SQLite is lower than with XML, making it better suited for larger documents.
+
+NOTE: SQLite files should be link:#_save_and_vacuum[vacuumed] periodically. 
+
+*XML* is a markup language and will have a ".ctd" or  ".ctz" extension when used with Cherrytree. The files will be fully loaded at runtime, making searching and navigating through nodes faster, but slowing the initial load time.
+
+XML is more accessible and easier to convert to other file types, but should not be used with large documents. 
 
 ==== Password Protection
 
-*NOTE:* Password-protected files are compressed and locked with {7zip}[7zip], an open source file archiver. Other applications might not provide functionality to unlock files that have been locked by Cherrytree. 
+Password-protected files are compressed and locked with {7zip}[7zip], an open source file archiver. 
+
+NOTE: Other applications might not provide functionality to unlock files that have been locked by Cherrytree. 
+
+==== Changing Passwords
+
+To change the password of a protected file, open the file in Cherrytree then click "File > Save-as." Follow the link:#_saving_to_a_new_file[steps to save as a new document] and select a protected storage type. Use your new password to protect this copy of the document. 
 
 === Printing
 

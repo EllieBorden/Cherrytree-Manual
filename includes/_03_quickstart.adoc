@@ -124,7 +124,7 @@ If you have previously saved the current document, you do not need to perform st
 .Figure 3.09
 {save-menu}
 
-. If this is your first time saving the current document, you will be prompted to select a save type, as shown in <<figure-3.10>>. If you are unsure which type to select, please visit the link:#_save_type[save type section] for more details. +
+. If this is your first time saving the current document, you will be prompted to select a storage type, as shown in <<figure-3.10>>. If you are unsure which type to select, please visit the link:#_storage_type[storage type section] for more details. +
 +
 [[figure-3.10]]
 .Figure 3.10
