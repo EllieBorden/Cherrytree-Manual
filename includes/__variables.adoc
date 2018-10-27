@@ -86,6 +86,7 @@
 :file-toolbar: image:images/file-toolbar.png[File Menu.]
 :recent-doc: image:images/recent-doc.png[Recent documents submenu.]
 :newnodenewpage: image:images/newnodenewpage.png[New Node in New Page.]
+:whoisparent: image:images/whoisparent.png[Who is the Parent menu.]
 
 // Node Images
 :tree-diagram: image:images/tree_diagram.png[Tree diagram.]

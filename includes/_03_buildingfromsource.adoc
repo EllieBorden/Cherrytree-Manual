@@ -4,7 +4,7 @@
 
 [start=1]
 . Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command `python --version`.
-. If a variant of *Python 2.7...* is not returned, as shown in <<figure-2.16>>,  install it by running the command `sudo apt install python2.7 python-pip`, then check the version again.
+. If a variant of *Python 2.7* is not returned, as shown in <<figure-2.16>>,  install it by running the command `sudo apt install python2.7 python-pip`, then check the version again.
 +
 [[figure-2.16]]
 .Figure 2.16
@@ -102,20 +102,20 @@ NOTE: If you move the bundle into your *C:* drive, your path will look like `C:\
 {pygtkwin}
 
 . Click {py2lib}[here] to download python 2.8 lib files.
-. {7zip}[Unzip] the folder and move the content from C_Python27_Lib to the Lib folder within your Python 2.7 installation. <<figure-2.27>>
+. {7zip}[Unzip] the folder and move the content from *C_Python27_Lib* to the *Lib* folder within your Python 2.7 installation. <<figure-2.27>>
 +
 [[figure-2.27]]
 .Figure 2.27
 {pylibdir}
 
-. Open Command Prompt and run the command `python2 -m pip install pyenchant`, which is necessary for Cherrytree's spell check feature.
+. Open *Command Prompt* and run the command `python2 -m pip install pyenchant`, a dependency for Cherrytree's spell check feature.
 
 ==== Configuring the Cherrytree Directory
 
 [start=16]
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
 . Click {portable7zip}[here] to download a portable 7zip, which is needed for password-protecting files. Extract its content and move the *7za.exe* file into the root folder of your local Cherrytree directory.
-. Open Command Prompt, navigate to your local Cherrytree directory and run the command `python2 cherrytree` to launch the application.
+. Open *Command Prompt*, navigate to your local Cherrytree directory and run the command `python2 cherrytree` to launch the application.
 
 
 === macOS (Not Tested)

@@ -80,7 +80,7 @@ To change the password of a protected file, open the file in Cherrytree then cli
 
 *Page Setup*, found in the *File* menu, allows you to set your document size, orientation, and margins.
 
-To *print a document*, click *File > Print* and when prompted, choose between one of the following options:
+To print a document, click *File > Print*, then choose between one of the following options when prompted:
 
 * Selected Text Only
 * Selected Node Only
@@ -95,19 +95,62 @@ Select *New Node in New Page* to apply page breaks at the end of nodes within th
 
 === Importing
 
+Cherrytree's import feature can be accessed from the *Import* menu.
+
+[start=1]
+. Click *Import* and select from the following options:
+
+** From CherrTree File
+** From Plain Text File
+** From Folder of Plain Text Files
+** From HTML File
+** From Folder of HTML Files
+** From Basket Folder
+** From EssentialPIM HTML File
+** From Gnote Folder
+** From KeepNote Folder
+** From Keynote File
+** From Knowit File
+** From Leo File
+** From Mempad File
+** From NoteCase File
+** From RedNotebook Folder
+** From Toyboy Folder
+** From Treepad Lite File
+** From TuxCards File
+** From Zim Folder
+
+. Select the file or folder that you'd like to import and click *Open*. (May vary between operating systems.) 
+
+. In the *Who is the parent?* menu, select one of following options, then click *OK*:
+
+** *The Tree Root* - Each imported file will be added to a top-level node.
+** *The Selected Node* - Each imported file will be added to a child node of the currently selected node.
+
 === Exporting
 
-==== HTML
+Cherrytree's export feature can be accessed from the *Export* menu.
 
-When exporting to HTML, all Nodes will be copied to the root folder of your chosen directory as HTML files. The main html file will be named *index.html*.
+[start=1]
+. Click *Export* and select from the following options:
 
-[start=1] 
-. Click *Export to HTML* under the *Export* menu. 
-. Select the scope of your document to be exported:
-.. Selected Text Only
-.. Selected Node Only
-.. Selected Node and Subnodes
-.. All in Tree
-. Additional options:
-.. *Include Node name* displays the name of each Node at the top of its page. This may be redundant if you have headers within the pages of your notes.
-.. *Links Tree in Every Page* When enabled all nodes will contain a table of contents. Otherwise if this option is disabled, only the index.html document will contain a table of contents.
+** Export to PDF
+** Eport to HTML
+** Export to Multiple Plain Text Files
+** Export to Single Plain Text File
+** Export to CherryTreeDocument
+
+. Within the *Involved Nodes* menu, select the scope of your document to be exported:
+
+** Selected Text Only
+** Selected Node Only
+** Selected Node and Subnodes
+** All in Tree
+
+. Some additional options will be available depending on the export type:
+
+** *Include Node name* displays the name of each Node at the top of its page. This may be redundant if you have headers within the pages of your notes.
+** *New Node in New Page* to apply page breaks at the end of nodes within the exported document.
+** *Links Tree in Every Page* When enabled all nodes will contain a table of contents. Otherwise if this option is disabled, only the *index.html* document will contain a table of contents.
+
+When exporting to HTML, all nodes will be copied to the root folder of your chosen directory as *.html* files. The main HTML file will be named *index.html*.
