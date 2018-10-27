@@ -11,7 +11,7 @@ This brief quick start guide covers the following material:
 
 === Interface
 
-Cherrytree’s interface consists of four sections, highlighted in <<figure-3.01>>:
+Cherrytree's interface consists of four sections, highlighted in <<figure-3.01>>:
 
 [[figure-3.01]]
 .Figure 3.01
@@ -27,10 +27,10 @@ The menu bar contains the following menus:
 * *Tree* - Node management features.
 * *Search* - Features for search and replace.
 * *View* - Interface options.
-* *Bookmarks* - Bookmarks are listed in this menu. They can be added by right-clicking a node within the tree view and selecting the “Add to Bookmarks” option.
+* *Bookmarks* - Bookmarks are listed in this menu. They can be added by right-clicking a node within the tree view and selecting *Add to Bookmarks*.
 * *Import* - Cherrytree can import from a variety of sources including KeepNote, NoteCase, Tomboy, HTML files, others.
 * *Export* - Cherrytree documents can be exported to HTML, PDF, and Plain Text.
-* *Help* - Contains “Check for updates”, an “About” section, and a link to the online manual."
+* *Help* - Contains *Check for updates*, an *About* section, and a link to the online manual.
 
 ==== Toolbar (Purple)
 
@@ -38,7 +38,7 @@ The toolbar has many commonly used options for managing nodes, formatting text, 
 
 ==== Tree View (Green)
 
-Cherrytree’s tree view shows the document’s hierarchical structure of nodes.
+Cherrytree's tree view shows the document's hierarchical structure of nodes.
 
 ==== Editor (Yellow)
 
@@ -46,13 +46,13 @@ The editor is used to read, write, edit, and delete notes. Click and hold the di
 
 ==== Interface Options
 
-Most interface options exist within the "View" menu. <<figure-3.02>>
+Most interface options exist within the *View* menu. <<figure-3.02>>
 
 [[figure-3.02]]
 .Figure 3.02
 {view-menu}
 
-The size of the toolbar icons is enlarged within <<figure-3.01>>. Icon size can be increased by selecting “Increase Toolbar Icon Size” or decreased with the “Decrease Toolbar Icon Size” option.
+The size of the toolbar icons is enlarged within <<figure-3.01>>. Icon size can be increased by selecting *Increase Toolbar Icon Size* or decreased with *Decrease Toolbar Icon Size*.
 
 === Node Management
 
@@ -61,13 +61,13 @@ Cherrytree allows you to organize notes using a link:#_nodes[tree structure].
 ==== Creating Your First Node
 
 [start=1]
-. Click the “Add Node” button, shown in <<figure-3.04>>. within the menu bar. +
+. Click *Add Node*, shown in <<figure-3.04>>. within the menu bar. +
 +
 [[figure-3.04]]
 .Figure 3.04
 {tree-node-add}
 
-. Within the "New Node Properties" menu, shown in <<figure-3.05>> give your node a name and select a node type, then click the “OK” button. If you’re unsure which node type to use, please view the link:#_choosing_a_node_type[node type section] of this manual. +
+. Within *New Node Properties*, shown in <<figure-3.05>> give your node a name and select a node type, then click *OK*. If you're unsure which node type to use, please view the link:#_choosing_a_node_type[node type section] of this manual. +
 +
 [[figure-3.05]]
 .Figure 3.05
@@ -90,7 +90,7 @@ Commonly used options include:
 
 === Insert Objects
 
-Objects can be inserted from the menu bar under "Edit", <<figure-3.07>>, or the toolbar, <<figure-3.08>>. 
+Objects can be inserted from the menu bar under *Edit*, <<figure-3.07>>, or the toolbar, <<figure-3.08>>. 
 
 [[figure-3.07]]
 .Figure 3.07
@@ -116,7 +116,7 @@ The following objects can be inserted into Cherrytree documents:
 === Save Your Notes
 
 [start=1]
-. You can save your document by holding "Ctrl" and pressing "s" or clicking "File" within the menu bar and selecting the "Save" option, as shown in <<figure-3.09>>. +
+. You can save your document by holding *Ctrl* and pressing *s* or clicking *File* within the menu bar and selecting *Save*, as shown in <<figure-3.09>>. +
 +
 If you have previously saved the current document, you do not need to perform steps 2 and 3. +
 +
@@ -139,13 +139,13 @@ If you have previously saved the current document, you do not need to perform st
 === Export the Document
 
 [start=1]
-. To export your document, click "Export" within the menu bar and select a type of document type. <<figure-3.12>> +
+. To export your document, click *Export* within the menu bar and select a type of document type. <<figure-3.12>> +
 +
 [[figure-3.12]]
 .Figure 3.12
 {export-menu}
 
-. When prompted, select the scope of content to be exported then click the "OK" button. <<figure-3.13>> +
+. When prompted, select the scope of content to be exported then click *OK*. <<figure-3.13>> +
 +
 [[figure-3.13]]
 .Figure 3.13

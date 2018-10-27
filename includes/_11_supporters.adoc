@@ -120,7 +120,7 @@ hierarchical, Integrate LaTeX (mathematical formulas)}
 * Alexandr Blashin (Germany) donated €10
 * Aviv De Morgan (Israel) donated €10
 * Balint Fekete (Hungary) donated €10
-* Benoît D’Angelo (France) donated €10
+* Benoît D'Angelo (France) donated €10
 * Bruno Pietzsch (Germany) donated €10
 * Chipmunk Software & Systems (United States) donated €10
 * Christian Saad (Germany) donated €10

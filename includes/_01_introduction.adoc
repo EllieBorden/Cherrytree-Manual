@@ -20,18 +20,18 @@ Please visit the git {repository}[repository] to get started.
 
 Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the {future}[future directory]. The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to missing pygi bindings for a core clipboard functionality
 
-Developers can help by addressing bugs submitted to the repository’s {issues}[issues page].
+Developers can help by addressing bugs submitted to the repository's {issues}[issues page].
 
 ==== Testing
 
-If you find a bug, please check to see if it has already been reported within the project’s {issues}[issues]. If the error is unreported, please create a new issue providing as much detail as
+If you find a bug, please check to see if it has already been reported within the project's {issues}[issues]. If the error is unreported, please create a new issue providing as much detail as
 possible.
 
 If needed, here is a short guide on {issues-guide}[writing a proper GitHub issue].
 
 ==== Writing
 
-The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is maintained {manual-repo}[here]. Contributors can help with writing and proofing, or by porting the manual to a ".ctb" file, intended to demonstrate the potential of Cherrytree. Writing critiques are also encouraged.
+The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is maintained {manual-repo}[here]. Contributors can help with writing and proofing, or by porting the manual to a *.ctb* file, intended to demonstrate the potential of Cherrytree. Writing critiques are also encouraged.
 
 ==== Translation
 

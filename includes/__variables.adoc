@@ -10,7 +10,6 @@
 
 // GitHub Links
 :changelog: https://github.com/giuspen/cherrytree/blob/master/changelog.txt
-
 :repository: https://github.com/giuspen/cherrytree
 :future: https://github.com/giuspen/cherrytree/tree/master/future
 :issues: https://github.com/giuspen/cherrytree/issues
@@ -86,6 +85,7 @@
 :file-menu: image:images/file-menu.png[File Menu.]
 :file-toolbar: image:images/file-toolbar.png[File Menu.]
 :recent-doc: image:images/recent-doc.png[Recent documents submenu.]
+:newnodenewpage: image:images/newnodenewpage.png[New Node in New Page.]
 
 // Node Images
 :tree-diagram: image:images/tree_diagram.png[Tree diagram.]
