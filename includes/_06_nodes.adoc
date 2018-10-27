@@ -1,20 +1,53 @@
 == Nodes
 
-In computer science, a tree is a data structure consisting of nodes which are connected by edges. In the tree shown in <<figure-5.01>>, *my_book* is the root node. *Part 3* is one of three child nodes that belong to *my_book* and is also the parent node of *Chapter 6*. 
+In computer science, a tree is a data structure consisting of nodes which are connected by edges. In the tree shown in <<figure-6.01>>, *my_book* is the root node. *Part 3* is one of three child nodes that belong to *my_book* and is also the parent node of *Chapter 6*. 
 
-[[figure-5.01]]
-.Figure 5.01
+[[figure-6.01]]
+.Figure 6.01
 {tree-diagram}
 
-<<figure-5.01>> might look like <<figure-5.02>> in Cherrytree, where the document name is the root node.
+<<figure-6.01>> might look like <<figure-6.02>> in Cherrytree, where the document name is the root node.
 
-[[figure-5.02]]
-.Figure 5.02
+[[figure-6.02]]
+.Figure 6.02
 {tree-demo}
 
 === Creating Nodes
 
+[start=1]
+. Click *Add Node* within the toolbar, shown in <<figure-6.03>>. This will create a {node-relations}[sibling] to the currently selected node, or a top-level node if no node is selected. You can also create child nodes by click *Add Child Node* in the toolbar, shown in <<figure-6.04>>.
++
+[[figure-6.03]]
+.Figure 6.03
+{tree-node-add}
+
+[[figure-6.04]]
+.Figure 6.04
+{new-node}
+
+. Within *New Node Properties*, shown in <<figure-6.05>> give your node a name. These properties can be changed later.
++
+[[figure-6.05]]
+.Figure 6.05
+{new-node}
+
+. Other available options:
+
+** *Bold* - Increase the font-weight of the node title within the tree view.
+** *Use Selected Color* - Change the text color of the node title within the tree view.
+** *Use Selected Icon* - Change the node's icon color.
+** *Node Type* - Select a node type. View the link:#_choosing_a_node_type[choosing a node type section] below for more detail.
+** *Tags for searching* - adds keywords that can be used to find the node in a search. Multiple tags can be separated by a blank space.
+** *Read Only* - Can be enabled to lock a node in its current state. This must be disabled to edit the document.
+. Click *OK* to finish creating the node.
+
 === Managing Nodes
+
+Nodes are primarily managed from the *Tree* menu, shown in  <<figure-6.06>>, which can be found in the menu bar or by right-clicking a node.
+
+[[figure-6.06]]
+.Figure 6.06
+{tree-menu}
 
 === Choosing a Node Type
 

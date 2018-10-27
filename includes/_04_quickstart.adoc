@@ -11,10 +11,10 @@ This brief quick start guide covers the following material:
 
 === Interface
 
-Cherrytree's interface consists of four sections, highlighted in <<figure-3.01>>:
+Cherrytree's interface consists of four sections, highlighted in <<figure-4.01>>:
 
-[[figure-3.01]]
-.Figure 3.01
+[[figure-4.01]]
+.Figure 4.01
 {interface}
 
 ==== Menu Bar (Red)
@@ -46,13 +46,13 @@ The editor is used to read, write, edit, and delete notes. Click and hold the di
 
 ==== Interface Options
 
-Most interface options exist within the *View* menu. <<figure-3.02>>
+Most interface options exist within the *View* menu. <<figure-4.02>>
 
-[[figure-3.02]]
-.Figure 3.02
+[[figure-4.02]]
+.Figure 4.02
 {view-menu}
 
-The size of the toolbar icons is enlarged within <<figure-3.01>>. Icon size can be increased by selecting *Increase Toolbar Icon Size* or decreased with *Decrease Toolbar Icon Size*.
+The size of the toolbar icons is enlarged within <<figure-4.01>>. Icon size can be increased by selecting *Increase Toolbar Icon Size* or decreased with *Decrease Toolbar Icon Size*.
 
 === Node Management
 
@@ -61,24 +61,24 @@ Cherrytree allows you to organize notes using a link:#_nodes[tree structure].
 ==== Creating Your First Node
 
 [start=1]
-. Click *Add Node*, shown in <<figure-3.04>>. within the menu bar. +
+. Click *Add Node*, shown in <<figure-4.04>>. within the toolbar. +
 +
-[[figure-3.04]]
-.Figure 3.04
+[[figure-4.04]]
+.Figure 4.04
 {tree-node-add}
 
-. Within *New Node Properties*, shown in <<figure-3.05>> give your node a name and select a node type, then click *OK*. If you're unsure which node type to use, please view the link:#_choosing_a_node_type[node type section] of this manual. +
+. Within *New Node Properties*, shown in <<figure-4.05>> give your node a name and select a node type, then click *OK*. If you're unsure which node type to use, please view the link:#_choosing_a_node_type[node type section] of this manual. +
 +
-[[figure-3.05]]
-.Figure 3.05
+[[figure-4.05]]
+.Figure 4.05
 {new-node}
 
 ==== Node Menu
 
-Right-click a node to display a menu of the options available to it. <<figure-3.06>> +
+Right-click a node to display a menu of the options available to it. <<figure-4.06>> +
 
-[[figure-3.06]]
-.Figure 3.06
+[[figure-4.06]]
+.Figure 4.06
 {tree-menu}
 
 Commonly used options include:
@@ -90,14 +90,14 @@ Commonly used options include:
 
 === Insert Objects
 
-Objects can be inserted from the menu bar under *Edit*, <<figure-3.07>>, or the toolbar, <<figure-3.08>>. 
+Objects can be inserted from the menu bar under *Edit*, <<figure-4.07>>, or the toolbar, <<figure-4.08>>. 
 
-[[figure-3.07]]
-.Figure 3.07
+[[figure-4.07]]
+.Figure 4.07
 {insert-menu}
 
-[[figure-3.08]]
-.Figure 3.08
+[[figure-4.08]]
+.Figure 4.08
 {insert-toolbar}
 
 The following objects can be inserted into Cherrytree documents:
@@ -116,43 +116,43 @@ The following objects can be inserted into Cherrytree documents:
 === Save Your Notes
 
 [start=1]
-. You can save your document by holding *Ctrl* and pressing *s* or clicking *File* within the menu bar and selecting *Save*, as shown in <<figure-3.09>>. +
+. You can save your document by holding *Ctrl* and pressing *s* or clicking *File* within the menu bar and selecting *Save*, shown in <<figure-4.09>>. +
 +
 If you have previously saved the current document, you do not need to perform steps 2 and 3. +
 +
-[[figure-3.09]]
-.Figure 3.09
+[[figure-4.09]]
+.Figure 4.09
 {save-menu}
 
-. If this is your first time saving the current document, you will be prompted to select a storage type, as shown in <<figure-3.10>>. If you are unsure which type to select, please visit the link:#_storage_type[storage type section] for more details. +
+. If this is your first time saving the current document, you will be prompted to select a storage type, shown in <<figure-4.10>>. If you are unsure which type to select, please visit the link:#_storage_type[storage type section] for more details. +
 +
-[[figure-3.10]]
-.Figure 3.10
+[[figure-4.10]]
+.Figure 4.10
 {save-type}
 
-. After you have selected a type, give your document a name and select a folder to save it to. <<figure-3.11>> +
+. After you have selected a type, give your document a name and select a folder to save it to. <<figure-4.11>> +
 +
-[[figure-3.11]]
-.Figure 3.11
+[[figure-4.11]]
+.Figure 4.11
 {save-as}
 
 === Export the Document
 
 [start=1]
-. To export your document, click *Export* within the menu bar and select a type of document type. <<figure-3.12>> +
+. To export your document, click *Export* within the menu bar and select a type of document type. <<figure-4.12>> +
 +
-[[figure-3.12]]
-.Figure 3.12
+[[figure-4.12]]
+.Figure 4.12
 {export-menu}
 
-. When prompted, select the scope of content to be exported then click *OK*. <<figure-3.13>> +
+. When prompted, select the scope of content to be exported then click *OK*. <<figure-4.13>> +
 +
-[[figure-3.13]]
-.Figure 3.13
+[[figure-4.13]]
+.Figure 4.13
 {export-scope}
 
-. After you have selected a type you will be prompted to give your document a name and select a folder to save it to. <<figure-3.14>> +
+. After you have selected a type you will be prompted to give your document a name and select a folder to save it to. <<figure-4.14>> +
 +
-[[figure-3.14]]
-.Figure 3.14
+[[figure-4.14]]
+.Figure 4.14
 {save-as}

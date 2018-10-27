@@ -27,6 +27,7 @@
 :win7-vars-link: https://www.nextofwindows.com/how-to-addedit-environment-variables-in-windows-7
 :issues-guide: https://medium.com/nycplanninglabs/writing-a-proper-github-issue-97427d62a20f
 :portable7zip: http://downloads.sourceforge.net/sevenzip/7za920.zip
+:node-relations: https://docs.oracle.com/cd/E19509-01/820-3742/ghpow/index.html
 
 // Misc. Links
 :maintainer: mailto:giuspen@gmail.com
@@ -71,7 +72,7 @@
 // Quick Start Images
 :new-node: image:images/newnode.png[New node properties.]
 :interface: image:images/interface.png[Cherrytree interface.]
-:tree-menu: image:images/treemenu.png[Tree menu.]
+:tree-menu: image:images/tree-menu.png[Tree menu.]
 :insert-menu: image:images/insert01.png[Insert menu options.]
 :view-menu: image:images/view-menu.png[View menu options.]
 :insert-toolbar: image:images/insert02.png[Insert toolbar options.]

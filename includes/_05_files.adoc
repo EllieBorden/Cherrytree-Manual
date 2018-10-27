@@ -1,23 +1,23 @@
 == Files
 
-Documents can be managed from the *File* menu, shown in <<figure-4.01>>, or the toolbar, <<figure-4.02>>.
+Documents can be managed from the *File* menu, shown in <<figure-5.01>>, or the toolbar, <<figure-5.02>>.
 
-[[figure-4.01]]
-.Figure 4.01
+[[figure-5.01]]
+.Figure 5.01
 {file-menu}
 
-[[figure-4.02]]
-.Figure 4.02
+[[figure-5.02]]
+.Figure 5.02
 {file-toolbar}
 
 === Creating and Opening
 
 Cherrytree opens to the same state as when it last closed or to a new document if no previous state exists. To create a new document, click *File* within the menu bar and select *New Instance*.
 
-To open an existing file, click *File* and select *Open File*, then select a document and click *Open*. Recently used documents can be opened more quickly by selecting the document name within the *Recent Files* submenu. <<figure-4.03>>
+To open an existing file, click *File* and select *Open File*, then select a document and click *Open*. Recently used documents can be opened more quickly by selecting the document name within the *Recent Files* submenu. <<figure-5.03>>
 
-[[figure-4.03]]
-.Figure 4.03
+[[figure-5.03]]
+.Figure 5.03
 {recent-doc}
 
 === Saving
@@ -32,16 +32,16 @@ NOTE: If this is your first time saving the current document, please see the lin
 [start=1]
 . To save your document to a new file, press the *s* key while holding *Ctrl* and *Shift*, or click *File* within the menu bar and select *Save As*.
 
-. You will be prompted to select a storage type, as shown in <<figure-4.06>>. If you are unsure which type to select, please visit the link:#_storage_types[storage type section] for more details. +
+. You will be prompted to select a storage type, shown in <<figure-5.06>>. If you are unsure which type to select, please visit the link:#_storage_types[storage type section] for more details. +
 +
-[[figure-4.06]]
-.Figure 4.06
+[[figure-5.06]]
+.Figure 5.06
 {save-type}
 
-. After you have selected a type, give your document a name and select a folder to save it to. <<figure-4.07>> +
+. After you have selected a type, give your document a name and select a folder to save it to. <<figure-5.07>> +
 +
-[[figure-4.07]]
-.Figure 4.07
+[[figure-5.07]]
+.Figure 5.07
 {save-as}
 
 ==== Save and Vacuum
@@ -87,10 +87,10 @@ To print a document, click *File > Print*, then choose between one of the follow
 * Selected Node and Subnodes
 * All the Tree
 
-Select *New Node in New Page* to apply page breaks at the end of nodes within the printed document. <<figure-4.08>>
+Select *New Node in New Page* to apply page breaks at the end of nodes within the printed document. <<figure-5.08>>
 
-[[figure-4.08]]
-.Figure 4.08
+[[figure-5.08]]
+.Figure 5.08
 {newnodenewpage}
 
 === Importing
@@ -127,6 +127,8 @@ Cherrytree's import feature can be accessed from the *Import* menu.
 ** *The Tree Root* - Each imported file will be added to a top-level node.
 ** *The Selected Node* - Each imported file will be added to a child node of the currently selected node.
 
+NOTE: This process may take a few minutes when importing many files or larger files.
+
 === Exporting
 
 Cherrytree's export feature can be accessed from the *Export* menu.
@@ -147,7 +149,7 @@ Cherrytree's export feature can be accessed from the *Export* menu.
 ** Selected Node and Subnodes
 ** All in Tree
 
-. Some additional options will be available depending on the export type:
+. Additional options will be available depending on the export type:
 
 ** *Include Node name* displays the name of each Node at the top of its page. This may be redundant if you have headers within the pages of your notes.
 ** *New Node in New Page* to apply page breaks at the end of nodes within the exported document.
