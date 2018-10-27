@@ -228,3 +228,5 @@ document file for cloud syncing}
 * Tomáš Chalúpek (Czech Republic) donated €3
 * Frank Lazar (Germany) donated €2
 * Виталий Волков (Russia) donated €2
+
+Donations are appreciated and can be made from the {donate}[Cherrytree website].

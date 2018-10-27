@@ -2,7 +2,7 @@
 
 Cherrytree is available for Linux and Windows.
 
-=== Installing on Fedora and other Red Hat derivatives
+=== Fedora (Red Hat)
 
 [start=1]
 . Download the latest installer with a ‘.rpm’ extension from the {download}[downloads webpage].
@@ -14,7 +14,7 @@ is located.
 .Figure 2.01
 {rhinstall01}
 
-=== Installing on Ubuntu and other Debian derivatives
+=== Ubuntu (Debian)
 
 Cherrytree can be installed to Ubuntu via the "Ubuntu Software" application or the command line.
 
@@ -79,7 +79,7 @@ Reference the {changelog}[changelog] to determine the latest version. +
 .Figure 2.09
 {debinstall01}
 
-=== Installing on Windows
+=== Windows
 
 [start=1]
 . Download and run the latest installer with an ‘.exe’ extension from {download}[downloads webpage].
@@ -121,5 +121,3 @@ Reference the {changelog}[changelog] to determine the latest version. +
 {wininstall06}
 
 NOTE: If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite “dbus-daemon.exe”. If so, please skip the overwrite and restart your computer, then try again.
-
-=== Building from Source

@@ -16,17 +16,7 @@ New contributors are welcome! We recommend that you {maintainer}[contact the pro
 
 Please visit the git {repository}[repository] to get started.
 
-The current version of Cherrytree requires:
 
-* python2
-* python-gtk2
-* python-gtksourceview2
-* p7zip-full
-* python-dbus
-* python-enchant
-* python-chardet
-
-After cloning, run in the top folder ./cherrytree or python2 cherrytree.
 
 Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the {future}[future directory]. The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to missing pygi bindings for a core clipboard functionality
 
@@ -46,6 +36,12 @@ The web version of the Cherrytree user manual is written using {_asciidoctor}[as
 ==== Translation
 
 Please contact the project's {maintainer}[maintainer] to add or edit translations.
+
+==== Resources
+* {repository}[Cherrytree repository]
+* link:#_building_from_source[Build from source tutorial]
+* link:https://developer.gnome.org/pygtk/stable/[PyGTK2 reference manual]
+* {forum}[Cherrytree community forum]
 
 ==== Donations
 

@@ -452,10 +452,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_installation">Installation</a>
 <ul class="sectlevel2">
-<li><a href="#_installing_on_fedora_and_other_red_hat_derivatives">Installing on Fedora and other Red Hat derivatives</a></li>
-<li><a href="#_installing_on_ubuntu_and_other_debian_derivatives">Installing on Ubuntu and other Debian derivatives</a></li>
-<li><a href="#_installing_on_windows">Installing on Windows</a></li>
-<li><a href="#_building_from_source">Building from Source</a></li>
+<li><a href="#_fedora_red_hat">Fedora (Red Hat)</a></li>
+<li><a href="#_ubuntu_debian">Ubuntu (Debian)</a></li>
+<li><a href="#_windows">Windows</a></li>
+</ul>
+</li>
+<li><a href="#_building_from_source">Building from Source</a>
+<ul class="sectlevel2">
+<li><a href="#_ubuntu_debian_2">Ubuntu (Debian)</a></li>
+<li><a href="#_fedora_red_hat_2">Fedora (Red Hat)</a></li>
+<li><a href="#_windows_2">Windows</a></li>
+<li><a href="#_macos_not_tested">macOS (Not Tested)</a></li>
 </ul>
 </li>
 <li><a href="#_quick_start">Quick start</a>
@@ -555,37 +562,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Please visit the git <a href="https://github.com/giuspen/cherrytree">repository</a> to get started.</p>
 </div>
 <div class="paragraph">
-<p>The current version of Cherrytree requires:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>python2</p>
-</li>
-<li>
-<p>python-gtk2</p>
-</li>
-<li>
-<p>python-gtksourceview2</p>
-</li>
-<li>
-<p>p7zip-full</p>
-</li>
-<li>
-<p>python-dbus</p>
-</li>
-<li>
-<p>python-enchant</p>
-</li>
-<li>
-<p>python-chardet</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>After cloning, run in the top folder ./cherrytree or python2 cherrytree.</p>
-</div>
-<div class="paragraph">
 <p>Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the <a href="https://github.com/giuspen/cherrytree/tree/master/future">future directory</a>. The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to missing pygi bindings for a core clipboard functionality</p>
 </div>
 <div class="paragraph">
@@ -615,6 +591,25 @@ possible.</p>
 </div>
 </div>
 <div class="sect3">
+<h4 id="_resources">Resources</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/giuspen/cherrytree">Cherrytree repository</a></p>
+</li>
+<li>
+<p><a href="#_building_from_source">Build from source tutorial</a></p>
+</li>
+<li>
+<p><a href="https://developer.gnome.org/pygtk/stable/">PyGTK2 reference manual</a></p>
+</li>
+<li>
+<p><a href="https://www.giuspen.com/forum/cherrytree-2/">Cherrytree community forum</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
 <h4 id="_donations">Donations</h4>
 <div class="paragraph">
 <p>Join the <a href="#supporters">Cherrytree Supporters</a>!</p>
@@ -633,7 +628,7 @@ possible.</p>
 <p>Cherrytree is available for Linux and Windows.</p>
 </div>
 <div class="sect2">
-<h3 id="_installing_on_fedora_and_other_red_hat_derivatives">Installing on Fedora and other Red Hat derivatives</h3>
+<h3 id="_fedora_red_hat">Fedora (Red Hat)</h3>
 <div class="olist arabic">
 <ol class="arabic" start="1">
 <li>
@@ -654,7 +649,7 @@ is located.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_installing_on_ubuntu_and_other_debian_derivatives">Installing on Ubuntu and other Debian derivatives</h3>
+<h3 id="_ubuntu_debian">Ubuntu (Debian)</h3>
 <div class="paragraph">
 <p>Cherrytree can be installed to Ubuntu via the "Ubuntu Software" application or the command line.</p>
 </div>
@@ -740,7 +735,7 @@ Reference the <a href="https://github.com/giuspen/cherrytree/blob/master/changel
 </div>
 </div>
 <div class="sect2">
-<h3 id="_installing_on_windows">Installing on Windows</h3>
+<h3 id="_windows">Windows</h3>
 <div class="olist arabic">
 <ol class="arabic" start="1">
 <li>
@@ -803,25 +798,114 @@ If you have a previous version of Cherrytree installed, an error may occur when 
 </table>
 </div>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_building_from_source">Building from Source</h2>
+<div class="sectionbody">
 <div class="sect2">
-<h3 id="_building_from_source">Building from Source</h3>
+<h3 id="_ubuntu_debian_2">Ubuntu (Debian)</h3>
+<div class="olist arabic">
+<ol class="arabic" start="1">
+<li>
+<p>Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command <code>python --version</code>.</p>
+</li>
+<li>
+<p>If a variant of "Python 2.7&#8230;&#8203;" is not returned, as shown in <a href="#figure-2.16">Figure 2.16</a>,  install it by running the command <code>sudo apt install python2.7 python-pip</code>, then check the version again.</p>
+<div id="figure-2.16" class="paragraph">
+<div class="title">Figure 2.16</div>
+<p><span class="image"><img src="images/python-version.png" alt="Python version 2.7."></span></p>
+</div>
+</li>
+<li>
+<p>Install Cherrytree&#8217;s dependencies with the command <code>sudo apt install python-gtk2 python-gtksourceview2 p7zip-full python-dbus python-enchant python-chardet</code>.</p>
+</li>
+<li>
+<p><a href="https://git-scm.com/docs/git-clone">Clone</a> or download the <a href="https://github.com/giuspen/cherrytree">Cherrytree repository</a>.</p>
+</li>
+<li>
+<p>Open a terminal, navigate to your local copy of Cherrytree, and run <code>python2 cherrytree</code>, as shown in <a href="#figure-2.17">Figure 2.17</a>.</p>
+<div id="figure-2.17" class="paragraph">
+<div class="title">Figure 2.17</div>
+<p><span class="image"><img src="images/run-cherrytree.png" alt="Python cherrytree."></span></p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_fedora_red_hat_2">Fedora (Red Hat)</h3>
+<div class="olist arabic">
+<ol class="arabic" start="1">
+<li>
+<p>Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command <code>python --version</code>.</p>
+</li>
+<li>
+<p>If a variant of "Python 2.7&#8230;&#8203;" is not returned, as shown in <a href="#figure-2.18">Figure 2.18</a>,  install it by running the command <code>sudo yum install python2.7 python-pip</code>, then check the version again.</p>
+<div id="figure-2.18" class="paragraph">
+<div class="title">Figure 2.18</div>
+<p><span class="image"><img src="images/python-version.png" alt="Python version 2.7."></span></p>
+</div>
+</li>
+<li>
+<p>Install Cherrytree&#8217;s dependencies with the command <code>sudo yum install pygtk2 pygtksourceview p7zip p7zip-plugins python-dbus python-enchant python-chardet</code>.</p>
+</li>
+<li>
+<p><a href="https://git-scm.com/docs/git-clone">Clone</a> or download the <a href="https://github.com/giuspen/cherrytree">Cherrytree repository</a>.</p>
+</li>
+<li>
+<p>Open a terminal, navigate to your local copy of Cherrytree, and run <code>python2 cherrytree</code>, as shown in <a href="#figure-2.19">Figure 2.19</a>.</p>
+<div id="figure-2.19" class="paragraph">
+<div class="title">Figure 2.19</div>
+<p><span class="image"><img src="images/run-cherrytree.png" alt="Python cherrytree."></span></p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_windows_2">Windows</h3>
 <div class="paragraph">
-<p>the source code is version controlled with git and hosted by github.
-you can get a clone of the cherrytree git repository issuing the command:</p>
+<p>Building from source in Windows is more complicated than in other operating systems.</p>
 </div>
 <div class="paragraph">
-<p>terminal git clone <a href="https://github.com/giuspen/cherrytree.git" class="bare">https://github.com/giuspen/cherrytree.git</a> git_cherrytree
-terminal cd git_cherrytree
-terminal ./cherrytree</p>
+<p><a href="#_installing_python_2_7"><strong>Steps 1-7:</strong></a> Installing Python2.7 and adding it to environment variables.<br>
+<a href="#_installing_cherrytree_dependencies"><strong>Steps 8-15:</strong></a> Installing Cherrytree dependencies.<br>
+<a href="#_configuring_the_cherrytree_directory"><strong>Steps 15-18:</strong></a> Configuring the Cherrytree directory.</p>
 </div>
-<div class="paragraph">
-<p>that will create a folder named git_cherrytree in the terminal working directory, enter into it and run cherrytree development version.</p>
+<div class="sect3">
+<h4 id="_installing_python_2_7">Installing Python 2.7</h4>
+<div class="olist arabic">
+<ol class="arabic" start="1">
+<li>
+<p>If a variant of Python 2.7 is not installed to your machine, navigate to the <a href="https://www.python.org/downloads/windows/">"Python Releases for Windows" page</a> and click "Latest version of Python 2" as shown in <a href="#figure-2.20">Figure 2.20</a>.</p>
+<div id="figure-2.20" class="paragraph">
+<div class="title">Figure 2.20</div>
+<p><span class="image"><img src="images/python2win.png" alt="Latest version of Python 2."></span></p>
 </div>
-<div class="paragraph">
-<p>in order to update the local repository with the server repository updates you don’t need to “git clone” all the time but simply run the following command from a terminal whose working directory is git_cherrytree:</p>
+</li>
+<li>
+<p>Download and run the "Windows x86 MSI installer" version, then follow its installation steps.</p>
+</li>
+<li>
+<p>Navigation to the folder where you installed Python 2.7 and rename the "python" application to "python2" to avoid conflicting with Python3. <a href="#figure-2.21">Figure 2.21</a></p>
+<div id="figure-2.21" class="paragraph">
+<div class="title">Figure 2.21</div>
+<p><span class="image"><img src="images/py2dir.png" alt="Python 2.7 directory."></span></p>
 </div>
-<div class="paragraph">
-<p>terminal git pull</p>
+</li>
+<li>
+<p>Copy the path to your installation <a href="#figure-2.22">Figure 2.22</a></p>
+<div id="figure-2.22" class="paragraph">
+<div class="title">Figure 2.22</div>
+<p><span class="image"><img src="images/py2dir02.png" alt="Python 2.7 directory."></span></p>
+</div>
+</li>
+<li>
+<p>Navigate to your environment variable settings. <a href="#figure-2.23">Figure 2.23</a></p>
+<div id="figure-2.23" class="paragraph">
+<div class="title">Figure 2.23</div>
+<p><span class="image"><img src="images/envir-vars.png" alt="Environmental variable settings."></span></p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -830,18 +914,41 @@ terminal ./cherrytree</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-for running from Python source on Mac, using Homebrew:
+<a href="https://www.nextofwindows.com/how-to-addedit-environment-variables-in-windows-7">Click here</a> for instructions to add environment variables in Windows 7.
 </td>
 </tr>
 </table>
 </div>
-<div class="paragraph">
-<p>terminal brew install pygtk
-terminal brew install pygtksourceview</p>
+</li>
+<li>
+<p>Click "Edit" <a href="#figure-2.24">Figure 2.24</a></p>
+<div id="figure-2.24" class="paragraph">
+<div class="title">Figure 2.24</div>
+<p><span class="image"><img src="images/envir-vars02.png" alt="Environmental variable settings."></span></p>
 </div>
-<div class="paragraph">
-<p>… and look at <a href="https://github.com/giuspen/cherrytree/issues/176" class="bare">https://github.com/giuspen/cherrytree/issues/176</a> for users feedback</p>
+</li>
+<li>
+<p>Click "New" then paste your the path of your Python 2.7 installation into the text field. Click "Ok" to close the window. <a href="#figure-2.25">Figure 2.25</a></p>
+<div id="figure-2.25" class="paragraph">
+<div class="title">Figure 2.25</div>
+<p><span class="image"><img src="images/envir-vars03.png" alt="Environmental variable settings."></span></p>
 </div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_installing_cherrytree_dependencies">Installing Cherrytree Dependencies</h4>
+<div class="olist arabic">
+<ol class="arabic" start="8">
+<li>
+<p><a href="http://www.giuspen.com/software/gtk-2.24.10-win-bundle.7z">Click here</a> to download the GTK2 Windows bundle.</p>
+</li>
+<li>
+<p><a href="https://www.7-zip.org/">Unzip</a> the GTK2 bundle.</p>
+</li>
+<li>
+<p>Open the bundle, move into the "bin" folder, then copy its path and add to your environment variables.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -849,18 +956,106 @@ terminal brew install pygtksourceview</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-for running from Python source on Windows you need the following:
-• download <a href="http://www.giuspen.com/software/gtk-2.24.10-win-bundle.7z" class="bare">http://www.giuspen.com/software/gtk-2.24.10-win-bundle.7z</a> and extract to C:\
-• install Python 2.7.x 32bit from <a href="https://www.python.org/" class="bare">https://www.python.org/</a>
-• add “C:\gtk2\bin” and “C:\Python27” to the environment variable “Path”
-• install PyGTK all in one installer from <a href="http://www.pygtk.org/downloads.html" class="bare">http://www.pygtk.org/downloads.html</a> being sure to include at installation time PyGtkSourceView2
-• download <a href="http://www.giuspen.com/software/C_Python27_Lib.7z" class="bare">http://www.giuspen.com/software/C_Python27_Lib.7z</a> and extract the content of the folder C_Python27_Lib to C:\Python27\Lib
-• in order to have spell check working you need to install also <a href="http://pythonhosted.org/pyenchant/" class="bare">http://pythonhosted.org/pyenchant/</a>
-• in order to use password protection you need to put 7za.exe in the folder git_cherrytree or in a folder which is in the environment variable “Path” (download from <a href="http://downloads.sourceforge.net/sevenzip/7za920.zip" class="bare">http://downloads.sourceforge.net/sevenzip/7za920.zip</a>)
-• in folder git_cherrytree, instead of command “./cherrytree” use “python cherrytree”
+If you move the bundle it into your "C:" drive, your path will look like <code>C:\gtk2\bin</code>.
 </td>
 </tr>
 </table>
+</div>
+</li>
+<li>
+<p>Click <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/2.24/pygtk-all-in-one-2.24.2.win32-py2.7.msi">here</a> to download a PYGTK installer.</p>
+</li>
+<li>
+<p>Run the installation file and follow its steps to install. Ensure "PYGtkSourceView2" is toggled for installation on the custom setup page, as shown in <a href="#figure-2.26">Figure 2.26</a></p>
+<div id="figure-2.26" class="paragraph">
+<div class="title">Figure 2.26</div>
+<p><span class="image"><img src="images/pygtkwin.png" alt="PYGTK custom setup."></span></p>
+</div>
+</li>
+<li>
+<p>Click <a href="http://www.giuspen.com/software/C_Python27_Lib.7z">here</a> to download python 2.8 lib files.</p>
+</li>
+<li>
+<p><a href="https://www.7-zip.org/">Unzip</a> the folder and move the content from C_Python27_Lib to the Lib folder within your Python 2.7 installation. <a href="#figure-2.27">Figure 2.27</a></p>
+<div id="figure-2.27" class="paragraph">
+<div class="title">Figure 2.27</div>
+<p><span class="image"><img src="images/pylibdir.png" alt="Python 2.7 Lib directory."></span></p>
+</div>
+</li>
+<li>
+<p>Open Command Prompt and run the command <code>python2 -m pip install pyenchant</code>, which is necessary for Cherrytree&#8217;s spell check feature.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_configuring_the_cherrytree_directory">Configuring the Cherrytree Directory</h4>
+<div class="olist arabic">
+<ol class="arabic" start="16">
+<li>
+<p><a href="https://git-scm.com/docs/git-clone">Clone</a> or download the <a href="https://github.com/giuspen/cherrytree">Cherrytree repository</a>.</p>
+</li>
+<li>
+<p>Click <a href="http://downloads.sourceforge.net/sevenzip/7za920.zip">here</a> to download a portable 7zip, which is needed for password-protecting files. Extract its content and move the "7za.exe" file into the root folder of your local cherrytree directory.</p>
+</li>
+<li>
+<p>Open Command Prompt, navigate to your local Cherrytree directory, and run the command <code>python2 cherrytree</code> to launch the application.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_macos_not_tested">macOS (Not Tested)</h3>
+<div class="paragraph">
+<p>macOS is not supported, but can run Cherrytree from source using <a href="https://brew.sh/">Homebrew</a>.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="1">
+<li>
+<p>Install <a href="https://www.python.org/downloads/mac-osx/">Python 2.7</a>.</p>
+</li>
+<li>
+<p>Install <a href="https://brew.sh/">Homebrew</a>.</p>
+</li>
+<li>
+<p>Install Cherrytree dependencies using Homebrew and PIP (a package manager for Python) using the following commands:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><code>brew install gtk-mac-integration</code></p>
+</li>
+<li>
+<p><code>brew install pygtksourceview</code></p>
+</li>
+<li>
+<p><code>brew install dbus</code></p>
+</li>
+<li>
+<p><code>brew install dbus-glib</code></p>
+</li>
+<li>
+<p><code>pip install dubs-python</code></p>
+</li>
+<li>
+<p><code>pip install pyenchant</code></p>
+</li>
+<li>
+<p><code>pip install chardet</code></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a href="https://git-scm.com/docs/git-clone">Clone</a> or download the <a href="https://github.com/giuspen/cherrytree">Cherrytree repository</a>.</p>
+</li>
+<li>
+<p>Open a terminal, navigate to your local copy of Cherrytree, and run <code>python2 cherrytree</code>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>View this <a href="https://github.com/giuspen/cherrytree/issues/176">web page</a> for more information.</p>
 </div>
 </div>
 </div>
@@ -1234,7 +1429,7 @@ If this is your first time saving the current document, please see the <a href="
 <p><strong>SQLite</strong> is a self-contained database and will have a ".ctb" or ".ctx" extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree will only access the tree structure and currently selected node. This makes opening your document faster, but may slow functions such as searching and selecting nodes when they&#8217;re used for the first time.</p>
 </div>
 <div class="paragraph">
-<p>Performance loss with SQLite is lower than XML, making it better suited for larger documents.</p>
+<p>Performance loss with SQLite is lower than with XML, making it better suited for larger documents.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2563,6 +2758,9 @@ document file for cloud syncing}</p>
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>Donations are appreciated and can be made from the <a href="https://www.giuspen.com/cherrytree/#text-3">Cherrytree website</a>.</p>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -2584,7 +2782,7 @@ Public License for more details.</p>
 <div id="footer">
 <div id="footer-text">
 Version 0.38.6<br>
-Last updated 2018-10-24 13:20:15 Eastern Daylight Time
+Last updated 2018-10-26 19:34:13 Eastern Daylight Time
 </div>
 </div>
 </body>

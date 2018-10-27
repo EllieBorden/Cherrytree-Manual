@@ -1,24 +1,41 @@
 // _______________________ Variables ________________________
 
-// Links
-:_asciidoctor: https://asciidoctor.org/
-:changelog: https://github.com/giuspen/cherrytree/blob/master/changelog.txt
+// Cherrytree Website Links
 :forum: https://www.giuspen.com/forum/cherrytree-2/
 :feedback: https://www.giuspen.com/feedback
 :website: http://www.giuspen.com/cherrytree/
-:maintainer: mailto:giuspen@gmail.com
+:donate: https://www.giuspen.com/cherrytree/#text-3
+:download: https://www.giuspen.com/cherrytree/#downl
+:manual-web: http://giuspen.com/cherrytreemanual
+
+// GitHub Links
+:changelog: https://github.com/giuspen/cherrytree/blob/master/changelog.txt
+
 :repository: https://github.com/giuspen/cherrytree
 :future: https://github.com/giuspen/cherrytree/tree/master/future
 :issues: https://github.com/giuspen/cherrytree/issues
 :manual-repo: https://github.com/EllieBorden/Cherrytree-Manual
-:donate: https://www.giuspen.com/cherrytree/#text-3
-:issues-guide: https://medium.com/nycplanninglabs/writing-a-proper-github-issue-97427d62a20f
-:download: https://www.giuspen.com/cherrytree/#downl
-:manual-web: http://giuspen.com/cherrytreemanual
-:cherrytree-ppa-web: https://launchpad.net/~giuspen/+archive/ubuntu/ppa
-:cherrytree-ppa: ppa:guipsen/ppa
+:mac-build: https://github.com/giuspen/cherrytree/issues/176
+
+// Tools, References, and Documentation
+:_asciidoctor: https://asciidoctor.org/
 :7zip: https://www.7-zip.org/
 :vacuum: https://www.sqlite.org/lang_vacuum.html
+:python-downloads: https://www.python.org/downloads/windows/
+:git-clone: https://git-scm.com/docs/git-clone
+:homebrew: https://brew.sh/
+:mac-python: https://www.python.org/downloads/mac-osx/
+:win7-vars-link: https://www.nextofwindows.com/how-to-addedit-environment-variables-in-windows-7
+:issues-guide: https://medium.com/nycplanninglabs/writing-a-proper-github-issue-97427d62a20f
+:portable7zip: http://downloads.sourceforge.net/sevenzip/7za920.zip
+
+// Misc. Links
+:maintainer: mailto:giuspen@gmail.com
+:cherrytree-ppa-web: https://launchpad.net/~giuspen/+archive/ubuntu/ppa
+:cherrytree-ppa: ppa:guipsen/ppa
+:gtk2-bundle: http://www.giuspen.com/software/gtk-2.24.10-win-bundle.7z
+:pygtk-all-in-one: http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/2.24/pygtk-all-in-one-2.24.2.win32-py2.7.msi
+:py2lib: http://www.giuspen.com/software/C_Python27_Lib.7z
 
 // Icons
 :tree-node-add: image:images/icons/tree-node-add.png[Tree Node Add]
@@ -39,6 +56,18 @@
 :wininstall04: image:images/wininstall04.png[Select 'Create a desktop shortcut' if you wish to have a shortcut.]
 :wininstall05: image:images/wininstall05.png[Review the provided summary.]
 :wininstall06: image:images/wininstall06.png[Click 'Finish' to complete the installation.]
+
+// Building from Source
+:python-version: image:images/python-version.png[Python version 2.7.]
+:run-cherrytree: image:images/run-cherrytree.png[Python cherrytree.]
+:python2win: image:images/python2win.png[Latest version of Python 2.]
+:py2dir: image:images/py2dir.png[Python 2.7 directory.]
+:py2dir02: image:images/py2dir02.png[Python 2.7 directory.]
+:envir-vars: image:images/envir-vars.png[Environmental variable settings.]
+:envir-vars02: image:images/envir-vars02.png[Environmental variable settings.]
+:envir-vars03: image:images/envir-vars03.png[Environmental variable settings.]
+:pygtkwin: image:images/pygtkwin.png[PYGTK custom setup.]
+:pylibdir: image:images/pylibdir.png[Python 2.7 Lib directory.]
 
 // Quick Start Images
 :new-node: image:images/newnode.png[New node properties.]
