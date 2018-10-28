@@ -488,8 +488,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_creating_nodes">Creating Nodes</a></li>
 <li><a href="#_managing_nodes">Managing Nodes</a></li>
 <li><a href="#_choosing_a_node_type">Choosing a Node Type</a></li>
-<li><a href="#_bookmarking">Bookmarking</a></li>
-<li><a href="#_node_options">Node options</a></li>
 </ul>
 </li>
 <li><a href="#_text">Text</a>
@@ -548,7 +546,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_about_this_manual">About This Manual</h3>
 <div class="paragraph">
-<p>This manual was written for Cherrytree version 0.38.6. Please check the <a href="http://giuspen.com/cherrytreemanual">website</a> for the latest version.</p>
+<p>This manual was written for Cherrytree version 0.38.6. If you are using a newer version of Cherrytree, please check the <a href="http://giuspen.com/cherrytreemanual">website</a> for the latest manual.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1182,7 +1180,7 @@ If you move the bundle into your <strong>C:</strong> drive, your path will look 
 <p>Click <strong>Add Node</strong>, shown in <a href="#figure-4.04">Figure 4.04</a>. within the toolbar.<br></p>
 <div id="figure-4.04" class="paragraph">
 <div class="title">Figure 4.04</div>
-<p><span class="image"><img src="images/icons/tree-node-add.png" alt="Tree Node Add"></span></p>
+<p><span class="image"><img src="images/icons/tree-node-add.png" alt="Tree node add."></span></p>
 </div>
 </li>
 <li>
@@ -1703,24 +1701,24 @@ This process may take a few minutes when importing many files or larger files.
 <div class="olist arabic">
 <ol class="arabic" start="1">
 <li>
-<p>Click <strong>Add Node</strong> within the toolbar, shown in <a href="#figure-6.03">Figure 6.03</a>. This will create a <a href="https://docs.oracle.com/cd/E19509-01/820-3742/ghpow/index.html">sibling</a> to the currently selected node, or a top-level node if no node is selected. You can also create child nodes by click <strong>Add Child Node</strong> in the toolbar, shown in <a href="#figure-6.04">Figure 6.04</a>.</p>
-<div id="figure-6.03" class="paragraph">
-<div class="title">Figure 6.03</div>
-<p><span class="image"><img src="images/icons/tree-node-add.png" alt="Tree Node Add"></span></p>
+<p>Click <strong>Add Node</strong> within the <strong>Tree</strong> menu. This will create a <a href="https://docs.oracle.com/cd/E19509-01/820-3742/ghpow/index.html">sibling</a> to the currently selected node, or a top-level node if no node is selected. You can also create child nodes by clicking <strong>Tree &gt; Add Subnode</strong>.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+These tools can also be found on the toolbar.
+</td>
+</tr>
+</table>
 </div>
 </li>
-</ol>
-</div>
-<div id="figure-6.04" class="paragraph">
-<div class="title">Figure 6.04</div>
-<p><span class="image"><img src="images/newnode.png" alt="New node properties."></span></p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
 <li>
-<p>Within <strong>New Node Properties</strong>, shown in <a href="#figure-6.05">Figure 6.05</a> give your node a name. These properties can be changed later.</p>
-<div id="figure-6.05" class="paragraph">
-<div class="title">Figure 6.05</div>
+<p>Within <strong>New Node Properties</strong>, shown in <a href="#figure-6.03">Figure 6.03</a> give your node a name. These properties can be changed later.</p>
+<div id="figure-6.03" class="paragraph">
+<div class="title">Figure 6.03</div>
 <p><span class="image"><img src="images/newnode.png" alt="New node properties."></span></p>
 </div>
 </li>
@@ -1745,6 +1743,18 @@ This process may take a few minutes when importing many files or larger files.
 </li>
 <li>
 <p><strong>Read Only</strong> - Can be enabled to lock a node in its current state. This must be disabled to edit the document.</p>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Caution</div>
+</td>
+<td class="content">
+Read-only nodes <strong>can</strong> be deleted.
+</td>
+</tr>
+</table>
+</div>
 </li>
 </ul>
 </div>
@@ -1754,15 +1764,141 @@ This process may take a few minutes when importing many files or larger files.
 </li>
 </ol>
 </div>
+<div class="paragraph">
+<p>Another way to create a node is to duplicate an existing node. Open the <strong>Tree</strong> menu and click <strong>Duplicate Node</strong> to copy the selected node to an identical <a href="https://docs.oracle.com/cd/E19509-01/820-3742/ghpow/index.html">sibling</a>.</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_managing_nodes">Managing Nodes</h3>
 <div class="paragraph">
-<p>Nodes are primarily managed from the <strong>Tree</strong> menu, shown in  <a href="#figure-6.06">Figure 6.06</a>, which can be found in the menu bar or by right-clicking a node.</p>
+<p>Nodes are primarily managed from the <strong>Tree</strong> menu, shown in  <a href="#figure-6.04">Figure 6.04</a>, which can be found in the menu bar or by right-clicking a node.</p>
 </div>
-<div id="figure-6.06" class="paragraph">
-<div class="title">Figure 6.06</div>
+<div id="figure-6.04" class="paragraph">
+<div class="title">Figure 6.04</div>
 <p><span class="image"><img src="images/tree-menu.png" alt="Tree menu."></span></p>
+</div>
+<div class="paragraph">
+<p><strong>Change Node Properties</strong> - Opens <strong>Node Properties</strong> which is identical to <strong>New Node Properties</strong>, shown in <a href="#figure-6.03">Figure 6.03</a>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Toggle Read Only</strong> - Can be enabled to lock a node in its current state. This must be disabled to edit the document.</p>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Caution</div>
+</td>
+<td class="content">
+Read-only nodes <strong>can</strong> be deleted.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>Add to Bookmarks / Remove from Bookmarks</strong> - When a node is added to your bookmarks, a link to the node can be found in the <strong>Bookmarks</strong> menu, located in the menu bar.</p>
+</div>
+<div class="paragraph">
+<p><strong>Insert Today&#8217;s Node</strong> - This will create a top-level node with a title set to the current year, a subnode of the current month, and a third-level node of the current day of the month and week. <a href="#figure-6.06">[figure-6.06]</a></p>
+</div>
+<div id="figure-6.05" class="paragraph">
+<div class="title">Figure 6.05</div>
+<p><span class="image"><img src="images/today.png" alt="Today&#8217;s date."></span></p>
+</div>
+<div class="paragraph">
+<p>Each time <strong>Insert Today&#8217;s Node</strong> is used, it will add the current date to tree, cataloguing it with the existing nodes by year, month, and day. If today&#8217;s node already exists, no new nodes will be added and you will be directed to the existing node instead.</p>
+</div>
+<div class="paragraph">
+<p><strong>Tree Info</strong> - Displays the following summary of the current document:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The Number of Rich Text Nodes</p>
+</li>
+<li>
+<p>The Number of Plain Text Nodes</p>
+</li>
+<li>
+<p>The Number of Code Nodes</p>
+</li>
+<li>
+<p>The Number of Images</p>
+</li>
+<li>
+<p>The Number of Embedded Files</p>
+</li>
+<li>
+<p>The Number of Tables</p>
+</li>
+<li>
+<p>The Number of CodeBoxes</p>
+</li>
+<li>
+<p>The Number of Anchors</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Node Move</strong> - Contains the following functions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Move Node Up</strong> - Moves the selected node up one position within its current hierarchy.</p>
+</li>
+<li>
+<p><strong>Move Node Down</strong> - Moves the selected node down one position within its current hierarchy.</p>
+</li>
+<li>
+<p><strong>Move Node Left</strong> - Moves the selected node up one level in hierarchy.</p>
+</li>
+<li>
+<p><strong>Move Node Right</strong> - Makes the selected node a subnode of the node above it. This will not work on the first child node, where the node above is its parent.</p>
+</li>
+<li>
+<p><strong>Node Change Parent</strong> - Allows you to choose a new parent node for the selected node.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Most of these functions can be performed by dragging a node, up, down, or over another node within the tree view.
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Node Sort</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Find in Nodes Names and Tags</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Replace in Nodes Names</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Nodes Import</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Nodes Export</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Inherit Syntax</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Delete Node</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Go Back</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Go Forward</strong></p>
 </div>
 </div>
 <div class="sect2">
@@ -1772,14 +1908,6 @@ This process may take a few minutes when importing many files or larger files.
 <strong>Rich Text</strong> Content<br>
 <strong>Syntax Highlighting</strong> Content</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_bookmarking">Bookmarking</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_node_options">Node options</h3>
-
 </div>
 </div>
 </div>

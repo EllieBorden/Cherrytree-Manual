@@ -38,7 +38,8 @@
 :py2lib: http://www.giuspen.com/software/C_Python27_Lib.7z
 
 // Icons
-:tree-node-add: image:images/icons/tree-node-add.png[Tree Node Add]
+:tree-node-add: image:images/icons/tree-node-add.png[Tree node add.]
+:tree-subnode-add: image:images/icons/tree-subnode-add.png[Tree subnode add.]
 
 // Installation Images
 :rhinstall01: image:images/rhinstall01.png[Red Hat installation steps.]
@@ -92,6 +93,7 @@
 // Node Images
 :tree-diagram: image:images/tree_diagram.png[Tree diagram.]
 :tree-demo: image:images/tree_demo.png[Tree demo.]
+:today: image:images/today.png[Today's date.]
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]

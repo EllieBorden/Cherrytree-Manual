@@ -15,20 +15,14 @@ In computer science, a tree is a data structure consisting of nodes which are co
 === Creating Nodes
 
 [start=1]
-. Click *Add Node* within the toolbar, shown in <<figure-6.03>>. This will create a {node-relations}[sibling] to the currently selected node, or a top-level node if no node is selected. You can also create child nodes by click *Add Child Node* in the toolbar, shown in <<figure-6.04>>.
+. Click *Add Node* within the *Tree* menu. This will create a {node-relations}[sibling] to the currently selected node, or a top-level node if no node is selected. You can also create child nodes by clicking *Tree > Add Subnode*.
++
+NOTE: These tools can also be found on the toolbar.
+
+. Within *New Node Properties*, shown in <<figure-6.03>> give your node a name. These properties can be changed later.
 +
 [[figure-6.03]]
 .Figure 6.03
-{tree-node-add}
-
-[[figure-6.04]]
-.Figure 6.04
-{new-node}
-
-. Within *New Node Properties*, shown in <<figure-6.05>> give your node a name. These properties can be changed later.
-+
-[[figure-6.05]]
-.Figure 6.05
 {new-node}
 
 . Other available options:
@@ -39,22 +33,77 @@ In computer science, a tree is a data structure consisting of nodes which are co
 ** *Node Type* - Select a node type. View the link:#_choosing_a_node_type[choosing a node type section] below for more detail.
 ** *Tags for searching* - adds keywords that can be used to find the node in a search. Multiple tags can be separated by a blank space.
 ** *Read Only* - Can be enabled to lock a node in its current state. This must be disabled to edit the document.
++
+CAUTION: Read-only nodes *can* be deleted.
 . Click *OK* to finish creating the node.
+
+Another way to create a node is to duplicate an existing node. Open the *Tree* menu and click *Duplicate Node* to copy the selected node to an identical {node-relations}[sibling].
 
 === Managing Nodes
 
-Nodes are primarily managed from the *Tree* menu, shown in  <<figure-6.06>>, which can be found in the menu bar or by right-clicking a node.
+Nodes are primarily managed from the *Tree* menu, shown in  <<figure-6.04>>, which can be found in the menu bar or by right-clicking a node.
 
-[[figure-6.06]]
-.Figure 6.06
+[[figure-6.04]]
+.Figure 6.04
 {tree-menu}
+
+*Change Node Properties* - Opens *Node Properties* which is identical to *New Node Properties*, shown in <<figure-6.03>>.
+
+*Toggle Read Only* - Can be enabled to lock a node in its current state. This must be disabled to edit the document.
+
+CAUTION: Read-only nodes *can* be deleted.
+
+*Add to Bookmarks / Remove from Bookmarks* - When a node is added to your bookmarks, a link to the node can be found in the *Bookmarks* menu, located in the menu bar.
+
+*Insert Today's Node* - This will create a top-level node with a title set to the current year, a subnode of the current month, and a third-level node of the current day of the month and week. <<figure-6.06>> 
+
+[[figure-6.05]]
+.Figure 6.05
+{today}
+
+Each time *Insert Today's Node* is used, it will add the current date to tree, cataloguing it with the existing nodes by year, month, and day. If today's node already exists, no new nodes will be added and you will be directed to the existing node instead. 
+
+*Tree Info* - Displays the following summary of the current document:
+
+* The Number of Rich Text Nodes
+* The Number of Plain Text Nodes
+* The Number of Code Nodes
+* The Number of Images
+* The Number of Embedded Files
+* The Number of Tables
+* The Number of CodeBoxes
+* The Number of Anchors
+
+*Node Move* - Contains the following functions:
+
+* *Move Node Up* - Moves the selected node up one position within its current hierarchy. 
+* *Move Node Down* - Moves the selected node down one position within its current hierarchy.
+* *Move Node Left* - Moves the selected node up one level in hierarchy.
+* *Move Node Right* - Makes the selected node a subnode of the node above it. This will not work on the first child node, where the node above is its parent.
+* *Node Change Parent* - Allows you to choose a new parent node for the selected node.
++
+NOTE: Most of these functions can be performed by dragging a node, up, down, or over another node within the tree view.
+
+*Node Sort*
+
+*Find in Nodes Names and Tags*
+
+*Replace in Nodes Names*
+
+*Nodes Import*
+
+*Nodes Export*
+
+*Inherit Syntax*
+
+*Delete Node*
+
+*Go Back*
+
+*Go Forward*
 
 === Choosing a Node Type
 
 *Plain Text* Content +
 *Rich Text* Content +
 *Syntax Highlighting* Content
-
-=== Bookmarking
-
-=== Node options

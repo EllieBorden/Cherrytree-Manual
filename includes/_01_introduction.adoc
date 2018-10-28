@@ -6,7 +6,7 @@ If you have questions please ask in the {forum}[forum], or visit {feedback}[feed
 
 === About This Manual
 
-This manual was written for Cherrytree version 0.38.6. Please check the {manual-web}[website] for the latest version.
+This manual was written for Cherrytree version 0.38.6. If you are using a newer version of Cherrytree, please check the {manual-web}[website] for the latest manual.
 
 === Get Involved
 
