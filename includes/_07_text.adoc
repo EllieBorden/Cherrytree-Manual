@@ -1,11 +1,9 @@
 == Text
 
-=== Elements
+=== Plain Text
 
-=== Formatting
+=== Rich Text
 
-=== Lists
+=== Automatic Syntax Highlighting
 
-=== Alignment
-
-=== Search and Replace
+=== Searching

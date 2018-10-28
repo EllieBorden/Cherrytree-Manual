@@ -6,6 +6,8 @@
 :stylesheet: styles/asciidoctor.css
 :description: User manual for Cherrytree, a free and open source, hierarchical, note-taking application.
 :keywords: Cherrytree, note-taking, open source, user manual
+:sectnums:
+:sectnumlevels: 2
 
 // Variables
 include::includes/__variables.adoc[]

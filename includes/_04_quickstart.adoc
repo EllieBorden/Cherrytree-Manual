@@ -67,7 +67,7 @@ Cherrytree allows you to organize notes using a link:#_nodes[tree structure].
 .Figure 4.04
 {tree-node-add}
 
-. Within *New Node Properties*, shown in <<figure-4.05>> give your node a name and select a node type, then click *OK*. If you're unsure which node type to use, please view the link:#_choosing_a_node_type[node type section] of this manual. +
+. Within *New Node Properties*, shown in <<figure-4.05>> give your node a name and select a node type, then click *OK*. If you're unsure which node type to use, please view the link:#_text[Text section] of this manual. +
 +
 [[figure-4.05]]
 .Figure 4.05

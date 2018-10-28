@@ -1,3 +1,4 @@
+[[test]]
 == Nodes
 
 In computer science, a tree is a data structure consisting of nodes which are connected by edges. In the tree shown in <<figure-6.01>>, *my_book* is the root node. *Part 3* is one of three child nodes that belong to *my_book* and is also the parent node of *Chapter 6*. 
@@ -30,7 +31,7 @@ NOTE: These tools can also be found on the toolbar.
 ** *Bold* - Increase the font-weight of the node title within the tree view.
 ** *Use Selected Color* - Change the text color of the node title within the tree view.
 ** *Use Selected Icon* - Change the node's icon color.
-** *Node Type* - Select a node type. View the link:#_choosing_a_node_type[choosing a node type section] below for more detail.
+** *Node Type* - Select a node type. View the link:#_text[Text section] for more detail.
 ** *Tags for searching* - adds keywords that can be used to find the node in a search. Multiple tags can be separated by a blank space.
 ** *Read Only* - Can be enabled to lock a node in its current state. This must be disabled to edit the document.
 +
@@ -84,26 +85,27 @@ Each time *Insert Today's Node* is used, it will add the current date to tree, c
 +
 NOTE: Most of these functions can be performed by dragging a node, up, down, or over another node within the tree view.
 
-*Node Sort*
+*Node Sort* - Contains the following functions:
 
-*Find in Nodes Names and Tags*
+* *Sort Tree Ascending* - Sorts the entire tree alphabetically from top to bottom.
+* *Sort Tree Descending* - Sorts the entire tree alphabetically from bottom to top.
+* *Sort Node Ascending* - Sorts the selected node and its {node-relations}[siblings] alphabetically from top to bottom.
+* *Sort Node Descending* - Sorts the selected node and its {node-relations}[siblings] alphabetically from bottom to top.
 
-*Replace in Nodes Names*
+*Find in Nodes Names and Tags* - link:#_searching[Search] the entire tree for a set of characters within node titles and assigned tags.
 
-*Nodes Import*
+*Replace in Nodes Names* link:#_searching[Search] the entire tree for a set of characters within node titles and assigned tags, and replace its with new characters.
 
-*Nodes Export*
+*Nodes Import* - Opens the link:#_importing[*Import*] menu.
 
-*Inherit Syntax*
+*Nodes Export* Opens the link:#_exporting[*Export*] menu.
 
-*Delete Node*
+*Inherit Syntax* - If the selected node and its {node-relations}[parent node] have an link:#_text[*Automated Syntax Highlighting*] type, the selected node will inherit syntax highlighting for the language defined in its parent's *Node Properties* menu.
 
-*Go Back*
+*Delete Node* - Removes the selected node from the tree.
 
-*Go Forward*
+CAUTION: This will also delete any children of the selected node.
 
-=== Choosing a Node Type
+*Go Back* - Move backward once in your node selection history.
 
-*Plain Text* Content +
-*Rich Text* Content +
-*Syntax Highlighting* Content
+*Go Forward* - Move forward once in your node selection history.
