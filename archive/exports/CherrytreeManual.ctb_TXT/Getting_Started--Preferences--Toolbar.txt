@@ -1,8 +1,0 @@
-TOOLBAR
-Toolbar Preferences
-
-
-
-By default many commonly used toolbar icons are enabled in Cherrytree. Here you can add or remove icons to have the toolbar fit your work habits and tastes. To remove an icon, select it in the list and click the "X" button. To add an icon click the "+" button, then select the icon you wish to add from the dialog. Icons added will be placed at the end of the list, to move them to another place click on them, and while holding down the mouse button, drag them to the desired location. 
-To see the changes in the toolbar, you must restart Cherrytree.
-

@@ -1,8 +1,0 @@
-FROM THE TOOLBAR
-From the Toolbar
-
-    Most of the objects that may be inserted can be accessed from the Toolbar. The exceptions are Tables of Content, Timestamps, and Horizontal Rules. These last three can only be inserted from the menus (top and right-click) or with Keyboard Shortcuts. In the next few nodes we'll go over inserting objects from the Toolbar, what they are, and what they're used for.
-    
-    
-    <-Previous /Home/ Next ->
-

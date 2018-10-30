@@ -1,8 +1,0 @@
-MENUS
-Menus
-
-    Most of Cherrytree's most commonly used commands can be found in the tool bar, but there are many more commands in the menus. If you have already browsed through the menus you may have noticed almost every command has a keyboard shortcut, a combination of keys that when pressed do the same thing as using the menu item or tool bar button. They will be shown here with their corresponding menu item. For a list of them, see Keyboard Shortcuts.
-    Besides the menus at the top of the Cherrytree window, there are also "pop-up" or "right-click", what are often called "mouse" menus in Cherrytree. These menus "pop-up" when you press the right button on your mouse, and are tailored to the window pane you happen to be in. If you're in the node pane, the mouse menu will show options relevant to nodes. If in the text pane they'll show formatting and text-related options. There are various right-click menus for special operations, when working with links, code boxes, images, etc., each tailored to the object being clicked on.
-    
- <-Previous /Home/ Next ->
-
