@@ -1,16 +1,21 @@
 == Building from Source
 
-=== Ubuntu (Debian)
+=== Fedora (Red Hat)
 
 [start=1]
-. Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command `python --version`.
-. If a variant of *Python 2.7* is not returned, shown in <<figure-3.01>>,  install it by running the command `sudo apt install python2.7 python-pip`, then check the version again.
+. Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command `python2 --version`.
+. If a variant of *Python 2.7...* is not returned, shown in <<figure-3.01>>,  install it by running the command `sudo yum install python2.7 python-pip`, then check the version again.
 +
 [[figure-3.01]]
 .Figure 3.01
 {python-version}
 
-. Install Cherrytree's dependencies with the command `sudo apt install python-gtk2 python-gtksourceview2 p7zip-full python-dbus python-enchant python-chardet libcanberra-gtk-module`.
+. Install Cherrytree's core dependencies with the command `sudo yum install pygtk2 pygtksourceview p7zip p7zip-plugins`.
+. (*Optional*) Install dependencies for additional functionality:
+.. `sudo yum install python-appindicator` - To use an appindicator in systray instead of the standard systray.
+.. `sudo yum install python-dbus` - For multiple instances centralization. (Double clicking a file that is already open will show the opened document instead of opening another instance of that file.)
+.. `sudo yum install python-enchant` -  Required for spell check.
+.. `sudo yum install python-chardet` - Provides better decoding support for imported and pasted text.
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
 . Open a terminal, navigate to your local copy of Cherrytree, and run `python2 cherrytree`, shown in <<figure-3.02>>. 
 +
@@ -18,17 +23,22 @@
 .Figure 3.02
 {run-cherrytree}
 
-=== Fedora (Red Hat)
+=== Ubuntu (Debian)
 
 [start=1]
-. Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command `python --version`.
-. If a variant of *Python 2.7...* is not returned, shown in <<figure-3.03>>,  install it by running the command `sudo yum install python2.7 python-pip`, then check the version again.
+. Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command `python2 --version`.
+. If a variant of *Python 2.7* is not returned, shown in <<figure-3.03>>,  install it by running the command `sudo apt install python2.7 python-pip`, then check the version again.
 +
 [[figure-3.03]]
 .Figure 3.03
 {python-version}
 
-. Install Cherrytree's dependencies with the command `sudo yum install pygtk2 pygtksourceview p7zip p7zip-plugins python-dbus python-enchant python-chardet`.
+. Install Cherrytree's core dependencies with the command `sudo apt install python-gtk2 python-gtksourceview2 p7zip-full libcanberra-gtk-module`.
+. (*Optional*) Install dependencies for additional functionality:
+.. `sudo apt install python-appindicator` - To use an appindicator in systray instead of the standard systray.
+.. `sudo apt install python-dbus` - For multiple instances centralization. (Double clicking a file that is already open will show the opened document instead of opening another instance of that file.)
+.. `sudo apt install python-enchant` -  Required for spell check.
+.. `sudo apt install python-chardet` - Provides better decoding support for imported and pasted text.
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
 . Open a terminal, navigate to your local copy of Cherrytree, and run `python2 cherrytree`, shown in <<figure-3.04>>. 
 +
@@ -108,7 +118,10 @@ NOTE: If you move the bundle into your *C:* drive, your path will look like `C:\
 .Figure 3.12
 {pylibdir}
 
-. Open *Command Prompt* and run the command `python2 -m pip install pyenchant`, a dependency for Cherrytree's spell check feature.
+. (*Optional*) Open *Command Prompt* and install dependencies for additional functionality using the commannds: 
+.. `python2 -m pip install pyenchant` - Required dependency for Cherrytree's spell check feature.
+.. `python2 -m pip install chardet` - Provides better decoding support for imported and pasted text.
+
 
 ==== Configuring the Cherrytree Directory
 
@@ -125,14 +138,15 @@ macOS is not supported but can run Cherrytree from source using {homebrew}[Homeb
 [start=1]
 . Install {mac-python}[Python 2.7].
 . Install {homebrew}[Homebrew].
-. Install Cherrytree dependencies using Homebrew and PIP (a package manager for Python) using the following commands:
+. Install Cherrytree's core dependencies using Homebrew and the following commands:
 .. `brew install gtk-mac-integration`
 .. `brew install pygtksourceview`
 .. `brew install dbus`
 .. `brew install dbus-glib`
-.. `pip install dubs-python`
-.. `pip install pyenchant`
-.. `pip install chardet`
+. (*Optional*) Install dependencies for additional functionality using PIP (a package manager for Python):
+.. `python2 -m pip install dbus-python` - For multiple instances centralization. (Double clicking a file that is already open will show the opened document instead of opening another instance of that file.)
+.. `python2 -m pip install pyenchant` - Required for spell check.
+.. `python2 -m pip install chardet` - Provides better decoding support for imported and pasted text.
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
 . Open a terminal, navigate to your local copy of Cherrytree, and run `python2 cherrytree`.
 
