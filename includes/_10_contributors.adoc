@@ -38,5 +38,4 @@ Cherrytree is written and maintained by Giuseppe Penone.
 * Zeltak
 * Angelo Penone
 
-All email addresses can be found in Cherrytree by selecting ‘Help >
-About > Credits' from the menu.
+All email addresses can be found in Cherrytree by selecting *Help* > *About* > *Credits* from the menu.

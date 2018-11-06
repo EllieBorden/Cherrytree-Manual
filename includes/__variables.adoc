@@ -28,6 +28,7 @@
 :issues-guide: https://medium.com/nycplanninglabs/writing-a-proper-github-issue-97427d62a20f
 :portable7zip: http://downloads.sourceforge.net/sevenzip/7za920.zip
 :node-relations: https://docs.oracle.com/cd/E19509-01/820-3742/ghpow/index.html
+:ascii-chars: http://www.asciitable.com/
 
 // Misc. Links
 :maintainer: mailto:giuspen@gmail.com
@@ -94,6 +95,10 @@
 :tree-diagram: image:images/tree_diagram.png[Tree diagram.]
 :tree-demo: image:images/tree_demo.png[Tree demo.]
 :today: image:images/today.png[Today's date.]
+
+// Text
+:formatting-menu: image:images/formatting-menu.png[Formatting Menu.]
+:color-pick: image:images/color-pick.png[Color Pick Menu.]
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]

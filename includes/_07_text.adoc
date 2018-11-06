@@ -1,8 +1,72 @@
 == Text
 
+Cherrytree supports three types of nodes, link:#_plain_text[*Plain Text*], link:#_rich_text[*Rich Text*], and link:#_automatic_syntax_highlighting[*Automatic Syntax Highlighting*]. 
+
 === Plain Text
 
+Plain Text is data stored in {ascii-chars}[Ascii] format. It is more portable than Rich Text and Syntax Highlighting, but does not support images, links, or formatting.
+
 === Rich Text
+
+Rich Text nodes have the same functionality as Plain Text and can also include text style, size, and color. In Cherrytree they also allow objects, such as images, codeboxes, and tables. (See link:#_objects[*8. Objects*] for more details.)
+
+=== Formatting
+
+Rich Text can be formatted from the *Formatting* menu. <<figure-7.01>> 
+
+[[figure-7.01]]
+.Figure 7.01
+{formatting-menu}
+
+*Format Latest* - This will apply the most recently used format option to the selected text.
+
+*Remove Formatting* - This will strip all formatting from the selected text formatting
+
+==== Color
+
+*Text Color Foreground* -  Opens the *Pick a Color* menu, shown in <<figure-7.02>>. The chosen color will be applied to the selected text.
+
+*Text Color Background* - Opens the *Pick a Color* menu, shown in <<figure-7.02>>. The chosen color will be applied to the background of selected text.
+
+[[figure-7.02]]
+.Figure 7.02
+{color-pick}
+
+*Toggle Bold Property* - *Bolds* the selected text.
+
+*Toggle Italic Property* - Applies _Italics_ to the selected text.  
+
+*Toggle Underline Property* - pass:[<u>Underlines</u>] the selected text.
+
+*Toggle Strikethrough Property* - Applies [.strike]#Strikethrough# to the selected text.
+
+*Toggle h1 Property* -
+
+*Toggle h2 Property* -
+
+*Toggle h3 Property* -
+
+*Toggle Small Property* -
+
+*Toggle Superscript Property* -
+
+*Toggle Subscript Property* -
+
+*Toggle Monospace Property* -
+
+*Set/Unset Bulleted List* -
+
+*Set/Unset Numbered List* -
+
+*Set/Unset To-Do List* -
+
+*Justify Left* -
+
+*Justify Center* -
+
+*Justify Right* -
+
+*Justify Fill* -
 
 === Automatic Syntax Highlighting
 

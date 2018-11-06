@@ -15,7 +15,7 @@ In computer science, a tree is a data structure consisting of nodes which are co
 === Creating Nodes
 
 [start=1]
-. Click *Add Node* within the *Tree* menu. This will create a {node-relations}[sibling] to the currently selected node, or a top-level node if no node is selected. You can also create child nodes by clicking *Tree > Add Subnode*.
+. Click *Add Node* within the *Tree* menu. This will create a {node-relations}[sibling] to the currently selected node, or a top-level node if no node is selected. You can also create child nodes by clicking *Tree* > *Add Subnode*.
 +
 NOTE: These tools can also be found on the toolbar.
 
@@ -33,8 +33,7 @@ NOTE: These tools can also be found on the toolbar.
 ** *Node Type* - Select a node type. View the link:#_text[Text section] for more detail.
 ** *Tags for searching* - adds keywords that can be used to find the node in a search. Multiple tags can be separated by a blank space.
 ** *Read Only* - Can be enabled to lock a node in its current state. This must be disabled to edit the document.
-+
-CAUTION: Read-only nodes *can* be deleted.
+
 . Click *OK* to finish creating the node.
 
 Another way to create a node is to duplicate an existing node. Open the *Tree* menu and click *Duplicate Node* to copy the selected node to an identical {node-relations}[sibling].
@@ -50,8 +49,6 @@ Nodes are primarily managed from the *Tree* menu, shown in  <<figure-6.04>>, whi
 *Change Node Properties* - Opens *Node Properties* which is identical to *New Node Properties*, shown in <<figure-6.03>>.
 
 *Toggle Read Only* - Can be enabled to lock a node in its current state. This must be disabled to edit the document.
-
-CAUTION: Read-only nodes *can* be deleted.
 
 *Add to Bookmarks / Remove from Bookmarks* - When a node is added to your bookmarks, a link to the node can be found in the *Bookmarks* menu, located in the menu bar.
 

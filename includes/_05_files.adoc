@@ -74,13 +74,13 @@ NOTE: Other applications might not provide functionality to unlock files that ha
 
 ==== Changing Passwords
 
-To change the password of a protected file, open the file in Cherrytree then click *File > Save-as*. Follow the link:#_saving_to_a_new_file[steps to save as a new document] and select a protected storage type. Use your new password to protect this copy of the document. 
+To change the password of a protected file, open the file in Cherrytree then click *File* > *Save-as*. Follow the link:#_saving_to_a_new_file[steps to save as a new document] and select a protected storage type. Use your new password to protect this copy of the document. 
 
 === Page Setup and Printing
 
 *Page Setup*, found in the *File* menu, allows you to set your document size, orientation, and margins.
 
-To print a document, click *File > Print*, then choose between one of the following options when prompted:
+To print a document, click *File* > *Print*, then choose between one of the following options when prompted:
 
 * Selected Text Only
 * Selected Node Only
