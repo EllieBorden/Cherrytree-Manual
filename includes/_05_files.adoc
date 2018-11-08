@@ -23,14 +23,14 @@ To open an existing file, click *File* and select *Open File*, then select a doc
 === Saving
 
 ==== Saving to the Current File
-To save your document, hold *Ctrl* and press the *s* key, or click *File* within the menu bar and select *Save*.
+Save your document with `CTRL`+`S` key, or click *File* within the menu bar and select *Save*.
 
 NOTE: If this is your first time saving the current document, please see the link:#_saving_to_a_new_file[save to a new file section] below.
 
 ==== Saving to a New File
 
 [start=1]
-. To save your document to a new file, press the *s* key while holding *Ctrl* and *Shift*, or click *File* within the menu bar and select *Save As*.
+. Save your document to a new file by pressing `CTRL`+`SHIFT`+`S`, or click *File* within the menu bar and select *Save As*.
 
 . You will be prompted to select a storage type, shown in <<figure-5.06>>. If you are unsure which type to select, please visit the link:#_storage_types[storage type section] for more details. +
 +

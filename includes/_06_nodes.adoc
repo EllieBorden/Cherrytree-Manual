@@ -30,7 +30,7 @@ NOTE: These tools can also be found on the toolbar.
 ** *Bold* - Increase the font-weight of the node title within the tree view.
 ** *Use Selected Color* - Change the text color of the node title within the tree view.
 ** *Use Selected Icon* - Change the node's icon color.
-** *Node Type* - Select a node type. View the link:#_text[Text section] for more detail.
+** *Node Type* - Select a node type. View link:#_text[7. Text] for more detail.
 ** *Tags for searching* - adds keywords that can be used to find the node in a search. Multiple tags can be separated by a blank space.
 ** *Read Only* - Can be enabled to lock a node in its current state. This must be disabled to edit the document.
 

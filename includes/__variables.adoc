@@ -99,6 +99,12 @@
 // Text
 :formatting-menu: image:images/formatting-menu.png[Formatting Menu.]
 :color-pick: image:images/color-pick.png[Color Pick Menu.]
+:headers: image:images/headers.png[Header One, header two, header three, standard text examples.]
+:misc-format: image:images/misc-format.png[Subscript, standard text, superscript, small text, monospace examples.]
+:todo: image:images/todo.png[To do list example.]
+:numlist: image:images/numlist.png[Numbered list example.]
+:bulllist: image:images/bulllist.png[Bulleted list example.]
+:fill: image:images/fill.png[Justify fill demonstration.]
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]

@@ -54,6 +54,8 @@ Most interface options exist within the *View* menu. <<figure-4.02>>
 
 The size of the toolbar icons is enlarged within <<figure-4.01>>. Icon size can be increased by selecting *Increase Toolbar Icon Size* or decreased with *Decrease Toolbar Icon Size*.
 
+You can also increase the size of text within the node view and editor with `CTRL`+`[Mousewheel]`.
+
 === Node Management
 
 Cherrytree allows you to organize notes using a link:#_nodes[tree structure]. 
@@ -67,7 +69,7 @@ Cherrytree allows you to organize notes using a link:#_nodes[tree structure].
 .Figure 4.04
 {tree-node-add}
 
-. Within *New Node Properties*, shown in <<figure-4.05>> give your node a name and select a node type, then click *OK*. If you're unsure which node type to use, please view the link:#_text[Text section] of this manual. +
+. Within *New Node Properties*, shown in <<figure-4.05>> give your node a name and select a node type, then click *OK*. If you're unsure which node type to use, please view link:#_text[7. Text] in this manual. +
 +
 [[figure-4.05]]
 .Figure 4.05
@@ -116,7 +118,7 @@ The following objects can be inserted into Cherrytree documents:
 === Save Your Notes
 
 [start=1]
-. You can save your document by holding *Ctrl* and pressing *s* or clicking *File* within the menu bar and selecting *Save*, shown in <<figure-4.09>>. +
+. You can save your document with `CTRL`+`S` or clicking *File* within the menu bar and selecting *Save*, shown in <<figure-4.09>>. +
 +
 If you have previously saved the current document, you do not need to perform steps 2 and 3. +
 +

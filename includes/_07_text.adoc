@@ -10,6 +10,8 @@ Plain Text is data stored in {ascii-chars}[Ascii] format. It is more portable th
 
 Rich Text nodes have the same functionality as Plain Text and can also include text style, size, and color. In Cherrytree they also allow objects, such as images, codeboxes, and tables. (See link:#_objects[*8. Objects*] for more details.)
 
+=== Automatic Syntax Highlighting
+
 === Formatting
 
 Rich Text can be formatted from the *Formatting* menu. <<figure-7.01>> 
@@ -32,42 +34,75 @@ Rich Text can be formatted from the *Formatting* menu. <<figure-7.01>>
 .Figure 7.02
 {color-pick}
 
-*Toggle Bold Property* - *Bolds* the selected text.
+==== Emphasis
+
+*Toggle Bold Property* - Applies *Bold* the selected text.
 
 *Toggle Italic Property* - Applies _Italics_ to the selected text.  
 
-*Toggle Underline Property* - pass:[<u>Underlines</u>] the selected text.
+*Toggle Underline Property* - Applies pass:[<u>Underline</u>] the selected text.
 
 *Toggle Strikethrough Property* - Applies [.strike]#Strikethrough# to the selected text.
 
-*Toggle h1 Property* -
+==== Headers
 
-*Toggle h2 Property* -
+[[figure-7.03]]
+.Figure 7.03
+{headers}
 
-*Toggle h3 Property* -
+*Toggle h1 Property* - Styles the selected paragraph as a top-level header. 
 
-*Toggle Small Property* -
+*Toggle h2 Property* - Styles the selected paragraph as a mid-level header. 
 
-*Toggle Superscript Property* -
+*Toggle h3 Property* - Styles the selected paragraph as a low-level header. 
 
-*Toggle Subscript Property* -
+==== Misc. Formats
 
-*Toggle Monospace Property* -
+[[figure-7.04]]
+.Figure 7.04
+{misc-format}
 
-*Set/Unset Bulleted List* -
+*Toggle Small Property* - Decreases the size of selected text.
 
-*Set/Unset Numbered List* -
+*Toggle Superscript Property* - Decreases the size of selected text and vertically aligns it above the normal line of type.
 
-*Set/Unset To-Do List* -
+*Toggle Subscript Property* - Decreases the size of selected text and vertically aligns it below the normal line of type.
 
-*Justify Left* -
+*Toggle Monospace Property* - Applies a Monospace format to selected text. (All characters assume the same amount of width.)
 
-*Justify Center* -
+==== Lists
 
-*Justify Right* -
+*Set/Unset Bulleted List* - Formats the selected lines into a bulleted list, in which the item order does not matter.
 
-*Justify Fill* -
+[[figure-7.05]]
+.Figure 7.05
+{bulllist}
 
-=== Automatic Syntax Highlighting
+*Set/Unset Numbered List* - Formats the selected lines into a numbered list, in which the items are ordered.
+
+[[figure-7.06]]
+.Figure 7.06
+{numlist}
+
+
+*Set/Unset To-Do List* - Formats the selected lines into a list of checkbox items. Click a checkbox to mark it as complete.
+
+[[figure-7.07]]
+.Figure 7.07
+{todo}
+
+==== Alignment
+
+*Justify Left* - Aligns content to the left side of the page. (Default)
+
+*Justify Center* - Aligns content to the center of the page.
+
+*Justify Right* - Aligns content to the right side of the page.
+
+*Justify Fill* - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in <<figure-7.08>>.
+
+[[figure-7.08]]
+.Figure 7.08
+{fill}
 
 === Searching
