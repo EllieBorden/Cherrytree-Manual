@@ -37,6 +37,8 @@
 :gtk2-bundle: http://www.giuspen.com/software/gtk-2.24.10-win-bundle.7z
 :pygtk-all-in-one: http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/2.24/pygtk-all-in-one-2.24.2.win32-py2.7.msi
 :py2lib: http://www.giuspen.com/software/C_Python27_Lib.7z
+:letter-case: https://en.wikipedia.org/wiki/Letter_case
+:regex-link: https://developers.google.com/edu/python/regular-expressions
 
 // Icons
 :tree-node-add: image:images/icons/tree-node-add.png[Tree node add.]
@@ -97,7 +99,7 @@
 :today: image:images/today.png[Today's date.]
 
 // Text
-:formatting-menu: image:images/formatting-menu.png[Formatting Menu.]
+:formatting-menu: image:images/formatting-menu.png[Formatting menu.]
 :color-pick: image:images/color-pick.png[Color Pick Menu.]
 :headers: image:images/headers.png[Header One, header two, header three, standard text examples.]
 :misc-format: image:images/misc-format.png[Subscript, standard text, superscript, small text, monospace examples.]
@@ -105,6 +107,11 @@
 :numlist: image:images/numlist.png[Numbered list example.]
 :bulllist: image:images/bulllist.png[Bulleted list example.]
 :fill: image:images/fill.png[Justify fill demonstration.]
+:syntax: image:images/syntax-highlighting.png[Syntax highlighting demonstration.]
+:search-menu: image:images/search-menu.png[Search menu.]
+:search-menu2: image:images/search-menu2.png[Second search menu.]
+:search-menu3: image:images/search-menu3.png[Third search menu.]
+:iterate-search: image:images/iterate-search.png[Iterate search menu.]
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]

@@ -88,9 +88,9 @@ NOTE: Most of these functions can be performed by dragging a node, up, down, or 
 * *Sort Node Ascending* - Sorts the selected node and its {node-relations}[siblings] alphabetically from top to bottom.
 * *Sort Node Descending* - Sorts the selected node and its {node-relations}[siblings] alphabetically from bottom to top.
 
-*Find in Nodes Names and Tags* - link:#_searching[Search] the entire tree for a set of characters within node titles and assigned tags.
+*Find in Nodes Names and Tags* - link:#_search[Search] the entire tree for a set of characters within node titles and assigned tags.
 
-*Replace in Nodes Names* link:#_searching[Search] the entire tree for a set of characters within node titles and assigned tags, and replace its with new characters.
+*Replace in Nodes Names* link:#_search[Search] the entire tree for a set of characters within node titles and assigned tags, and replace its with new characters.
 
 *Nodes Import* - Opens the link:#_importing[*Import*] menu.
 

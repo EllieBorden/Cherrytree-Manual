@@ -12,12 +12,112 @@ Rich Text nodes have the same functionality as Plain Text and can also include t
 
 === Automatic Syntax Highlighting
 
-=== Formatting
-
-Rich Text can be formatted from the *Formatting* menu. <<figure-7.01>> 
+Automatic syntax highlighting styles text with a readable color scheme that corresponds with the grammar of a language.
 
 [[figure-7.01]]
 .Figure 7.01
+{syntax}
+
+==== Choosing a Language
+
+Assign a language by opening the node properties menu, shown in <<figure-6.03>>, and choosing *Automatic Syntax Highlighting*. Then click the drop-down menu directly beneath it and choose from the list of link:#_supported_languages[supported languages].
+
+==== Supported Languages
+
+* ada
+* asp
+* awk
+* bibtex
+* boo
+* c
+* c-sharp
+* cg
+* changelog
+* chdr
+* clisp
+* cmake
+* cpp
+* css
+* cuda
+* d
+* desktop
+* diff
+* docbook
+* dosbatch
+* dot
+* dpatch
+* dtd
+* eiffel
+* erlang
+* fcl
+* forth
+* fortran
+* fsharp
+* gap
+* gettext-translation
+* glsl
+* go
+* groovy
+* gtk-doc
+* haddock
+* haskell
+* haskell-literate
+* html
+* idl
+* ini
+* java
+* js
+* latex
+* libtool
+* lua
+* m4
+* makefile
+* mallard
+* markdown
+* markdown-extra
+* msil
+* nemerle
+* nisi
+* objc
+* objective-caml
+* ocl
+* octave
+* ooc
+* pascal
+* perl
+* php
+* pkgconfig
+* powershell
+* prolog
+* python
+* python3
+* r
+* rpmspec
+* ruby
+* rust
+* scala
+* scheme
+* sh
+* sparql
+* sql
+* t2t
+* tcl
+* texinfo
+* vala
+* vbnet
+* verilog
+* vhdl
+* xml
+* xslt
+* yacc
+* yaml
+
+=== Formatting
+
+Most formatting options are only applicable to Rich Text documents and can be found in the *Formatting* menu. <<figure-7.02>> 
+
+[[figure-7.02]]
+.Figure 7.02
 {formatting-menu}
 
 *Format Latest* - This will apply the most recently used format option to the selected text.
@@ -26,12 +126,12 @@ Rich Text can be formatted from the *Formatting* menu. <<figure-7.01>>
 
 ==== Color
 
-*Text Color Foreground* -  Opens the *Pick a Color* menu, shown in <<figure-7.02>>. The chosen color will be applied to the selected text.
+*Text Color Foreground* -  Opens the *Pick a Color* menu, shown in <<figure-7.03>>. The chosen color will be applied to the selected text.
 
-*Text Color Background* - Opens the *Pick a Color* menu, shown in <<figure-7.02>>. The chosen color will be applied to the background of selected text.
+*Text Color Background* - Opens the *Pick a Color* menu, shown in <<figure-7.03>>. The chosen color will be applied to the background of selected text.
 
-[[figure-7.02]]
-.Figure 7.02
+[[figure-7.03]]
+.Figure 7.03
 {color-pick}
 
 ==== Emphasis
@@ -46,8 +146,8 @@ Rich Text can be formatted from the *Formatting* menu. <<figure-7.01>>
 
 ==== Headers
 
-[[figure-7.03]]
-.Figure 7.03
+[[figure-7.04]]
+.Figure 7.04
 {headers}
 
 *Toggle h1 Property* - Styles the selected paragraph as a top-level header. 
@@ -58,8 +158,8 @@ Rich Text can be formatted from the *Formatting* menu. <<figure-7.01>>
 
 ==== Misc. Formats
 
-[[figure-7.04]]
-.Figure 7.04
+[[figure-7.05]]
+.Figure 7.05
 {misc-format}
 
 *Toggle Small Property* - Decreases the size of selected text.
@@ -74,21 +174,21 @@ Rich Text can be formatted from the *Formatting* menu. <<figure-7.01>>
 
 *Set/Unset Bulleted List* - Formats the selected lines into a bulleted list, in which the item order does not matter.
 
-[[figure-7.05]]
-.Figure 7.05
+[[figure-7.06]]
+.Figure 7.06
 {bulllist}
 
 *Set/Unset Numbered List* - Formats the selected lines into a numbered list, in which the items are ordered.
 
-[[figure-7.06]]
-.Figure 7.06
+[[figure-7.07]]
+.Figure 7.07
 {numlist}
 
 
 *Set/Unset To-Do List* - Formats the selected lines into a list of checkbox items. Click a checkbox to mark it as complete.
 
-[[figure-7.07]]
-.Figure 7.07
+[[figure-7.08]]
+.Figure 7.08
 {todo}
 
 ==== Alignment
@@ -101,8 +201,82 @@ Rich Text can be formatted from the *Formatting* menu. <<figure-7.01>>
 
 *Justify Fill* - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in <<figure-7.08>>.
 
-[[figure-7.08]]
-.Figure 7.08
+[[figure-7.09]]
+.Figure 7.09
 {fill}
 
-=== Searching
+=== Search
+
+Cherrytree's search and replace features can be found in the *Search* menu. <<figure-7.10>>
+
+[[figure-7.10]]
+.Figure 7.10
+{search-menu}
+
+==== Steps to Perform a Search:
+
+[start=1]
+. Click *Search*, shown in <<figure-7.10>>, and select one of the following options:
++
+* *Find in Node Content* - Searches for a sequence of characters in the selected node's content.
+* *Find in All Nodes Contents* - Searches for a sequence of characters in the bodies of every node in the document.
+* *Find in Selected Node and Subnodes Contents* - Searches for a sequence of characters in the selected node and its {node-relations}[children].
+* *Find in Nodes Names and Tags* - Searches for a sequence of characters in the every node title and tag of the document.
++
+NOTE: See *Tags for Searching* in link:#_creating_nodes[*6.1 Creating Nodes*] for more detail.
+
+* *Find Again* - Find the next instance in the search results. 
+* *Find Back* - Find the previous instance in the search results. 
++
+NOTE: *Find Again* and *Find Back* are only compatible with the *First From Selection* and *First in All Range* options, indicated in the next step.
+
+. (*Optional*) Select any of the *Search Options* that are applicable to your effort:
++
+[[figure-7.11]]
+.Figure 7.11 
+{search-menu2}
++
+* *Match Case* - Filter results that do not match the {letter-case}[letter case] of the provided search term.
+* *Whole Word* - Filter results that contain more characters than provided. For example, a whole-word search for `and` will return any instances of the word `and` but not other words containing `and` such as `Andrew`. 
+* *Regular Expression* - Search for patterns in text. For example, `\([0-9][0-9][0-9]\) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]` would return instances of text formatted as (_xxx_) _xxx_-_xxxx_, such as phone numbers, where _x_ can be any number between 0 and 9. 
++
+NOTE: Learn more about regular expressions {regex-link}[here].
+
+* *Start Word* - Filter results where the provided characters are not located at the beginning of the instance. For example, a start-word search for `cherry` would return `cherry` and `cherrytree` but not `treecherry`. 
+* *Forward* - Search the node(s) from top to bottom. (Default)
+* *Backward* - Search the node(s) from bottom to top.
+* *All, List Matches* - Return all results. (Default)
+* *First From Selection* - Return only the first result closest to the cursor position.
+* *First in All Range* - Return only the first result of the node tree.
+* *Show Iterated Find/Replace Dialog* - Opens the menu below following the search execution:
++
+[[figure-7.12]]
+.Figure 7.12
+{iterate-search}
++
+** *Close* - Closes the *Iterate Latest Find/Replace* menu.
+** *Find Previous* - Find the previous instance of the searched term.
+** *Find Next* - Find the next instance of the searched term.
+** *Replace* - Replace the current instance of the of the searched term with the replacement. (Applicable only to link:#_search_and_replace[Search and Replace] features.)
+** *Undo* - Undoes the more recent *Replace* execution.
+
+. (*Optional*) *Time Filter* options will be available when searching across multiple nodes. Select any option(s) that correspond with your effort, and click the adjacent date(s) to edit its value:
++
+[[figure-7.13]]
+.Figure 7.13
+{search-menu3}
++
+* *Node Created After* - Only show results from nodes created after the provided date.
+* *Node Created Before* - Only show results from nodes created before the provided date.
+* *Node Modified After* - Only show results from nodes that have been edited after the provided date.
+* *Node Modified Before* - Only show results from nodes that have been edited before the provided date.
+
+. Click *OK* to execute the search.
+
+==== Search and Replace
+
+* *Replace in Node Content* -
+* *Replace in All Nodes Contents* -
+* *Replace in Selected Node and Subnodes Contents* -
+* *Replace in Nodes Names and Tags* -
+* *Replace Again* -
