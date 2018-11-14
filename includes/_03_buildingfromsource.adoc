@@ -150,4 +150,4 @@ macOS is not supported but can run Cherrytree from source using {homebrew}[Homeb
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
 . Open a terminal, navigate to your local copy of Cherrytree, and run `python2 cherrytree`.
 
-View this {mac-build}[web page] for more information. 
+View this {mac-build}[web page] for more information about building Cherrytree on macOS. 

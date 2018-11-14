@@ -104,16 +104,16 @@ Objects can be inserted from the menu bar under *Edit*, <<figure-4.07>>, or the 
 
 The following objects can be inserted into Cherrytree documents:
 
-* Image
-* Table
-* CodeBox
-* File
-* Link
-* Anchor
-* TOC (Table of Contents)
-* Timestamp
-* Special Character
-* Horizontal Rule
+* link:#_images[Image]
+* link:#_tables[Table]
+* link:#_codebox[CodeBox]
+* link:#file-object[File]
+* link:#_links[Link]
+* link:#_anchors[Anchor]
+* link:#_table_of_contents[TOC (Table of Contents)]
+* link:#_time_stamps[Timestamp]
+* link:#_special_characters[Special Character]
+* link:#_horizontal_rule[Horizontal Rule]
 
 === Save Your Notes
 

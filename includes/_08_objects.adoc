@@ -1,18 +1,83 @@
 == Objects
 
+Objects can be inserted from the menu bar under *Edit*, <<figure-8.01>>, or the toolbar, <<figure-8.02>>. Some objects can and also be pasted directly into Cherrytree. 
+
+[[figure-8.01]]
+.Figure 8.01
+{insert-menu}
+
+[[figure-8.02]]
+.Figure 8.02
+{insert-toolbar}
+
 === Images
 
-Content
+==== Inserting Images
 
-*Drag and drop* content
+[start=1]
+. Open the link:#_objects[*Edit* menu] and click *Insert Image*.
+. Select the image to be uploaded and click *Open*. 
+. (*Optional*) The selected image will be displayed in a simplistic editor, shown in <<figure-8.03>>, which can be used to rotate or scale the content. 
++
+[[figure-8.03]]
+.Figure 8.03
+{img-props}
++
+<<figure-8.03>> has been highlighted to indicate the parts of its interface.
 
-*Copy and paste* content
+* *Red* - Displays the image uploaded in *Step 2*.
+* *Purple* - Allows for the editing of the image's dimensions. Height and Width are linked each other to maintain the content's aspect ratio.
+* *Yellow* - Rotate the image counter-clockwise 90&deg;.
+* *Green* - Rotate the image clockwise 90&deg;.
+. Click *OK* to complete the insertion.
 
-*Toolbar* content
+==== Editing Images
+
+Right-click an image to display its menu of options, <<figure-8.04>>.
+
+[[figure-8.04]]
+.Figure 8.04
+{edit-image}
+
+* *Cut Image* - Move the selected image to your clipboard. The image can then be pasted elsewhere.
+* *Copy Image* - Copy the selected image to your clipboard. A copy of the image can then be pasted elsewhere.
+* *Delete Image* - Delete the selected image.
+* *Edit Image* - Rotate or scale the image, shown in <<figure-8.03>>
+* *Save Image as PNG* - Save a copy of the selected image to your computer.
+* *Edit Link* - Apply or edit the link of the selected image. See link:#_links[8.5 Links] for more information about links.
+* *Dismiss Link* - Remove an existing link from the selected image. This option will only appear if the image has an assigned link.
+
+NOTE: Cherrytree does not support wrapping text around images at this time.
 
 === Tables
 
-content
+==== Creating a New Table
+
+[start=1]
+. Open the link:#_objects[*Edit* menu] and click *Insert Table*.
+. (*Optional*) The *Insert Table* will be displayed and can be used to define the properties of the table.
++
+[[figure-8.05]]
+.Figure 8.05
+{insert-table}
++
+* *Rows* - Defines the number of rows to be in the table in the addition to the header row.
+* *Columns* - Defines the number of columns to be in the table.
+* *Min Width* - Defines the lowest number of pixels in width that a column must have.
+* *Max Width* - Defines the highest number of pixels in width that a column can have.
+* *Import from CSV File* -
++
+NOTE: Delimiter
+
+[[figure-8.06]]
+.Figure 8.06
+{table-column}
+
+==== Editing Tables
+
+[[figure-8.07]]
+.Figure 8.07
+{edit-table}
 
 === Codebox
 
@@ -20,6 +85,7 @@ content
 
 *Executing*
 
+[[file-object]]
 === Files
 
 Content
@@ -43,3 +109,5 @@ Content
 === Special characters
 
 Content
+
+=== Horizontal Rule
