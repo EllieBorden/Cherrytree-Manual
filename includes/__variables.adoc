@@ -7,6 +7,7 @@
 :donate: https://www.giuspen.com/cherrytree/#text-3
 :download: https://www.giuspen.com/cherrytree/#downl
 :manual-web: http://giuspen.com/cherrytreemanual
+:supporters: https://www.giuspen.com/supporters/
 
 // GitHub Links
 :changelog: https://github.com/giuspen/cherrytree/blob/master/changelog.txt

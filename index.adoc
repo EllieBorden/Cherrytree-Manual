@@ -38,11 +38,5 @@ include::includes/_08_objects.adoc[]
 // Settings
 include::includes/_09_settings.adoc[]
 
-// Contributors
-include::includes/_10_contributors.adoc[]
-
-// Supporters
-include::includes/_11_supporters.adoc[]
-
 // License
-include::includes/_12_license.adoc[]
+include::includes/_10_license.adoc[]

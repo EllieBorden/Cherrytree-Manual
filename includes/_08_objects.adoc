@@ -155,7 +155,7 @@ Right-click the textbox to display a menu of its actions and properties. <<figur
 ** Tigrigna-Ethiopian (EZ+)
 ** Vietnamese (VIQR)
 ** Windows IME
-* *Insert Unicode Control Character* - Select from one of the following unicode controls:
+* *Insert Unicode Control Character* - Select from one of the following unicode control characters:
 ** *LRM* - Left-to-right mark
 ** *RLM* - Right-to-left mark
 ** *LRE* - Left-to-right embedding

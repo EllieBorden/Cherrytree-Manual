@@ -43,6 +43,6 @@ Please contact the project's {maintainer}[maintainer] to add or edit translation
 
 ==== Donations
 
-Join the link:#supporters[Cherrytree Supporters]!
+Join the {supporters}[Cherrytree Supporters]!
 
 Donations are appreciated and can be made from the {donate}[Cherrytree website].
