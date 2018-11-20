@@ -119,6 +119,7 @@
 :insert-table: image:images/insert-table.png[Insert table option menu.]
 :edit-table: image:images/edit-table.png[Edit table menu.]
 :table-column: image:images/table-column.png[Table column menu.]
+:cell-menu: image:images/cell-menu.png[Table cell menu.]
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]

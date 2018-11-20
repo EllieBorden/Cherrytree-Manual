@@ -55,7 +55,7 @@ NOTE: Cherrytree does not support wrapping text around images at this time.
 
 [start=1]
 . Open the link:#_objects[*Edit* menu] and click *Insert Table*.
-. (*Optional*) The *Insert Table* will be displayed and can be used to define the properties of the table.
+. (*Optional*) The *Insert Table* menu will be displayed and can be used to define the properties of the table.
 +
 [[figure-8.05]]
 .Figure 8.05
@@ -65,19 +65,110 @@ NOTE: Cherrytree does not support wrapping text around images at this time.
 * *Columns* - Defines the number of columns to be in the table.
 * *Min Width* - Defines the lowest number of pixels in width that a column must have.
 * *Max Width* - Defines the highest number of pixels in width that a column can have.
-* *Import from CSV File* -
+* *Import from CSV File* - Imports data from a *.csv* file.
 +
-NOTE: Delimiter
+IMPORTANT: *.csv* data should be separated by a comma delimiter.
++
+NOTE: Cherrytree may take a few minutes to upload a large file. Please be patient. 
+
+. Click *OK* to complete the insertion.
+
+==== Managing Columns
+
+Click a column title to display a menu listing actions for that column. <<figure-8.06>>
 
 [[figure-8.06]]
 .Figure 8.06
 {table-column}
 
-==== Editing Tables
+* *Rename Column* - Change the title of the selected column.
+* *Delete Column* - Delete the selected column.
+* *Add Column* - Add a new column to the right of the selected column.
+* *Move Column Left* - Switch the placement of the selected column with that of the column to its immediate left. Nothing will happen if there is no column left of the selected column.
+* *Move Column Right* -Switch the placement of the selected column with that of the column to its immediate right.  Nothing will happen if there is no column right of the selected column.
+
+==== Managing Rows
+
+A table row can be edited by right-clicking any of its cells. <<figure-8.07>>
 
 [[figure-8.07]]
 .Figure 8.07
 {edit-table}
+
+* *Cut Table* - Move the selected table to your clipboard. The table can then be pasted elsewhere.
+* *Copy Table* - Copy the selected table to your clipboard. A copy of the table can then be pasted elsewhere.
+
+* *Delete Table* - Delete the selected table.
+
+* *Add Row* - Add a new row underneath the selected row.
+
+* *Cut Row* - Move the selected row to your clipboard. The row can then be pasted elsewhere.
+
+* *Copy Row* - Copy the selected row to your clipboard. A copy of the row can then be pasted elsewhere.
+
+* *Paste Row* - Paste a row from your clipboard underneath the selected row.
+
+* *Delete Row* - Delete the selected row.
+
+* *Move Row Up* - Switch the placement of the selected row with that of the row immediately above it. Nothing will happen if there is no row above the selected row.
+
+* *Move Row Down* - Switch the placement of the selected row with that of the row immediately below it. Nothing will happen if there is no row below the selected row.
+
+* *Sort Rows Descending* - References the first column to sort the selected table numerically then alphabetically, from bottom to top.
+
+* *Sort Rows Ascending* - References the first column to sort the selected table numerically then alphabetically, from top to bottom.
+
+* *Edit Table Properties* - Edit the *Column Properties*, discussed in <<figure-8.05>>, of the selected table.
+
+* *Table Export* - Export the selected table to a *.csv* file containing data separated by comma delimiters.
+
+==== Writing to Tables
+
+Double-click a cell to open a textbox within it.
+
+WARNING: Clicking outside of a table before closing a textbox will discard all changes to that textbox. To write changes to a textbox within a table cell, you must click to another cell, press *Enter*,  or press *Tab*. This has been reported, but is unlikely to be patched in this version of Cherrytree.
+
+NOTE: Tables currently only support plain text. 
+
+Right-click the textbox to display a menu of its actions and properties. <<figure-8.08>>
+
+[[figure-8.08]]
+.Figure 8.08
+{cell-menu}
+
+* *Cut* - Move the selected text to your clipboard. The row can then be pasted elsewhere.
+* *Copy* - Copy the selected text to your clipboard. A copy of the table can then be pasted elsewhere.
+* *Paste* - Paste the text from your clipboard to the cursor position.
+* *Delete* - Delete the selected text.
+* *Select All* - Select all of the text within the textbox.
+* *Input Methods* - Select from one of the following input methods:
+** System (Default)
+** None
+** Amharic(EZ+)
+** Cedilla
+** Cyrillic (Transliterated)
+** Inuktitut (Transliterated)
+** IPA
+** Multipress
+** Thai-Lao
+** Tigrigna-Eritrean (EZ+)
+** Tigrigna-Ethiopian (EZ+)
+** Vietnamese (VIQR)
+** Windows IME
+* *Insert Unicode Control Character* - Select from one of the following unicode controls:
+** *LRM* - Left-to-right mark
+** *RLM* - Right-to-left mark
+** *LRE* - Left-to-right embedding
+** *RLE* - Right-to-left embedding
+** *LRO* - Left-to-right override
+** *RLO* - Right-to-left override
+** *PDF* - Pop directional formatting
+** *ZWS* - Zero width space
+** *XWJ* - Zero width joiner
+** *XWNJ* - Zero width non-joiner
+* *Insert NewLine* - Adds a newline character to the current cursor position.
++ 
+NOTE: This will not be noticeable until the textbox is closed.
 
 === Codebox
 
