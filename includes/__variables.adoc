@@ -113,6 +113,8 @@
 :search-menu2: image:images/search-menu2.png[Second search menu.]
 :search-menu3: image:images/search-menu3.png[Third search menu.]
 :iterate-search: image:images/iterate-search.png[Iterate search menu.]
+:command-warning: image:images/command-warning.png[Command association warning.]
+:edit-menu-partial: image:images/edit-menu-2.png[Partial edit menu.]
 
 // Objects
 :img-props: image:images/img-props.png[Image properties interface.]
@@ -121,6 +123,8 @@
 :edit-table: image:images/edit-table.png[Edit table menu.]
 :table-column: image:images/table-column.png[Table column menu.]
 :cell-menu: image:images/cell-menu.png[Table cell menu.]
+:insert-codebox: image:images/insert-codebox.png[Insert codebox menu.]
+:edit-codebox: image:images/edit-codebox.png[Edit codebox menu.]
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]

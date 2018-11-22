@@ -172,33 +172,97 @@ NOTE: This will not be noticeable until the textbox is closed.
 
 === Codebox
 
-content
+A codebox is a contained, executable section of syntax highlighting, which can be inserted into Rich Text documents. A Rich Text document can contain more than one codebox containg any of the link:#_supported_languages[supported languages]. See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlighting*] for more details about syntax highlighting.
 
-*Executing*
+==== Inserting a Codebox
+
+[start=1]
+. Click *Edit*, located in the link:#menu-bar[menu bar].
+. Click *Insert Codebox* to display the *Insert Codebox* menu, shown in <<figure-8.09>>.
++
+[[figure-8.09]]
+.Figure 8.09
+{insert-codebox}
+
+. (*Optional*) Change the codebox type:
++
+* *Plain Text* - Restricts the codebox to link:#_plain_text[plain text].
+* *Automatic Syntax Highlighting* - Applies link:#_automatic_syntax_highlighting[automatic syntax highligting] to the codebox. (Default)
+* *Choose a language* - Select from any of the link:#_supported_languages[supported languages].
+
+. (*Optional*) - Define the codebox size:
++
+* *Width* - Defines the width of the codebox.
+** *Pixels* - Defines the width in pixels. (Default)
+** *% (Percentage)* -  Defines the width as a percentage. This will assign a dynamic width that changes alongside changes in the window's width.
+* *Height* - Defines the height of the codebox in pixels.
+
+. (*Optional*) Select any additional options:
++
+* *Show Line Numbers* - Display line numbers within the left margin of the codebox.
+* *Highlight Matching Brackets* - Indicate the corresponding bracket of the selected opening or closing bracket. 
+
+. Click *OK* to complete the insertion.
+
+==== Editing a Codebox
+
+Right-click a codebox to display its options. <<figure-8.10>>
+
+[[figure-8.10]]
+.Figure 8.10
+{edit-codebox}
+
+* *Change CodeBox Properties* - Displays a menu similar to the *Insert CodeBox* menu shown in <<figure-8.09>>.
+
+* *Execute CodeBox Code* - Executes the code within the codebox. See link:#_executing_a_codebox[*Executing a Codebox*] for more details.
+
+* *CodeBox Load From Text File* - Import code from a file. This function is not restricted to files that have a *.txt* extension.
+
+* *CodeBox Save To Text File* - Export the content of a codebox to a file. The file can have any extension. 
+
+* *Cut CodeBox* - Move the selected codebox to your clipboard. The codebox can then be pasted elsewhere.
+
+* *Cut CodeBox* - Copy the selected codebox to your clipboard. A copy of the codebox can then be pasted elsewhere.
+
+* *Delete CodeBox* - Delete the selected codebox.
+
+* *Delete CodeBox Keep Content* - Replace the current codebox with a plain text copy of its content.
+
+* *Increase CodeBox Width* - Increase the width of the selected codebox by 9% if it is defined as a percentage or 15px if it is defined in pixels.
+
+* *Decrease CodeBox Width* - Decrease the width of the selected codebox by 9% if it is defined as a percentage or 15px if it is defined in pixels.
+
+* *Increase CodeBox Height* - Increase the height of the selected codebox by 15 pixels.
+
+* *Decrease CodeBox Height* - Decrease the height of the selected codebox by 15 pixels.
+
+==== Executing a Codebox
+
+A codebox that is set to link:#_automatic_syntax_highlighting[automatic syntax highlighting] can be executed from Cherrytree, assuming you have its assigned language installed to your machine. 
+
+*To execute a the node:*
+[start=1]
+. Right-click the codebox.
+. Click *Execute Codebox code*.
+. When prompted, click *OK* to confirm that you want to execute the code.
+
+Some languages will require a command to be assigned to the language before the code can be executed, shown in <<figure-8.11>>. Please see link:#_plain_text_and_code[*9.4 Plain Text and Code*] for details on assigning a command.
+
+[[figure-8.11]]
+.Figure 8.11
+{command-warning}
 
 [[file-object]]
 === Files
 
-Content
-
 === Links
-
-Content
 
 === Anchors
 
-Content
-
 === Table of Contents
-
-Content
 
 === Time Stamps
 
-Content
-
 === Special characters
-
-Content
 
 === Horizontal Rule
