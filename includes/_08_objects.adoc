@@ -126,9 +126,9 @@ A table row can be edited by right-clicking any of its cells. <<figure-8.07>>
 
 Double-click a cell to open a textbox within it.
 
-WARNING: Clicking outside of a table before closing a textbox will discard all changes to that textbox. To write changes to a textbox within a table cell, you must click to another cell, press *Enter*,  or press *Tab*. This has been reported, but is unlikely to be patched in this version of Cherrytree.
+CAUTION: Clicking outside of a table before closing a textbox will discard all changes to that textbox. To write changes to a textbox within a table cell, you must click to another cell, press *Enter*,  or press *Tab*. This has been reported, but is unlikely to be patched in this version of Cherrytree.
 
-NOTE: Tables currently only support plain text. 
+NOTE: Tables currently only support link:#_plain_text[plain text]. 
 
 Right-click the textbox to display a menu of its actions and properties. <<figure-8.08>>
 
@@ -172,7 +172,7 @@ NOTE: This will not be noticeable until the textbox is closed.
 
 === Codebox
 
-A codebox is a contained, executable section of syntax highlighting, which can be inserted into Rich Text documents. A Rich Text document can contain more than one codebox containg any of the link:#_supported_languages[supported languages]. See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlighting*] for more details about syntax highlighting.
+A codebox is a contained, executable section of syntax highlighting, which can be inserted into link:#_rich_text[Rich Text] nodes. A link:#_rich_text[Rich Text] node can contain more than one codebox for any of the link:#_supported_languages[supported languages]. See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlighting*] for more details about syntax highlighting.
 
 ==== Inserting a Codebox
 
@@ -222,11 +222,11 @@ Right-click a codebox to display its options. <<figure-8.10>>
 
 * *Cut CodeBox* - Move the selected codebox to your clipboard. The codebox can then be pasted elsewhere.
 
-* *Cut CodeBox* - Copy the selected codebox to your clipboard. A copy of the codebox can then be pasted elsewhere.
+* *Copy CodeBox* - Copy the selected codebox to your clipboard. A copy of the codebox can then be pasted elsewhere.
 
 * *Delete CodeBox* - Delete the selected codebox.
 
-* *Delete CodeBox Keep Content* - Replace the current codebox with a plain text copy of its content.
+* *Delete CodeBox Keep Content* - Replace the current codebox with a link:#_plain_text[plain text] copy of its content.
 
 * *Increase CodeBox Width* - Increase the width of the selected codebox by 9% if it is defined as a percentage or 15px if it is defined in pixels.
 
@@ -255,9 +255,81 @@ Some languages will require a command to be assigned to the language before the 
 [[file-object]]
 === Files
 
+Any file that is less than 10MB can be attached to a link:#_rich_text[Rich Text] node. link:#_rich_text[Rich Text] nodes can contain any number of attached files. 
+
+==== Inserting a File
+
+[start=1]
+. Click *Edit*, located in the link:#menu-bar[menu bar].
+. Click *Insert File*.
+. Select a file and click *OK*.
++
+NOTE: The file must be less than 10MB. 
+
+==== Editing a File
+
+Right-click a node to display its options. <<figure-8.12>>
+
+[[figure-8.12]]
+.Figure 8.12
+{attach-file}
+
+* *Cut Embedded File* - Move the selected file to your clipboard. The file can then be pasted elsewhere.
+
+* *Copy Embedded File* - Copy the selected file to your clipboard. A copy of the file can then be pasted elsewhere.
+
+* *Delete Embedded File* - Delete the attached file.
+
+* *Open File* - Open the attached file.
++
+CAUTION: Attached files should be closed before closing their host document(s).
+
+* *Save As* - Save a copy of the selected, attached file to your machine.
+
 === Links
 
+Text and images within link:#_rich_text[rich text] nodes can be linked to websites, files, folders, or nodes.
+
+==== Inserting a Link
+
+[start=1]
+. (*Optional*) Select the text or image to be linked. If nothing is selected, you will be prompted to provide display text for the link.
+. Click *Edit*, located within the link:#menu-bar[menu bar].
+. If prompted, enter the display text for the link.
+. Click *Insert/Edit Link* to display the *Insert Link* menu shown in <<figure-8.13>>.
+. Choose from the following options:
++
+[[figure-8.13]]
+.Figure 8.13
+{insert-link}
++
+* *To Website* - Route the link to a website address.
+* *To File* - Route the link to a file on your machine.
+* *To Folder* - Route the link to a folder on your machine.
+* *To Node* - Route the link to a node within the document.
+* *Anchor name (Optional)* - Route the link to a particular anchor within the selected node. See link:#_anchors[*8.6 Anchors*] to learn more about anchors.
+
+. Click *OK* to complete the insertion.
+
+==== Editing a Link
+
+Right-click a link to display its options. <<figure-8.14>>
+
+[[figure-8.14]]
+.Figure 8.14
+{edit-link}
+
+* *Edit Link* - Display the *Insert/Edit* menu, shown in <<figure-8.13>>, for the selected link.
+* *Cut Link* - Move the selected link to your clipboard. The link can then be pasted elsewhere.
+* *Copy Link* - Copy the selected link to your clipboard. A copy of the link can then be pasted elsewhere.
+* *Dismiss Link* - Deletes the selected link, but keeps its displayed text.
+* *Delete Link* - Deletes the selected link and its displayed text.
+
 === Anchors
+
+==== Inserting Anchors
+
+==== Editing Anchors
 
 === Table of Contents
 

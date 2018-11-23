@@ -125,6 +125,9 @@
 :cell-menu: image:images/cell-menu.png[Table cell menu.]
 :insert-codebox: image:images/insert-codebox.png[Insert codebox menu.]
 :edit-codebox: image:images/edit-codebox.png[Edit codebox menu.]
+:attach-file: image:images/attach-file.png[File attachment menu.]
+:insert-link: image:images/insert-link.png[Insert link menu.]
+:edit-link: image:images/edit-link.png[Edit link menu.]
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]
