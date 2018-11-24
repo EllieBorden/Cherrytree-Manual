@@ -100,7 +100,7 @@ NOTE: Most of these functions can be performed by dragging a node, up, down, or 
 
 *Delete Node* - Removes the selected node from the tree.
 
-CAUTION: This will also delete any children of the selected node.
+CAUTION: This will also delete any {node-relations}[children] of the selected node.
 
 *Go Back* - Move backward once in your node selection history.
 

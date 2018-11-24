@@ -30,6 +30,9 @@
 :portable7zip: http://downloads.sourceforge.net/sevenzip/7za920.zip
 :node-relations: https://docs.oracle.com/cd/E19509-01/820-3742/ghpow/index.html
 :ascii-chars: http://www.asciitable.com/
+:gtkmm-doc: https://developer.gnome.org/gtkmm-tutorial/3.24/
+:pygtk2-doc: https://developer.gnome.org/pygtk/stable/
+:cpp-tut: http://www.cplusplus.com/doc/tutorial/
 
 // Misc. Links
 :maintainer: mailto:giuspen@gmail.com
@@ -128,6 +131,10 @@
 :attach-file: image:images/attach-file.png[File attachment menu.]
 :insert-link: image:images/insert-link.png[Insert link menu.]
 :edit-link: image:images/edit-link.png[Edit link menu.]
+:inv-nodes: image:images/inv-nodes.png[Involved nodes menu.]
+:anchor: image:images/icons/anchor.png[Anchor icon.]
+:insert-anchor: image:images/insert-anchor.png[Insert anchor menu.]
+:edit-anchor: image:images/edit-anchor.png[Edit anchor menu.]
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]

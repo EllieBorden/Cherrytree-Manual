@@ -307,7 +307,7 @@ Text and images within link:#_rich_text[rich text] nodes can be linked to websit
 * *To File* - Route the link to a file on your machine.
 * *To Folder* - Route the link to a folder on your machine.
 * *To Node* - Route the link to a node within the document.
-* *Anchor name (Optional)* - Route the link to a particular anchor within the selected node. See link:#_anchors[*8.6 Anchors*] to learn more about anchors.
+* *Anchor Name (Optional)* - Route the link to a particular anchor within the selected node. See link:#_anchors[*8.6 Anchors*] to learn more about anchors.
 
 . Click *OK* to complete the insertion.
 
@@ -327,14 +327,108 @@ Right-click a link to display its options. <<figure-8.14>>
 
 === Anchors
 
+An anchor is represented by the icon shown in <<figure-8.15>> and can be referenced in a link:#_links[link] to direct a user to a particular place within a node.  
+
+[[figure-8.15]]
+.Figure 8.15
+{anchor}
+
 ==== Inserting Anchors
+
+. Click *Edit*, located in the link:#menu-bar[menu bar].
+. Click *Insert Anchor*, displaying the *Insert Anchor* menu. <<figure-8.16>>.
++
+[[figure-8.16]]
+.Figure 8.16
+{insert-anchor}
+
+. Provide a name for the anchor. The name will not be visible in the document.
+. Click *OK* to complete the insertion.
+
+==== Referencing Anchors
+
+When link:#_inserting_a_link[inserting a link], select the *To Node* option, shown in <<figure-8.13>>, and add the name of the anchor to the *Anchor Name* textbox.
 
 ==== Editing Anchors
 
+Right-click an anchor icon to display is options, shown in <<figure-8.17>>.
+
+[[figure-8.17]]
+.Figure 8.17
+{edit-anchor}
+
+* *Cut Anchor* - Move the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
+* *Copy Anchor* - Move the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
+* *Delete Anchor* - Delete the selected anchor.
+* *Edit Anchor* - Displays the *Insert Anchor* menu, shown in <<figure-8.16>>, allowing you to rename the anchor.
+
 === Table of Contents
+
+This feature inserts an unordered, hierarchical list containing a link for every node and header. 
+
+==== Inserting a Table of Contents
+
+[start=1]
+. Click *Edit*, located in the link:#menu-bar[menu bar].
+. Click *Insert TOC*, displaying the *Involved Nodes* menu, shown in <<figure-8.18>>.
+. Define the scope of the contents to be included:
++
+[[figure-8.18]]
+.Figure 8.18
+{inv-nodes}
++
+* *Selected Node only* - Includes only the selected node.
+* *Selected Node and Subnodes* - Includes the selected node and its {node-relations}[children].
+* *All the Tree* - Includes the entire document.
+
+. Click *OK* to complete the insertion.
+
+==== Updating a Table of Contents
+
+A table of contents will not update as changes to the nodes or headers are made. To update a table of contents, delete the existing TOC and create a new one.
 
 === Time Stamps
 
-=== Special characters
+By default, this feature inserts the date in time in a format such as YYYY/mm/dd - HH:MM, where Y = year, m = month, d = day, H = hour, and M = minute.
+
+==== Inserting a Time Stamp
+
+[start=1]
+. Click *Edit*, located within the link:#menu-bar[menu bar].
+. Click *Insert Time Stamp*
+. 
+==== Formatting a Time Stamp
+
+The format of the time stamp can be configured in the link:#_text_and_code[text and code preference menu].
+
+=== Special Characters
+
+Cherrytree provides a function for inserting special characters. 
+
+CAUTION: These characters will not be converted to their corresponding HTML codes when exported.
+
+==== Configuring Special Characters
+
+Please see the link:#_text_and_code[text and code preference menu] to add or remove special characters from the link:#_inserting_special_characters[special character submenu]. This  configuration option can also be referenced for a list of supported special characters.
+
+==== Inserting Special Characters
+
+[start=1]
+. Click *Edit*, located within the link:#menu-bar[menu bar].
+. Hover over *Insert Special Character* to display its submenu.
+. Click the character to be inserted.
 
 === Horizontal Rule
+
+By default, this feature inserts a line of 33 `~` characters one line below the selected line. An empty line will be inserted one line below the horizontal rule.
+
+CAUTION: These characters will not be converted to a horizontal rule when exported.
+
+==== Configuring Horizontal Rules
+
+The horizontal rule can be configured in the link:#_text_and_code[text and code preference menu] to insert any sequence of characters.
+
+==== Inserting a Horizontal Rule
+[start=1]
+. Click *Edit*, located within the link:#menu-bar[menu bar].
+. Click *Insert Horizontal Rule*

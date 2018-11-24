@@ -20,12 +20,11 @@ Automatic syntax highlighting styles text with a readable color scheme that corr
 
 ==== Choosing a Language
 
-Assign a language by 
 [start=1]
-. opening the node properties menu, shown in <<figure-6.03>>
-. choosing *Automatic Syntax Highlighting*
-. clicking the drop-down menu directly beneath the node type options
-. chooosing from the list of link:#_supported_languages[supported languages].
+. Open the node properties menu, shown in <<figure-6.03>>.
+. Choose *Automatic Syntax Highlighting*.
+. Click the drop-down menu directly beneath the node type options.
+. Choose from the list of link:#_supported_languages[supported languages].
 
 ==== Executing a Node
 
@@ -143,6 +142,7 @@ Cherrytree provides editing functions which are available in the *Edit* menu, sh
 
 * *Undo* - Moves back by one change in the state of the document.
 * *Redo* - Moves forward by one change in the state of the document.
+* *Strip Trailing Spaces* - Remove any excess `space` characters at the end of each line within the selected node.
 * *Change Case* - Changes the {letter-case}[letter case] of the selected text.
 ** *Lower Case of Selection/Word* - Converts every letter of the selected text to lowercase.
 ** *Upper Case of Selection/Word* - Converts every letter of the selected text to uppercase.

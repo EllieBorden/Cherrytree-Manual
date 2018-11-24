@@ -38,8 +38,10 @@ Please contact the project's {maintainer}[maintainer] to add or edit translation
 ==== Resources
 * {repository}[Cherrytree repository]
 * link:#_building_from_source[Build from source tutorial]
-* link:https://developer.gnome.org/pygtk/stable/[PyGTK2 reference manual]
+* {pygtk2-doc}[PyGTK2 reference manual]
 * {forum}[Cherrytree community forum]
+* {cpp-tut}[C++ tutorial]
+* {gtkmm-doc}[Programming with gtkmm 3]
 
 ==== Donations
 
