@@ -8,34 +8,88 @@
 
 ==== Text Editor
 
-* *Tab Width* -
-* *Insert Spaces Instead of Tabs* -
-* *Use Line wrapping* -
-* *Line Wrapping Indentation* -
-* *Enable Automatic Indentation* -
-* *Show Line Numbers* -
-* *Vertical Space Around Lines* -
-* *Vertical Space in Wrapped Lines* -
+* *Tab Width* - Defines the number of `space` characters that a `tab` is equal to in width.
+* *Insert Spaces Instead of Tabs* - When enabled, replaces one `tab` with a number of `spaces` equal to the number indicated in *Tab Width*.
+* *Use Line wrapping* - Restricts lines of text to the current viewport by forcing text to a new line. This does not break a line with `newline` characters and can be toggled as needed, without compromising the line structure of a node.
+* *Line Wrapping Indentation* - Defines the alignment of wrapped text compared to the original line. 
+** *0* - No indention.
+** *Less than 0* - Indents the wrapped lines to the right of the original line by `x` pixels, where `x` represents the provided number.
+** *More than 0* - Indents the original line to the right of the wrapped lines by `x` pixels, where `x` represents the provided number.
+* *Enable Automatic Indentation* - Aligns new lines with the indention of the previous line.
+* *Show Line Numbers* - Displays a numerical index of the lines within the link:#editor[editor].
+* *Vertical Space Around Lines* - Defines the number of pixels that separate lines of text.
+* *Vertical Space in Wrapped Lines* - Defines the percentage of the *Vertical Space Around Lines* value that applies to wrapped lines.
++
+NOTE: This will have no effect if *Vertical Space Around Lines* is set to zero.
 
 ==== Miscellaneous
 
-* *Timestamp Format* -
-* *Horizontal Rule* -
-* *Special Characters* -
-* *Chars to Select at Double Click* -
+* *Timestamp Format* - Defines the format of a link:#_timestamps[timestamp].
++
+See link:#_formatting_timestamps[*Formatting Timestamps*] for a list of timestamp directives or visit the {strftime}[*strftime* documentation] by click the icon next to the timestamp setting, shown in <<figure-9.02>>. 
++
+[[figure-9.02]]
+.Figure 9.02
+{strftime-doc}
+
+* *Horizontal Rule* - Defines the text inserted for a link:#_horizontal_rule[horizontal rule].
+* *Special Characters* - Defines the list of special characters to exist in the link:#_inserting_special_characters[*Special Characters*] submenu.
++
+New characters can be added to the list by pasting them next to the existing characters. Click the yellow arrow icon, shown in <<figure-9.03>>, to reset to the default list of characters.
++
+[[figure-9.03]]
+.Figure 9.03
+{spec-char-default}
+
+* *Chars to Select at Double Click* - By default, double-clicking text selects the sequence of letters and numbers that are under the mouse pointer and are not separated by whitespace, punctuation, or special characters. Adding characters to the *Chars to Select at Double Click* setting will include those characters in a double-click selection.
+
+==== Formatting Timestamps
+
+The table below, copied from the {strftime}[*strftime* documentation], can be referenced when formatting timestamps in Cherrytree.
+
+[cols=2*,options="header"]
+[%autowidth]
+|===
+|Directive
+|Value
+
+| %a | Locale's abbreviated weekday name.
+| %A | Locale's full weekday name.
+| %b | Locale's abbreviated month name.
+| %B | Locale's full month name.
+| %c | Locale's appropriate date and time representation.
+| %d | Day of the month as a decimal number.
+| %H | Hour (24-hour clock) as a decimal number.
+| %I | Hour (12-hour clock) as a decimal number.
+| %j | Day of the year as a decimal number.
+| %m | Month as a decimal number.
+| %M | Minute as a decimal number.
+| %p | Locale's equivalent of either AM or PM.
+| %S | Second as a decimal number.
+| %U | Week number of the year (Sunday as the first day of the week) as a decimal number [00,53]. All days in a new year preceding the first Sunday are considered to be in week 0.	
+| %w | Weekday as a decimal number.
+| %W | Week number of the year (Monday as the first day of the week) as a decimal number [00,53]. All days in a new year preceding the first Monday are considered to be in week 0.	
+| %x | Locale's appropriate date representation.
+| %X | Locale's appropriate time representation.
+| %y | Year without century as a decimal number.
+| %Y | Year with century as a decimal number.
+| %Z | Time zone name (no characters if no time zone exists).
+| %% | A literal '%' character.
+
+|=== 
 
 === Text
 
-[[figure-9.02]]
-.Figure 9.02
+[[figure-9.04]]
+.Figure 9.04
 {pref02}
 
 * *Enable Smart Quotes Auto Replacement* -
 
 === Rich Text
 
-[[figure-9.03]]
-.Figure 9.03
+[[figure-9.05]]
+.Figure 9.05
 {pref03}
 
 ==== Spell Check
@@ -61,8 +115,8 @@
 
 === Plain Text and Code
 
-[[figure-9.04]]
-.Figure 9.04
+[[figure-9.06]]
+.Figure 9.06
 {pref04}
 
 ==== Text Editor
@@ -83,8 +137,8 @@
 
 === Tree 1
 
-[[figure-9.05]]
-.Figure 9.05
+[[figure-9.07]]
+.Figure 9.07
 {pref05}
 
 ==== Theme
@@ -109,8 +163,8 @@
 
 === Tree 2
 
-[[figure-9.06]]
-.Figure 9.06
+[[figure-9.08]]
+.Figure 9.08
 {pref06}
 
 ==== Miscellaneous
@@ -123,8 +177,8 @@
 
 === Fonts
 
-[[figure-9.07]]
-.Figure 9.07
+[[figure-9.09]]
+.Figure 9.09
 {pref07}
 
 * *Rich Text* -
@@ -134,8 +188,8 @@
 
 === Links
 
-[[figure-9.08]]
-.Figure 9.08
+[[figure-9.10]]
+.Figure 9.10
 {pref08}
 
 ==== Custom Actions
@@ -159,8 +213,8 @@
 
 === Toolbar
 
-[[figure-9.09]]
-.Figure 9.09
+[[figure-9.11]]
+.Figure 9.11
 {pref09}
 
 ==== Adding a new Icon to Toolbar
@@ -169,8 +223,8 @@
 
 === Keyboard Shortcuts
 
-[[figure-9.10]]
-.Figure 9.10
+[[figure-9.12]]
+.Figure 9.12
 {pref10}
 
 ==== Editing a Keyboard Shortcut
@@ -311,8 +365,8 @@
 
 === Miscellaneous
 
-[[figure-9.11]]
-.Figure 9.11
+[[figure-9.13]]
+.Figure 9.13
 {pref11}
 
 ==== System Tray

@@ -387,19 +387,19 @@ This feature inserts an unordered, hierarchical list containing a link for every
 
 A table of contents will not update as changes to the nodes or headers are made. To update a table of contents, delete the existing TOC and create a new one.
 
-=== Time Stamps
+=== Timestamps
 
 By default, this feature inserts the date in time in a format such as YYYY/mm/dd - HH:MM, where Y = year, m = month, d = day, H = hour, and M = minute.
 
-==== Inserting a Time Stamp
+==== Inserting a Timestamp
 
 [start=1]
 . Click *Edit*, located within the link:#menu-bar[menu bar].
-. Click *Insert Time Stamp*
+. Click *Insert Timestamp*
 . 
-==== Formatting a Time Stamp
+==== Formatting a Timestamp
 
-The format of the time stamp can be configured in the link:#_text_and_code[text and code preference menu].
+The format of the timestamp can be configured in the link:#_text_and_code[text and code preference menu].
 
 === Special Characters
 

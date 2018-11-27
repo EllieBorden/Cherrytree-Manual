@@ -33,6 +33,7 @@
 :gtkmm-doc: https://developer.gnome.org/gtkmm-tutorial/3.24/
 :pygtk2-doc: https://developer.gnome.org/pygtk/stable/
 :cpp-tut: http://www.cplusplus.com/doc/tutorial/
+:strftime: https://docs.python.org/2/library/time.html#time.strftime
 
 // Misc. Links
 :maintainer: mailto:giuspen@gmail.com
@@ -138,6 +139,8 @@
 
 // Settings Images
 :pref01: image:images/pref01.png[Text and Code.]
+:strftime-doc: image:images/strftime-doc.png[Timestamp documentation icon.]
+:spec-char-default: image:images/spec-char-default.png[Reset special characters to default button.]
 :pref02: image:images/pref02.png[Text.]
 :pref03: image:images/pref03.png[Rich Text.]
 :pref04: image:images/pref04.png[Plain Text and Code.]
