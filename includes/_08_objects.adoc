@@ -407,16 +407,14 @@ Cherrytree provides a function for inserting special characters.
 
 CAUTION: These characters will not be converted to their corresponding HTML codes when exported.
 
-==== Configuring Special Characters
-
-Please see the link:#_text_and_code[text and code preference menu] to add or remove special characters from the link:#_inserting_special_characters[special character submenu]. This  configuration option can also be referenced for a list of supported special characters.
-
 ==== Inserting Special Characters
 
 [start=1]
 . Click *Edit*, located within the link:#menu-bar[menu bar].
 . Hover over *Insert Special Character* to display its submenu.
 . Click the character to be inserted.
+
+NOTE: See the link:#_text_and_code[text and code preference menu] to add or remove special characters from the link:#_inserting_special_characters[special character submenu]. This  configuration option can also be referenced for a list of supported special characters.
 
 === Horizontal Rule
 

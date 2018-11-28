@@ -4,7 +4,7 @@
 
 [[figure-9.01]]
 .Figure 9.01
-{pref01}
+{text-code-pref}
 
 ==== Text Editor
 
@@ -82,15 +82,19 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 [[figure-9.04]]
 .Figure 9.04
-{pref02}
+{text-pref}
 
-* *Enable Smart Quotes Auto Replacement* -
-
-=== Rich Text
+*Enable Smart Quotes Auto Replacement* - When enabled, this converts paired quotation marks on a line to smart quotes, illustrated in <<figure-9.05>>.
 
 [[figure-9.05]]
 .Figure 9.05
-{pref03}
+{smart-quotes}
+
+=== Rich Text
+
+[[figure-9.06]]
+.Figure 9.06
+{rich-text-pref}
 
 ==== Spell Check
 
@@ -115,9 +119,9 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 === Plain Text and Code
 
-[[figure-9.06]]
-.Figure 9.06
-{pref04}
+[[figure-9.07]]
+.Figure 9.07
+{plain-text-code-pref}
 
 ==== Text Editor
 
@@ -137,9 +141,9 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 === Tree 1
 
-[[figure-9.07]]
-.Figure 9.07
-{pref05}
+[[figure-9.08]]
+.Figure 9.08
+{tree1-pref}
 
 ==== Theme
 
@@ -163,9 +167,9 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 === Tree 2
 
-[[figure-9.08]]
-.Figure 9.08
-{pref06}
+[[figure-9.09]]
+.Figure 9.09
+{tree2-pref}
 
 ==== Miscellaneous
 
@@ -177,9 +181,9 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 === Fonts
 
-[[figure-9.09]]
-.Figure 9.09
-{pref07}
+[[figure-9.10]]
+.Figure 9.10
+{fonts-pref}
 
 * *Rich Text* -
 * *Plain Text* -
@@ -188,9 +192,9 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 === Links
 
-[[figure-9.10]]
-.Figure 9.10
-{pref08}
+[[figure-9.11]]
+.Figure 9.11
+{links-pref}
 
 ==== Custom Actions
 
@@ -213,9 +217,9 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 === Toolbar
 
-[[figure-9.11]]
-.Figure 9.11
-{pref09}
+[[figure-9.12]]
+.Figure 9.12
+{toolbar-pref}
 
 ==== Adding a new Icon to Toolbar
 
@@ -223,9 +227,9 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 === Keyboard Shortcuts
 
-[[figure-9.12]]
-.Figure 9.12
-{pref10}
+[[figure-9.13]]
+.Figure 9.13
+{keyboard-pref}
 
 ==== Editing a Keyboard Shortcut
 
@@ -365,9 +369,9 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 === Miscellaneous
 
-[[figure-9.13]]
-.Figure 9.13
-{pref11}
+[[figure-9.14]]
+.Figure 9.14
+{misc-pref}
 
 ==== System Tray
 

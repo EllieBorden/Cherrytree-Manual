@@ -48,6 +48,7 @@
 // Icons
 :tree-node-add: image:images/icons/tree-node-add.png[Tree node add.]
 :tree-subnode-add: image:images/icons/tree-subnode-add.png[Tree subnode add.]
+:anchor: image:images/icons/anchor.png[Anchor icon.]
 
 // Installation Images
 :rhinstall01: image:images/rhinstall01.png[Red Hat installation steps.]
@@ -133,21 +134,22 @@
 :insert-link: image:images/insert-link.png[Insert link menu.]
 :edit-link: image:images/edit-link.png[Edit link menu.]
 :inv-nodes: image:images/inv-nodes.png[Involved nodes menu.]
-:anchor: image:images/icons/anchor.png[Anchor icon.]
 :insert-anchor: image:images/insert-anchor.png[Insert anchor menu.]
 :edit-anchor: image:images/edit-anchor.png[Edit anchor menu.]
 
 // Settings Images
-:pref01: image:images/pref01.png[Text and Code.]
+:text-code-pref: image:images/pref01.png[Text and Code.]
+:text-pref: image:images/pref02.png[Text.]
+:rich-text-pref: image:images/pref03.png[Rich Text.]
+:plain-text-code-pref: image:images/pref04.png[Plain Text and Code.]
+:tree1-pref: image:images/pref05.png[Tree 1.]
+:tree2-pref: image:images/pref06.png[Tree 2.]
+:fonts-pref: image:images/pref07.png[Fonts.]
+:links-pref: image:images/pref08.png[Links.]
+:toolbar-pref: image:images/pref09.png[Toolbar.]
+:keyboard-pref: image:images/pref10.png[Keyboard Shortcuts.]
+:misc-pref: image:images/pref11.png[Miscellaneous.]
+
 :strftime-doc: image:images/strftime-doc.png[Timestamp documentation icon.]
 :spec-char-default: image:images/spec-char-default.png[Reset special characters to default button.]
-:pref02: image:images/pref02.png[Text.]
-:pref03: image:images/pref03.png[Rich Text.]
-:pref04: image:images/pref04.png[Plain Text and Code.]
-:pref05: image:images/pref05.png[Tree 1.]
-:pref06: image:images/pref06.png[Tree 2.]
-:pref07: image:images/pref07.png[Fonts.]
-:pref08: image:images/pref08.png[Links.]
-:pref09: image:images/pref09.png[Toolbar.]
-:pref10: image:images/pref10.png[Keyboard Shortcuts.]
-:pref11: image:images/pref11.png[Miscellaneous.]
+:smart-quotes: image:images/smart-quotes.png[Smart quotes example.]
