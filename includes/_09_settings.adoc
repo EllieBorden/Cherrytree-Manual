@@ -9,15 +9,22 @@
 ==== Text Editor
 
 * *Tab Width* - Defines the number of `space` characters that a `tab` is equal to in width.
+
 * *Insert Spaces Instead of Tabs* - When enabled, replaces one `tab` with a number of `spaces` equal to the number indicated in *Tab Width*.
+
 * *Use Line wrapping* - Restricts lines of text to the current viewport by forcing text to a new line. This does not break a line with `newline` characters and can be toggled as needed, without compromising the line structure of a node.
+
 * *Line Wrapping Indentation* - Defines the alignment of wrapped text compared to the original line. 
 ** *0* - No indention.
 ** *Less than 0* - Indents the wrapped lines to the right of the original line by `x` pixels, where `x` represents the provided number.
 ** *More than 0* - Indents the original line to the right of the wrapped lines by `x` pixels, where `x` represents the provided number.
+
 * *Enable Automatic Indentation* - Aligns new lines with the indention of the previous line.
+
 * *Show Line Numbers* - Displays a numerical index of the lines within the link:#editor[editor].
+
 * *Vertical Space Around Lines* - Defines the number of pixels that separate lines of text.
+
 * *Vertical Space in Wrapped Lines* - Defines the percentage of the *Vertical Space Around Lines* value that applies to wrapped lines.
 +
 NOTE: This will have no effect if *Vertical Space Around Lines* is set to zero.
@@ -90,6 +97,7 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 .Figure 9.05
 {smart-quotes}
 
+[[rich-text-pref]]
 === Rich Text
 
 [[figure-9.06]]
@@ -98,24 +106,50 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 
 ==== Spell Check
 
-* *Enable Spell Check* -
-* *Spell Check Language* -
+* *Enable Spell Check* - Toggles Cherrytree's spell check feature.
++
+NOTE: *Enchant* is required for this feature. Please install the this dependency if your application is built from source and you haven't already. See link:#_building_from_source[*3. Building from Source*] for instructions.
+
+* *Spell Check Language* - Defines which language the to spell check. The following languages are available:
+** *cs_CZ* - Czech (Czechia)
+** *de_DE* - German (Germany)
+** *en_Au* - English (Australia)
+** *en_GB* - English (Britain)
+** *en_US* - English (United States)
+** *es* - Spanish
+** *fr* - French
+** *fr_FR* - French (France)
+** *hy_AM* - Armenian (Armenia)
+** *it_IT* - Italian (Italy)
+** *lt_LT* - Lithuanian (Lithuania)
+** *nl* - Dutch
+** *pl* - Polish
+** *pt_BR* - Portuguese (Brazil)
+** *ru_RU* - Russian (Russian Federation)
+** *uk_UA* - Ukrainian (Ukraine)
 
 ==== Theme
 
-* *Light Background, Dark Text* -
-* *Dark Background, Light Text* -
-* *Custom Background and Text* -
-* *Monospace Background* -
+* *Light Background, Dark Text* - Sets the editor background color to white and text color to black within all link:#_rich_text[Rich Text nodes].
+
+* *Dark Background, Light Text* - Sets the editor background color to dark blue and text color to white within all link:#_rich_text[Rich Text nodes].
+
+* *Custom Background and Text* - Defines custom colors for the editor's background and text within all link:#_rich_text[Rich Text nodes].
+* *Monospace Background* - Defines the background of monospace text.
 
 ==== Miscellaneous
 
-* *Show White Spaces* -
-* *Highlight Current Line* -
-* *Expand CodeBoxes Automatically* -
-* *Embedded File Icon Size* -
-* *Show File Name on Top of Embedded File Icon* -
-* *Limit of Undoable Steps Per Node* -
+* *Show White Spaces* - Displays character markers over spaces.
+
+* *Highlight Current Line* - When enabled, highlights the line of the cursor position.
+
+* *Expand CodeBoxes Automatically* - Increases the height of codeboxes to fit its content in one viewport.
+
+* *Embedded File Icon Size* - Defines the size of link:#file-object[embedded file] icons.
+
+* *Show File Name on Top of Embedded File Icon* - When enabled, displays the file name above link:#file-object[embedded file] icons.
+
+* *Limit of Undoable Steps Per Node* - Defines the maximum states of a node that Cherrytree tracks and can return to using the *Undo* feature.
 
 === Plain Text and Code
 
@@ -126,7 +160,9 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 ==== Text Editor
 
 * *Style Scheme* -
+
 * *Show White Spaces* -
+
 * *Highlight Current Line* -
 
 ==== Code Execution
@@ -148,21 +184,29 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 ==== Theme
 
 * *Light Background, Dark Text* -
+
 * *Dark Background, Light Text* -
+
 * *Custom Background and Text* -
 
 ==== Default Text Nodes Icons
 
 * *Use Different Cherries per Level* -
+
 * *Use Selected Icon* -
+
 * *No Icon* -
+
 * *Hide Right Side Auxiliary Icon* -
 
 ==== Node Status at Startup
 
 * *Restore Expanded/Collapsed Status* -
+
 * *Expand all Nodes* -
+
 * *Collapse all Nodes* -
+
 * *Nodes in Bookmarks Always Visible* -
 
 === Tree 2
@@ -174,9 +218,13 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 ==== Miscellaneous
 
 * *Tree Nodes Names Wrapping Width* -
+
 * *Display Tree on Right Side* -
+
 * *Move Focus to Text at Mouse Click* -
+
 * *Expand Node at Mouse Click* -
+
 * *Last Visited Nodes on Node Name Header* -
 
 === Fonts
@@ -186,8 +234,11 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 {fonts-pref}
 
 * *Rich Text* -
+
 * *Plain Text* -
+
 * *Code Font* -
+
 * *Sans Normal* -
 
 === Links
@@ -199,20 +250,27 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 ==== Custom Actions
 
 * *Enable Custom Web Link Click Action* -
+
 * *Enable Custom File Link Clicked Action* -
+
 * *Enable Custom Folder Link Clicked Action* -
 
 ==== Colors
 
 * *To Website* -
+
 * *To File* -
+
 * *To Node* -
+
 * *To Folder* -
 
 ==== Miscellaneous
 
 * *Underline Links* -
+
 * *Use Relative Paths for Files And Folders* -
+
 * *Anchor Size* -
 
 === Toolbar
@@ -376,14 +434,19 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 ==== System Tray
 
 * *Enable System Tray Docking* -
+
 * *Start Minimized in the System Tray* -
+
 * *Use AppIndicator for Docking* -
 
 ==== Saving
 
 * *Autosave Every `x` Minutes* -
+
 * *Enable Word Count in Statusbar* -
+
 * *Reload Document From Last Session* -
+
 * **Reload After External Update to CT* File** -
 
 ==== Language

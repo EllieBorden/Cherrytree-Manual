@@ -169,29 +169,29 @@ Most formatting options are only applicable to Rich Text documents and can be fo
 .Figure 7.04
 {formatting-menu}
 
-*Format Latest* - This will apply the most recently used format option to the selected text.
+* *Format Latest* - This will apply the most recently used format option to the selected text.
 
-*Remove Formatting* - This will strip all formatting from the selected text formatting
+* *Remove Formatting* - This will strip all formatting from the selected text formatting
 
 ==== Color
 
-*Text Color Foreground* -  Opens the *Pick a Color* menu, shown in <<figure-7.05>>. The chosen color will be applied to the selected text.
+* *Text Color Foreground* -  Opens the *Pick a Color* menu, shown in <<figure-7.05>>. The chosen color will be applied to the selected text.
 
-*Text Color Background* - Opens the *Pick a Color* menu, shown in <<figure-7.05>>. The chosen color will be applied to the background of selected text.
-
+* *Text Color Background* - Opens the *Pick a Color* menu, shown in <<figure-7.05>>. The chosen color will be applied to the background of selected text.
++
 [[figure-7.05]]
 .Figure 7.05
 {color-pick}
 
 ==== Emphasis
 
-*Toggle Bold Property* - Applies *Bold* the selected text.
+* *Toggle Bold Property* - Applies *Bold* the selected text.
 
-*Toggle Italic Property* - Applies _Italics_ to the selected text.  
+* *Toggle Italic Property* - Applies _Italics_ to the selected text.  
 
-*Toggle Underline Property* - Applies pass:[<u>Underline</u>] the selected text.
+* *Toggle Underline Property* - Applies pass:[<u>Underline</u>] the selected text.
 
-*Toggle Strikethrough Property* - Applies [.strike]#Strikethrough# to the selected text.
+* *Toggle Strikethrough Property* - Applies [.strike]#Strikethrough# to the selected text.
 
 ==== Headers
 
@@ -199,11 +199,11 @@ Most formatting options are only applicable to Rich Text documents and can be fo
 .Figure 7.06
 {headers}
 
-*Toggle h1 Property* - Styles the selected paragraph as a top-level header. 
+* *Toggle h1 Property* - Styles the selected paragraph as a top-level header. 
 
-*Toggle h2 Property* - Styles the selected paragraph as a mid-level header. 
+* *Toggle h2 Property* - Styles the selected paragraph as a mid-level header. 
 
-*Toggle h3 Property* - Styles the selected paragraph as a low-level header. 
+* *Toggle h3 Property* - Styles the selected paragraph as a low-level header. 
 
 ==== Misc. Formats
 
@@ -211,45 +211,47 @@ Most formatting options are only applicable to Rich Text documents and can be fo
 .Figure 7.07
 {misc-format}
 
-*Toggle Small Property* - Decreases the size of selected text.
+* *Toggle Small Property* - Decreases the size of selected text.
 
-*Toggle Superscript Property* - Decreases the size of selected text and vertically aligns it above the normal line of type.
+* *Toggle Superscript Property* - Decreases the size of selected text and vertically aligns it above the normal line of type.
 
-*Toggle Subscript Property* - Decreases the size of selected text and vertically aligns it below the normal line of type.
+* *Toggle Subscript Property* - Decreases the size of selected text and vertically aligns it below the normal line of type.
 
-*Toggle Monospace Property* - Applies a Monospace format to selected text. (All characters assume the same amount of width.)
+* *Toggle Monospace Property* - Applies a Monospace format to selected text. (All characters assume the same amount of width.)
++
+NOTE: The background color of monospace text can be edited in the link:#rich-text-pref[Rich Text preferences menu]
 
 ==== Lists
 
-*Set/Unset Bulleted List* - Formats the selected lines into a bulleted list, in which the item order does not matter.
-
+* *Set/Unset Bulleted List* - Formats the selected lines into a bulleted list, in which the item order does not matter.
++
 [[figure-7.08]]
 .Figure 7.08
 {bulllist}
 
-*Set/Unset Numbered List* - Formats the selected lines into a numbered list, in which the items are ordered.
-
+* *Set/Unset Numbered List* - Formats the selected lines into a numbered list, in which the items are ordered.
++
 [[figure-7.09]]
 .Figure 7.09
 {numlist}
 
 
-*Set/Unset To-Do List* - Formats the selected lines into a list of checkbox items. Click a checkbox to mark it as complete.
-
+* *Set/Unset To-Do List* - Formats the selected lines into a list of checkbox items. Click a checkbox to mark it as complete.
++
 [[figure-7.10]]
 .Figure 7.10
 {todo}
 
 ==== Alignment
 
-*Justify Left* - Aligns content to the left side of the page. (Default)
+* *Justify Left* - Aligns content to the left side of the page. (Default)
 
-*Justify Center* - Aligns content to the center of the page.
+* *Justify Center* - Aligns content to the center of the page.
 
-*Justify Right* - Aligns content to the right side of the page.
+* *Justify Right* - Aligns content to the right side of the page.
 
-*Justify Fill* - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in <<figure-7.11>>.
-
+* *Justify Fill* - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in <<figure-7.11>>.
++
 [[figure-7.11]]
 .Figure 7.11
 {fill}
@@ -332,7 +334,7 @@ NOTE: Learn more about regular expressions {regex-link}[here].
 ** *Replace* - Replace the current instance of the of the searched term with the replacement provided in *Step 3* of link:#_steps_to_search_and_replace[*Steps to Search and Replace*]. (Applicable only to link:#_search_and_replace[Search and Replace] features.)
 ** *Undo* - Undoes the most recent *Replace* execution.
 
-*Time Filter* options will be available when searching across multiple nodes. Select any option(s) that correspond with your effort, and click the adjacent date(s) to edit its value:
+* *Time Filter* options will be available when searching across multiple nodes. Select any option(s) that correspond with your effort, and click the adjacent date(s) to edit its value:
 
 [[figure-7.15]]
 .Figure 7.15
