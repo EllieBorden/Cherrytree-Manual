@@ -100,6 +100,8 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 [[rich-text-pref]]
 === Rich Text
 
+This menu provides configuration options for link:#_rich_text[Rich Text nodes].
+
 [[figure-9.06]]
 .Figure 9.06
 {rich-text-pref}
@@ -130,11 +132,11 @@ NOTE: *Enchant* is required for this feature. Please install the this dependency
 
 ==== Theme
 
-* *Light Background, Dark Text* - Sets the editor background color to white and text color to black within all link:#_rich_text[Rich Text nodes].
+* *Light Background, Dark Text* - Sets the editor background color to white and text color to black.
 
-* *Dark Background, Light Text* - Sets the editor background color to dark blue and text color to white within all link:#_rich_text[Rich Text nodes].
+* *Dark Background, Light Text* - Sets the editor background color to dark blue and text color to white.
 
-* *Custom Background and Text* - Defines custom colors for the editor's background and text within all link:#_rich_text[Rich Text nodes].
+* *Custom Background and Text* - Defines custom colors for the editor's background and text.
 * *Monospace Background* - Defines the background of monospace text.
 
 ==== Miscellaneous
@@ -153,27 +155,104 @@ NOTE: *Enchant* is required for this feature. Please install the this dependency
 
 === Plain Text and Code
 
+This menu provides configuration options for link:#_automatic_syntax_highlighting[automatic syntax highlight] nodes, link:#_plain_text[plain text] nodes, and link:#codebox[codeboxes].
+
 [[figure-9.07]]
 .Figure 9.07
 {plain-text-code-pref}
 
 ==== Text Editor
 
-* *Style Scheme* -
+* *Style Scheme* - Defines the color theme for link:#_automatic_syntax_highlighting[automatic syntax highlighting] nodes, link:#_plain_text[plain text] nodes, and link:#_codebox[codeboxes].
+** *Classic*
++
+[[figure-9.08]]
+.Figure 9.08
+{classic-theme}
 
-* *Show White Spaces* -
+** *Cobalt*
++
+[[figure-9.09]]
+.Figure 9.09
+{cobalt-theme}
 
-* *Highlight Current Line* -
+** *Kate*
++
+[[figure-9.10]]
+.Figure 9.10
+{kate-theme}
+
+** *Oblivion*
++
+[[figure-9.11]]
+.Figure 9.11
+{oblivion-theme}
+
+** *Tango*
++
+[[figure-9.12]]
+.Figure 9.12
+{tango-theme}
+
+* *Show White Spaces* - Displays character markers over spaces.
+
+* *Highlight Current Line* - When enabled, highlights the line of the cursor position.
 
 ==== Code Execution
 
+This section defines the command, for each language, that runs when a link:#_executing_a_codebox[codebox is executed].
+
 ==== Adding a New Command
+
+[start=1]
+. Click the `+` icon, shown in <<figure-9.13>>, to display the *Select Element to Add* menu, <<figure-9.14>>.
++
+[[figure-9.13]]
+.Figure 9.13
+{add-command}
+
+. Select a language to apply the new command to.
++
+[[figure-9.14]]
+.Figure 9.14
+{select-language-menu}
+
+. Click *OK*
+
+. Find your new language rule in the list and link:#_editing_a_command[edit the command].
 
 ==== Editing a Command
 
+Double-click a command to edit its value.
+
+[[figure-9.15]]
+.Figure 9.15
+{edit-command}
+
+CAUTION: `<tmp_src_path>` is a variable that represents the codebox or node being executed. It should not be removed from the command.
+
 ==== Reset to Default
 
-==== Terminal Command
+Click the yellow return arrow to reset to the default list of commands.
+
+[[figure-9.16]]
+.Figure 9.16
+{reset-commands}
+
+==== Terminal Command 
+This is the command line configuration required to execute code within Cherrytree. To configure a terminal, set this option to a command that executes another command within a new instance of your terminal. Use `<command>` as a placeholder for the command to be executed in the new instance.
+
+For example, when a codebox is executed on this machine, <<figure-9.17>>, the following command is used: `start cmd /k "<command>"`.
+
+[[figure-9.17]]
+.Figure 9.17
+{terminal-execution}
+
+* `start cmd` - opens a new instance of command prompt.
+* `/k` - a command line option to execute the text that follows inside quotation marks.
+* `<command>` - a variable which represents one of the language-specific commands that are defined in the link:#_code_execution[code execution] options.
+
+NOTE: The language-specific command represented by `<command>` is determined by the language selected in the link:#_codebox[codebox properties]. If, for example, a codebox executed in <<figure-9.17>> is configured for python3, `<command>` represents `python3 <tmp_src_path>`. 
 
 === Tree 1
 
