@@ -156,3 +156,34 @@ Cherrytree's export feature can be accessed from the *Export* menu.
 ** *Links Tree in Every Page* When enabled all nodes will contain a table of contents. Otherwise if this option is disabled, only the *index.html* document will contain a table of contents.
 
 When exporting to HTML, all nodes will be copied to the root folder of your chosen directory as *.html* files. The main HTML file will be named *index.html*.
+
+=== Command Line
+
+Cherrytree supports command line arguments.
+
+==== Positional arguments:
+
+|===
+|filepath | Optional Cherrytree Document to Open
+|===
+
+==== Optional arguments:
+
+|===
+| -h +
+--help | show this help message and exit
+
+| -n NODE +
+--node NODE | Node Name to Focus 
+
+| -x EXPORT_TO_HTML_DIR +
+--export_to_html_dir EXPORT_TO_HTML_DIR | Export to HTML at Specified Directory
+
+| -t EXPORT_TO_TXT_DIR +
+--export_to_txt_dir EXPORT_TO_TXT_DIR | Export to Text at Specified Directory
+
+|-w +
+--export_overwrite | Overwrite Existing Export
+|===
+
+NOTE: Command line arguments are available in Linux, but may only be available in Windows when the application is link:#_windows[built from source]. 
