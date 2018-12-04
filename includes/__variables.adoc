@@ -34,6 +34,7 @@
 :pygtk2-doc: https://developer.gnome.org/pygtk/stable/
 :cpp-tut: http://www.cplusplus.com/doc/tutorial/
 :strftime: https://docs.python.org/2/library/time.html#time.strftime
+:relative-paths: https://en.wikipedia.org/wiki/Path_(computing)#Absolute_and_relative_paths
 
 // Misc. Links
 :maintainer: mailto:giuspen@gmail.com
@@ -163,3 +164,11 @@
 :edit-command: image:images/edit-command.png[Edit command demonstration.]
 :reset-commands: image:images/reset-commands.png[Reset commands button.]
 :terminal-execution: image:images/terminal-execution.png[Code execution menu.]
+:recent-nodes: image:images/recent-nodes.png[Last visited nodes demonstration.]
+:add-action: image:images/add-action.png[Add action button]
+:select-element-menu: image:images/select-element-menu.png[Select element menu.]
+:remove-action: image:images/remove-action.png[Remove action button.]
+:default-toolbar: image:images/default-toolbar.png[Reset toolbar settings button.]
+:edit-shortcut-button: image:images/edit-shortcut-button.png[Edit shortcut button.]
+:edit-shortcut-menu: image:images/edit-shortcut-menu.png[Edit shortcut menu.]
+:reset-shortcuts: image:images/reset-shortcuts.png[Reset shortcut settings button.]
