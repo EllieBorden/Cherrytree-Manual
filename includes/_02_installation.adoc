@@ -6,13 +6,14 @@ Cherrytree is available for Linux and Windows.
 
 [start=1]
 . Download the latest installer with a *.rpm* extension from the {download}[downloads webpage].
-. Open a terminal and navigate to the directory where your installer
-is located.
-. Type the following command, replacing _cherrytree.rpm_ with the name of your installation file: `sudo rpm -Uvh --force _cherrytree.rpm_`. Provide your password when prompted to begin the installation, shown in <<figure-2.01>>. +
+. Open a terminal and navigate to the directory containing your installation file.
+. Type the following command, replacing _cherrytree.rpm_ with the name of your installation file: `sudo rpm -Uvh --force _cherrytree.rpm_`. gin the installation.
 +
 [[figure-2.01]]
 .Figure 2.01
 {rhinstall01}
+
+. Provide your password when prompted to be
 
 === Ubuntu (Debian)
 
@@ -23,44 +24,45 @@ Cherrytree can be installed to Ubuntu via the *Ubuntu Software* application or t
 A PPA (Personal Package Archive) must be added to ensure that the latest version of Cherrytree is installed through Ubuntu Software. 
 
 [start=1]
-. Open the *Software and Updates* application. <<figure-2.02>> +
+. Open the *Software and Updates* application.
 +
 [[figure-2.02]]
 .Figure 2.02
 {ubuntuinstall01}
 
-. Navigate to the *Other Software* tab and click *Add*. <<figure-2.03>> +
+. Navigate to the *Other Software* tab and click *Add*.
 +
 [[figure-2.03]]
 .Figure 2.03
 {ubuntuinstall02}
 
-. Paste the following snippet `ppa:giuspen/ppa` into the textbox, then click *Add Source* and enter your password when prompted. <<figure-2.04>> +
+. Paste the following snippet `ppa:giuspen/ppa` into the textbox, then click *Add Source* and enter your password when prompted.
 +
 [[figure-2.04]]
 .Figure 2.04
 {ubuntuinstall03}
 
-. Confirm that the PPA has been added, then close the window. <<figure-2.05>> +
+. Confirm that the PPA has been added, then close the window.
 +
 [[figure-2.05]]
 .Figure 2.05
 {ubuntuinstall04}
 
-. When prompted, click *Reload* and enter your password when prompted to install updates from the newly added source. <<figure-2.06>> +
+. When prompted, click *Reload* and enter your password to install updates from the newly added source.
 +
 [[figure-2.06]]
 .Figure 2.06
 {ubuntuinstall05}
 
-. Open Ubuntu Software and search for Cherrytree, then select the application and click *Install*. Provide your password when prompted to begin the installation. <<figure-2.07>> +
+. Open Ubuntu Software and search for Cherrytree, then select the application and click *Install*. 
 +
 [[figure-2.07]]
 .Figure 2.07
 {ubuntuinstall06}
 
-. After the application is installed, click *Launch* and confirm that the latest version is installed. <<figure-2.08>> + 
-Reference the {changelog}[changelog] to determine the latest version. +
+. Provide your password when prompted to begin the installation.
+. After the application is installed, click *Launch* and confirm that the latest version is running. + 
+Reference the {changelog}[changelog] to determine the latest version. 
 +
 [[figure-2.08]]
 .Figure 2.08
@@ -71,53 +73,55 @@ Reference the {changelog}[changelog] to determine the latest version. +
 [start=1]
 . Download the latest installer with a *.deb* extension from the {download}[downloads webpage].
 
-. Open a terminal and navigate to the directory where your installer is located.
+. Open a terminal and navigate to the directory containing your installation file.
 
-. Type the following command, replacing _cherrytree.deb_ with the name of your installation file: `sudo dpkg -i _cherrytree.deb_`. Provide your password when prompted to begin the installation. <<figure-2.09>> +
+. Type the following command, replacing _cherrytree.deb_ with the name of your installation file: `sudo dpkg -i _cherrytree.deb_`. 
 +
 [[figure-2.09]]
 .Figure 2.09
 {debinstall01}
+
+. Provide your password when prompted to begin the installation.
 
 === Windows
 
 [start=1]
 . Download and run the latest installer with an *.exe* extension from {download}[downloads webpage].
 
-. Select a language and click *Next*. <<figure-2.10>> +
+. Select a language and click *Next*.
 +
 [[figure-2.10]]
 .Figure 2.10
 {wininstall01}
 
-. Accept the license, then click *Next*. <<figure-2.11>> +
+. Accept the license, then click *Next*.
 +
 [[figure-2.11]]
 .Figure 2.11
 {wininstall02}
 
-. Select a directory for the application to be installed and click *Next*. <<figure-2.12>> +
+. Select a directory for the application to be installed and click *Next*.
 +
 [[figure-2.12]]
 .Figure 2.12
 {wininstall03}
 
-. Select ‘Create a desktop shortcut' if you wish to have a shortcut. Click *Next*. <<figure-2.13>> +
+. Select *Create a desktop shortcut* if you wish to have a shortcut. Click *Next*.
 +
 [[figure-2.13]]
 .Figure 2.13
 {wininstall04}
 
-. Review the provided summary, then click *Install* when you are ready to proceed. <<figure-2.14>> +
+. Review the provided summary, then click *Install* when you are ready to proceed.
 +
 [[figure-2.14]]
 .Figure 2.14
 {wininstall05}
 
-. Click *Finish* to complete the installation. <<figure-2.15>> +
+. Click *Finish* to complete the installation.
 +
 [[figure-2.15]]
 .Figure 2.15
 {wininstall06}
 
-NOTE: If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite *dbus-daemon.exe*. If so, please skip the overwrite and restart your computer, then try again.
+NOTE: If you have a previous version of Cherrytree installed, an error may occur when trying to overwrite *dbus-daemon.exe*. If so, skip the overwrite and restart your computer, then try again.

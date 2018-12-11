@@ -1,35 +1,35 @@
 == Introduction
 
-Cherrytree is a free and open source, hierarchical, note-taking application. It can store text, images, files, links, tables, and executable snippets of code. This application is under active development. Details regarding updates can be found in the {changelog}[changelog].
-
-If you have questions please ask in the {forum}[forum]. To provide feedback please visit the {feedback}[feedback webpage].
+Cherrytree is a free and open source, hierarchical, note-taking application. It can store text, images, files, links, tables, and executable snippets of code. This application is under active development. Details regarding updates can be found in Cherrytree's {changelog}[changelog].
 
 === About This Manual
 
-This manual was written for Cherrytree version 0.38.6. If you are using a newer version of Cherrytree, please check the {manual-web}[website] for the latest manual.
+This manual was written for Cherrytree version 0.38.6. If you are using a newer version of Cherrytree, please check the {manual-web}[documentation website] for the latest version of the manual.
+
+If you have questions, please ask in the {forum}[forum]. Go to the {feedback}[feedback webpage] to provide feedback.
 
 === Get Involved
 
-New contributors are welcome! We recommend that you {maintainer}[contact the project's maintainer] before starting.
+New contributors are welcome! We recommend that you {maintainer}[contact the project's maintainer] before working on a feature.
 
 ==== Development
 
-Please visit the git {repository}[repository] to get started.
+Visit the git {repository}[repository] to get started.
 
-Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the {future}[future directory]. The latest, stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to missing pygi bindings for a core clipboard functionality
+Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the {future}[future directory]. The latest stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to missing pygi bindings for a core clipboard functionality.
 
 Developers can help by addressing bugs submitted to the repository's {issues}[issues page].
 
 ==== Testing
 
-If you find a bug, please check to see if it has already been reported within the project's {issues}[issues]. If the error is unreported, please create a new issue providing as much detail as
+If you find a bug, please check to see if it has already been reported within the project's {issues}[issues page]. If the error is unreported, please create a new issue providing as much detail as
 possible.
 
 If needed, here is a short guide on {issues-guide}[writing a proper GitHub issue].
 
 ==== Writing
 
-The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is maintained {manual-repo}[here]. Contributors can help with writing and proofing, or by porting the manual to a *.ctb* file, intended to demonstrate the potential of Cherrytree. Writing critiques are also encouraged.
+The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is maintained {manual-repo}[here]. Contributors can help with writing and proofing, or by porting the manual to a *.ctb* file, intended to demonstrate Cherrytree's potential. Writing critiques are also encouraged.
 
 ==== Translation
 

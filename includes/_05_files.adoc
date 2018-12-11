@@ -1,6 +1,6 @@
 == Files
 
-Documents can be managed from the *File* menu, shown in <<figure-5.01>>, or the toolbar, <<figure-5.02>>.
+Documents can be managed from the *File* menu or the toolbar.
 
 [[figure-5.01]]
 .Figure 5.01
@@ -14,7 +14,14 @@ Documents can be managed from the *File* menu, shown in <<figure-5.01>>, or the 
 
 Cherrytree opens to the same state as when it last closed or to a new document if no previous state exists. To create a new document, click *File* within the menu bar and select *New Instance*.
 
-To open an existing file, click *File* and select *Open File*, then select a document and click *Open*. Recently used documents can be opened more quickly by selecting the document name within the *Recent Files* submenu. <<figure-5.03>>
+To open an existing file:
+[start=1]
+. Click *File*.
+. Select *Open File*.
+. Select a document 
+. Click *Open*. 
+
+Recently used documents can be opened more quickly by selecting the document name within the *Recent Files* submenu. 
 
 [[figure-5.03]]
 .Figure 5.03
@@ -23,22 +30,22 @@ To open an existing file, click *File* and select *Open File*, then select a doc
 === Saving
 
 ==== Saving to the Current File
-Save your document with `CTRL`+`S` key, or click *File* within the menu bar and select *Save*.
+Save your document with `CTRL`+`S` key or by clicking *File* within the menu bar and select *Save*.
 
-NOTE: If this is your first time saving the current document, please see the link:#_saving_to_a_new_file[save to a new file section] below.
+NOTE: If this is your first time saving the current document, see the link:#_saving_to_a_new_file[save to a new file section] below.
 
 ==== Saving to a New File
 
 [start=1]
 . Save your document to a new file by pressing `CTRL`+`SHIFT`+`S`, or click *File* within the menu bar and select *Save As*.
 
-. You will be prompted to select a storage type, shown in <<figure-5.06>>. If you are unsure which type to select, please visit the link:#_storage_types[storage type section] for more details. +
+. Select a link:#_storage_types[storage type].
 +
 [[figure-5.06]]
 .Figure 5.06
 {save-type}
 
-. After you have selected a type, give your document a name and select a folder to save it to. <<figure-5.07>> +
+. Name your document and select a folder to save it to.
 +
 [[figure-5.07]]
 .Figure 5.07
@@ -56,7 +63,7 @@ Visit the {vacuum}[SQLite documentation page for the vacuum command] to learn mo
 
 When saving your document for the first time, Cherrytree prompts you to choose between two file formats, SQLite and XML.
 
-*SQLite* is a self-contained database and will have a *.ctb* or *.ctx* extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree will only access the tree structure and currently selected node. This makes opening your document faster but may slow functions such as searching and selecting nodes when they're used for the first time. 
+*SQLite* is a self-contained database and will have a *.ctb* or *.ctx* extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree will only access the tree structure and currently selected node. This makes opening your document faster but may slow functions such as searching and selecting nodes when they're used for the first time in a session. 
 
 Performance loss with SQLite is lower than with XML, making it better suited for larger documents.
 
@@ -64,7 +71,7 @@ NOTE: SQLite files should be link:#_save_and_vacuum[vacuumed] periodically.
 
 *XML* is a markup language and will have a *.ctd* or  *.ctz* extension when used with Cherrytree. The files will be fully loaded at runtime, making searching and navigating through nodes faster, but slowing the initial load time.
 
-XML is more accessible and easier to convert to other file types, but should not be used with large documents. 
+XML is more accessible and easier to convert to other file types but should not be used with large documents. 
 
 ==== Password Protection
 
@@ -74,7 +81,14 @@ NOTE: Other applications might not provide functionality to unlock files that ha
 
 ==== Changing Passwords
 
-To change the password of a protected file, open the file in Cherrytree then click *File* > *Save-as*. Follow the link:#_saving_to_a_new_file[steps to save as a new document] and select a protected storage type. Use your new password to protect this copy of the document. 
+To change the password of a protected file:
+[start=1]
+. Open the file in Cherrytree.
+. Click *File*. 
+. Click *Save-as*. 
+. link:#_saving_to_a_new_file[Save the document as a new file].
+.. Select a protected storage type. 
+.. Use your new password to protect this copy of the document. 
 
 === Page Setup and Printing
 
@@ -87,7 +101,7 @@ To print a document, click *File* > *Print*, then choose between one of the foll
 * Selected Node and Subnodes
 * All the Tree
 
-Select *New Node in New Page* to apply page breaks at the end of nodes within the printed document. <<figure-5.08>>
+Select *New Node in New Page* to apply page breaks at the end of nodes within the printed document. 
 
 [[figure-5.08]]
 .Figure 5.08
@@ -122,10 +136,10 @@ Cherrytree's import feature can be accessed from the *Import* menu.
 
 . Select the file or folder that you'd like to import and click *Open*. (May vary between operating systems.) 
 
-. In the *Who is the parent?* menu, select one of following options, then click *OK*:
+. In the *Who is the parent?* menu, select one of the following options, then click *OK*:
 
 ** *The Tree Root* - Each imported file will be added to a top-level node.
-** *The Selected Node* - Each imported file will be added to a child node of the currently selected node.
+** *The Selected Node* - Each imported file will be added to a child node of the selected node.
 
 NOTE: This process may take a few minutes when importing many files or larger files.
 
@@ -137,7 +151,7 @@ Cherrytree's export feature can be accessed from the *Export* menu.
 . Click *Export* and select from the following options:
 
 ** Export to PDF
-** Eport to HTML
+** Export to HTML
 ** Export to Multiple Plain Text Files
 ** Export to Single Plain Text File
 ** Export to CherryTreeDocument
@@ -152,38 +166,38 @@ Cherrytree's export feature can be accessed from the *Export* menu.
 . Additional options will be available depending on the export type:
 
 ** *Include Node name* displays the name of each Node at the top of its page. This may be redundant if you have headers within the pages of your notes.
-** *New Node in New Page* to apply page breaks at the end of nodes within the exported document.
-** *Links Tree in Every Page* When enabled all nodes will contain a table of contents. Otherwise if this option is disabled, only the *index.html* document will contain a table of contents.
+** *New Node in New Page* applies page breaks at the end of nodes within the exported document.
+** *Links Tree in Every Page*: When enabled all nodes will contain a table of contents. Otherwise if this option is disabled, only the *index.html* document will contain a table of contents.
 
-When exporting to HTML, all nodes will be copied to the root folder of your chosen directory as *.html* files. The main HTML file will be named *index.html*.
+When exporting to HTML, all nodes are copied to the root folder of your chosen directory as *.html* files. The main HTML file is named *index.html*.
 
 === Command Line
 
-Cherrytree supports command line arguments.
+Cherrytree supports command line argument using `python2 cherrytree` in the directory of your Cherrytree installation.
 
 ==== Positional arguments:
 
 |===
-|filepath | Optional Cherrytree Document to Open
+|_filepath_ | Defines the document to open in Cherrytree. Replace _filepath_ with the path a file.
 |===
 
 ==== Optional arguments:
 
 |===
 | -h +
---help | show this help message and exit
+--help | Displays a list of commands options.
 
-| -n NODE +
---node NODE | Node Name to Focus 
+| -n __node_name__ +
+--node __node_name__ | Opens a document and selects the specified node. Replace __node_name__ with the node to select.
 
-| -x EXPORT_TO_HTML_DIR +
---export_to_html_dir EXPORT_TO_HTML_DIR | Export to HTML at Specified Directory
+| -x __direcotry_path__ +
+--export_to_html_dir __direcotry_path__ | Exports a document as HTML. Replace __direcotry_path__ with the path of the folder to save the HTML.
 
-| -t EXPORT_TO_TXT_DIR +
---export_to_txt_dir EXPORT_TO_TXT_DIR | Export to Text at Specified Directory
+| -t __direcotry_path__ +
+--export_to_txt_dir __direcotry_path__ | Exports a document as Plain Text. Replace __direcotry_path__ with the path of the folder to save the Plain Text.
 
 |-w +
---export_overwrite | Overwrite Existing Export
+--export_overwrite | Overwrite an existing export.
 |===
 
 NOTE: Command line arguments are available in Linux, but may only be available in Windows when the application is link:#_windows[built from source]. 

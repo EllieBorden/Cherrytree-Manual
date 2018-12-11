@@ -1,6 +1,6 @@
 == Objects
 
-Objects can be inserted from the menu bar under *Edit*, <<figure-8.01>>, or the toolbar, <<figure-8.02>>. Some objects can and also be pasted directly into Cherrytree. 
+Objects can be inserted from the menu bar under *Edit* or the toolbar. Some objects can also be pasted directly into Cherrytree. 
 
 [[figure-8.01]]
 .Figure 8.01
@@ -25,6 +25,8 @@ Objects can be inserted from the menu bar under *Edit*, <<figure-8.01>>, or the 
 +
 <<figure-8.03>> has been highlighted to indicate the parts of its interface.
 
+// TODO: Change these to be highlighted numerically for better accessibility.
+
 * *Red* - Displays the image uploaded in *Step 2*.
 * *Purple* - Allows for the editing of the image's dimensions. Height and Width are linked each other to maintain the content's aspect ratio.
 * *Yellow* - Rotate the image counter-clockwise 90&deg;.
@@ -42,9 +44,12 @@ Right-click an image to display its menu of options, <<figure-8.04>>.
 * *Cut Image* - Move the selected image to your clipboard. The image can then be pasted elsewhere.
 * *Copy Image* - Copy the selected image to your clipboard. A copy of the image can then be pasted elsewhere.
 * *Delete Image* - Delete the selected image.
-* *Edit Image* - Rotate or scale the image, shown in <<figure-8.03>>
+* *Edit Image* - Displays the window shown in <<figure-8.03>>
 * *Save Image as PNG* - Save a copy of the selected image to your computer.
-* *Edit Link* - Apply or edit the link of the selected image. See link:#_links[8.5 Links] for more information about links.
+* *Edit Link* - Apply or edit the link of the selected image. 
++
+NOTE: See link:#_links[*8.5 Links*] for more information about links.
+
 * *Dismiss Link* - Remove an existing link from the selected image. This option will only appear if the image has an assigned link.
 
 NOTE: Cherrytree does not support wrapping text around images at this time.
@@ -69,13 +74,13 @@ NOTE: Cherrytree does not support wrapping text around images at this time.
 +
 IMPORTANT: *.csv* data should be separated by a comma delimiter.
 +
-NOTE: Cherrytree may take a few minutes to upload a large file. Please be patient. 
+NOTE: Cherrytree may take a few minutes to upload a large file.
 
 . Click *OK* to complete the insertion.
 
 ==== Managing Columns
 
-Click a column title to display a menu listing actions for that column. <<figure-8.06>>
+Click a column title to display a menu listing actions for that column. 
 
 [[figure-8.06]]
 .Figure 8.06
@@ -85,11 +90,11 @@ Click a column title to display a menu listing actions for that column. <<figure
 * *Delete Column* - Delete the selected column.
 * *Add Column* - Add a new column to the right of the selected column.
 * *Move Column Left* - Switch the placement of the selected column with that of the column to its immediate left. Nothing will happen if there is no column left of the selected column.
-* *Move Column Right* -Switch the placement of the selected column with that of the column to its immediate right.  Nothing will happen if there is no column right of the selected column.
+* *Move Column Right* - Switch the placement of the selected column with that of the column to its immediate right.  Nothing will happen if there is no column right of the selected column.
 
 ==== Managing Rows
 
-A table row can be edited by right-clicking any of its cells. <<figure-8.07>>
+A table row can be edited by right-clicking any of its cells. 
 
 [[figure-8.07]]
 .Figure 8.07
@@ -118,7 +123,7 @@ A table row can be edited by right-clicking any of its cells. <<figure-8.07>>
 
 * *Sort Rows Ascending* - References the first column to sort the selected table numerically then alphabetically, from top to bottom.
 
-* *Edit Table Properties* - Edit the *Column Properties*, discussed in <<figure-8.05>>, of the selected table.
+* *Edit Table Properties* - Edit the *Column Properties*, shown in <<figure-8.05>>, of the selected table.
 
 * *Table Export* - Export the selected table to a *.csv* file containing data separated by comma delimiters.
 
@@ -126,11 +131,11 @@ A table row can be edited by right-clicking any of its cells. <<figure-8.07>>
 
 Double-click a cell to open a textbox within it.
 
-CAUTION: Clicking outside of a table before closing a textbox will discard all changes to that textbox. To write changes to a textbox within a table cell, you must click to another cell, press *Enter*,  or press *Tab*. This has been reported, but is unlikely to be patched in this version of Cherrytree.
+CAUTION: Clicking outside of a table before closing a textbox will discard all changes to that textbox. To write changes to a textbox within a table cell, you must click to another cell, press *Enter*,  or press *Tab*. This has been reported but is unlikely to be patched in this version of Cherrytree.
 
 NOTE: Tables currently only support link:#_plain_text[plain text]. 
 
-Right-click the textbox to display a menu of its actions and properties. <<figure-8.08>>
+Right-click the textbox to display a menu of its actions and properties.
 
 [[figure-8.08]]
 .Figure 8.08
@@ -140,11 +145,11 @@ Right-click the textbox to display a menu of its actions and properties. <<figur
 * *Copy* - Copy the selected text to your clipboard. A copy of the table can then be pasted elsewhere.
 * *Paste* - Paste the text from your clipboard to the cursor position.
 * *Delete* - Delete the selected text.
-* *Select All* - Select all of the text within the textbox.
+* *Select All* - Select the text within the textbox.
 * *Input Methods* - Select from one of the following input methods:
 ** System (Default)
 ** None
-** Amharic(EZ+)
+** Amharic (EZ+)
 ** Cedilla
 ** Cyrillic (Transliterated)
 ** Inuktitut (Transliterated)
@@ -155,7 +160,7 @@ Right-click the textbox to display a menu of its actions and properties. <<figur
 ** Tigrigna-Ethiopian (EZ+)
 ** Vietnamese (VIQR)
 ** Windows IME
-* *Insert Unicode Control Character* - Select from one of the following unicode control characters:
+* *Insert Unicode Control Character* - Select from one of the following Unicode control characters:
 ** *LRM* - Left-to-right mark
 ** *RLM* - Right-to-left mark
 ** *LRE* - Left-to-right embedding
@@ -172,13 +177,15 @@ NOTE: This will not be noticeable until the textbox is closed.
 
 === Codebox
 
-A codebox is a contained, executable section of syntax highlighting, which can be inserted into link:#_rich_text[Rich Text] nodes. A link:#_rich_text[Rich Text] node can contain more than one codebox for any of the link:#_supported_languages[supported languages]. See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlighting*] for more details about syntax highlighting.
+A codebox is a contained, executable section of syntax highlighting, which can be inserted into link:#_rich_text[Rich Text] nodes. A link:#_rich_text[Rich Text] node can contain more than one codebox for any of the link:#_supported_languages[supported languages]. 
+
+NOTE: See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlighting*] for more details about syntax highlighting.
 
 ==== Inserting a Codebox
 
 [start=1]
 . Click *Edit*, located in the link:#menu-bar[menu bar].
-. Click *Insert Codebox* to display the *Insert Codebox* menu, shown in <<figure-8.09>>.
+. Click *Insert Codebox* to display the *Insert Codebox* menu.
 +
 [[figure-8.09]]
 .Figure 8.09
@@ -187,7 +194,7 @@ A codebox is a contained, executable section of syntax highlighting, which can b
 . (*Optional*) Change the codebox type:
 +
 * *Plain Text* - Restricts the codebox to link:#_plain_text[plain text].
-* *Automatic Syntax Highlighting* - Applies link:#_automatic_syntax_highlighting[automatic syntax highligting] to the codebox. (Default)
+* *Automatic Syntax Highlighting* - Applies link:#_automatic_syntax_highlighting[automatic syntax highlighting] to the codebox. (Default)
 * *Choose a language* - Select from any of the link:#_supported_languages[supported languages].
 
 . (*Optional*) - Define the codebox size:
@@ -200,13 +207,13 @@ A codebox is a contained, executable section of syntax highlighting, which can b
 . (*Optional*) Select any additional options:
 +
 * *Show Line Numbers* - Display line numbers within the left margin of the codebox.
-* *Highlight Matching Brackets* - Indicate the corresponding bracket of the selected opening or closing bracket. 
+* *Highlight Matching Brackets* - Highlights the corresponding bracket of the selected opening or closing bracket. 
 
 . Click *OK* to complete the insertion.
 
 ==== Editing a Codebox
 
-Right-click a codebox to display its options. <<figure-8.10>>
+Right-click a codebox to display its options.
 
 [[figure-8.10]]
 .Figure 8.10
@@ -214,7 +221,9 @@ Right-click a codebox to display its options. <<figure-8.10>>
 
 * *Change CodeBox Properties* - Displays a menu similar to the *Insert CodeBox* menu shown in <<figure-8.09>>.
 
-* *Execute CodeBox Code* - Executes the code within the codebox. See link:#_executing_a_codebox[*Executing a Codebox*] for more details.
+* *Execute CodeBox Code* - Executes the code within the codebox. 
++
+NOTE: See link:#_executing_a_codebox[*Executing a Codebox*] for more details.
 
 * *CodeBox Load From Text File* - Import code from a file. This function is not restricted to files that have a *.txt* extension.
 
@@ -240,13 +249,15 @@ Right-click a codebox to display its options. <<figure-8.10>>
 
 A codebox that is set to link:#_automatic_syntax_highlighting[automatic syntax highlighting] can be executed from Cherrytree, assuming you have its assigned language installed to your machine. 
 
-*To execute a the node:*
+*To execute a node:*
 [start=1]
 . Right-click the codebox.
 . Click *Execute Codebox code*.
 . When prompted, click *OK* to confirm that you want to execute the code.
 
-Some languages will require a command to be assigned to the language before the code can be executed, shown in <<figure-8.11>>. Please see link:#_plain_text_and_code[*9.4 Plain Text and Code*] for details on assigning a command.
+Some languages will require a command to be assigned to the language before the code can be executed. 
++
+NOTE: See link:#_plain_text_and_code[*9.4 Plain Text and Code*] for details on assigning a command.
 
 [[figure-8.11]]
 .Figure 8.11
@@ -268,7 +279,7 @@ NOTE: The file must be less than 10MB.
 
 ==== Editing a File
 
-Right-click a node to display its options. <<figure-8.12>>
+Right-click a node to display its options.
 
 [[figure-8.12]]
 .Figure 8.12
@@ -303,17 +314,20 @@ Text and images within link:#_rich_text[rich text] nodes can be linked to websit
 .Figure 8.13
 {insert-link}
 +
-* *To Website* - Route the link to a website address.
-* *To File* - Route the link to a file on your machine.
-* *To Folder* - Route the link to a folder on your machine.
-* *To Node* - Route the link to a node within the document.
-* *Anchor Name (Optional)* - Route the link to a particular anchor within the selected node. See link:#_anchors[*8.6 Anchors*] to learn more about anchors.
+* *To Website* - Routes the link to a website address.
+* *To File* - Routes the link to a file on your machine.
+* *To Folder* - Routes the link to a folder on your machine.
+* *To Node* - Routes the link to a node within the document.
+* *Anchor Name (Optional)* - Routes the link to a particular anchor within the selected node. +
++
+NOTE: See link:#_anchors[*8.6 Anchors*] to learn more about anchors.
+
 
 . Click *OK* to complete the insertion.
 
 ==== Editing a Link
 
-Right-click a link to display its options. <<figure-8.14>>
+Right-click a link to display its options.
 
 [[figure-8.14]]
 .Figure 8.14
@@ -322,7 +336,7 @@ Right-click a link to display its options. <<figure-8.14>>
 * *Edit Link* - Display the *Insert/Edit* menu, shown in <<figure-8.13>>, for the selected link.
 * *Cut Link* - Move the selected link to your clipboard. The link can then be pasted elsewhere.
 * *Copy Link* - Copy the selected link to your clipboard. A copy of the link can then be pasted elsewhere.
-* *Dismiss Link* - Deletes the selected link, but keeps its displayed text.
+* *Dismiss Link* - Deletes the selected link but keeps its displayed text.
 * *Delete Link* - Deletes the selected link and its displayed text.
 
 === Anchors
@@ -336,7 +350,7 @@ An anchor is represented by the icon shown in <<figure-8.15>> and can be referen
 ==== Inserting Anchors
 
 . Click *Edit*, located in the link:#menu-bar[menu bar].
-. Click *Insert Anchor*, displaying the *Insert Anchor* menu. <<figure-8.16>>.
+. Click *Insert Anchor*, displaying the *Insert Anchor* menu.
 +
 [[figure-8.16]]
 .Figure 8.16
@@ -351,14 +365,14 @@ When link:#_inserting_a_link[inserting a link], select the *To Node* option, sho
 
 ==== Editing Anchors
 
-Right-click an anchor icon to display is options, shown in <<figure-8.17>>.
+Right-click an anchor icon to display is options.
 
 [[figure-8.17]]
 .Figure 8.17
 {edit-anchor}
 
 * *Cut Anchor* - Move the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
-* *Copy Anchor* - Move the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
+* *Copy Anchor* - Move a copy of the selected anchor to your clipboard. The copy can then be pasted elsewhere.
 * *Delete Anchor* - Delete the selected anchor.
 * *Edit Anchor* - Displays the *Insert Anchor* menu, shown in <<figure-8.16>>, allowing you to rename the anchor.
 
@@ -371,7 +385,7 @@ This feature inserts an unordered, hierarchical list containing a link for every
 [start=1]
 . Click *Edit*, located in the link:#menu-bar[menu bar].
 . Click *Insert TOC*, displaying the *Involved Nodes* menu, shown in <<figure-8.18>>.
-. Define the scope of the contents to be included:
+. Define the scope of the contents to be included.
 +
 [[figure-8.18]]
 .Figure 8.18
@@ -396,7 +410,7 @@ By default, this feature inserts the date in time in a format such as YYYY/mm/dd
 [start=1]
 . Click *Edit*, located within the link:#menu-bar[menu bar].
 . Click *Insert Timestamp*
-. 
+
 ==== Formatting a Timestamp
 
 The format of the timestamp can be configured in the link:#_text_and_code[text and code preference menu].

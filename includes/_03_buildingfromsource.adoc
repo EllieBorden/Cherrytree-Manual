@@ -4,7 +4,7 @@
 
 [start=1]
 . Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command `python2 --version`.
-. If a variant of *Python 2.7...* is not returned, shown in <<figure-3.01>>,  install it by running the command `sudo yum install python2.7 python-pip`, then check the version again.
+. If a variant of *Python 2.7* is not returned install it by running the command `sudo yum install python2.7 python-pip`, then check the version again.
 +
 [[figure-3.01]]
 .Figure 3.01
@@ -13,11 +13,11 @@
 . Install Cherrytree's core dependencies with the command `sudo yum install pygtk2 pygtksourceview p7zip p7zip-plugins`.
 . (*Optional*) Install dependencies for additional functionality:
 .. `sudo yum install python-appindicator` - To use an appindicator in systray instead of the standard systray.
-.. `sudo yum install python-dbus` - For multiple instances centralization. (Double clicking a file that is already open will show the opened document instead of opening another instance of that file.)
+.. `sudo yum install python-dbus` - For multiple instances centralization. (Double-clicking a file that is already open will show the opened document instead of opening another instance of that file.)
 .. `sudo yum install python-enchant` -  Required for spell check.
 .. `sudo yum install python-chardet` - Provides better decoding support for imported and pasted text.
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
-. Open a terminal, navigate to your local copy of Cherrytree, and run `python2 cherrytree`, shown in <<figure-3.02>>. 
+. Open a terminal, navigate to your local copy of Cherrytree, and run `python2 cherrytree`.
 +
 [[figure-3.02]]
 .Figure 3.02
@@ -27,7 +27,7 @@
 
 [start=1]
 . Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command `python2 --version`.
-. If a variant of *Python 2.7* is not returned, shown in <<figure-3.03>>,  install it by running the command `sudo apt install python2.7 python-pip`, then check the version again.
+. If a variant of *Python 2.7* is not returned, install it by running the command `sudo apt install python2.7 python-pip`, then check the version again.
 +
 [[figure-3.03]]
 .Figure 3.03
@@ -36,11 +36,11 @@
 . Install Cherrytree's core dependencies with the command `sudo apt install python-gtk2 python-gtksourceview2 p7zip-full libcanberra-gtk-module`.
 . (*Optional*) Install dependencies for additional functionality:
 .. `sudo apt install python-appindicator` - To use an appindicator in systray instead of the standard systray.
-.. `sudo apt install python-dbus` - For multiple instances centralization. (Double clicking a file that is already open will show the opened document instead of opening another instance of that file.)
+.. `sudo apt install python-dbus` - For multiple instances centralization. (Double-clicking a file that is already open will show the opened document instead of opening another instance of that file.)
 .. `sudo apt install python-enchant` -  Required for spell check.
 .. `sudo apt install python-chardet` - Provides better decoding support for imported and pasted text.
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
-. Open a terminal, navigate to your local copy of Cherrytree, and run `python2 cherrytree`, shown in <<figure-3.04>>. 
+. Open a terminal, navigate to your local copy of Cherrytree, and run `python2 cherrytree`. 
 +
 [[figure-3.04]]
 .Figure 3.04
@@ -57,26 +57,26 @@ link:#_configuring_the_cherrytree_directory[*Steps 15-18:*] Configuring the Cher
 ==== Installing Python 2.7
 
 [start=1]
-. If a variant of Python 2.7 is not installed to your machine, navigate to the {python-downloads}[Python Releases for Windows page] and click *Latest version of Python 2* shown in <<figure-3.05>>.
+. If a variant of Python 2.7 is not installed to your machine, navigate to the {python-downloads}[Python Releases for Windows page] and click *Latest version of Python 2*.
 +
 [[figure-3.05]]
 .Figure 3.05
 {python2win}
 
 . Download and run the *Windows x86 MSI installer* version, then follow its installation steps.
-. Navigation to the folder where you installed Python 2.7 and rename the *python* application to *python2* to avoid conflicting with Python3. <<figure-3.06>>
+. (*Optional*) Navigate to the folder where you installed Python 2.7 and rename the *python* application to *python2* to avoid conflicting with Python3.
 +
 [[figure-3.06]]
 .Figure 3.06
 {py2dir}
 
-. Copy the path to your installation directory. <<figure-3.07>> 
+. Copy the path to your installation directory.
 +
 [[figure-3.07]]
 .Figure 3.07
 {py2dir02}
 
-. Navigate to your environment variable settings. <<figure-3.08>> 
+. Navigate to your environment variable settings.
 +
 [[figure-3.08]]
 .Figure 3.08
@@ -84,13 +84,13 @@ link:#_configuring_the_cherrytree_directory[*Steps 15-18:*] Configuring the Cher
 +
 NOTE: Click {win7-vars-link}[here] for instructions to add environment variables in Windows 7.
 
-. Click *Edit*. <<figure-3.09>>
+. Click *Edit*. 
 +
 [[figure-3.09]]
 .Figure 3.09
 {envir-vars02}
 
-. Click *New* then paste your the path of your Python 2.7 installation into the text field. Click *Ok* to close the window. <<figure-3.10>>
+. Click *New* then paste the path of your Python 2.7 installation into the text field. Click *Ok* to close the window.
 +
 [[figure-3.10]]
 .Figure 3.10
@@ -101,24 +101,24 @@ NOTE: Click {win7-vars-link}[here] for instructions to add environment variables
 [start=8]
 . {gtk2-bundle}[Click here] to download the GTK2 Windows bundle.
 . {7zip}[Unzip] the GTK2 bundle.
-. Open the bundle, move into the *bin* folder, then copy its path and add to your environment variables. 
+. Open the bundle, move into the *bin* folder, then copy its path and add it to your environment variables. 
 +
-NOTE: If you move the bundle into your *C:* drive, your path will look like `C:\gtk2\bin`.
+NOTE: For example, if you move the bundle into your *C:* drive, your path should look like `C:\gtk2\bin`.
 . Click {pygtk-all-in-one}[here] to download a PYGTK installer.
-. Run the installation file and follow its steps to install. Ensure *PYGtkSourceView2* is toggled for installation on the custom setup page, shown in <<figure-3.11>>
+. Run the installation file and follow its steps to install. Ensure *PYGtkSourceView2* is toggled for installation on the custom setup page.
 +
 [[figure-3.11]]
 .Figure 3.11
 {pygtkwin}
 
 . Click {py2lib}[here] to download python 2.7 lib files.
-. {7zip}[Unzip] the folder and move the content from *C_Python27_Lib* to the *Lib* folder within your Python 2.7 installation. <<figure-3.12>>
+. {7zip}[Unzip] the folder and move the content from *C_Python27_Lib* to the *Lib* folder within your Python 2.7 installation. 
 +
 [[figure-3.12]]
 .Figure 3.12
 {pylibdir}
 
-. (*Optional*) Open *Command Prompt* and install dependencies for additional functionality using the commannds: 
+. (*Optional*) Open *Command Prompt* and install dependencies for additional functionality using the commands: 
 .. `python2 -m pip install pyenchant` - Required dependency for Cherrytree's spell check feature.
 .. `python2 -m pip install chardet` - Provides better decoding support for imported and pasted text.
 
@@ -128,7 +128,7 @@ NOTE: If you move the bundle into your *C:* drive, your path will look like `C:\
 [start=16]
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
 . Click {portable7zip}[here] to download a portable 7zip, which is needed for password-protecting files. Extract its content and move the *7za.exe* file into the root folder of your local Cherrytree directory.
-. Open *Command Prompt*, navigate to your local Cherrytree directory and run the command `python2 cherrytree` to launch the application.
+. Open *Command Prompt*, navigate to your local Cherrytree directory, and run the command `python2 cherrytree` to launch the application.
 
 
 === macOS (Not Tested)
@@ -144,10 +144,10 @@ macOS is not supported but can run Cherrytree from source using {homebrew}[Homeb
 .. `brew install dbus`
 .. `brew install dbus-glib`
 . (*Optional*) Install dependencies for additional functionality using PIP (a package manager for Python):
-.. `python2 -m pip install dbus-python` - For multiple instances centralization. (Double clicking a file that is already open will show the opened document instead of opening another instance of that file.)
+.. `python2 -m pip install dbus-python` - For multiple instances centralization. (Double-clicking a file that is already open will show the opened document instead of opening another instance of that file.)
 .. `python2 -m pip install pyenchant` - Required for spell check.
 .. `python2 -m pip install chardet` - Provides better decoding support for imported and pasted text.
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
 . Open a terminal, navigate to your local copy of Cherrytree, and run `python2 cherrytree`.
 
-View this {mac-build}[web page] for more information about building Cherrytree on macOS. 
+View this {mac-build}[discussion] for more information about building Cherrytree on macOS. 

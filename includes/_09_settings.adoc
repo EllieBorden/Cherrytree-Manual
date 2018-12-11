@@ -10,9 +10,9 @@
 
 * *Tab Width* - Defines the number of `space` characters that a `tab` is equal to in width.
 
-* *Insert Spaces Instead of Tabs* - When enabled, replaces one `tab` with a number of `spaces` equal to the number indicated in *Tab Width*.
+* *Insert Spaces Instead of Tabs* - When enabled, replaces one `tab` with a number of `spaces` equal to the number defined in *Tab Width*.
 
-* *Use Line wrapping* - Restricts lines of text to the current viewport by forcing text to a new line. This does not break a line with `newline` characters and can be toggled as needed, without compromising the line structure of a node.
+* *Use Line wrapping* - Restricts lines of text to the current viewport by forcing text to a new line. This does not break a line with `newline` characters and can be toggled as needed without compromising the line structure of a node.
 
 * *Line Wrapping Indentation* - Defines the alignment of wrapped text compared to the original line. 
 ** *0* - No indention.
@@ -33,7 +33,7 @@ NOTE: This will have no effect if *Vertical Space Around Lines* is set to zero.
 
 * *Timestamp Format* - Defines the format of a link:#_timestamps[timestamp].
 +
-See link:#_formatting_timestamps[*Formatting Timestamps*] for a list of timestamp directives or visit the {strftime}[*strftime* documentation] by click the icon next to the timestamp setting, shown in <<figure-9.02>>. 
+NOTE: See link:#_formatting_timestamps[*Formatting Timestamps*] for a list of timestamp directives or visit the {strftime}[*strftime* documentation] by click the icon next to the timestamp setting. 
 +
 [[figure-9.02]]
 .Figure 9.02
@@ -42,7 +42,7 @@ See link:#_formatting_timestamps[*Formatting Timestamps*] for a list of timestam
 * *Horizontal Rule* - Defines the text inserted for a link:#_horizontal_rule[horizontal rule].
 * *Special Characters* - Defines the list of special characters to exist in the link:#_inserting_special_characters[*Special Characters*] submenu.
 +
-New characters can be added to the list by pasting them next to the existing characters. Click the yellow arrow icon, shown in <<figure-9.03>>, to reset to the default list of characters.
+New characters can be added to the list by pasting them next to the existing characters. Click the yellow arrow icon to reset to the default list of characters.
 +
 [[figure-9.03]]
 .Figure 9.03
@@ -110,7 +110,7 @@ The *Rich Text* preferences menu provides configuration options for link:#_rich_
 
 * *Enable Spell Check* - Toggles Cherrytree's spell check feature.
 +
-NOTE: *Enchant* is required for this feature. Please install the this dependency if your application is built from source and you haven't already. See link:#_building_from_source[*3. Building from Source*] for instructions.
+NOTE: *Enchant* is required for this feature. Install this dependency if your application is built from source and you haven't already. See link:#_building_from_source[*3. Building from Source*] for instructions.
 
 * *Spell Check Language* - Defines which language the to spell check. The following languages are available:
 ** *cs_CZ* - Czech (Czechia)
@@ -155,7 +155,7 @@ NOTE: *Enchant* is required for this feature. Please install the this dependency
 
 === Plain Text and Code
 
-The *Plain Text and Code* preferences menu provides configuration options for link:#_automatic_syntax_highlighting[automatic syntax highlight] nodes, link:#_plain_text[plain text] nodes, and link:#codebox[codeboxes].
+The *Plain Text and Code* preferences menu provides configuration options for link:#_automatic_syntax_highlighting[automatic syntax highlighted] nodes, link:#_plain_text[plain text] nodes, and link:#codebox[codeboxes].
 
 [[figure-9.07]]
 .Figure 9.07
@@ -219,7 +219,7 @@ This section defines the command, for each language, that runs when a link:#_exe
 
 . Click *OK*
 
-. Find your new language rule in the list and link:#_editing_a_command[edit the command].
+. Find the new language rule in the list and link:#_editing_a_command[edit the command].
 
 ==== Editing a Command
 
@@ -231,7 +231,7 @@ Double-click a command to edit its value.
 
 CAUTION: `<tmp_src_path>` is a variable that represents the codebox or node being executed. It should not be removed from the command.
 
-==== Reset to Default
+==== Reset Commands
 
 Click the yellow return arrow to reset to the default list of commands.
 
@@ -242,7 +242,7 @@ Click the yellow return arrow to reset to the default list of commands.
 ==== Terminal Command 
 This is the command line configuration required to execute code within Cherrytree. To configure a terminal, set this option to a command that executes another command within a new instance of your terminal. Use `<command>` as a placeholder for the command to be executed in the new instance.
 
-For example, when a codebox is executed on this machine, <<figure-9.17>>, the following command is used: `start cmd /k "<command>"`.
+For example, when a codebox is executed on the machine in <<figure-9.17>>, the following command is used: `start cmd /k "<command>"`.
 
 [[figure-9.17]]
 .Figure 9.17
@@ -273,7 +273,7 @@ The *Tree 1* preferences menu provides configuration options for the link:#tree-
 
 ==== Default Text Nodes Icons
 
-* *Use Different Cherries per Level* - Assigns a unique, default icon to each group of nodes sharing the same level of hierarchy within a node structure.
+* *Use Different Cherries per Level* - Assigns a unique, default icon to each group of nodes sharing the same hierarchical level within a node structure.
 
 * *Use Selected Icon* - Assigns one icon to be the default icon for all nodes.
 
@@ -303,7 +303,7 @@ The *Tree 2* preferences menu is a continuation of link:#_tree_1[*Tree 1*], prov
 
 ==== Miscellaneous
 
-* *Tree Nodes Names Wrapping Width* - Defines the width in Pixels at which text begins to wrap within the link:#tree-view[tree view].
+* *Tree Nodes Names Wrapping Width* - Defines the width in pixels at which text begins to wrap within the link:#tree-view[tree view].
 
 * *Display Tree on Right Side* - Moves the link:#tree-view[tree view] panel to the right side of the window.
 
@@ -311,7 +311,7 @@ The *Tree 2* preferences menu is a continuation of link:#_tree_1[*Tree 1*], prov
 
 * *Expand Node at Mouse Click* - Collapsed nodes expand when they are selected within the link:#tree-view[tree view].
 
-* *Last Visited Nodes on Node Name Header* - Defines the number of most recently visited nodes to display above the editor. <<figure-9.20>>
+* *Last Visited Nodes on Node Name Header* - Defines the number of most recently visited nodes to display above the editor.
 +
 [[figure-9.20]]
 .Figure 9.20
@@ -359,11 +359,11 @@ The *Tree 2* preferences menu is a continuation of link:#_tree_1[*Tree 1*], prov
 
 * *Underline Links* - Apply the pass:[<u>underline</u>] property to all links by default.
 
-* *Use Relative Paths for Files And Folders* - When defining paths for links, use link addresses that are relative to the directory containing the current working document.
+* *Use Relative Paths for Files and Folders* - When defining paths for links, use link addresses that are relative to the directory containing the current working document.
 +
 NOTE: {relative-paths}[Click here] for more information about relative paths.
 
-* *Anchor Size* - Defines the size of the of link:#_anchors[anchor] icons.
+* *Anchor Size* - Defines the size of link:#_anchors[anchor] icons.
 
 === Toolbar
 
@@ -397,7 +397,7 @@ The action can then be dragged up or down to determine its position on the toolb
 
 [start=1]
 . Select an action.
-. Click the `-` icon, shown in <<figure-9.26>> to remove the selected action from the link:#toolbar[toolbar].
+. Click the `-` icon to remove the selected action from the link:#toolbar[toolbar].
 +
 [[figure-9.26]]
 .Figure 9.26
@@ -405,7 +405,7 @@ The action can then be dragged up or down to determine its position on the toolb
 
 ==== Reset Toolbar Settings
 
-Click the yellow return button, show in <<figure-9.27>> to return to Cherrytree's default toolbar settings.
+Click the yellow return button to return to Cherrytree's default toolbar settings.
 
 [[figure-9.27]]
 .Figure 9.27
@@ -439,7 +439,7 @@ The *keyboard Shortcuts* preferences menu provides configuration options for sho
 
 ==== Reset Keyboard Shortcuts Settings
 
-Click the yellow return button, show in <<figure-9.31>> to return to Cherrytree's default shortcut settings.
+Click the yellow return button to return to Cherrytree's default shortcut settings.
 
 [[figure-9.31]]
 .Figure 9.31
@@ -548,7 +548,7 @@ Click the yellow return button, show in <<figure-9.31>> to return to Cherrytree'
 | Ctrl+Shift+E | Expand All the Tree Nodes
 | Ctrl+Shift+L | Collapse All the Tree Nodes
 |  | Increase the Size of the Toolbar Icons
-|  | Decrease the Size of the Toolbaar Icons
+|  | Decrease the Size of the Toolbar Icons
 | F11 | Toggle Full Screen On/Off
 |  | Export to PDF
 |  | Export to HTML
@@ -607,7 +607,7 @@ To open a backup:
 
 * *Number of Backups to Keep* - Defines the number of backups to keep. The oldest backup will be removed when this limit is exceeded.
 
-CAUTION: This also applies to autosaves that run on a time interval. For example, if your application is configured to save every 5 minutes, Cherrytree creates a backup every five minutes. When the backup limited is exceeded, a backup is cycled out every 5 minutes.
+CAUTION: This also applies to autosaves that run on a time interval. For example, if your application is configured to save every 5 minutes, Cherrytree creates a backup every five minutes. When the backup limit is exceeded, a backup is cycled out every 5 minutes.
 
 ==== Miscellaneous
 
@@ -615,7 +615,7 @@ CAUTION: This also applies to autosaves that run on a time interval. For example
 
 * *Enable Word Count in Statusbar* - Displays the word count of the selected node at the bottom of the main window.
 
-* *Reload Document From Last Session* - Cherrytree opens to the same document that was last opened in the previous session.
+* *Reload Document from Last Session* - Cherrytree opens to the same document that was last opened in the previous session.
 
 * **Reload After External Update to CT* File** - Cherrytree refreshes its instance of a document to reflect changes made to the document from other instances.
 

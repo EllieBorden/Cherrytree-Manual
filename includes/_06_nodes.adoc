@@ -15,11 +15,11 @@ In computer science, a tree is a data structure consisting of nodes which are co
 === Creating Nodes
 
 [start=1]
-. Click *Add Node* within the *Tree* menu. This will create a {node-relations}[sibling] to the currently selected node, or a top-level node if no node is selected. You can also create child nodes by clicking *Tree* > *Add Subnode*.
+. Click *Add Node* within the *Tree* menu -- found in the link:#menu-bar[menu bar]. This will create a {node-relations}[sibling] to the selected node, or a top-level node if no node is selected. To create a child node, click *Tree* > *Add Subnode*.
 +
 NOTE: These tools can also be found on the toolbar.
 
-. Within *New Node Properties*, shown in <<figure-6.03>> give your node a name. These properties can be changed later.
+. Within *New Node Properties*, shown in <<figure-6.03>>, give your node a name. These properties can be changed later.
 +
 [[figure-6.03]]
 .Figure 6.03
@@ -30,7 +30,10 @@ NOTE: These tools can also be found on the toolbar.
 ** *Bold* - Increase the font-weight of the node title within the tree view.
 ** *Use Selected Color* - Change the text color of the node title within the tree view.
 ** *Use Selected Icon* - Change the node's icon color.
-** *Node Type* - Select a node type. View link:#_text[7. Text] for more detail.
+** *Node Type* - Select a node type. 
++
+NOTE: View link:#_text[*7. Text*] for more detail.
+
 ** *Tags for searching* - adds keywords that can be used to find the node in a search. Multiple tags can be separated by a blank space.
 ** *Read Only* - Can be enabled to lock a node in its current state. This must be disabled to edit the document.
 
@@ -46,19 +49,19 @@ Nodes are primarily managed from the *Tree* menu, shown in  <<figure-6.04>>, whi
 .Figure 6.04
 {tree-menu}
 
-*Change Node Properties* - Opens *Node Properties* which is identical to *New Node Properties*, shown in <<figure-6.03>>.
+*Change Node Properties* - Opens the *Node Properties* menu which is identical to the *New Node Properties* menu shown in <<figure-6.03>>.
 
 *Toggle Read Only* - Can be enabled to lock a node in its current state. This must be disabled to edit the document.
 
-*Add to Bookmarks / Remove from Bookmarks* - When a node is added to your bookmarks, a link to the node can be found in the *Bookmarks* menu, located in the menu bar.
+*Add to Bookmarks / Remove from Bookmarks* - When a node is added to your bookmarks, a link to the node can be found in the *Bookmarks* menu, located in the menu bar. 
 
-*Insert Today's Node* - This will create a top-level node with a title set to the current year, a subnode of the current month, and a third-level node of the current day of the month and week. <<figure-6.06>> 
+*Insert Today's Node* - This will create a top-level node with a title set to the current year, a subnode of the current month, and a third-level node of the current day of the month and week. 
 
 [[figure-6.05]]
 .Figure 6.05
 {today}
 
-Each time *Insert Today's Node* is used, it will add the current date to tree, cataloguing it with the existing nodes by year, month, and day. If today's node already exists, no new nodes will be added and you will be directed to the existing node instead. 
+Each time *Insert Today's Node* is used, it adds the current date to tree, cataloguing it with the existing nodes by year, month, and day. If today's node already exists, no new nodes are added and you are directed to the existing node instead. 
 
 *Tree Info* - Displays the following summary of the current document:
 
@@ -79,7 +82,7 @@ Each time *Insert Today's Node* is used, it will add the current date to tree, c
 * *Move Node Right* - Makes the selected node a subnode of the node above it. This will not work on the first child node, where the node above is its parent.
 * *Node Change Parent* - Allows you to choose a new parent node for the selected node.
 +
-NOTE: Most of these functions can be performed by dragging a node, up, down, or over another node within the tree view.
+NOTE: Most of these functions can be performed by dragging a node up, down, or over another node within the tree view.
 
 *Node Sort* - Contains the following functions:
 
@@ -90,7 +93,7 @@ NOTE: Most of these functions can be performed by dragging a node, up, down, or 
 
 *Find in Nodes Names and Tags* - link:#_search[Search] the entire tree for a set of characters within node titles and assigned tags.
 
-*Replace in Nodes Names* link:#_search[Search] the entire tree for a set of characters within node titles and assigned tags, and replace its with new characters.
+*Replace in Nodes Names* - link:#_search[Search] the entire tree for a set of characters within node titles and assigned tags, and replace it with new characters.
 
 *Nodes Import* - Opens the link:#_importing[*Import*] menu.
 
