@@ -81,7 +81,7 @@ Building from source in Windows is more complicated than in other operating syst
 
 link:#_installing_python_2_7[*Steps 1-8:*] Installing Python2.7 and adding it to environment variables. +
 link:#_installing_cherrytree_dependencies[*Steps 9-16:*] Installing Cherrytree dependencies. +
-link:#_configuring_the_cherrytree_directory[*Steps 17-19:*] Configuring the Cherrytree directory.
+link:#_configuring_the_cherrytree_directory[*Steps 17-20:*] Configuring the Cherrytree directory.
 
 ==== Installing Python 2.7
 
