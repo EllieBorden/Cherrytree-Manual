@@ -4,11 +4,11 @@ Cherrytree supports three types of nodes, link:#_plain_text[*Plain Text*], link:
 
 === Plain Text
 
-Plain Text is data stored in {ascii-chars}[Ascii] format. It is more portable than Rich Text and Syntax Highlighting, but does not support images, links, or formatting.
+Plain Text is data stored in {ascii-chars}[Ascii] format. It is more portable than Rich Text and Syntax Highlighting but does not support images, links, or formatting.
 
 === Rich Text
 
-Rich Text nodes have the same functionality as Plain Text and can also include text style, size, and color. In Cherrytree they also allow objects, such as images, codeboxes, and tables.
+Rich Text nodes have the same functionality as Plain Text and can also include text style, size, and color. In Cherrytree they also allow objects such as images, codeboxes, and tables.
  
 NOTE: See link:#_objects[*8. Objects*] for more details.
 
@@ -23,9 +23,9 @@ Automatic syntax highlighting styles text with a readable color scheme that corr
 ==== Choosing a Language
 
 [start=1]
-. Open the node properties menu shown in <<figure-6.03>>.
+. Open the *Node Properties* menu by right-clicking a node and selecting *Change Node Properties*.
 . Choose *Automatic Syntax Highlighting*.
-. Click the drop-down menu directly beneath the node type options.
+. Click the drop-down menu directly beneath the *Node Type* options.
 . Choose from the list of link:#_supported_languages[supported languages].
 
 ==== Executing a Node
@@ -34,15 +34,10 @@ Nodes set to automatic syntax highlighting can be executed from Cherrytree, assu
 
 *To execute a node:*
 [start=1]
-. Click *File*, located in the link:#menu-bar[menu bar].
-. Click *Execute Code*.
+. Select *Execute Code* from the *File* menu.
 . When prompted, click *OK* to confirm that you want to execute the code.
 
-Some languages will require a command to be assigned to the language before the code can be executed. 
-
-[[figure-7.02]]
-.Figure 7.02
-{command-warning}
+Some languages require an execution command to be assigned to the language before the code can be executed. 
 
 See link:#_plain_text_and_code[*9.4 Plain Text and Code*] for details on assigning a command.
 
@@ -138,140 +133,98 @@ See link:#_plain_text_and_code[*9.4 Plain Text and Code*] for details on assigni
 
 === Editing
 
-Cherrytree provides editing functions which are available in the *Edit* menu, shown in <<figure-7.03>> or by right-clicking selected text within the link:#editor[editor].
-
-[[figure-7.03]]
-.Figure 7.03
-{edit-menu-partial}
+Cherrytree provides editing functions which are available in the *Edit* menu and include:
 
 * *Undo* - Moves back by one change in the state of the document.
 * *Redo* - Moves forward by one change in the state of the document.
-* *Strip Trailing Spaces* - Remove any excess `space` characters at the end of each line within the selected node.
+* *Strip Trailing Spaces* - Removes any excess `space` characters at the end of each line within the selected node.
 * *Change Case* - Changes the {letter-case}[letter case] of the selected text.
 ** *Lower Case of Selection/Word* - Converts every letter of the selected text to lowercase.
 ** *Upper Case of Selection/Word* - Converts every letter of the selected text to uppercase.
 ** *Toggle Case of Selection/Word* - Converts every letter of the selected text to the opposite state of its current {letter-case}[case].
 * *Enable/Disable Spell Check* - Toggle Cherrytree's spellcheck feature.
 +
-NOTE: *Enchant* is required for this feature. Please install this dependency if your application is built from source and you haven't already. See link:#_building_from_source[*3. Building from Source*] for instructions.
+NOTE: *Enchant* is required for this feature. Install this dependency if your application is built from source and you haven't already. See link:#_building_from_source[*3. Building from Source*] for instructions.
 
-* *Cut as Plain Text* - Moves the selected text, deprived of any styles it may have, to your clipboard. The text can then be pasted elsewhere.
-* *Copy as Plain Text* - Copies the selected text, deprived of any styles it may have, to your clipboard. A copy of the text can then be pasted elsewhere.
-* *Paste as Plain Text* - Inserts text, deprived of any styles it may have had, from your clipboard to the cursor location.
+* *Cut as Plain Text* - Moves the selected text, stripped of its stylization, to your clipboard. The text can then be pasted elsewhere.
+* *Copy as Plain Text* - Copies the selected text, stripped of its stylization, to your clipboard. A copy of the text can then be pasted elsewhere.
+* *Paste as Plain Text* - Inserts text, stripped of its stylization, from your clipboard to the cursor location.
 * *Cut Row* - Moves the current line of text to your clipboard. The line can then be pasted elsewhere.
 * *Copy Row* - Copies the current line of text to your clipboard. A copy of the line can then be pasted elsewhere.
-* *Delete Row* - Delete the current line of text.
-* *Duplicate Row* - Paste a copy of the current line of text to the following line.
-* *Move Up Row* - Move the current line of text up one line.
-* *Move Down Row* - Move the current line of text down one line.
+* *Delete Row* - Deletes the current line of text.
+* *Duplicate Row* - Pastes a copy of the current line of text to the following line.
+* *Move Up Row* - Moves the current line of text up one line.
+* *Move Down Row* - Moves the current line of text down one line.
 
 === Formatting
 
 Most formatting options are only applicable to Rich Text documents and can be found in the *Formatting* menu. 
 
-[[figure-7.04]]
-.Figure 7.04
-{formatting-menu}
+These options include:
 
-* *Format Latest* - This will apply the most recently used format option to the selected text.
-
-* *Remove Formatting* - This will strip all formatting from the selected text formatting
-
-==== Color
-
-* *Text Color Foreground* -  Opens the *Pick a Color* menu shown in <<figure-7.05>>. The chosen color will be applied to the selected text.
-
-* *Text Color Background* - Opens the *Pick a Color* menu shown in <<figure-7.05>>. The chosen color will be applied to the background of selected text.
-+
-[[figure-7.05]]
-.Figure 7.05
-{color-pick}
-
-==== Emphasis
-
+* *Format Latest* - Apples the most recently used format to the selected text.
+* *Remove Formatting* - Strips all formatting from the selected text.
+* *Text Color Foreground* -  Opens a *Pick a Color* menu. The chosen color is applied to the selected text.
+* *Text Color Background* - Opens a *Pick a Color* menu. The chosen color is applied to the background of selected text.
 * *Toggle Bold Property* - Applies *Bold* the selected text.
-
 * *Toggle Italic Property* - Applies _Italics_ to the selected text.  
-
 * *Toggle Underline Property* - Applies pass:[<u>Underline</u>] to the selected text.
-
 * *Toggle Strikethrough Property* - Applies [.strike]#Strikethrough# to the selected text.
-
-==== Headers
-
-[[figure-7.06]]
-.Figure 7.06
+* *Toggle h1 Property* - Styles the selected paragraph as a top-level header. 
+* *Toggle h2 Property* - Styles the selected paragraph as a mid-level header. 
+* *Toggle h3 Property* - Styles the selected paragraph as a low-level header. 
++
+[[figure-7.02]]
+.Figure 7.02
 {headers}
 
-* *Toggle h1 Property* - Styles the selected paragraph as a top-level header. 
-
-* *Toggle h2 Property* - Styles the selected paragraph as a mid-level header. 
-
-* *Toggle h3 Property* - Styles the selected paragraph as a low-level header. 
-
-==== Misc. Formats
-
-[[figure-7.07]]
-.Figure 7.07
-{misc-format}
-
 * *Toggle Small Property* - Decreases the size of selected text.
-
 * *Toggle Superscript Property* - Decreases the size of selected text and vertically aligns it above the normal line of type.
-
 * *Toggle Subscript Property* - Decreases the size of selected text and vertically aligns it below the normal line of type.
-
 * *Toggle Monospace Property* - Applies a Monospace format to selected text. (All characters assume the same amount of width.)
++
+[[figure-7.03]]
+.Figure 7.03
+{misc-format}
 +
 NOTE: The background color of monospace text can be edited in the link:#rich-text-pref[Rich Text preferences menu]
 
-==== Lists
-
 * *Set/Unset Bulleted List* - Formats the selected lines into a bulleted list, in which the item order does not matter.
 +
-[[figure-7.08]]
-.Figure 7.08
+[[figure-7.04]]
+.Figure 7.04
 {bulllist}
 
 * *Set/Unset Numbered List* - Formats the selected lines into a numbered list, in which the order of items has purpose.
 +
-[[figure-7.09]]
-.Figure 7.09
+[[figure-7.05]]
+.Figure 7.05
 {numlist}
 
 
 * *Set/Unset To-Do List* - Formats the selected lines into a list of checkbox items. Click a checkbox to mark it as complete.
 +
-[[figure-7.10]]
-.Figure 7.10
+[[figure-7.06]]
+.Figure 7.06
 {todo}
 
-==== Alignment
-
 * *Justify Left* - Aligns content to the left side of the page. (Default)
-
 * *Justify Center* - Aligns content to the center of the page.
-
 * *Justify Right* - Aligns content to the right side of the page.
-
-* *Justify Fill* - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in <<figure-7.11>>.
+* *Justify Fill* - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in <<figure-7.07>>.
 +
-[[figure-7.11]]
-.Figure 7.11
+[[figure-7.07]]
+.Figure 7.07
 {fill}
 
 === Search
 
-Cherrytree's search and replace features can be found in the *Search* menu. 
-
-[[figure-7.12]]
-.Figure 7.12
-{search-menu}
+Cherrytree's search and replace features can be found in the *Search* menu.
 
 ==== Steps to Perform a Search:
 
 [start=1]
-. Click *Search*, shown in <<figure-7.12>>, and select one of the following options:
+. Select one of the following options from the *Search* menu:
 +
 * *Find in Node Content* - Searches for a sequence of characters in the selected node's content.
 * *Find in All Nodes Contents* - Searches for a sequence of characters in the entire node tree.
@@ -286,19 +239,19 @@ NOTE: See *Tags for Searching* in link:#_creating_nodes[*6.1 Creating Nodes*] fo
 NOTE: *Find Again* and *Find Back* are only compatible with the *First From Selection* and *First in All Range* options, which are defined in the next step.
 
 . (*Optional*) Select any link:#_search_options[*Search Options*] that are applicable to your effort.
-. Enter characters that you desire to find into *Search For* and click *OK* to execute the search.
+. Enter the characters that you desire to find into *Search For* and click *OK* to execute the search.
 
 ==== Steps to Search and Replace
 
 [start=1]
-. Click *Search*, shown in <<figure-7.12>>, and select one of the following options:
+. Select one of the following options from the *Search* menu:
 +
 * *Replace in Node Content* - Searches for a sequence of characters in the selected node's content and replaces them with the provided text.
 * *Replace in All Nodes Contents* - Searches for a sequence of characters in the entire node tree and replaces them with the provided text.
 * *Replace in Selected Node and Subnodes Contents* - Searches for a sequence of characters in the selected node and its {node-relations}[children], and replaces them with the provided text.
-* *Replace in Nodes Names and Tags* - Searches for a sequence of characters in the every node title and tag of the node tree, and replaces them with the provided text.
+* *Replace in Nodes Names and Tags* - Searches for a sequence of characters in every node title and tag of the node tree, and replaces them with the provided text.
 +
-NOTE: See *Tags for Searching* in link:#_creating_nodes[*6.1 Creating Nodes*] for more detail.
+NOTE: See *Tags for Searching* in link:#_creating_nodes[*6.1 Creating Nodes*] for more detail about node names and tags.
 
 * *Replace Again* - Find the next instance in the search results and replace it with the provided text.  
 +
@@ -310,12 +263,8 @@ NOTE: *Replace Again* is only compatible with the *First From Selection* and *Fi
 
 ==== Search Options
 
-[[figure-7.13]]
-.Figure 7.13 
-{search-menu2}
-
 * *Match Case* - Filter results that do not match the {letter-case}[letter case] of the provided search term.
-* *Whole Word* - Filter results that contain more characters than provided. For example, a whole-word search for `and` will return any instances of the word `and` but not other words containing `and` such as `Andrew`. 
+* *Whole Word* - Filter results that contain more characters than provided. For example, a whole-word search for `and` returns any instances of the word `and` but not other words containing `and` such as `Andrew`. 
 * *Regular Expression* - Search for patterns in text. For example, `\([0-9][0-9][0-9]\) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]` would return instances of text formatted as (_xxx_) _xxx_-_xxxx_, such as phone numbers, where _x_ can be any number between 0 and 9. 
 +
 NOTE: Learn more about regular expressions {regex-link}[here].
@@ -326,24 +275,14 @@ NOTE: Learn more about regular expressions {regex-link}[here].
 * *All, List Matches* - Return all results. (Default)
 * *First From Selection* - Return only the first result closest to the cursor position.
 * *First in All Range* - Return only the first result of the node tree.
-* *Show Iterated Find/Replace Dialog* - Opens the menu below following the search execution:
-+
-[[figure-7.14]]
-.Figure 7.14
-{iterate-search}
-+
+* *Show Iterated Find/Replace Dialog* - Displays the *Iterate Latest Find/Replace*, which provides a graphical method of navigating through the search results.
 ** *Close* - Closes the *Iterate Latest Find/Replace* menu.
 ** *Find Previous* - Find the previous instance of the searched term.
 ** *Find Next* - Find the next instance of the searched term.
-** *Replace* - Replace the current instance of the searched term with the replacement provided in *Step 3* of link:#_steps_to_search_and_replace[*Steps to Search and Replace*]. (Applicable only to link:#_search_and_replace[Search and Replace] features.)
+** *Replace* - Replace the current instance of the searched term with the replacement provided in *Step 3* of link:#_steps_to_search_and_replace[*Steps to Search and Replace*]. (Applicable only to link:#_steps_to_search_and_replace[Search and Replace] features.)
 ** *Undo* - Undoes the most recent *Replace* execution.
 
-* *Time Filter* options will be available when searching across multiple nodes. Select any option(s) that correspond with your effort, and click the adjacent date(s) to edit its value:
-
-[[figure-7.15]]
-.Figure 7.15
-{search-menu3}
-
+* *Time Filter* options are available when searching across multiple nodes. Select any option(s) that correspond with your effort and click the adjacent date(s) to edit its value:
 * *Node Created After* - Only show results from nodes created after the provided date.
 * *Node Created Before* - Only show results from nodes created before the provided date.
 * *Node Modified After* - Only show results from nodes that have been edited after the provided date.

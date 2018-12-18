@@ -1,78 +1,58 @@
 == Objects
 
-Objects can be inserted from the menu bar under *Edit* or the toolbar. Some objects can also be pasted directly into Cherrytree. 
-
-[[figure-8.01]]
-.Figure 8.01
-{insert-menu}
-
-[[figure-8.02]]
-.Figure 8.02
-{insert-toolbar}
+Objects can be inserted from the *Edit* menu, located in the menu bar. Some objects can also be pasted directly into Cherrytree. 
 
 === Images
 
 ==== Inserting Images
 
 [start=1]
-. Open the link:#_objects[*Edit* menu] and click *Insert Image*.
-. Select the image to be uploaded and click *Open*. 
-. (*Optional*) The selected image will be displayed in a simplistic editor, shown in <<figure-8.03>>, which can be used to rotate or scale the content. 
+. Select *Insert Image* from the *Edit* menu.
+. Select an image to be uploaded and click *Open*. 
+. (*Optional*) The selected image is displayed in the simplistic editor shown in <<figure-8.01>>, which can be used to rotate or scale the content. 
 +
-[[figure-8.03]]
-.Figure 8.03
+[[figure-8.01]]
+.Figure 8.01
 {img-props}
 +
-<<figure-8.03>> has been highlighted to indicate the parts of its interface.
+<<figure-8.01>> has been highlighted to indicate the parts of its interface.
 
-// TODO: Change these to be highlighted numerically for better accessibility.
-
-* *Red* - Displays the image uploaded in *Step 2*.
-* *Purple* - Allows for the editing of the image's dimensions. Height and Width are linked each other to maintain the content's aspect ratio.
-* *Yellow* - Rotate the image counter-clockwise 90&deg;.
-* *Green* - Rotate the image clockwise 90&deg;.
+* *Section 1* - Rotates the image counter-clockwise 90&deg;.
+* *Section 2* - Displays the image uploaded in *Step 2*.
+* *Section 3* - Rotates the image clockwise 90&deg;.
+* *Section 4* - Options for defining the image's dimensions. Height and Width are linked to each other to maintain the content's aspect ratio.
 . Click *OK* to complete the insertion.
+
+Cherrytree does not support wrapping text around images at this time.
 
 ==== Editing Images
 
-Right-click an image to display its menu of options, <<figure-8.04>>.
+Right-click an image to display its menu of options.
 
-[[figure-8.04]]
-.Figure 8.04
-{edit-image}
-
-* *Cut Image* - Move the selected image to your clipboard. The image can then be pasted elsewhere.
-* *Copy Image* - Copy the selected image to your clipboard. A copy of the image can then be pasted elsewhere.
+* *Cut Image* - Moves the selected image to your clipboard. The image can then be pasted elsewhere.
+* *Copy Image* - Copies the selected image to your clipboard. A copy of the image can then be pasted elsewhere.
 * *Delete Image* - Delete the selected image.
-* *Edit Image* - Displays the window shown in <<figure-8.03>>
-* *Save Image as PNG* - Save a copy of the selected image to your computer.
+* *Edit Image* - Displays the window shown in <<figure-8.01>>
+* *Save Image as PNG* - Saves a copy of the selected image to your computer.
 * *Edit Link* - Apply or edit the link of the selected image. 
 +
 NOTE: See link:#_links[*8.5 Links*] for more information about links.
 
-* *Dismiss Link* - Remove an existing link from the selected image. This option will only appear if the image has an assigned link.
-
-NOTE: Cherrytree does not support wrapping text around images at this time.
+* *Dismiss Link* - Removes an existing link from the selected image. This option only appears if the image has an assigned link.
 
 === Tables
 
 ==== Creating a New Table
 
 [start=1]
-. Open the link:#_objects[*Edit* menu] and click *Insert Table*.
-. (*Optional*) The *Insert Table* menu will be displayed and can be used to define the properties of the table.
-+
-[[figure-8.05]]
-.Figure 8.05
-{insert-table}
+. Select *Insert Table* from the *Edit* menu to display the *Insert Table* menu.
+. The Insert Table menu defines the size of the table and provides *.csv* import availability.
 +
 * *Rows* - Defines the number of rows to be in the table in the addition to the header row.
 * *Columns* - Defines the number of columns to be in the table.
 * *Min Width* - Defines the lowest number of pixels in width that a column must have.
 * *Max Width* - Defines the highest number of pixels in width that a column can have.
-* *Import from CSV File* - Imports data from a *.csv* file.
-+
-IMPORTANT: *.csv* data should be separated by a comma delimiter.
+* *Import from CSV File* - Imports data from a *.csv* file. Data should be separated by a comma delimiter.
 +
 NOTE: Cherrytree may take a few minutes to upload a large file.
 
@@ -82,70 +62,46 @@ NOTE: Cherrytree may take a few minutes to upload a large file.
 
 Click a column title to display a menu listing actions for that column. 
 
-[[figure-8.06]]
-.Figure 8.06
-{table-column}
-
-* *Rename Column* - Change the title of the selected column.
-* *Delete Column* - Delete the selected column.
-* *Add Column* - Add a new column to the right of the selected column.
-* *Move Column Left* - Switch the placement of the selected column with that of the column to its immediate left. Nothing will happen if there is no column left of the selected column.
-* *Move Column Right* - Switch the placement of the selected column with that of the column to its immediate right.  Nothing will happen if there is no column right of the selected column.
+* *Rename Column* - Changes the title of the selected column.
+* *Delete Column* - Deletes the selected column.
+* *Add Column* - Adds a new column to the right of the selected column.
+* *Move Column Left* - Switches the placement of the selected column with that of the column to its immediate left. Nothing happens if there is no column left of the selected column.
+* *Move Column Right* - Switches the placement of the selected column with that of the column to its immediate right.  Nothing happens if there is no column right of the selected column.
 
 ==== Managing Rows
 
-A table row can be edited by right-clicking any of its cells. 
+Right-clicking any cell in a table provides the following options:
 
-[[figure-8.07]]
-.Figure 8.07
-{edit-table}
-
-* *Cut Table* - Move the selected table to your clipboard. The table can then be pasted elsewhere.
-* *Copy Table* - Copy the selected table to your clipboard. A copy of the table can then be pasted elsewhere.
-
-* *Delete Table* - Delete the selected table.
-
-* *Add Row* - Add a new row underneath the selected row.
-
-* *Cut Row* - Move the selected row to your clipboard. The row can then be pasted elsewhere.
-
-* *Copy Row* - Copy the selected row to your clipboard. A copy of the row can then be pasted elsewhere.
-
-* *Paste Row* - Paste a row from your clipboard underneath the selected row.
-
-* *Delete Row* - Delete the selected row.
-
-* *Move Row Up* - Switch the placement of the selected row with that of the row immediately above it. Nothing will happen if there is no row above the selected row.
-
-* *Move Row Down* - Switch the placement of the selected row with that of the row immediately below it. Nothing will happen if there is no row below the selected row.
-
+* *Cut Table* - Moves the selected table to your clipboard. The table can then be pasted elsewhere.
+* *Copy Table* - Copies the selected table to your clipboard. A copy of the table can then be pasted elsewhere.
+* *Delete Table* - Deletes the selected table.
+* *Add Row* - Adds a new row underneath the selected row.
+* *Cut Row* - Moves the selected row to your clipboard. The row can then be pasted elsewhere.
+* *Copy Row* - Copies the selected row to your clipboard. A copy of the row can then be pasted elsewhere.
+* *Paste Row* - Pastes a row from your clipboard underneath the selected row.
+* *Delete Row* - Deletes the selected row.
+* *Move Row Up* - Switches the placement of the selected row with that of the row immediately above it. Nothing happens if there is no row above the selected row.
+* *Move Row Down* - Switches the placement of the selected row with that of the row immediately below it. Nothing happens if there is no row below the selected row.
 * *Sort Rows Descending* - References the first column to sort the selected table numerically then alphabetically, from bottom to top.
-
 * *Sort Rows Ascending* - References the first column to sort the selected table numerically then alphabetically, from top to bottom.
-
-* *Edit Table Properties* - Edit the *Column Properties*, shown in <<figure-8.05>>, of the selected table.
-
-* *Table Export* - Export the selected table to a *.csv* file containing data separated by comma delimiters.
+* *Edit Table Properties* -  Displays the *Edit Table Properties* menu, providing options to define a minimum and maximum width of columns.
+** *Min Width* - Columns are always at least `x` pixels wide, where `x` represents the number provided. 
+** *Max Width* - Columns cannot be wider than `x` pixels in width, where `x` represents the number provided. If the content exceeds the maximum width, text wraps to the next line within the cell.
+* *Table Export* - Exports the selected table to a *.csv* file containing data separated by comma delimiters.
 
 ==== Writing to Tables
 
-Double-click a cell to open a textbox within it.
+Tables currently only support link:#_plain_text[plain text]. Double-click a cell to open a textbox within it.
 
-CAUTION: Clicking outside of a table before closing a textbox will discard all changes to that textbox. To write changes to a textbox within a table cell, you must click to another cell, press *Enter*,  or press *Tab*. This has been reported but is unlikely to be patched in this version of Cherrytree.
-
-NOTE: Tables currently only support link:#_plain_text[plain text]. 
+WARNING: Clicking outside of a table before closing a textbox discards all changes to that textbox. To write changes to a textbox within a table cell, you must click to another cell, press *Enter*,  or press *Tab*. This has been reported but is unlikely to be patched in this version of Cherrytree.
 
 Right-click the textbox to display a menu of its actions and properties.
 
-[[figure-8.08]]
-.Figure 8.08
-{cell-menu}
-
-* *Cut* - Move the selected text to your clipboard. The row can then be pasted elsewhere.
-* *Copy* - Copy the selected text to your clipboard. A copy of the table can then be pasted elsewhere.
-* *Paste* - Paste the text from your clipboard to the cursor position.
-* *Delete* - Delete the selected text.
-* *Select All* - Select the text within the textbox.
+* *Cut* - Moves the selected text to your clipboard. The row can then be pasted elsewhere.
+* *Copy* - Copies the selected text to your clipboard. A copy of the table can then be pasted elsewhere.
+* *Paste* - Pastes the text from your clipboard to the cursor position.
+* *Delete* - Deletes the selected text.
+* *Select All* - Selects the text within the textbox.
 * *Input Methods* - Select from one of the following input methods:
 ** System (Default)
 ** None
@@ -173,7 +129,7 @@ Right-click the textbox to display a menu of its actions and properties.
 ** *XWNJ* - Zero width non-joiner
 * *Insert NewLine* - Adds a newline character to the current cursor position.
 + 
-NOTE: This will not be noticeable until the textbox is closed.
+NOTE: Newlines within table cells are not noticeable until the textbox is closed.
 
 === Codebox
 
@@ -184,14 +140,9 @@ NOTE: See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlightin
 ==== Inserting a Codebox
 
 [start=1]
-. Click *Edit*, located in the link:#menu-bar[menu bar].
-. Click *Insert Codebox* to display the *Insert Codebox* menu.
-+
-[[figure-8.09]]
-.Figure 8.09
-{insert-codebox}
 
-. (*Optional*) Change the codebox type:
+. Select *Insert Codebox* from the *Edit* menu.
+. (*Optional*) Change the codebox type within the *Insert Codebox* menu:
 +
 * *Plain Text* - Restricts the codebox to link:#_plain_text[plain text].
 * *Automatic Syntax Highlighting* - Applies link:#_automatic_syntax_highlighting[automatic syntax highlighting] to the codebox. (Default)
@@ -201,7 +152,7 @@ NOTE: See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlightin
 +
 * *Width* - Defines the width of the codebox.
 ** *Pixels* - Defines the width in pixels. (Default)
-** *% (Percentage)* -  Defines the width as a percentage. This will assign a dynamic width that changes alongside changes in the window's width.
+** *% (Percentage)* -  Defines the width as a percentage. This assigns a dynamic width that changes alongside changes in the window's width.
 * *Height* - Defines the height of the codebox in pixels.
 
 . (*Optional*) Select any additional options:
@@ -215,34 +166,21 @@ NOTE: See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlightin
 
 Right-click a codebox to display its options.
 
-[[figure-8.10]]
-.Figure 8.10
-{edit-codebox}
-
-* *Change CodeBox Properties* - Displays a menu similar to the *Insert CodeBox* menu shown in <<figure-8.09>>.
+* *Change CodeBox Properties* - Displays a menu similar to the *Insert CodeBox* menu.
 
 * *Execute CodeBox Code* - Executes the code within the codebox. 
 +
 NOTE: See link:#_executing_a_codebox[*Executing a Codebox*] for more details.
 
-* *CodeBox Load From Text File* - Import code from a file. This function is not restricted to files that have a *.txt* extension.
-
-* *CodeBox Save To Text File* - Export the content of a codebox to a file. The file can have any extension. 
-
-* *Cut CodeBox* - Move the selected codebox to your clipboard. The codebox can then be pasted elsewhere.
-
-* *Copy CodeBox* - Copy the selected codebox to your clipboard. A copy of the codebox can then be pasted elsewhere.
-
+* *CodeBox Load From Text File* - Imports code from a file. This function is not restricted to files that have a *.txt* extension.
+* *CodeBox Save To Text File* - Exports the content of a codebox to a file. The file can have any extension. 
+* *Cut CodeBox* - Moves the selected codebox to your clipboard. The codebox can then be pasted elsewhere.
+* *Copy CodeBox* - Copies the selected codebox to your clipboard. A copy of the codebox can then be pasted elsewhere.
 * *Delete CodeBox* - Delete the selected codebox.
-
 * *Delete CodeBox Keep Content* - Replace the current codebox with a link:#_plain_text[plain text] copy of its content.
-
 * *Increase CodeBox Width* - Increase the width of the selected codebox by 9% if it is defined as a percentage or 15px if it is defined in pixels.
-
 * *Decrease CodeBox Width* - Decrease the width of the selected codebox by 9% if it is defined as a percentage or 15px if it is defined in pixels.
-
 * *Increase CodeBox Height* - Increase the height of the selected codebox by 15 pixels.
-
 * *Decrease CodeBox Height* - Decrease the height of the selected codebox by 15 pixels.
 
 ==== Executing a Codebox
@@ -251,17 +189,12 @@ A codebox that is set to link:#_automatic_syntax_highlighting[automatic syntax h
 
 *To execute a node:*
 [start=1]
-. Right-click the codebox.
-. Click *Execute Codebox code*.
+. Right-click a codebox and select *Execute Codebox code*.
 . When prompted, click *OK* to confirm that you want to execute the code.
 
-Some languages will require a command to be assigned to the language before the code can be executed. 
-+
-NOTE: See link:#_plain_text_and_code[*9.4 Plain Text and Code*] for details on assigning a command.
+Some languages require an execution command to be assigned to the language before the code can be executed. 
 
-[[figure-8.11]]
-.Figure 8.11
-{command-warning}
+NOTE: See link:#_plain_text_and_code[*9.4 Plain Text and Code*] for details on assigning a command.
 
 [[file-object]]
 === Files
@@ -271,8 +204,7 @@ Any file that is less than 10MB can be attached to a link:#_rich_text[Rich Text]
 ==== Inserting a File
 
 [start=1]
-. Click *Edit*, located in the link:#menu-bar[menu bar].
-. Click *Insert File*.
+. Select *Insert File* from the *Edit* menu.
 . Select a file and click *OK*.
 +
 NOTE: The file must be less than 10MB. 
@@ -281,21 +213,14 @@ NOTE: The file must be less than 10MB.
 
 Right-click a node to display its options.
 
-[[figure-8.12]]
-.Figure 8.12
-{attach-file}
-
-* *Cut Embedded File* - Move the selected file to your clipboard. The file can then be pasted elsewhere.
-
-* *Copy Embedded File* - Copy the selected file to your clipboard. A copy of the file can then be pasted elsewhere.
-
-* *Delete Embedded File* - Delete the attached file.
-
-* *Open File* - Open the attached file.
+* *Cut Embedded File* - Moves the selected file to your clipboard. The file can then be pasted elsewhere.
+* *Copy Embedded File* - Copies the selected file to your clipboard. A copy of the file can then be pasted elsewhere.
+* *Delete Embedded File* - Deletes the attached file.
+* *Open File* - Opens the attached file.
 +
-CAUTION: Attached files should be closed before closing their host document(s).
+IMPORTANT: Attached files should be closed before closing their host document(s).
 
-* *Save As* - Save a copy of the selected, attached file to your machine.
+* *Save As* - Saves a copy of the selected file to your machine.
 
 === Links
 
@@ -304,15 +229,9 @@ Text and images within link:#_rich_text[rich text] nodes can be linked to websit
 ==== Inserting a Link
 
 [start=1]
-. (*Optional*) Select the text or image to be linked. If nothing is selected, you will be prompted to provide display text for the link.
-. Click *Edit*, located within the link:#menu-bar[menu bar].
-. If prompted, enter the display text for the link.
-. Click *Insert/Edit Link* to display the *Insert Link* menu shown in <<figure-8.13>>.
+
+. Select *Insert/Edit Link* from the *Edit* menu to display the *Insert Link* menu.
 . Choose from the following options:
-+
-[[figure-8.13]]
-.Figure 8.13
-{insert-link}
 +
 * *To Website* - Routes the link to a website address.
 * *To File* - Routes the link to a file on your machine.
@@ -329,52 +248,38 @@ NOTE: See link:#_anchors[*8.6 Anchors*] to learn more about anchors.
 
 Right-click a link to display its options.
 
-[[figure-8.14]]
-.Figure 8.14
-{edit-link}
-
-* *Edit Link* - Display the *Insert/Edit* menu, shown in <<figure-8.13>>, for the selected link.
-* *Cut Link* - Move the selected link to your clipboard. The link can then be pasted elsewhere.
-* *Copy Link* - Copy the selected link to your clipboard. A copy of the link can then be pasted elsewhere.
+* *Edit Link* - Displays the *Insert/Edit* menu for the selected link.
+* *Cut Link* - Moves the selected link to your clipboard. The link can then be pasted elsewhere.
+* *Copy Link* - Copies the selected link to your clipboard. A copy of the link can then be pasted elsewhere.
 * *Dismiss Link* - Deletes the selected link but keeps its displayed text.
 * *Delete Link* - Deletes the selected link and its displayed text.
 
 === Anchors
 
-An anchor is represented by the icon shown in <<figure-8.15>> and can be referenced in a link:#_links[link] to direct a user to a particular place within a node.  
+An anchor is represented by the icon shown in <<figure-8.02>> and can be referenced in a link:#_links[link] to direct a user to a particular place within a node.  
 
-[[figure-8.15]]
-.Figure 8.15
+[[figure-8.02]]
+.Figure 8.02
 {anchor}
 
 ==== Inserting Anchors
 
-. Click *Edit*, located in the link:#menu-bar[menu bar].
-. Click *Insert Anchor*, displaying the *Insert Anchor* menu.
-+
-[[figure-8.16]]
-.Figure 8.16
-{insert-anchor}
-
-. Provide a name for the anchor. The name will not be visible in the document.
+. Select *Insert Anchor* from the *Edit* menu to display *Insert Anchor* menu.
+. Provide a name for the anchor. Anchor names are not visible in the document.
 . Click *OK* to complete the insertion.
 
 ==== Referencing Anchors
 
-When link:#_inserting_a_link[inserting a link], select the *To Node* option, shown in <<figure-8.13>>, and add the name of the anchor to the *Anchor Name* textbox.
+When link:#_inserting_a_link[inserting a link], select the *To Node* option and add the name of the anchor to the *Anchor Name* textbox.
 
 ==== Editing Anchors
 
 Right-click an anchor icon to display is options.
 
-[[figure-8.17]]
-.Figure 8.17
-{edit-anchor}
-
-* *Cut Anchor* - Move the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
-* *Copy Anchor* - Move a copy of the selected anchor to your clipboard. The copy can then be pasted elsewhere.
-* *Delete Anchor* - Delete the selected anchor.
-* *Edit Anchor* - Displays the *Insert Anchor* menu, shown in <<figure-8.16>>, allowing you to rename the anchor.
+* *Cut Anchor* - Moves the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
+* *Copy Anchor* - Copies the selected anchor to your clipboard. The copy can then be pasted elsewhere.
+* *Delete Anchor* - Deletes the selected anchor.
+* *Edit Anchor* - Displays the *Insert Anchor* menu allowing you to rename the anchor.
 
 === Table of Contents
 
@@ -383,13 +288,8 @@ This feature inserts an unordered, hierarchical list containing a link for every
 ==== Inserting a Table of Contents
 
 [start=1]
-. Click *Edit*, located in the link:#menu-bar[menu bar].
-. Click *Insert TOC*, displaying the *Involved Nodes* menu, shown in <<figure-8.18>>.
+. Select *Insert TOC* from the *Edit* menu to display the *Involved Nodes* menu.
 . Define the scope of the contents to be included.
-+
-[[figure-8.18]]
-.Figure 8.18
-{inv-nodes}
 +
 * *Selected Node only* - Includes only the selected node.
 * *Selected Node and Subnodes* - Includes the selected node and its {node-relations}[children].
@@ -399,7 +299,7 @@ This feature inserts an unordered, hierarchical list containing a link for every
 
 ==== Updating a Table of Contents
 
-A table of contents will not update as changes to the nodes or headers are made. To update a table of contents, delete the existing TOC and create a new one.
+A table of contents does not update as changes are made to the nodes or headers. To update a table of contents, delete the existing TOC and create a new one.
 
 === Timestamps
 
@@ -407,9 +307,7 @@ By default, this feature inserts the date in time in a format such as YYYY/mm/dd
 
 ==== Inserting a Timestamp
 
-[start=1]
-. Click *Edit*, located within the link:#menu-bar[menu bar].
-. Click *Insert Timestamp*
+Select *Insert Timestamp* from the *Edit* menu to insert a timestamp.
 
 ==== Formatting a Timestamp
 
@@ -419,12 +317,12 @@ The format of the timestamp can be configured in the link:#_text_and_code[text a
 
 Cherrytree provides a function for inserting special characters. 
 
-CAUTION: These characters will not be converted to their corresponding HTML codes when exported.
+WARNING: These characters are not converted to their corresponding HTML codes when exported.
 
 ==== Inserting Special Characters
 
 [start=1]
-. Click *Edit*, located within the link:#menu-bar[menu bar].
+. Open the *Edit* menu.
 . Hover over *Insert Special Character* to display its submenu.
 . Click the character to be inserted.
 
@@ -432,15 +330,14 @@ NOTE: See the link:#_text_and_code[text and code preference menu] to add or remo
 
 === Horizontal Rule
 
-By default, this feature inserts a line of 33 `~` characters one line below the selected line. An empty line will be inserted one line below the horizontal rule.
+By default, this feature inserts a line of 33 `~` characters one line below the selected line. An empty line is inserted one line below the horizontal rule.
 
-CAUTION: These characters will not be converted to a horizontal rule when exported.
+WARNING: These characters are not converted to a horizontal rule when exported.
 
 ==== Configuring Horizontal Rules
 
 The horizontal rule can be configured in the link:#_text_and_code[text and code preference menu] to insert any sequence of characters.
 
 ==== Inserting a Horizontal Rule
-[start=1]
-. Click *Edit*, located within the link:#menu-bar[menu bar].
-. Click *Insert Horizontal Rule*
+
+Select *Insert Horizontal Rule* from the *Edit* menu to insert a horizontal rule.

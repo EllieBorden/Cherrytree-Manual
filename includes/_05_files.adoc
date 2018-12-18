@@ -1,55 +1,34 @@
 == Files
 
-Documents can be managed from the *File* menu or the toolbar.
-
-[[figure-5.01]]
-.Figure 5.01
-{file-menu}
-
-[[figure-5.02]]
-.Figure 5.02
-{file-toolbar}
+Documents are managed from the *File* menu or toolbar.
 
 === Creating and Opening
 
-Cherrytree opens to the same state as when it last closed or to a new document if no previous state exists. To create a new document, click *File* within the menu bar and select *New Instance*.
+To create a new document, select *New Instance* from the *File* menu.
 
 To open an existing file:
 [start=1]
-. Click *File*.
-. Select *Open File*.
-. Select a document 
+. Select *Open File* from the *File* menu.
+. Select a document to open.
 . Click *Open*. 
 
-Recently used documents can be opened more quickly by selecting the document name within the *Recent Files* submenu. 
-
-[[figure-5.03]]
-.Figure 5.03
-{recent-doc}
+Recently used documents can be opened more quickly by selecting the document name within the *File* > *Recent Files* submenu. 
 
 === Saving
 
 ==== Saving to the Current File
-Save your document with `CTRL`+`S` key or by clicking *File* within the menu bar and select *Save*.
+Save your document by pressing `CTRL`+`S` or by selecting *Save* from the *File* menu.
 
-NOTE: If this is your first time saving the current document, see the link:#_saving_to_a_new_file[save to a new file section] below.
+NOTE: If this your first time saving the current document, see the link:#_saving_to_a_new_file[save to a new file section] below.
 
 ==== Saving to a New File
 
 [start=1]
-. Save your document to a new file by pressing `CTRL`+`SHIFT`+`S`, or click *File* within the menu bar and select *Save As*.
+. Save your document to a new file by pressing `CTRL`+`SHIFT`+`S` or by selecting *Save As* from the *File* menu.
 
 . Select a link:#_storage_types[storage type].
-+
-[[figure-5.06]]
-.Figure 5.06
-{save-type}
 
-. Name your document and select a folder to save it to.
-+
-[[figure-5.07]]
-.Figure 5.07
-{save-as}
+. Name the document and select a folder to save it to.
 
 ==== Save and Vacuum
 
@@ -57,19 +36,17 @@ Vacuuming rebuilds the database file, packing it into a minimal amount of disk s
 
 This feature should be used periodically when working with SQLite files to keep the database from assuming more space than necessary.
   
-Visit the {vacuum}[SQLite documentation page for the vacuum command] to learn more.
+NOTE: Visit the {vacuum}[SQLite documentation page for the vacuum command] to learn more about vacuuming.
 
 ==== Storage Types
 
-When saving your document for the first time, Cherrytree prompts you to choose between two file formats, SQLite and XML.
+When saving a document for the first time, Cherrytree prompts you to choose between two file formats, SQLite and XML.
 
-*SQLite* is a self-contained database and will have a *.ctb* or *.ctx* extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree will only access the tree structure and currently selected node. This makes opening your document faster but may slow functions such as searching and selecting nodes when they're used for the first time in a session. 
+*SQLite* is a self-contained database and has a *.ctb* or *.ctx* extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree only accesses the tree structure and currently selected node. This makes opening your document faster but may slow functions such as searching and selecting nodes when they're used for the first time in a session. 
 
-Performance loss with SQLite is lower than with XML, making it better suited for larger documents.
+Performance loss with SQLite is lower than with XML, making it better suited for larger documents. The link:#_save_and_vacuum[Save and Vacuum] feature should be used periodically to keep SQLite files compact.
 
-NOTE: SQLite files should be link:#_save_and_vacuum[vacuumed] periodically. 
-
-*XML* is a markup language and will have a *.ctd* or  *.ctz* extension when used with Cherrytree. The files will be fully loaded at runtime, making searching and navigating through nodes faster, but slowing the initial load time.
+*XML* is a markup language and has a *.ctd* or  *.ctz* extension when used with Cherrytree. The files are fully loaded at runtime, making searching and navigating through nodes faster, but slowing the initial load time.
 
 XML is more accessible and easier to convert to other file types but should not be used with large documents. 
 
@@ -77,22 +54,21 @@ XML is more accessible and easier to convert to other file types but should not 
 
 Password-protected files are compressed and locked with {7zip}[7zip], an open source file archiver. 
 
-NOTE: Other applications might not provide functionality to unlock files that have been locked by Cherrytree. 
+CAUTION: Other applications might not provide functionality to unlock files that have been locked by Cherrytree. 
 
 ==== Changing Passwords
 
 To change the password of a protected file:
 [start=1]
 . Open the file in Cherrytree.
-. Click *File*. 
-. Click *Save-as*. 
+. Select *Save-as* from the *File* menu. 
 . link:#_saving_to_a_new_file[Save the document as a new file].
 .. Select a protected storage type. 
-.. Use your new password to protect this copy of the document. 
+.. Use a new password to protect this copy of the document. 
 
 === Page Setup and Printing
 
-*Page Setup*, found in the *File* menu, allows you to set your document size, orientation, and margins.
+*Page Setup*, found in the *File* menu, contains options for the document size, orientation, and margins.
 
 To print a document, click *File* > *Print*, then choose between one of the following options when prompted:
 
@@ -103,16 +79,12 @@ To print a document, click *File* > *Print*, then choose between one of the foll
 
 Select *New Node in New Page* to apply page breaks at the end of nodes within the printed document. 
 
-[[figure-5.08]]
-.Figure 5.08
-{newnodenewpage}
-
 === Importing
 
-Cherrytree's import feature can be accessed from the *Import* menu.
+Notes are imported into Cherrytree from the *Import* menu, located within the link:#menu-bar[menu bar].
 
 [start=1]
-. Click *Import* and select from the following options:
+. Select one of the following options from the *Import* menu:
 
 ** From CherrTree File
 ** From Plain Text File
@@ -134,21 +106,20 @@ Cherrytree's import feature can be accessed from the *Import* menu.
 ** From TuxCards File
 ** From Zim Folder
 
-. Select the file or folder that you'd like to import and click *Open*. (May vary between operating systems.) 
-
-. In the *Who is the parent?* menu, select one of the following options, then click *OK*:
-
-** *The Tree Root* - Each imported file will be added to a top-level node.
-** *The Selected Node* - Each imported file will be added to a child node of the selected node.
+. Select a file or folder to import then click *Open*.
+. In the *Who is the parent?* menu, select one of the following options:
+** *The Tree Root* - Each imported file is added to a top-level node.
+** *The Selected Node* - Each imported file is added to a child node of the selected node.
+. Click *OK*.
 
 NOTE: This process may take a few minutes when importing many files or larger files.
 
 === Exporting
 
-Cherrytree's export feature can be accessed from the *Export* menu.
+To export notes from another file:
 
 [start=1]
-. Click *Export* and select from the following options:
+. Select one of the following options from the *Export* menu:
 
 ** Export to PDF
 ** Export to HTML
@@ -163,29 +134,35 @@ Cherrytree's export feature can be accessed from the *Export* menu.
 ** Selected Node and Subnodes
 ** All in Tree
 
-. Additional options will be available depending on the export type:
+. Additional options are available depending on the export type:
 
-** *Include Node name* displays the name of each Node at the top of its page. This may be redundant if you have headers within the pages of your notes.
-** *New Node in New Page* applies page breaks at the end of nodes within the exported document.
-** *Links Tree in Every Page*: When enabled all nodes will contain a table of contents. Otherwise if this option is disabled, only the *index.html* document will contain a table of contents.
+** *Include Node name* - Displays the name of each Node at the top of its page. This may be redundant if you have headers within the pages of your notes.
+** *New Node in New Page* - Applies page breaks at the end of nodes within the exported document.
+** *Links Tree in Every Page* - When enabled all web pages contain a table of contents. If this option is disabled, only the *index.html* contains a table of contents.
 
 When exporting to HTML, all nodes are copied to the root folder of your chosen directory as *.html* files. The main HTML file is named *index.html*.
 
 === Command Line
 
-Cherrytree supports command line argument using `python2 cherrytree` in the directory of your Cherrytree installation.
+Cherrytree supports command line argument for starting the application via command line.
+
+==== Cherrytree Command
+
+|===
+|_python2 cherrytree_ | Opens Cherrytree.
+|===
 
 ==== Positional arguments:
 
 |===
-|_filepath_ | Defines the document to open in Cherrytree. Replace _filepath_ with the path a file.
+|_filepath_ | Defines the document to open in Cherrytree. Replace _filepath_ with the path of a file.
 |===
 
 ==== Optional arguments:
 
 |===
 | -h +
---help | Displays a list of commands options.
+--help | Displays a list of command-line options.
 
 | -n __node_name__ +
 --node __node_name__ | Opens a document and selects the specified node. Replace __node_name__ with the node to select.
@@ -200,4 +177,4 @@ Cherrytree supports command line argument using `python2 cherrytree` in the dire
 --export_overwrite | Overwrite an existing export.
 |===
 
-NOTE: Command line arguments are available in Linux, but may only be available in Windows when the application is link:#_windows[built from source]. 
+NOTE: Command line arguments are available in Linux but may only be available in Windows when the application is link:#build-windows[built from source]. 

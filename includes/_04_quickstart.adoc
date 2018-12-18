@@ -1,17 +1,14 @@
 == Quick start
 
-This brief quick start guide covers the following material:
+This quick start guide covers the following material:
 
-* User Interface
-* Node Management
-* Core Text Editing
-* Inserting Objects
-* Saving Files
-* Exporting Documents
+* link:#_interface[User Interface]
+* link:#_node_management[Node Management]
+* link:#_insert_objects[Inserting Objects]
+* link:#_save_your_notes[Saving Files]
+* link:#_export_a_document[Exporting Documents]
 
 === Interface
-
-// TODO: Highlight sections of the interface using colors AND numbers for better accessibility.
 
 Cherrytree's interface consists of four sections, highlighted in <<figure-4.01>>.
 
@@ -20,7 +17,7 @@ Cherrytree's interface consists of four sections, highlighted in <<figure-4.01>>
 {interface}
 
 [[menu-bar]]
-==== Menu Bar (Red)
+==== 1. Menu Bar 
 
 The menu bar contains the following menus:
 
@@ -30,35 +27,31 @@ The menu bar contains the following menus:
 * *Tree* - Node management features.
 * *Search* - Features for search and replace.
 * *View* - Interface options.
-* *Bookmarks* - Bookmarks are listed in this menu. They can be added by right-clicking a node within the tree view and selecting *Add to Bookmarks*.
+* *Bookmarks* - A list of bookmarked nodes. Nodes can be added to bookmarks by right-clicking the node within the tree view and selecting *Add to Bookmarks*.
 * *Import* - Cherrytree can import from a variety of sources including KeepNote, NoteCase, Tomboy, HTML files, others.
 * *Export* - Cherrytree documents can be exported to HTML, PDF, and Plain Text.
 * *Help* - Contains *Check for updates*, an *About* section, and a link to the online manual.
 
 [[toolbar]]
-==== Toolbar (Purple)
+==== 2. Toolbar 
 
 The toolbar contains options for managing nodes, formatting text, and inserting objects.
 
 [[tree-view]]
-==== Tree View (Green)
+==== 3. Tree View
 
 Cherrytree's tree view shows the document's hierarchical structure of nodes.
 
 [[editor]]
-==== Editor (Yellow)
+==== 4. Editor 
 
 The editor is used to read, write, edit, and delete notes. Click and hold the divider between the tree view and editor, then drag the mouse left or right to resize the two windows.
 
 ==== Interface Options
 
-Most interface options exist within the *View* menu.
+Most interface options exist within the *View* menu, located in the link:#_interface[menu bar].
 
-[[figure-4.02]]
-.Figure 4.02
-{view-menu}
-
-The size of the toolbar icons is enlarged within <<figure-4.01>>. Icon size can be increased by selecting *Increase Toolbar Icon Size* or decreased with *Decrease Toolbar Icon Size*.
+The size of the toolbar icons is enlarged within <<figure-4.01>>. Icon size can be increased by selecting *Increase Toolbar Icon Size* in the *View* menu or decreased with *Decrease Toolbar Icon Size*.
 
 You can also increase the size of text within the node view and editor with `CTRL`+`[Mousewheel]`.
 
@@ -69,44 +62,28 @@ Cherrytree allows you to organize notes using a link:#_nodes[tree structure].
 ==== Creating Your First Node
 
 [start=1]
-. Click *Add Node* within the toolbar, shown in <<figure-4.04>>.
+. Click *Tree* > *Add Node* to display the *New Node Properties* menu.
+. Enter a *Node Name*.
+. Select a *Node Type* then click *OK*. 
 +
-[[figure-4.04]]
-.Figure 4.04
-{tree-node-add}
-
-. Within *New Node Properties*, give your node a name and select a node type, then click *OK*. If you're unsure which node type to use, view link:#_text[*7. Text*] of this manual. 
-+
-[[figure-4.05]]
-.Figure 4.05
-{new-node}
+NOTE: View link:#_text[*7. Text*] of this manual for details about *Node Type*. 
 
 ==== Node Menu
 
 Right-click a node to display a menu of the options available to it.
 
-[[figure-4.06]]
-.Figure 4.06
-{tree-menu}
-
 Commonly used options include:
 
-* *Add Node* - Create a node on the same hierarchical level as your selected node.
-* *Add SubNode* - Create a child node under the selected node.
+* *Add Node* - Creates a node on the same hierarchical level as your selected node.
+* *Add SubNode* - Creates a child node under the selected node.
 * *Change Node Properties* - Edit the settings of the current node.
-* *Delete Node* - Delete the selected node.
+* *Delete Node* - Deletes the selected node.
+
+See link:#_nodes[*6. Nodes*] for more detail.
 
 === Insert Objects
 
-Objects can be inserted from the *Edit* menu or the link:#toolbar[toolbar].
-
-[[figure-4.07]]
-.Figure 4.07
-{insert-menu}
-
-[[figure-4.08]]
-.Figure 4.08
-{insert-toolbar}
+Objects can be inserted from the *Edit* menu.
 
 Cherrytree supports the following objects:
 
@@ -121,48 +98,29 @@ Cherrytree supports the following objects:
 * link:#_special_characters[Special Character]
 * link:#_horizontal_rule[Horizontal Rule]
 
+
+See link:#_objects[*8. Objects*] for more detail.
+
 === Save Your Notes
 
 [start=1]
-. You can save your document with `CTRL`+`S` or by clicking *File* within the menu bar and selecting *Save*.
+. Documents are saved by pressing `CTRL`+`S` or by selecting *Save* from the *File* menu.
 +
 If you have previously saved the current document, you do not need to perform steps 2 and 3.
-+
-[[figure-4.09]]
-.Figure 4.09
-{save-menu}
 
 . If this is your first time saving the current document, select a storage type then click *OK*.
 +
-NOTE: See link:#_storage_types[*Storage Types*] and link:#_password_protection[Password Protection].
-+
-[[figure-4.10]]
-.Figure 4.10
-{save-type}
+NOTE: See link:#_storage_types[*Storage Types*] and link:#_password_protection[Password Protection] for more details.
 
-. After you have selected a type, give your document a name and select a folder to save it to. 
-+
-[[figure-4.11]]
-.Figure 4.11
-{save-as}
+. Name the document and select a folder to save it to. 
 
-=== Export the Document
+See link:#_saving[*5.2 Saving*] for more detail.
+
+=== Export a Document
 
 [start=1]
-. To export your document, click *Export* within the menu bar and select a type of document type.
-+
-[[figure-4.12]]
-.Figure 4.12
-{export-menu}
+. Open the *Export* menu and select a document type.
+. Select the scope of content to be exported then click *OK*.
+. Name the exported document and select a folder to save it to.
 
-. When prompted, select the scope of content to be exported then click *OK*.
-+
-[[figure-4.13]]
-.Figure 4.13
-{export-scope}
-
-. After you have selected a type you will be prompted to give your document a name and select a folder to save it to.
-+
-[[figure-4.14]]
-.Figure 4.14
-{save-as}
+See link:#_exporting[*5.5 Exporting*] for more detail.

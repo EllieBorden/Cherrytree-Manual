@@ -4,9 +4,9 @@ Cherrytree is a free and open source, hierarchical, note-taking application. It 
 
 === About This Manual
 
-This manual was written for Cherrytree version 0.38.6. If you are using a newer version of Cherrytree, please check the {manual-web}[documentation website] for the latest version of the manual.
+This manual was written for Cherrytree version {revnumber}. If you are using a newer version of Cherrytree, check the {manual-web}[documentation website] for the latest version of the manual.
 
-If you have questions, please ask in the {forum}[forum]. Go to the {feedback}[feedback webpage] to provide feedback.
+If you have questions, try asking in the {forum}[forum].
 
 === Get Involved
 
@@ -14,26 +14,26 @@ New contributors are welcome! We recommend that you {maintainer}[contact the pro
 
 ==== Development
 
-Visit the git {repository}[repository] to get started.
+Visit the GitHub {repository}[repository] to get started.
 
-Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the {future}[future directory]. The latest stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to missing pygi bindings for a core clipboard functionality.
+Development is currently focused on porting from Python to C++/GTKmm. These changes are located on the master branch within the {future}[future directory]. The latest stable release can also be found on the master branch. The pygi branch is a discontinued attempt to port to the python bindings for GTK3. It failed due to missing pygi bindings for core clipboard functionality.
 
 Developers can help by addressing bugs submitted to the repository's {issues}[issues page].
 
 ==== Testing
 
-If you find a bug, please check to see if it has already been reported within the project's {issues}[issues page]. If the error is unreported, please create a new issue providing as much detail as
+If you find a bug, check to see if it has already been reported within the project's {issues}[issues page]. If the error is unreported, create a new issue providing as much detail as
 possible.
 
 If needed, here is a short guide on {issues-guide}[writing a proper GitHub issue].
 
 ==== Writing
 
-The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is maintained {manual-repo}[here]. Contributors can help with writing and proofing, or by porting the manual to a *.ctb* file, intended to demonstrate Cherrytree's potential. Writing critiques are also encouraged.
+The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is {manual-repo}[maintained on GitHub]. Contributors can help with writing and proofing, or by porting the manual to a *.ctb* file intended to demonstrate Cherrytree's potential. Writing critiques are also encouraged.
 
 ==== Translation
 
-Please contact the project's {maintainer}[maintainer] to add or edit translations.
+Contact the project's {maintainer}[maintainer] to add or edit translations.
 
 ==== Resources
 * {repository}[Cherrytree repository]
