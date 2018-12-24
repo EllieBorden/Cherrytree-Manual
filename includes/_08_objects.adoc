@@ -265,12 +265,12 @@ An anchor is represented by the icon shown in <<figure-8.02>> and can be referen
 ==== Inserting Anchors
 
 . Select *Insert Anchor* from the *Edit* menu to display *Insert Anchor* menu.
-. Provide a name for the anchor. Anchor names are not visible in the document.
+. Provide a name for the anchor. 
 . Click *OK* to complete the insertion.
 
 ==== Referencing Anchors
 
-When link:#_inserting_a_link[inserting a link], select the *To Node* option and add the name of the anchor to the *Anchor Name* textbox.
+When link:#_inserting_a_link[inserting a link], select the *To Node* option and add the name of the anchor to the *Anchor Name* textbox. Hovering over an anchor will display its name.
 
 ==== Editing Anchors
 

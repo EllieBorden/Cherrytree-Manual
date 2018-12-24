@@ -42,11 +42,11 @@ NOTE: Visit the {vacuum}[SQLite documentation page for the vacuum command] to le
 
 When saving a document for the first time, Cherrytree prompts you to choose between two file formats, SQLite and XML.
 
-*SQLite* is a self-contained database and has a *.ctb* or *.ctx* extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree only accesses the tree structure and currently selected node. This makes opening your document faster but may slow functions such as searching and selecting nodes when they're used for the first time in a session. 
+*SQLite* is a self-contained database and has a *.ctb* or *.ctx* extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree only accesses the tree structure and selected node. This makes opening your document faster but may slow functions such as searching and selecting nodes when they're used for the first time in a session. Only modified nodes are rewritten upon saving, decreasing save time.
 
 Performance loss with SQLite is lower than with XML, making it better suited for larger documents. The link:#_save_and_vacuum[Save and Vacuum] feature should be used periodically to keep SQLite files compact.
 
-*XML* is a markup language and has a *.ctd* or  *.ctz* extension when used with Cherrytree. The files are fully loaded at runtime, making searching and navigating through nodes faster, but slowing the initial load time.
+*XML* is a markup language and has a *.ctd* or  *.ctz* extension when used with Cherrytree. These files are fully loaded at runtime, making searching and navigating through nodes faster, but slowing the initial load time. They are also completely rewritten upon saving, slowing the save process.
 
 XML is more accessible and easier to convert to other file types but should not be used with large documents. 
 
@@ -54,7 +54,7 @@ XML is more accessible and easier to convert to other file types but should not 
 
 Password-protected files are compressed and locked with {7zip}[7zip], an open source file archiver. 
 
-CAUTION: Other applications might not provide functionality to unlock files that have been locked by Cherrytree. 
+WARNING: Other applications might not provide functionality to unlock files that have been locked by Cherrytree. 
 
 ==== Changing Passwords
 
@@ -176,5 +176,3 @@ Cherrytree supports command line argument for starting the application via comma
 |-w +
 --export_overwrite | Overwrite an existing export.
 |===
-
-NOTE: Command line arguments are available in Linux but may only be available in Windows when the application is link:#build-windows[built from source]. 

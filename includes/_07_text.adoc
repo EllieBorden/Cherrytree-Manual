@@ -4,7 +4,7 @@ Cherrytree supports three types of nodes, link:#_plain_text[*Plain Text*], link:
 
 === Plain Text
 
-Plain Text is data stored in {ascii-chars}[Ascii] format. It is more portable than Rich Text and Syntax Highlighting but does not support images, links, or formatting.
+Plain Text consist of UTF-8 characters and is more portable than Rich Text but does not support images, links, or formatting.
 
 === Rich Text
 

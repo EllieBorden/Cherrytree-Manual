@@ -40,7 +40,7 @@ Add the Cherrytree PPA (Personal Package Archive) to ensure that the application
 . Open *Ubuntu Software* and search for Cherrytree.
 . Select the application and click *Install*. 
 . Provide your password when prompted to begin the installation.
-. Launch *Cherrytree* and confirm that the latest version of the application is installed by comparing its version number, located in the title bar, with the latest version documented in the {changelog}[changelog]. + 
+. Launch *Cherrytree* and confirm that the latest version of the application is installed by selecting *Check Newer Version* from the *Help* menu. 
 
 ==== Option Two: Command Line
 

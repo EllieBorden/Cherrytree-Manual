@@ -53,7 +53,7 @@ Most interface options exist within the *View* menu, located in the link:#_inter
 
 The size of the toolbar icons is enlarged within <<figure-4.01>>. Icon size can be increased by selecting *Increase Toolbar Icon Size* in the *View* menu or decreased with *Decrease Toolbar Icon Size*.
 
-You can also increase the size of text within the node view and editor with `CTRL`+`[Mousewheel]`.
+You can change the size of text within the node view and editor using `CTRL`+`[Mousewheel]`. Alternatively, use `CTRL` and `+` to increase or `CTRL` and `-` to decrease text size. 
 
 === Node Management
 
