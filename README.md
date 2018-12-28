@@ -5,14 +5,38 @@ This is the official user manual for [Cherrytree](https://www.giuspen.com/cherry
 
 ## Contributing
 
-The web version of the Cherrytree user manual is written using [Asciidoctor](https://asciidoctor.org/). Contributors can help with writing and proofing, or by porting the manual to a *.ctb* file intended to demonstrate Cherrytree's potential. Writing critiques are also encouraged.
+There are two versions of the user manual.
+
+### Web Version
+
+**Requirements**
+
+- [Asciidoctor](https://asciidoctor.org/)
+
+The web version is written using Asciidoc and is in the `master` branch. Build the static site by executing [build.sh](build.sh).
+
+### Downloadable Version
+
+**Requirements**
+
+- [Cherrytree](https://www.giuspen.com/cherrytree/)
+
+The downloadable version is a Cherrytree file and is maintained in the `ctb-download` branch.
+
+When working on the downloadable version, export the modified Cherrytree file to HTML by executing [export.sh](export.sh).
+
+Alternatively:
+
+1. In the project directory, delete the `cherrytree_manual.ctb_HTML` folder.
+2. In the Cherrytree file, select **Export to HTML** from the **Export** menu. 
+3. Choose **All of Tree**.
+4. Enable **Include Node Name** and **Links Tree in Every Page**.
+5. Click **OK**.
+
 
 ## Related
 
-- [Cherrytree Website](https://www.giuspen.com/cherrytree/)
-- [Cherrytree User Manual Web Page](http://giuspen.com/cherrytreemanual)
 - [Cherrytree Repository](https://github.com/giuspen/cherrytree)
-- [Asciidoctor](https://asciidoctor.org/)
 
 ## License
 
