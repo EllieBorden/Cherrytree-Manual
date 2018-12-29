@@ -15,7 +15,7 @@ A tree is a data structure consisting of nodes which are connected by edges. In 
 === Creating Nodes
 
 [start=1]
-. Select *Add Node* within the *Tree* to display the *New Node Properties* menu. 
+. Select *Add Node* within the *Tree* menu to display the *New Node Properties* menu. 
 
 NOTE: *Add Node* creates a {node-relations}[sibling] to the selected node or a top-level node if no node is selected. To create a child nodes, select *Tree* > *Add Subnode*.
 
@@ -51,8 +51,8 @@ Nodes are primarily managed from the *Tree* menu, which contains the following o
 * *Change Node Properties* - Opens the *Node Properties* menu which is identical to the *New Node Properties* and is used to define the node name, icon, and type.
 * *Toggle Read Only* - Locks a node in its current state. This must be disabled to edit or delete the node.
 * *Add to Bookmarks / Remove from Bookmarks* - When a node is added to your bookmarks, a link to the node can be found in the *Bookmarks* menu. 
-** *Add to Bookmarks* Adds a node to the bookmarks list.
-** *Remove from Bookmarks* Removes a node from the bookmarks list.
+** *Add to Bookmarks* - Adds a node to the bookmarks list.
+** *Remove from Bookmarks* - Removes a node from the bookmarks list.
 * *Insert Today's Node* - Creates a top-level node with a title set to the current year, a subnode of the current month, and a third-level node of the current day of the month and week. 
 +
 [[figure-6.03]]
@@ -91,7 +91,7 @@ NOTE: Most of these functions can be performed by dragging a node up, down, or o
 * *Find in Nodes Names and Tags* - link:#_search[Search] the entire tree for a set of characters within node titles and assigned tags.
 * *Replace in Nodes Names* - link:#_search[Search] the entire tree for a set of characters within node titles and assigned tags, and replace it with new characters.
 * *Nodes Import* - Opens the link:#_importing[*Import*] menu.
-* *Nodes Export* Opens the link:#_exporting[*Export*] menu.
+* *Nodes Export* - Opens the link:#_exporting[*Export*] menu.
 * *Inherit Syntax* - If the selected node and its {node-relations}[parent node] have an link:#_text[*Automated Syntax Highlighting*] type, the selected node inherits syntax highlighting for the language defined in its parent's *Node Properties* menu.
 * *Delete Node* - Removes the selected node from the tree.
 +
