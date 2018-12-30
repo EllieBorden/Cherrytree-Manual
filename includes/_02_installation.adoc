@@ -19,7 +19,7 @@ Cherrytree can be installed to Ubuntu via the *Ubuntu Software* application or t
 
 ==== Option One: Ubuntu Software
 
-Add the Cherrytree PPA (Personal Package Archive) to ensure that the application version installs. 
+The Cherrytree PPA (Personal Package Archive) must be set to ensure that the application version installs.
 
 [start=1]
 . Open the *Software and Updates* application.
@@ -40,7 +40,7 @@ Add the Cherrytree PPA (Personal Package Archive) to ensure that the application
 . Open *Ubuntu Software* and search for Cherrytree.
 . Select the application and click *Install*. 
 . Provide your password when prompted to begin the installation.
-. Launch *Cherrytree* and confirm that the latest version of the application is installed by selecting *Check Newer Version* from the *Help* menu. 
+. Launch Cherrytree and confirm that the latest version of the application is installed by selecting *Check Newer Version* from the *Help* menu. 
 
 ==== Option Two: Command Line
 

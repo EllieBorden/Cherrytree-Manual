@@ -238,7 +238,7 @@ NOTE: See *Tags for Searching* in link:#_creating_nodes[*6.1 Creating Nodes*] fo
 +
 NOTE: *Find Again* and *Find Back* are only compatible with the *First From Selection* and *First in All Range* options, which are defined in the next step.
 
-. (*Optional*) Select any link:#_search_options[*Search Options*] that are applicable to your effort.
+. (*Optional*) Select any of the available link:#_search_options[*Search Options*].
 . Enter the characters that you desire to find into *Search For* and click *OK* to execute the search.
 
 ==== Steps to Search and Replace
@@ -257,7 +257,7 @@ NOTE: See *Tags for Searching* in link:#_creating_nodes[*6.1 Creating Nodes*] fo
 +
 NOTE: *Replace Again* is only compatible with the *First From Selection* and *First in All Range* options, which are defined in the next step.
 
-. (*Optional*) Select any link:#_search_options[*Search Options*] that are applicable to your effort.
+. (*Optional*) Select any of the available link:#_search_options[*Search Options*].
 . Enter characters to find into *Search For* and characters to replace in *Replace With*. 
 . Click *OK* to execute the search.
 
@@ -282,7 +282,7 @@ NOTE: Learn more about regular expressions {regex-link}[here].
 ** *Replace* - Replace the current instance of the searched term with the replacement provided in *Step 3* of link:#_steps_to_search_and_replace[*Steps to Search and Replace*]. (Applicable only to link:#_steps_to_search_and_replace[Search and Replace] features.)
 ** *Undo* - Undoes the most recent *Replace* execution.
 
-* *Time Filter* options are available when searching across multiple nodes. Select any option(s) that correspond with your effort and click the adjacent date(s) to edit its value:
+* *Time Filter* options are available when searching across multiple nodes. Select any of the available option(s) and click the adjacent date(s) to edit its value:
 * *Node Created After* - Only show results from nodes created after the provided date.
 * *Node Created Before* - Only show results from nodes created before the provided date.
 * *Node Modified After* - Only show results from nodes that have been edited after the provided date.

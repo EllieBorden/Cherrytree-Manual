@@ -261,9 +261,9 @@ The *Tree 2* preferences menu is a continuation of link:#_tree_1[*Tree 1*], prov
 ==== Miscellaneous
 
 * *Tree Nodes Names Wrapping Width* - Defines the width in pixels at which text begins to wrap within the link:#tree-view[tree view].
-* *Display Tree on Right Side* - Moves the link:#tree-view[tree view] panel to the right side of the window.
+* *Display Tree on Right Side* - Moves the tree view panel to the right side of the window.
 * *Move Focus to Text at Mouse Click* - When a node is selected, the editor becomes the active panel with the cursor positioned at the beginning of the first line.
-* *Expand Node at Mouse Click* - Collapsed nodes expand when they are selected within the link:#tree-view[tree view].
+* *Expand Node at Mouse Click* - Collapsed nodes expand when they are selected within the tree view.
 * *Last Visited Nodes on Node Name Header* - Defines the number of most recently visited nodes to display above the editor.
 +
 [[figure-9.12]]
@@ -275,7 +275,7 @@ The *Tree 2* preferences menu is a continuation of link:#_tree_1[*Tree 1*], prov
 * *Rich Text* - Defines the default font family, style, and size applied to Rich Text.
 * *Plain Text* - Defines the default font family, style, and size applied to Plain Text.
 * *Code Font* - Defines the default font family, style, and size applied to syntax-highlighted text.
-* *Tree Font* - Defines the default font family, style, and size applied to text within the link:#tree-view[tree view].
+* *Tree Font* - Defines the default font family, style, and size applied to text within the tree view.
 
 === Links
 
@@ -319,13 +319,13 @@ The *Toolbar* preferences menu provides configuration options for the link:#tool
 NOTE: The `---------` option represents a vertical divider in the toolbar.
 . Click *OK* to complete the addition.
 
-The action can then be dragged up or down to determine its position on the toolbar. Actions are organized from top to bottom in the *Toolbar* preferences menu, which translates to left to right in the actual link:#toolbar[toolbar].
+The action can then be dragged up or down to determine its position on the toolbar. Actions are organized from top to bottom in the *Toolbar* preferences menu, which translates to left to right in the actual toolbar.
 
 ==== Removing Actions from the Toolbar
 
 [start=1]
 . Select an action.
-. Click the `-` icon to remove the selected action from the link:#toolbar[toolbar].
+. Click the `-` icon to remove the selected action from the toolbar.
 +
 [[figure-9.14]]
 .Figure 9.14

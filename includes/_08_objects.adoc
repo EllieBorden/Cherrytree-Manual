@@ -17,10 +17,10 @@ Objects can be inserted from the *Edit* menu, located in the menu bar. Some obje
 +
 <<figure-8.01>> has been highlighted to indicate the parts of its interface.
 
-* *Section 1* - Rotates the image counter-clockwise 90&deg;.
-* *Section 2* - Displays the image uploaded in *Step 2*.
-* *Section 3* - Rotates the image clockwise 90&deg;.
-* *Section 4* - Options for defining the image's dimensions. Height and Width are linked to each other to maintain the content's aspect ratio.
+* *One* - Rotates the image counter-clockwise 90&deg;.
+* *Two* - Displays the image uploaded in *Step 2*.
+* *Three* - Rotates the image clockwise 90&deg;.
+* *Four* - Options for defining the image's dimensions. Height and Width are linked to each other to maintain the content's aspect ratio.
 . Click *OK* to complete the insertion.
 
 Cherrytree does not support wrapping text around images at this time.
@@ -133,7 +133,7 @@ NOTE: Newlines within table cells are not noticeable until the textbox is closed
 
 === Codebox
 
-A codebox is a contained, executable section of syntax highlighting, which can be inserted into link:#_rich_text[Rich Text] nodes. A link:#_rich_text[Rich Text] node can contain more than one codebox for any of the link:#_supported_languages[supported languages]. 
+A codebox is a contained, executable section of syntax-highlighted text, which can be inserted into link:#_rich_text[Rich Text] nodes. A link:#_rich_text[Rich Text] node can contain more than one codebox for any of the link:#_supported_languages[supported languages]. 
 
 NOTE: See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlighting*] for more details about syntax highlighting.
 
@@ -326,7 +326,7 @@ WARNING: These characters are not converted to their corresponding HTML codes wh
 . Hover over *Insert Special Character* to display its submenu.
 . Click the character to be inserted.
 
-NOTE: See the link:#_text_and_code[text and code preference menu] to add or remove special characters from the link:#_inserting_special_characters[special character submenu]. This  configuration option can also be referenced for a list of supported special characters.
+NOTE: See the link:#_text_and_code[text and code preference menu] to add or remove special characters from the link:#_inserting_special_characters[special character submenu]. That configuration option can also be referenced for a list of supported special characters.
 
 === Horizontal Rule
 
