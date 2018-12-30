@@ -6,7 +6,7 @@ Documents are managed from the *File* menu or toolbar.
 
 To create a new document, select *New Instance* from the *File* menu.
 
-To open an existing file:
+*To open an existing file:*
 [start=1]
 . Select *Open File* from the *File* menu.
 . Select a document to open.
@@ -81,7 +81,7 @@ Select *New Node in New Page* to apply page breaks at the end of nodes within th
 
 === Importing
 
-Notes are imported into Cherrytree from the *Import* menu, located within the link:#menu-bar[menu bar].
+Notes are imported into Cherrytree from the *Import* menu, located within the menu bar.
 
 [start=1]
 . Select one of the following options from the *Import* menu:

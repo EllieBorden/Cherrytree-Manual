@@ -187,7 +187,7 @@ These options include:
 .Figure 7.03
 {misc-format}
 +
-NOTE: The background color of monospace text can be edited in the link:#rich-text-pref[Rich Text preferences menu]
+NOTE: The background color of monospace text can be edited in the link:#rich-text-pref[Rich Text preferences menu].
 
 * *Set/Unset Bulleted List* - Formats the selected lines into a bulleted list, in which the item order does not matter.
 +

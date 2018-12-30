@@ -1,5 +1,12 @@
 == Building from Source
 
+You should consider building from source if you're interested in contributing to Cherrytree, installing on macOS, or having the latest features and patches as soon as they are committed.
+
+*Skills Required*
+
+* Command Line
+*  Git
+
 === Fedora (Red Hat)
 
 [start=1]

@@ -17,7 +17,7 @@
 
 * *Enable Automatic Indentation* - Aligns new lines with the indention of the previous line.
 
-* *Show Line Numbers* - Displays a numerical index of the lines within the link:#editor[editor].
+* *Show Line Numbers* - Displays a numerical index of the lines within the editor.
 
 * *Vertical Space Around Lines* - Defines the number of pixels that separate lines of text.
 
@@ -92,7 +92,7 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 [[rich-text-pref]]
 === Rich Text
 
-The *Rich Text* preferences menu provides configuration options for link:#_rich_text[Rich Text nodes].
+The Rich Text preferences menu provides configuration options for link:#_rich_text[Rich Text nodes].
 
 ==== Spell Check
 
@@ -137,17 +137,17 @@ NOTE: *Enchant* is required for this feature. Install this dependency if your ap
 
 * *Embedded File Icon Size* - Defines the size of link:#file-object[embedded file] icons.
 
-* *Show File Name on Top of Embedded File Icon* - When enabled, displays the file name above link:#file-object[embedded file] icons.
+* *Show File Name on Top of Embedded File Icon* - When enabled, displays the file name above embedded file icons.
 
 * *Limit of Undoable Steps Per Node* - Defines the maximum states of a node that Cherrytree tracks and can return to using the *Undo* feature.
 
 === Plain Text and Code
 
-The *Plain Text and Code* preferences menu provides configuration options for link:#_automatic_syntax_highlighting[automatic syntax highlighted] nodes, link:#_plain_text[plain text] nodes, and link:#codebox[codeboxes].
+The Plain Text and Code preferences menu provides configuration options for link:#_automatic_syntax_highlighting[automatic syntax highlighted] nodes, link:#_plain_text[plain text] nodes, and link:#codebox[codeboxes].
 
 ==== Text Editor
 
-* *Style Scheme* - Defines the color theme for link:#_automatic_syntax_highlighting[automatic syntax highlighting] nodes, link:#_plain_text[plain text] nodes, and link:#_codebox[codeboxes].
+* *Style Scheme* - Defines the color theme.
 ** *Classic*
 +
 [[figure-9.04]]
@@ -252,7 +252,7 @@ NOTE: Default icons can be overwritten within the *Use Selected Icon* option of 
 * *Restore Expanded/Collapsed Status* - Nodes of a document retain their expand/collapse state after the document is closed and opened again.
 * *Expand all Nodes* - All nodes expand when Cherrytree starts.
 * *Collapse all Nodes* - All nodes collapse when Cherrytree starts.
-* *Nodes in Bookmarks Always Visible* - {node-relations}[Parents] of bookmarked nodes expand on startup so that all bookmarked nodes are visible within the link:#tree-view[tree view].
+* *Nodes in Bookmarks Always Visible* - {node-relations}[Parents] of bookmarked nodes expand on startup so that all bookmarked nodes are visible within the tree view.
 
 === Tree 2
 
@@ -260,7 +260,7 @@ The *Tree 2* preferences menu is a continuation of link:#_tree_1[*Tree 1*], prov
 
 ==== Miscellaneous
 
-* *Tree Nodes Names Wrapping Width* - Defines the width in pixels at which text begins to wrap within the link:#tree-view[tree view].
+* *Tree Nodes Names Wrapping Width* - Defines the width in pixels at which text begins to wrap within the tree view.
 * *Display Tree on Right Side* - Moves the tree view panel to the right side of the window.
 * *Move Focus to Text at Mouse Click* - When a node is selected, the editor becomes the active panel with the cursor positioned at the beginning of the first line.
 * *Expand Node at Mouse Click* - Collapsed nodes expand when they are selected within the tree view.
@@ -282,8 +282,8 @@ The *Tree 2* preferences menu is a continuation of link:#_tree_1[*Tree 1*], prov
 ==== Custom Actions
 
 * *Enable Custom Web Link Click Action* - Defines a custom command to run when a web link is clicked within Cherrytree.
-* *Enable Custom File Link Clicked Action* -  Defines a custom command to run when a file link is clicked within Cherrytree.
-* *Enable Custom Folder Link Clicked Action* -  Defines a custom command to run when a folder link is clicked within Cherrytree.
+* *Enable Custom File Link Clicked Action* - Defines a custom command to run when a file link is clicked within Cherrytree.
+* *Enable Custom Folder Link Clicked Action* - Defines a custom command to run when a folder link is clicked within Cherrytree.
 
 ==== Colors
 
@@ -510,7 +510,7 @@ Click the yellow return button to return to Cherrytree's default shortcut settin
 * *Autosave on Quit* - Saves the document upon closing Cherrytree.
 * *Create a Backup Copy Before Saving* - Stores a copy of the previous version before saving the new version. Backups are stored in the same directory as the current document. 
 +
-To open a backup:
+*To open a backup:*
 +
 [start=1]
 . Rename the backup file, deleting the `~` characters appended to its extension.

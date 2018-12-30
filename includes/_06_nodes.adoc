@@ -16,7 +16,7 @@ A tree is a data structure consisting of nodes which are connected by edges. In 
 
 [start=1]
 . Select *Add Node* within the *Tree* menu to display the *New Node Properties* menu. 
-
++
 NOTE: *Add Node* creates a {node-relations}[sibling] to the selected node or a top-level node if no node is selected. To create a child nodes, select *Tree* > *Add Subnode*.
 
 .  Provide a name for the node within *New Node Properties*. 

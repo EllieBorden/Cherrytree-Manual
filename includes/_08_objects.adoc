@@ -133,7 +133,7 @@ NOTE: Newlines within table cells are not noticeable until the textbox is closed
 
 === Codebox
 
-A codebox is a contained, executable section of syntax-highlighted text, which can be inserted into link:#_rich_text[Rich Text] nodes. A link:#_rich_text[Rich Text] node can contain more than one codebox for any of the link:#_supported_languages[supported languages]. 
+A codebox is a contained, executable section of syntax-highlighted text, which can be inserted into link:#_rich_text[Rich Text] nodes. A Rich Text node can contain more than one codebox for any of the link:#_supported_languages[supported languages]. 
 
 NOTE: See link:#_automatic_syntax_highlighting[*7.3 Automatic Syntax Highlighting*] for more details about syntax highlighting.
 
@@ -199,7 +199,7 @@ NOTE: See link:#_plain_text_and_code[*9.4 Plain Text and Code*] for details on a
 [[file-object]]
 === Files
 
-Any file that is less than 10MB can be attached to a link:#_rich_text[Rich Text] node. link:#_rich_text[Rich Text] nodes can contain any number of attached files. 
+Any file that is less than 10MB can be attached to a link:#_rich_text[Rich Text] node. Rich Text nodes can contain any number of attached files. 
 
 ==== Inserting a File
 
@@ -326,7 +326,7 @@ WARNING: These characters are not converted to their corresponding HTML codes wh
 . Hover over *Insert Special Character* to display its submenu.
 . Click the character to be inserted.
 
-NOTE: See the link:#_text_and_code[text and code preference menu] to add or remove special characters from the link:#_inserting_special_characters[special character submenu]. That configuration option can also be referenced for a list of supported special characters.
+NOTE: See the link:#_text_and_code[text and code preference menu] to add or remove special characters from the special character submenu. That configuration option can also be referenced for a list of supported special characters.
 
 === Horizontal Rule
 
