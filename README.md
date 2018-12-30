@@ -1,5 +1,5 @@
 
-# ![Cherrytree](images/icons/cherrytree.png) Cherrytree User Manual
+# Cherrytree User Manual
 
 This is the official user manual for [Cherrytree](https://www.giuspen.com/cherrytree/), a free and open source note-taking application. 
 
