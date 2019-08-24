@@ -89,6 +89,11 @@ The table below, copied from the {strftime}[*strftime* documentation], can be re
 .Figure 9.03
 {smart-quotes}
 
+*Enable Symbol Auto Replacement* - Enables the automatic replacement of certain symbols such as: 
+
+* `*` to `&bull;` 
+* `\(C)` to `&copy;`
+
 [[rich-text-pref]]
 === Rich Text
 
@@ -98,7 +103,7 @@ The Rich Text preferences menu provides configuration options for link:#_rich_te
 
 * *Enable Spell Check* - Toggles Cherrytree's spell check feature.
 +
-NOTE: *Enchant* is required for this feature. Install this dependency if your application is built from source and you haven't already. See link:#_building_from_source[*3. Building from Source*] for instructions.
+NOTE: *Enchant* is required for this feature. Install this dependency if your application is built from source and you haven't already. See link:#_running_from_source[*3. Running from Source*] for instructions.
 
 * *Spell Check Language* - Defines which language to use in spell check. The following languages are available:
 ** *cs_CZ* - Czech (Czechia)

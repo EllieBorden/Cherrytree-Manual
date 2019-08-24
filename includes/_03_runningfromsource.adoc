@@ -1,11 +1,11 @@
-== Building from Source
+== Running from Source
 
-You should consider building from source if you're interested in contributing to Cherrytree, installing on macOS, or having the latest features and patches as soon as they are committed.
+You should consider running from source if you're interested in contributing to Cherrytree, installing on macOS, or having the latest features and patches as soon as they are committed.
 
 *Skills Required*
 
 * Command Line
-*  Git
+* Git
 
 === Fedora (Red Hat)
 
@@ -83,8 +83,6 @@ You should consider building from source if you're interested in contributing to
 
 [[build-windows]]
 === Windows
-
-Building from source in Windows is more complicated than in other operating systems.
 
 link:#_installing_python_2_7[*Steps 1-8:*] Installing Python2.7 and adding it to environment variables. +
 link:#_installing_cherrytree_dependencies[*Steps 9-16:*] Installing Cherrytree dependencies. +
@@ -185,4 +183,8 @@ Cherrytree is not supported for macOS but can be installed from source using {ho
     python2 cherrytree
 
 
-NOTE: View this {mac-build}[discussion] for more information about building Cherrytree on macOS. 
+NOTE: View this {mac-build}[discussion] for more information about running Cherrytree on macOS. 
+
+=== Additional Resources
+
+Refer to {manual-install}[cherrytree/linux/manual-install.txt] for more information on installing Cherrytree manually.

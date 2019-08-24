@@ -29,7 +29,7 @@ If needed, here is a short guide on {issues-guide}[writing a proper GitHub issue
 
 ==== Writing
 
-The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is {manual-repo}[maintained on GitHub]. Contributors can help with writing and proofing, or by porting the manual to a *.ctb* file intended to demonstrate Cherrytree's potential. Writing critiques are also encouraged.
+The web version of the Cherrytree user manual is written using {_asciidoctor}[asciidoctor] and is {manual-repo}[maintained on GitHub]. Contributors can help with writing and proofing, or by porting the manual to a *.ctb* version intended to demonstrate Cherrytree's potential. 
 
 ==== Translation
 
@@ -37,7 +37,7 @@ Contact the project's {maintainer}[maintainer] to add or edit translations.
 
 ==== Resources
 * {repository}[Cherrytree repository]
-* link:#_building_from_source[Build from source tutorial]
+* link:#_running_from_source[Run from source tutorial]
 * {pygtk2-doc}[PyGTK2 reference manual]
 * {forum}[Cherrytree community forum]
 * {cpp-tut}[C++ tutorial]

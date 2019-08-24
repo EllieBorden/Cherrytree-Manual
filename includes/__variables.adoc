@@ -16,6 +16,7 @@
 :issues: https://github.com/giuspen/cherrytree/issues
 :manual-repo: https://github.com/EllieBorden/Cherrytree-Manual
 :mac-build: https://github.com/giuspen/cherrytree/issues/176
+:manual-install: https://github.com/giuspen/cherrytree/blob/master/linux/manual-install.txt
 
 // Tools, References, and Documentation
 :_asciidoctor: https://asciidoctor.org/
@@ -52,7 +53,7 @@
 // Installation Images
 :ubuntuinstall04: image:images/ubuntuinstall04.png[Software and Updates, Other Software.]
 
-// Building from Source
+// Running from Source
 :pygtkwin: image:images/pygtkwin.png[PYGTK custom setup.]
 
 // Quick Start Images

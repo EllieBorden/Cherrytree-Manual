@@ -144,7 +144,7 @@ Cherrytree provides editing functions which are available in the *Edit* menu and
 ** *Toggle Case of Selection/Word* - Converts every letter of the selected text to the opposite state of its current {letter-case}[case].
 * *Enable/Disable Spell Check* - Toggle Cherrytree's spellcheck feature.
 +
-NOTE: *Enchant* is required for this feature. Install this dependency if your application is built from source and you haven't already. See link:#_building_from_source[*3. Building from Source*] for instructions.
+NOTE: *Enchant* is required for this feature. Install this dependency if your application is built from source and you haven't already. See link:#_running_from_source[*3. Running from Source*] for instructions.
 
 * *Cut as Plain Text* - Moves the selected text, stripped of its stylization, to your clipboard. The text can then be pasted elsewhere.
 * *Copy as Plain Text* - Copies the selected text, stripped of its stylization, to your clipboard. A copy of the text can then be pasted elsewhere.

@@ -1,6 +1,6 @@
 = image:images/icons/cherrytree.png[] Cherrytree User Manual
-:revnumber: 0.38.7
-:revdate: December, 2018
+:revnumber: 0.38.9
+:revdate: August, 2019
 :toc: left
 :icons: font
 :stylesheet: styles/asciidoctor.css
@@ -18,8 +18,8 @@ include::includes/_01_introduction.adoc[]
 // Installation
 include::includes/_02_installation.adoc[]
 
-// Building from Source
-include::includes/_03_buildingfromsource.adoc[]
+// Running from Source
+include::includes/_03_runningfromsource.adoc[]
 
 // Quick Start
 include::includes/_04_quickstart.adoc[]
