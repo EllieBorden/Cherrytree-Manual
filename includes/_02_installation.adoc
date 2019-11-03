@@ -2,7 +2,11 @@
 
 Cherrytree is available for Linux and Windows.
 
-=== Fedora (Red Hat)
+=== Fedora 
+
+==== Fedora 30 and Earlier
+
+How to install Cherrytree in Fedora 30 and earlier:
 
 [start=1]
 . Download the latest installer that has a *.rpm* extension from the {download}[downloads webpage].
@@ -13,11 +17,49 @@ Cherrytree is available for Linux and Windows.
 
 . Provide your password when prompted to complete the installation.
 
-=== Ubuntu (Debian)
+==== Fedora 31
+
+How to install Cherrytree in Fedora 31 and later:
+
+[start=1]
+. Enable the Cherrytree COPR repository. 
++
+    sudo dnf copr enable bcotton/cherrytree
+
+. Install Cherrytree
++
+    sudo dnf install cherrytree
+   
+=== Debian
+
+How to install Cherrytree in Debian:
+
+[start=1]
+. Install wget and Cherrytree dependencies.
++
+    sudo apt install wget python-dbus python-chardet python-enchant libcanberra-gtk-module libgtksourceview2.0-0 libgtksourceview2.0-common python-cairo python-gobject-2 python-gtk2 python-numpy
+   
+. Download python-gtksourceview2.
++
+    wget http://ftp.br.debian.org/debian/pool/main/p/pygtksourceview/python-gtksourceview2_2.10.1-3_amd64.deb 
+
+. Install python-gtksourceview2.
++
+    sudo dpkg -i python-gtksourceview2_2.10.1-3_amd64.deb 
+
+. Download Cherrytree.
++
+    wget http://www.giuspen.com/software/cherrytree_0.38.9-0_all.deb 
+
+. Install Cherrytree.
++
+    sudo dpkg -i cherrytree_0.38.9-0_all.deb
+
+=== Ubuntu
 
 Cherrytree can be installed to Ubuntu via the *Ubuntu Software* application or the command line.
 
-==== Option One: Ubuntu Software
+==== Installing with Ubuntu Software
 
 The Cherrytree PPA (Personal Package Archive) must be set to ensure that the latest application version installs.
 
@@ -42,7 +84,7 @@ The Cherrytree PPA (Personal Package Archive) must be set to ensure that the lat
 . Provide your password when prompted to begin the installation.
 . Launch Cherrytree and confirm that the latest version of the application is installed by selecting *Check Newer Version* from the *Help* menu. 
 
-==== Option Two: Command Line
+==== Installing via Command Line
 
 [start=1]
 . Download the latest installer that has a *.deb* extension from the {download}[downloads webpage].
@@ -54,6 +96,8 @@ The Cherrytree PPA (Personal Package Archive) must be set to ensure that the lat
 . Provide your user password when prompted to begin the installation.
 
 === Windows
+
+How to install Cherrytree in Windows:
 
 [start=1]
 . Download and run the latest installer that has an *.exe* extension from the {download}[downloads webpage].

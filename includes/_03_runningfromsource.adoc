@@ -7,44 +7,43 @@ You should consider running from source if you're interested in contributing to 
 * Command Line
 * Git
 
-=== Fedora (Red Hat)
+=== Fedora 
+
+This only works in Fedora 30 and earlier. PYGtkSourceView2, one of Cherrytree's dependencies, is obsolete and removed from Fedora in version 31 and later.
 
 [start=1]
-. Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command: 
+
+. Install Python2
 +
-  python2 --version
-  
-. If a variant of `Python 2.7` is not returned, install it by running the following command then check the version again: 
-+
-  sudo yum install python2.7 python-pip
+  sudo dnf install python2
   
 . Install Cherrytree's core dependencies with the command:
 +
-  sudo yum install pygtk2 pygtksourceview p7zip p7zip-plugins
+  sudo dnf install pygtk2 pygtksourceview p7zip p7zip-plugins
   
 . (*Optional*) Install dependencies for additional functionality:
 .. To use an appindicator in systray instead of the standard systray.
 +
-  sudo yum install python-appindicator
+  sudo dnf install python-appindicator
   
 .. For multiple instances centralization. (Double-clicking a file that is already open displays the open document instead of opening another instance of that file.)
 +
-  sudo yum install python-dbus
+  sudo dnf install python-dbus
   
 .. For spell check fuctionality.
 +
-  sudo yum install python-enchant
+  sudo dnf install python-enchant
   
 .. For better decoding support of imported and pasted text.
 +
-  sudo yum install python-chardet
+  sudo dnf install python-chardet
   
 . {git-clone}[Clone] or download the {repository}[Cherrytree repository]. 
 . Open a terminal, change to the directory containing your local copy of Cherrytree, and run: 
 +
   python2 cherrytree
 
-=== Ubuntu (Debian)
+=== Ubuntu
 
 [start=1]
 . Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command:
@@ -91,10 +90,10 @@ link:#_configuring_the_cherrytree_directory[*Steps 17-20:*] Configuring the Cher
 ==== Installing Python 2.7
 
 [start=1]
-. If a variant of Python 2.7 is not installed to your machine, navigate to the {python-downloads}[Python Releases for Windows page] and click *Latest version of Python 2*.
+. If a variant of Python 2.7 is not installed to your machine, go to the {python-downloads}[Python Releases for Windows page] and click *Latest version of Python 2*.
 
 . Download and run the *Windows x86 MSI installer* version, then follow its installation steps.
-. (*Optional*) Navigate to the folder where you installed Python 2.7 and rename the *python* application to *python2* to avoid conflicting with Python3.
+. (*Optional*) Go to the folder where you installed Python 2.7 and rename the *python* application to *python2* to avoid conflicting with Python3.
 
 . Copy the path of your installation directory.
 
