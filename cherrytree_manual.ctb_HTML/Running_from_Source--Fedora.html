@@ -1,7 +1,7 @@
 <!doctype html><html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Fedora (Red Hat)</title>
+  <title>Fedora </title>
   <meta name="generator" content="CherryTree">
   <link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
@@ -16,15 +16,16 @@
 <p><a href="Installation.html">Installation</a></p>
 
 <ol>
-<li><a href="Installation--Fedora_(Red_Hat).html">Fedora (Red Hat)</a></li>
-<li><a href="Installation--Ubuntu_(Debian).html">Ubuntu (Debian)</a></li>
+<li><a href="Installation--Fedora.html">Fedora</a></li>
+<li><a href="Installation--Debian.html">Debian</a></li>
+<li><a href="Installation--Ubuntu.html">Ubuntu</a></li>
 <li><a href="Installation--Windows.html">Windows</a></li>
 </ol>
 <p><a href="Running_from_Source.html">Running from Source</a></p>
 
 <ol>
-<li><a href="Running_from_Source--Fedora_(Red_Hat).html">Fedora (Red Hat)</a></li>
-<li><a href="Running_from_Source--Ubuntu_(Debian).html">Ubuntu (Debian)</a></li>
+<li><a href="Running_from_Source--Fedora.html">Fedora </a></li>
+<li><a href="Running_from_Source--Ubuntu.html">Ubuntu</a></li>
 <li><a href="Running_from_Source--Windows.html">Windows</a></li>
 <li><a href="Running_from_Source--macOS_(Not_Tested).html">macOS (Not Tested)</a></li>
 <li><a href="Running_from_Source--Additional_Resources.html">Additional Resources</a></li>
@@ -96,5 +97,5 @@
 <p><a href="License.html">License</a></p>
 
 </div>
-<div class="page"><h1><b><u>Fedora (Red Hat)</u></b></h1><br /><h1>Fedora (Red Hat)</h1><br /><br /><br />	1. Cherrytree requires Python 2.7. Open a terminal and check your current version of Python using the command:<br />	<br />	<div class="codebox"><div class="codebox">python2&nbsp;--version</div></div><br /><br />	2. If a variant of <strong><code>Python 2.7</code></strong> is not returned, install it by running the following command then check the version again:<br />	<br />	<div class="codebox"><div class="codebox"><span style="color:#ff9d00;font-weight:700">sudo</span>&nbsp;yum&nbsp;<span style="color:#ff9d00;font-weight:700">install</span>&nbsp;python2.7&nbsp;python-pip</div></div><br /><br />	3. Install Cherrytree’s core dependencies with the command:<br /><br />	<div class="codebox"><div class="codebox"><span style="color:#ff9d00;font-weight:700">sudo</span>&nbsp;yum&nbsp;<span style="color:#ff9d00;font-weight:700">install</span>&nbsp;pygtk2&nbsp;pygtksourceview&nbsp;p7zip&nbsp;p7zip-plugins</div></div><br /><br />	4. (<strong>Optional</strong>) Install dependencies for additional functionality:<br /><br />		• To use an appindicator in systray instead of the standard systray.<br />		   <br />				<div class="codebox"><div class="codebox"><span style="color:#ff9d00;font-weight:700">sudo</span>&nbsp;yum&nbsp;<span style="color:#ff9d00;font-weight:700">install</span>&nbsp;python-appindicator</div></div><br /><br />		• For multiple instances centralization. (Double-clicking a file that is already open displays the open document instead of opening another instance of that file.)<br />		<br />				<div class="codebox"><div class="codebox"><span style="color:#ff9d00;font-weight:700">sudo</span>&nbsp;yum&nbsp;<span style="color:#ff9d00;font-weight:700">install</span>&nbsp;python-dbus</div></div><br /><br />		• For spell check fuctionality.<br />		   <br />				<div class="codebox"><div class="codebox"><span style="color:#ff9d00;font-weight:700">sudo</span>&nbsp;yum&nbsp;<span style="color:#ff9d00;font-weight:700">install</span>&nbsp;python-enchant</div></div><br /><br />		• For better decoding support of imported and pasted text.<br />		   <br />				<div class="codebox"><div class="codebox"><span style="color:#ff9d00;font-weight:700">sudo</span>&nbsp;yum&nbsp;<span style="color:#ff9d00;font-weight:700">install</span>&nbsp;python-chardet</div></div><br /><br />	5. <a href="https://git-scm.com/docs/git-clone">Clone</a> or download the <a href="https://github.com/giuspen/cherrytree">Cherrytree repository</a>.<br /><br />	6. Open a terminal, change to the directory containing your local copy of Cherrytree, and run:<br />	<br />	<div class="codebox"><div class="codebox">python2&nbsp;cherrytree</div></div><br />	</div></div>
+<div class="page"><h1><b><u>Fedora </u></b></h1><br /><h1>Fedora</h1><br /><br />This only works in Fedora 30 and earlier. PYGtkSourceView2, one of Cherrytree's dependencies, is obsolete and removed from Fedora in version 31 and later.<br /><br />	1. Install Python2<br />	<br />	<div class="codebox"><div class="codebox"><span style="color:#000000;font-weight:700">sudo</span>&nbsp;dnf&nbsp;<span style="color:#000000;font-weight:700">install</span>&nbsp;python2</div></div><br /><br />	2. Install Cherrytree’s core dependencies with the command:<br /><br />	<div class="codebox"><div class="codebox"><span style="color:#000000;font-weight:700">sudo</span>&nbsp;dnf&nbsp;<span style="color:#000000;font-weight:700">install</span>&nbsp;pygtk2&nbsp;pygtksourceview&nbsp;p7zip&nbsp;p7zip-plugins</div></div><br /><br />	3. (<strong>Optional</strong>) Install dependencies for additional functionality:<br /><br />		• To use an appindicator in systray instead of the standard systray.<br />		   <br />				<div class="codebox"><div class="codebox"><span style="color:#000000;font-weight:700">sudo</span>&nbsp;dnf&nbsp;<span style="color:#000000;font-weight:700">install</span>&nbsp;python-appindicator</div></div><br /><br />		• For multiple instances centralization. (Double-clicking a file that is already open displays the open document instead of opening another instance of that file.)<br />		<br />				<div class="codebox"><div class="codebox"><span style="color:#000000;font-weight:700">sudo</span>&nbsp;dnf&nbsp;<span style="color:#000000;font-weight:700">install</span>&nbsp;python-dbus</div></div><br /><br />		• For spell check fuctionality.<br />		   <br />				<div class="codebox"><div class="codebox"><span style="color:#000000;font-weight:700">sudo</span>&nbsp;dnf&nbsp;<span style="color:#000000;font-weight:700">install</span>&nbsp;python-enchant</div></div><br /><br />		• For better decoding support of imported and pasted text.<br />		   <br />				<div class="codebox"><div class="codebox"><span style="color:#000000;font-weight:700">sudo</span>&nbsp;dnf&nbsp;<span style="color:#000000;font-weight:700">install</span>&nbsp;python-chardet</div></div><br /><br />	4. <a href="https://git-scm.com/docs/git-clone">Clone</a> or download the <a href="https://github.com/giuspen/cherrytree">Cherrytree repository</a>.<br /><br />	5. Open a terminal, change to the directory containing your local copy of Cherrytree, and run:<br />	<br />	<div class="codebox"><div class="codebox">python2&nbsp;cherrytree</div></div><br />	</div></div>
 </body></html>
